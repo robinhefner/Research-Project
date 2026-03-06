@@ -1,14 +1,163 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[12pt,toc=bib,toc=listof]{scrreprt}
 
-\title{Research Project}
-\author{Robin Hefner}
-\date{February 2026}
+\usepackage[ngerman]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{authblk}
+\usepackage[switch]{lineno}
+\usepackage{apacite}
+\usepackage{natbib}
+
+\addto\captionsngerman{%
+  \renewcommand{\bibname}{References}%
+}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  filecolor=black,
+  urlcolor=black
+}
+
+\makeatletter
+\renewcommand*{\@fnsymbol}[1]{\ensuremath{\number#1}}
+\makeatother
+
+\newcommand{\hhnsubject}{(172393) Research Project}
+\newcommand{\hhnlecturer}{Petra Knaup}
+\newcommand{\reprttopic}{Realistische Daten für ein lebendiges Lehre-KIS}
+
+\newcommand{\reprtstudentAname}{Robin Hefner}
+\newcommand{\reprtstudentAid}{206488}
+\urldef{\reprtstudentAmail}\url{rohefner@stud.hs-heilbronn.de}
+
+\newcommand{\reprtstudentBname}{Florian Hauptmann}
+\newcommand{\reprtstudentBid}{225690}
+\urldef{\reprtstudentBmail}\url{fhauptmann@stud.hs-heilbronn.de}
+
+\usepackage[headsepline]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\ihead{\hhnsubject: \reprttopic}
+\ohead{\pagemark}
+\renewcommand*{\chapterpagestyle}{scrheadings}
+\renewcommand*{\chapterheadstartvskip}{}
+
+\titlehead{\flushright\includegraphics[width=0.3\textwidth]{./pictures/hhn.png}}
+\subject{{\hhnsubject{}}}
+\title{\reprttopic}
+\author{
+  \reprtstudentAname\thanks{\reprtstudentAid, \reprtstudentAmail} 
+  \and 
+  \reprtstudentBname\thanks{\reprtstudentBid, \reprtstudentBmail}
+}
+\publishers{Eingereicht bei \hhnlecturer}
 
 \begin{document}
 
+\pagenumbering{Roman} 
+\selectlanguage{ngerman}
 \maketitle
+\setcounter{footnote}{0}
+
+\newgeometry{left=30mm, top=25mm, right=15mm, bottom=25mm}
+\tableofcontents
+\newpage
+
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\onehalfspacing
+
+\clearpage
+\newgeometry{margin=1.25in}
+\setlength{\columnsep}{24pt}
+\pagestyle{plain}
+
+\begingroup
+\fontsize{10pt}{12pt}\selectfont
+
+\makeatletter
+\renewcommand*{\thesection}{\Roman{section}}
+\setkomafont{section}{\normalfont\normalsize\mdseries}
+\renewcommand{\sectionlinesformat}[4]{%
+  \ifstr{#1}{section}
+  {\centering #3\MakeUppercase{#4}}
+  {\@hangfrom{#3}{#4}}%
+}
+\renewcommand*{\sectionformat}{\thesection\quad}
+\renewcommand{\bibsection}{\section*{\centering\MakeUppercase{\bibname}}}
+\makeatother
+
+\addcontentsline{toc}{chapter}{Wissenschaftlicher Artikel : Realistic data for a dynamic teaching HIS}
+
+\twocolumn[{
+  \begin{center}
+    \setstretch{1.0}
+    {\huge\bfseries Realistic data for a dynamic teaching HIS \par}
+    \vspace{1.5em}
+    {\large Robin Hefner$^{1}$, Florian Hauptmann$^{1}$ \par}
+    \vspace{1em}
+    {\small $^1$Institute of Medical Informatics, Heidelberg University, Heidelberg, Germany;\par}
+    \vspace{2em}
+  \end{center}
+}]
+
+\input{chapters/02_Abstract}
 
 \section{Introduction}
+\input{chapters/03_Introduction}
+
+\section{Methods}
+\input{chapters/04_Methods}
+
+\section{Results}
+\input{chapters/05_Results}
+
+\section{Discussion}
+\input{chapters/06_Discussion}
+
+\section{Conclusion}
+\input{chapters/07_Conclusion}
+
+\bibliographystyle{apacite}
+\bibliography{references} 
+
+\endgroup
+
+\clearpage
+\onecolumn
+\restoregeometry 
+\setstretch{1.5}
+\pagestyle{scrheadings}
+
+\appendix
+\chapter{Appendix}
+
+\section{Gegenstand und Motivation}
+\input{chapters/08_Subject_matter_and_Motivation}
+
+\section{Zielsetzung}
+\input{chapters/09_Objective}
+
+\section{Methodik}
+\input{chapters/10_Methodology}
+
+\section{Ergebnisse}
+\input{chapters/11_Results}
+
+\section{Zeitplan}
+\input{chapters/12_Schedule}
 
 \end{document}
