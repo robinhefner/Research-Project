@@ -1,0 +1,72 @@
+\label{sec:methods}
+
+This section describes the methodological framework employed to evaluate synthetic clinical data generation and the integration of sensor data into the Heidelberg studiKIS. The research followed a structured four-phase approach.
+
+\subsection*{Literature Review}
+A comprehensive literature review was conducted to identify and analyze current state-of-the-art approaches in two primary domains:
+\begin{enumerate}
+    \item \textbf{Synthetic Clinical Data Generation:} Investigation of Large Language Models (LLMs) and autonomous agent systems, encompassing both classical rule-based architectures and modern LLM-based agents for the creation of longitudinal patient records.
+    \item \textbf{Sensor Data Integration:} Identification of existing standards and protocols for exporting medically relevant data and integrating real-time sensor data from medical devices and wearables into Hospital Information Systems (HIS).
+\end{enumerate}
+\subsubsection*{Eligibility criteria}
+
+\begin{enumerate}
+    \item Papers were included if they utilized LLMs, Generative AI, or a model-based approach employing state machines. Additionally, a primary focus on the generation of synthetic clinical health data was required.
+    \item The papers had to include the collection of sensor data and their integration in a HIS or the Electronic Health Records (EHR). Paper were excluded, when they only collected sensor data to train machine learning algorthims without the integration into the HIS or EHR.
+\end{enumerate}
+\subsubsection*{Information sources}
+Literature for this research project was systematically retrieved from two primary electronic databases: PubMed and the IEEE Xplore Digital Library. These sources were selected to ensure a comprehensive coverage of both the clinical and technical dimensions of the research topics.
+
+PubMed was utilized as the principal source for identifying peer-reviewed literature within the life sciences and biomedical domain. It provided essential insights into clinical workflows and the medical requirements for synthetic patient data generation, as well as the practical application of sensor data integration within healthcare environments.
+
+To address the high-level technical and architectural challenges of the project, the IEEE Xplore Digital Library was employed. Furthermore, IEEE Xplore provided the necessary technical depth regarding the algorithmic approaches and architectural frameworks required for the automated generation of synthetic clinical datasets and the seamless integration of sensor data into existing Hospital Information Systems.
+
+The search was conducted during March 2026.
+
+\subsubsection*{Search Strategy}
+\begin{enumerate}
+    \item For IEEE Xplore and PubMed the following search string was used: ((\enquote{synthetic data generation} OR \enquote{synthetic clinical data} OR \enquote{synthetic data} OR \enquote{synthetic patient} OR \enquote{synthetic patient data} OR \enquote{synthetic EHR} OR \enquote{Synthea})
+    \textbf{AND}
+    (\enquote{large language models} OR \enquote{LLM} OR \enquote{generative AI} OR \enquote{autonomous agents} OR \enquote{agent-based} OR \enquote{machine learning})
+    \textbf{AND}
+    (\enquote{clinical workflows} OR \enquote{patient history} OR \enquote{medical records} OR \enquote{case vignettes} OR \enquote{longitudinal} OR \enquote{simulated patients}))
+    
+    No restrictions were applied regarding publication year or language.
+    
+    \item The search string used for PubMed was: ((\enquote{Hospital Information Systems} [MeSH] OR \enquote{Electronic Health Records} [MeSH]) 
+    AND (\enquote{sensor*} OR \enquote{sensor data} OR \enquote{wearable*}) 
+    AND (\enquote{storage} OR \enquote{archiving} OR \enquote{persistence} OR \enquote{NoSQL} OR \enquote{SQL} OR \enquote{Time-series database} OR \\\enquote{openEHR} OR \enquote{FHIR} OR \enquote{repository})) 
+    NOT (\enquote{Blockchain} OR \enquote{Security} OR \enquote{Cryptography} OR \enquote{Privacy Preservation} OR \enquote{Cybersecurity}).
+    
+    The search string used for IEEE Xplore was identical, only the \textit{[MeSH]} filters were removed, as they do not exists in IEEE Xplore.
+    
+    Only articles in the language German and English were considered, however no restrictions were applied regarding the publication year.
+\end{enumerate}
+\subsubsection*{Synthesis methods}
+\begin{enumerate}
+    \item To evaluate the current landscape of synthetic clinical data generation, a quantitative analysis was performed. Each included paper was systematically categorized based on the underlying technology or framework used for data synthesis.
+    Each study was manually reviewed to identify the primary synthesis engine.
+
+    \item A second quantitative analysis examined current approaches for integrating sensor data into HIS or EHR systems. For each paper, we extracted and compared the transmission protocols, the interfaces utilized, and whether the communication with the HIS relied on a push or pull mechanism.
+\end{enumerate}
+
+
+\subsection*{Definition of Quality Criteria}
+To ensure the utility of the data for educational purposes, we defined specific quality requirements. These criteria serve as the foundation for developing a didactic concept for student exercises. The criteria were developed in accordance with physicians and domain experts. 
+
+\subsection*{Prototypical Implementation and Dataset Generation}
+The practical implementation was divided into two parallel workflows:
+\begin{enumerate}
+    \item \textbf{Synthetic Data Production:} Development of datasets using both LLM-driven approaches and non-LLM-based autonomous agents to compare output diversity and accuracy.
+    \item \textbf{Sensor Data Integration:} Prototyping of interfaces to ingest concrete data from medical-grade devices and consumer wearables into the HIS, ensuring a seamless data flow from hardware to the clinical interface.
+\end{enumerate}
+
+\subsection*{Evaluation of the Investigated Approaches}
+In the final phase, the implemented approaches were evaluated using the predefined quality criteria. This assessment aimed to identify the most suitable procedure for the HIS environment.
+
+
+
+
+
+
+

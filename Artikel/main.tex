@@ -1,11 +1,13 @@
 \documentclass[12pt,toc=bib,toc=listof]{scrreprt}
 
+\usepackage[autostyle=true]{csquotes}
 \usepackage[ngerman]{babel} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{setspace}
 \usepackage{geometry}
+
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{booktabs}
@@ -29,12 +31,15 @@
   urlcolor=black
 }
 
+\newcommand{\elqq}{``}
+\newcommand{\erqq}{''}
+
 \makeatletter
 \renewcommand*{\@fnsymbol}[1]{\ensuremath{\number#1}}
 \makeatother
 
 \newcommand{\hhnsubject}{(172393) Research Project}
-\newcommand{\hhnlecturer}{Petra Knaup}
+\newcommand{\hhnlecturer}{Dr. Petra Knaup}
 \newcommand{\reprttopic}{Realistische Daten für ein lebendiges Lehre-KIS}
 
 \newcommand{\reprtstudentAname}{Robin Hefner}
@@ -53,7 +58,11 @@
 \renewcommand*{\chapterpagestyle}{scrheadings}
 \renewcommand*{\chapterheadstartvskip}{}
 
-\titlehead{\flushright\includegraphics[width=0.3\textwidth]{./pictures/hhn.png}}
+\titlehead{
+    \includegraphics[width=0.3\textwidth]{./pictures/uni-hd.png}
+    \hfill
+    \includegraphics[width=0.3\textwidth]{./pictures/hhn.png}
+}
 \subject{{\hhnsubject{}}}
 \title{\reprttopic}
 \author{
@@ -81,16 +90,29 @@
 \onehalfspacing
 
 \clearpage
-\newgeometry{margin=1.25in}
-\setlength{\columnsep}{24pt}
+\newgeometry{layout=letterpaper, 
+paper=letterpaper, 
+portrait, 
+head=0.5in,
+foot=0.5in,
+top=1in, 
+bottom=1in, 
+left=0.75in, 
+right=0.75in}
+\setlength{\columnsep}{0.25in}
 \pagestyle{plain}
 
+\begin{otherlanguage}{english}
 \begingroup
+\setstretch{1.0}
 \fontsize{10pt}{12pt}\selectfont
 
 \makeatletter
 \renewcommand*{\thesection}{\Roman{section}}
-\setkomafont{section}{\normalfont\normalsize\mdseries}
+\setkomafont{section}{\normalfont\normalsize\bfseries}
+\setkomafont{subsection}{\normalfont\fontsize{12pt}{12pt}\selectfont\bfseries}
+\setkomafont{subsubsection}{\normalfont\fontsize{10pt}{10pt}\selectfont\bfseries}
+
 \renewcommand{\sectionlinesformat}[4]{%
   \ifstr{#1}{section}
   {\centering #3\MakeUppercase{#4}}
@@ -135,6 +157,7 @@
 \bibliography{references} 
 
 \endgroup
+\end{otherlanguage}
 
 \clearpage
 \onecolumn
