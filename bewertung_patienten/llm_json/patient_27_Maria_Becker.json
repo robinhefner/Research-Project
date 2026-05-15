@@ -1,0 +1,279 @@
+{
+    "resourceType": "Bundle",
+    "id": "83e2400b-31df-4d5b-b6f2-3bc67c2c649c",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f",
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "c277f224-1e47-4c97-b5e2-39c77e568b8f",
+                "identifier": [
+                    {
+                        "id": "f2db5484-a7c1-46e3-9c6d-207e18e6cbe6",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "d3153eb0-5e07-11ef-8f7c-0242ac120002"
+                                }
+                            ],
+                            "text": "Patient Identifier"
+                        },
+                        "value": "ABC299037"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Becker",
+                        "given": [
+                            "Maria"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1974-09-01",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Goethestraße 96"
+                        ],
+                        "city": "Düsseldorf",
+                        "postalCode": "62077",
+                        "country": "DE"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a940bb11-266d-4a33-8be7-bf0d3b1148ce",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "a940bb11-266d-4a33-8be7-bf0d3b1148ce",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB"
+                },
+                "subject": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-04-07T15:14:22.958247Z",
+                    "end": "2026-04-07T16:14:22.958247Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:11f48773-7f5b-4f50-8890-c7edc45f33a6",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "11f48773-7f5b-4f50-8890-c7edc45f33a6",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "44054006",
+                            "display": "Type 2 diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:a940bb11-266d-4a33-8be7-bf0d3b1148ce"
+                },
+                "onsetDateTime": "2023-07-12T15:14:22.958247Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:79620860-1d9c-4509-8c1c-983deb95ae84",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "79620860-1d9c-4509-8c1c-983deb95ae84",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "6809",
+                            "display": "Metformin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:a940bb11-266d-4a33-8be7-bf0d3b1148ce"
+                },
+                "requester": {
+                    "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-04-07T15:14:22.958247Z",
+                                    "end": "2027-04-07T15:14:22.958247Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9735a845-a45e-4d32-ad52-47f9a9d466b0",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "9735a845-a45e-4d32-ad52-47f9a9d466b0",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4548-4",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:a940bb11-266d-4a33-8be7-bf0d3b1148ce"
+                },
+                "effectiveDateTime": "2026-04-07T15:14:22.958247Z",
+                "valueQuantity": {
+                    "value": 96,
+                    "unit": "units"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d759d702-f914-401f-be1d-41a6f5adb46c",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "d759d702-f914-401f-be1d-41a6f5adb46c",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "medication"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "91936005",
+                            "display": "Allergy to penicillin"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f5b685e5-0309-41c6-bf1c-a73208d9ec50",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "f5b685e5-0309-41c6-bf1c-a73208d9ec50",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "food"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "91935004",
+                            "display": "Allergy to peanut"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:c277f224-1e47-4c97-b5e2-39c77e568b8f"
+                }
+            }
+        }
+    ]
+}

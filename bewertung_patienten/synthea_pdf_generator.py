@@ -3,6 +3,20 @@ from weasyprint import HTML
 import os
 import re  # NEU: Modul für reguläre Ausdrücke importieren
 
+def format_to_german_date(val):
+        if not val or val == '-':
+            return val
+        try:
+            # Konvertiert ISO (z.B. 2022-07-20T11:18:00+02:00) in datetime Objekt
+            dt = pd.to_datetime(val)
+            # Wenn ein 'T' enthalten ist, gehen wir von einem Zeitstempel aus
+            if 'T' in str(val):
+                return dt.strftime('%d.%m.%Y %H:%M')
+            # Ansonsten nur das Datum
+            return dt.strftime('%d.%m.%Y')
+        except:
+            return val
+
 def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett'):
     # Erstelle Ausgabeordner, falls nicht vorhanden
     if not os.path.exists(output_dir):
@@ -102,7 +116,7 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             <div class="info-item"><span>Patienten-ID</span><strong>{pat_id}</strong></div>
             <div class="info-item"><span>Geburtsdatum</span><strong>{dob}</strong></div>
             <div class="info-item"><span>Geschlecht</span><strong>{gender}</strong></div>
-            <div class="info-item"><span>Adresse</span><strong>{address}, {city}, {state} {zip_code}</strong></div>
+            <div class="info-item"><span>Adresse</span><strong>{address}, {city}, {zip_code}</strong></div>
         </div>
 
         {content_html}
@@ -131,6 +145,10 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             for col_key in valid_cols.keys():
                 val = str(row[col_key]) if pd.notna(row[col_key]) and str(row[col_key]).strip() != '' else '-'
                 
+                date_fields = ['START', 'STOP', 'DATE', 'BIRTHDATE', 'SERVICEDATE', 'FROMDATE']
+                if col_key in date_fields:
+                    val = format_to_german_date(val)
+
                 if col_key in ['DESCRIPTION', 'DESCRIPTION1', 'REASONDESCRIPTION'] and val != '-':
                     val = re.sub(r'\s*\([^)]*\)', '', val).strip()
 
@@ -138,8 +156,8 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             html += "</tr>"
         
         html += "</tbody></table>"
-        if len(df) > max_rows:
-            html += f"<p style='font-size: 8pt; color: #7f8c8d;'><i>... und {len(df)-max_rows} weitere Einträge (Ansicht auf {max_rows} limitiert)</i></p>"
+        # if len(df) > max_rows:
+        #     html += f"<p style='font-size: 8pt; color: #7f8c8d;'><i>... und {len(df)-max_rows} weitere Einträge (Ansicht auf {max_rows} limitiert)</i></p>"
             
         return html
 
@@ -187,7 +205,7 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             first=safe_get(patient.get('FIRST', '')),
             last=safe_get(patient.get('LAST', '')),
             pat_id=safe_get(pat_id),
-            dob=safe_get(patient.get('BIRTHDATE', '')),
+            dob=format_to_german_date(patient.get('BIRTHDATE', '')),
             gender=safe_get(patient.get('GENDER', '')),
             address=safe_get(patient.get('ADDRESS', '')),
             city=safe_get(patient.get('CITY', '')),
@@ -208,6 +226,6 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             print(f"Fehler bei {filename}: {e}")
 
 if __name__ == '__main__':
-    # generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
+    generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
     # generate_full_patient_pdfs("synthea_csv_export_from_musterdaten", "patienten_pdfs_komplett_from_musterdaten")
-    generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")
+    # generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")

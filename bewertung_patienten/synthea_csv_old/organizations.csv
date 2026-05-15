@@ -1,0 +1,48 @@
+Id,NAME,ADDRESS,CITY,STATE,ZIP,LAT,LON,PHONE,REVENUE,UTILIZATION
+39f69417-1346-3bf0-a249-2e10700ea024,Ingrid Sonntag Allgemeinarzt,Breiteweg 17,Bad Wurzach,Baden-württemberg,88410,47.9071556,9.8933448,,0.0,58
+132ed946-2fac-3e54-882b-b9042781ee49,Dr. med. Jörg Bergmann,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,+49 6224 10335,0.0,9
+3c99c810-7918-3c9e-a5b1-720ee10629cc,Krankenhaus St. Vincentius,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,,0.0,3
+a66d894a-38f3-3123-a9a1-ef4207daf6fa,Salem,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,,0.0,182
+a3e1eb8b-4df5-3dd1-92db-abbcebebff6b,Kliniken Schmieder Heidelberg,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,+49 6221 65400,0.0,637
+52b2d93a-7d4d-3438-8225-3ff1f06f6d1f,Klinik Sankt Elisabeth,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,,0.0,127
+b820e7a8-6216-3e8f-9f9a-749ec581aa32,Klinik für Kinder- und Jugendpsychiatrie - Tageszentrum für Jugendliche,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,+49 6221 56-4466,0.0,1
+e75b3ede-30dd-3321-81fb-204ec025bc9e,Klinik Sankt Elisabeth,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,,0.0,1
+8541eb39-ec1f-3340-93a6-434b486cdf7b,Bethanien-Krankenhaus,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,,0.0,6
+af5b650f-a4cc-3717-be01-27b4b59d201a,Nationales Centrum für Tumorerkrankungen,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,,0.0,759
+2989b723-6608-3556-8582-1f5de63d7e36,Ärztehaus Dossenheim,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,,0.0,453
+9770938a-2e8f-374f-a566-379d1e91a95d,Kliniken Schmieder Heidelberg,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,+49 6221 65400,0.0,37
+4295faa6-20d1-3d7b-a50f-81491d78ae0f,Ethianum,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,,0.0,174
+e25c7127-b831-3237-bc37-3d7fd66601be,Augenarzt Wiesinger,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,,0.0,27
+94ed4c92-f375-3ed6-8660-5ae1f4fc94d1,Bethanien-Krankenhaus,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,,0.0,13
+63244e68-2c77-3de9-b0d4-985733886915,Nierenzentrum Heidelberg,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,,0.0,6
+c49bea03-84da-33e4-9648-b2fbd5f5d443,Ethianum,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,,0.0,89
+d77a9cf8-fd4b-378f-889a-f9e4ae5417a3,Thoraxklinik Heidelberg,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,+49 6221 396-0,0.0,317
+8ffdcbbe-6b76-365b-88b4-7ce6f83ede01,Krankenhaus St. Vincentius,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,,0.0,426
+5fe21005-e613-31a7-8ab9-2624a3351d39,Bethanien-Krankenhaus,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,,0.0,1
+973f6574-c010-32fd-8e56-213a66d1d17a,Heidelberger Ionenstrahl-Therapiezentrum,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,,0.0,1
+e4be97f9-7cfd-3c7a-9697-cabe7c3fcf6f,Nationales Centrum für Tumorerkrankungen,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,,0.0,285
+74c8aeb3-b7aa-398b-99e1-02d5106121de,Ärztehaus Dossenheim,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,,0.0,26
+b0ea8ecd-026e-39a9-a505-6278f43ec5c9,Dr. med. Jörg Bergmann,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,+49 6224 10335,0.0,192
+41e9624f-38f1-3b50-8256-9ba22bdd7d22,Nierenzentrum Heidelberg,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,,0.0,180
+03ee7463-f145-3ab0-976e-f23bc6df2ba6,Dr. Armbrust und Dr. Kunz,,Wiesenbach,Baden-württemberg,69257,49.3614837,8.8004246,,0.0,42
+3ef6f971-c3b9-3b5f-8193-44d8ccf303ed,Dr. Armbrust und Dr. Kunz,,Wiesenbach,Baden-württemberg,69257,49.3614837,8.8004246,,0.0,117
+91346688-4e8e-38ef-a3b0-d2c7add6f792,Kliniken Schmieder Heidelberg,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,+49 6221 65400,0.0,1521
+21cafd96-fa1a-3024-84fa-76a14c365c4b,Salem,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,,0.0,30
+bbd6bb81-8cf5-3e1d-8126-72ad84f89dd2,Nierenzentrum Heidelberg,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,,0.0,585
+7ef5d917-45e2-33c2-bda7-f959d43233db,Dr. med. Jörg Bergmann,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,+49 6224 10335,0.0,65
+80ab7fdb-1ea1-3a3a-9b66-9e897b93325d,Ethianum,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,,0.0,1
+699c9abe-6170-3173-a11e-5f374a133bdd,Ärztehaus Dossenheim,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,,0.0,1074
+bf02f707-6c7b-31ea-88ca-41aa6e5817e6,Klinik Sankt Elisabeth,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,,0.0,48
+0e5d64e0-99b8-35b2-9cd5-ba9f63687311,St. Josefskrankenhaus,Landhausstraße nan,Heidelberg,Baden-württemberg,69115,49.4032099,8.6887166,+49 6221 5260,0.0,158
+6e4a17b8-760d-33c1-9914-5e87ba6a5b1b,St. Josefskrankenhaus,Landhausstraße nan,Heidelberg,Baden-württemberg,69115,49.4032099,8.6887166,+49 6221 5260,0.0,348
+86bcff57-5798-3318-bbb4-1197138363eb,Thoraxklinik Heidelberg,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,+49 6221 396-0,0.0,891
+2cf569a2-7fb3-320f-b19a-b9947c51e188,Thoraxklinik Heidelberg,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,+49 6221 396-0,0.0,19
+8cd6101d-01de-3149-a9c7-6dd7c85f0472,Salem,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,,0.0,674
+0562e6e7-e01a-3499-9ea7-6d89899e91d1,Klinik für Kinder- und Jugendpsychiatrie - Tageszentrum für Jugendliche,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,+49 6221 56-4466,0.0,23
+ea7b9166-8841-33df-b902-4e4fa3528e87,Augenarzt Wiesinger,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,,0.0,1150
+e906b40f-ca2f-3ce9-9381-7becb4d51c9a,Klinik für Kinder- und Jugendpsychiatrie - Tageszentrum für Jugendliche,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,+49 6221 56-4466,0.0,29
+eb65a0fc-0313-3583-a5d0-17f17715ad9d,Heidelberger Ionenstrahl-Therapiezentrum,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,,0.0,60
+68d3a01b-255c-3185-bb68-d3a87a5cc44a,Krankenhaus St. Vincentius,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,,0.0,290
+a46a6e31-0c9f-3b78-8a04-ba1bbd858dbe,Nationales Centrum für Tumorerkrankungen,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,,0.0,83
+b6b8043e-0df6-3c6d-8457-661cc1db4f25,Heidelberger Ionenstrahl-Therapiezentrum,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,,0.0,64
+ea6969e9-a858-3649-a2b2-1a0da15dd2d2,Augenarzt Wiesinger,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,,0.0,137

@@ -1,0 +1,615 @@
+{
+  "resourceType": "Bundle",
+  "id": "DGTUX5SDT64GFBYZ",
+  "type": "searchset",
+  "total": 8,
+  "entry": [
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983",
+        "meta": {
+          "versionId": "167979784",
+          "lastUpdated": "2025-03-17T06:01:51.150Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|2025.0.1"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+                  "code": "PSEUDED"
+                }
+              ]
+            },
+            "system": "https://www.medizininformatik-initiative.de/fhir/sid/pseudonym",
+            "value": "36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1960-01",
+        "deceasedBoolean": true
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Consent/IC-fe176fbe7289c2c12c39b9a88a1e2c18722cde973b5827ee1a11d408",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "IC-fe176fbe7289c2c12c39b9a88a1e2c18722cde973b5827ee1a11d408",
+        "meta": {
+          "versionId": "308563697",
+          "lastUpdated": "2025-04-01T17:07:29.829Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung|2025.0.1"
+          ]
+        },
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+              "code": "research"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "57016-8"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category",
+                "code": "2.16.840.1.113883.3.1937.777.24.2.184"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "dateTime": "2022-07-11",
+        "policy": [
+          {
+            "uri": "2.16.840.1.113883.3.1937.777.24.2.1791"
+          }
+        ],
+        "provision": {
+          "type": "deny",
+          "period": {
+            "start": "2022-07-11",
+            "end": "3022-07-11"
+          },
+          "provision": [
+            {
+              "type": "permit",
+              "period": {
+                "start": "2022-07-11",
+                "end": "3022-07-11"
+              },
+              "code": [
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.2",
+                      "display": "IDAT erheben"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.3",
+                      "display": "IDAT speichern, verarbeiten"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.4",
+                      "display": "IDAT zusammenfuehren Dritte"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.5",
+                      "display": "IDAT bereitstellen EU DSGVO NIVEAU"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.6",
+                      "display": "MDAT erheben"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.7",
+                      "display": "MDAT speichern, verarbeiten"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.8",
+                      "display": "MDAT wissenschaftlich nutzen EU DSGVO NIVEAU"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.9",
+                      "display": "MDAT zusammenfuehren Dritte"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.45",
+                      "display": "MDAT retrospektiv speichern verarbeiten"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.46",
+                      "display": "MDAT retrospektiv wissenschaftlich nutzen EU DSGVO NIVEAU"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.47",
+                      "display": "MDAT retrospektiv zusammenfuehren Dritte"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.19",
+                      "display": "BIOMAT erheben"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.20",
+                      "display": "BIOMAT lagern verarbeiten"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.21",
+                      "display": "BIOMAT Eigentum übertragen"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.22",
+                      "display": "BIOMAT wissenschaftlich nutzen EU DSGVO NIVEAU"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.23",
+                      "display": "BIOMAT Analysedaten zusammenfuehren Dritte"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.51",
+                      "display": "BIOMAT retrospektiv lagern verarbeiten"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.52",
+                      "display": "BIOMAT retrospektiv wissenschaftlich nutzen EU DSGVO NIVEAU"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.53",
+                      "display": "BIOMAT retrospektiv Analysedaten zusammenfuehren Dritte"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.37",
+                      "display": "Rekontaktierung Ergebnisse erheblicher Bedeutung"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.31",
+                      "display": "Rekontaktierung Zusatzbefund"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.28",
+                      "display": "Rekontaktierung weitere Erhebung"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                      "code": "2.16.840.1.113883.3.1937.777.24.5.3.29",
+                      "display": "Rekontaktierung weitere Studien"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Encounter/PV-21617faef57fccda7b09adabf30abf5e13146fb49976fdf2fba9f3db",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "PV-21617faef57fccda7b09adabf30abf5e13146fb49976fdf2fba9f3db",
+        "meta": {
+          "versionId": "167979782",
+          "lastUpdated": "2025-03-17T06:01:51.143Z",
+          "source": "http://medic.uksh.de/source/orbis/legacy",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung|2025.0.0"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://medic.uksh.de/fhir/Encounter",
+            "value": "21617faef57fccda7b09adabf30abf5e13146fb49976fdf2fba9f3db"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "period": {
+          "start": "2021-08-12T14:52:00+02:00",
+          "end": "2021-09-30T23:59:59+02:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Encounter/PV-65c9a2587ebdcc33b7dd14bcf66c091d66ad44a8a78132c4fc83820f",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "PV-65c9a2587ebdcc33b7dd14bcf66c091d66ad44a8a78132c4fc83820f",
+        "meta": {
+          "versionId": "167979835",
+          "lastUpdated": "2025-03-17T06:01:51.296Z",
+          "source": "http://medic.uksh.de/source/orbis/legacy",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung|2025.0.0"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://medic.uksh.de/fhir/Encounter",
+            "value": "65c9a2587ebdcc33b7dd14bcf66c091d66ad44a8a78132c4fc83820f"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "period": {
+          "start": "2021-08-12T14:57:00+02:00",
+          "end": "2021-09-30T23:59:59+02:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Observation/VIT-a5429dde8299ff0eb785f5267b09d0ea9c3b1e8ed6bdd7b0bd71d10c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "VIT-a5429dde8299ff0eb785f5267b09d0ea9c3b1e8ed6bdd7b0bd71d10c",
+        "meta": {
+          "versionId": "167979843",
+          "lastUpdated": "2025-03-17T06:01:51.314Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus|2025.0.1"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "effectiveDateTime": "2021-08-12T14:57:00+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Observation/VIT-d61d88dfad24a838e3bd4d9b6dbc17be2234ae0690f70d7ed540ba83",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "VIT-d61d88dfad24a838e3bd4d9b6dbc17be2234ae0690f70d7ed540ba83",
+        "meta": {
+          "versionId": "167979790",
+          "lastUpdated": "2025-03-17T06:01:51.158Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus|2025.0.1"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "effectiveDateTime": "2021-08-12T14:52:00+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Procedure/PR-6be8d79ea48111eb57edac2be3aa6b35add1199b5671bea4273ea994",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "PR-6be8d79ea48111eb57edac2be3aa6b35add1199b5671bea4273ea994",
+        "meta": {
+          "versionId": "382922314",
+          "lastUpdated": "2025-10-08T22:33:57.543Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2025.0.0"
+          ]
+        },
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "394841004",
+              "display": "Other category"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/ops",
+              "version": "2021",
+              "code": "9-984.9",
+              "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 4"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "encounter": {
+          "reference": "Encounter/PV-21617faef57fccda7b09adabf30abf5e13146fb49976fdf2fba9f3db"
+        },
+        "performedDateTime": "2021-08-12T14:52:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Procedure/PR-b68d39c5b2e7ca4859be9afac4a1dbc49e9395d2538498a2d022a3d8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "PR-b68d39c5b2e7ca4859be9afac4a1dbc49e9395d2538498a2d022a3d8",
+        "meta": {
+          "versionId": "381196239",
+          "lastUpdated": "2025-10-08T21:17:56.209Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2025.0.0"
+          ]
+        },
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "394841004",
+              "display": "Other category"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/bfarm/ops",
+              "version": "2021",
+              "code": "9-984.9",
+              "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 4"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-36cd8dbee2d57fd95f15270cfc88c00abfcfa320d041c44fe137a983"
+        },
+        "encounter": {
+          "reference": "Encounter/PV-65c9a2587ebdcc33b7dd14bcf66c091d66ad44a8a78132c4fc83820f"
+        },
+        "performedDateTime": "2021-08-12T14:57:00+02:00"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

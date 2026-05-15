@@ -1,0 +1,65 @@
+DATE,PATIENT,ENCOUNTER,CATEGORY,CODE,DESCRIPTION,VALUE,UNITS,TYPE
+2026-03-19T15:14:22.852897Z,c04da995-0597-48fc-ab10-1b9481ae7419,129f51d9-ec0b-47d9-9674-35714b7178ee,,4548-4,Hemoglobin A1c,126,units,numeric
+2026-05-07T15:14:22.856228Z,dfcc698a-85b2-4d8c-aeb8-7288983fa424,6dc0e175-68c1-4503-adce-4c37c7dcf730,,85354-9,Blood pressure panel with all children optional,82,mmHg,numeric
+2026-05-07T15:14:22.856228Z,dfcc698a-85b2-4d8c-aeb8-7288983fa424,6dc0e175-68c1-4503-adce-4c37c7dcf730,,8867-4,Heart rate,121,units,numeric
+2026-04-29T15:14:22.860929Z,50eed607-8c6e-4ec5-afa8-5268760232c4,a4def283-3ed0-4d3c-bc7f-bf6d8fed7e5d,,85354-9,Blood pressure panel with all children optional,103,mmHg,numeric
+2026-04-29T15:14:22.860929Z,50eed607-8c6e-4ec5-afa8-5268760232c4,a4def283-3ed0-4d3c-bc7f-bf6d8fed7e5d,,8867-4,Heart rate,122,units,numeric
+2026-05-07T15:14:22.864489Z,2bb1111b-6b27-474a-b34f-cf63352129f2,b59fb788-5eef-43a8-a962-0d57deddca1f,,8867-4,Heart rate,104,units,numeric
+2026-04-19T15:14:22.867772Z,91bb8f53-1c16-4e04-a4e1-e8d03579be60,096dc9dd-174a-43bd-bc62-a21b8cd5cf5c,,85354-9,Blood pressure panel with all children optional,112,mmHg,numeric
+2026-03-27T15:14:22.871011Z,63cb13e6-9c5f-4748-808b-a82d893e7cbc,3e737a8a-7f11-417e-8fe4-3c3aaf8a0aea,,4548-4,Hemoglobin A1c,123,units,numeric
+2026-04-18T15:14:22.874585Z,8e4e1ca0-4bb7-4430-85bb-3fbd30d8c4a5,a400d282-929a-4f5c-a7ea-610ddaa406d6,,85354-9,Blood pressure panel with all children optional,108,mmHg,numeric
+2026-03-24T15:14:22.925014Z,23b87261-7829-41b6-bf17-de77cd0e8b72,7d6db20a-0a2f-4ca6-9348-422f149931a1,,4548-4,Hemoglobin A1c,96,units,numeric
+2026-04-21T15:14:22.928214Z,a299776f-8020-4aab-a537-76836913dd1e,9f09786b-7585-4949-953e-4a9dc45ebdd5,,85354-9,Blood pressure panel with all children optional,117,mmHg,numeric
+2026-02-15T15:14:22.931584Z,1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e,2e7dd6b2-2c65-451a-86f8-49c6bba351b8,,4548-4,Hemoglobin A1c,81,units,numeric
+2026-04-24T15:14:22.772399Z,0f112a3d-5e78-46f0-b926-29bdb68a1683,547e24f0-ce35-4e97-8198-555af294af8f,,8867-4,Heart rate,135,units,numeric
+2026-03-02T15:14:22.934419Z,eb9ad221-6e38-4cb5-a201-ffdbc3e664ff,6cda8de1-ae6b-4614-9f7f-638369c104dc,,4548-4,Hemoglobin A1c,96,units,numeric
+2026-03-01T15:14:22.937495Z,f0728ff8-1176-4362-8bbe-b0f2202c8936,99ba343a-a05f-4741-85c0-2e0f5e6ce2db,,4548-4,Hemoglobin A1c,140,units,numeric
+2026-05-05T15:14:22.940945Z,c9d9c368-904e-4044-96c5-d236bb0cb910,93bd1b52-4538-4277-b12f-b24711fe9b3f,,85354-9,Blood pressure panel with all children optional,105,mmHg,numeric
+2026-05-05T15:14:22.940945Z,c9d9c368-904e-4044-96c5-d236bb0cb910,93bd1b52-4538-4277-b12f-b24711fe9b3f,,8867-4,Heart rate,117,units,numeric
+2026-05-01T15:14:22.944556Z,a5b4dc09-c6c0-4c98-82ae-ddb6d1157fd7,b8acac1f-2d2b-445b-9b5e-661116839866,,85354-9,Blood pressure panel with all children optional,112,mmHg,numeric
+2026-05-01T15:14:22.944556Z,a5b4dc09-c6c0-4c98-82ae-ddb6d1157fd7,b8acac1f-2d2b-445b-9b5e-661116839866,,8867-4,Heart rate,80,units,numeric
+2026-04-28T15:14:22.948371Z,0dd6e039-8436-40d3-acd6-b67a71961381,32e23a3a-439f-4075-88be-9add66f11528,,85354-9,Blood pressure panel with all children optional,129,mmHg,numeric
+2026-04-28T15:14:22.948371Z,0dd6e039-8436-40d3-acd6-b67a71961381,32e23a3a-439f-4075-88be-9add66f11528,,8867-4,Heart rate,95,units,numeric
+2026-02-02T15:14:22.951782Z,72336208-4cec-4cca-8528-8076bf1a2988,2b3689aa-1ac0-4923-84e4-83f5a9fdc498,,4548-4,Hemoglobin A1c,86,units,numeric
+2026-04-26T15:14:22.954704Z,8e22dd18-616f-4cbb-8a70-5afe844e6ea7,71bfbe58-ceae-436f-8c44-838405bc4eb6,,8867-4,Heart rate,91,units,numeric
+2026-04-07T15:14:22.958247Z,c277f224-1e47-4c97-b5e2-39c77e568b8f,a940bb11-266d-4a33-8be7-bf0d3b1148ce,,4548-4,Hemoglobin A1c,96,units,numeric
+2026-02-24T15:14:22.961459Z,cf7c9bfd-7c29-4ff3-a6a3-bc3c664912b9,ccf40a2b-313a-4376-acc0-330fd2971628,,4548-4,Hemoglobin A1c,122,units,numeric
+2026-03-02T15:14:22.964398Z,587cc6bb-5ab7-4c75-a36d-6ee2c084a2d6,8cecce09-a77a-455c-9e85-e7f1d4e0798d,,4548-4,Hemoglobin A1c,89,units,numeric
+2026-04-24T15:14:22.822655Z,e83c15cf-a3a2-4aa5-aa8d-38309f4425c1,5046f084-d749-4ffb-9b80-7cea59ff8560,,8867-4,Heart rate,122,units,numeric
+2026-04-11T15:14:22.967931Z,b0528e59-ddb0-4784-83f3-9140b4c2ab47,62209c4a-c85a-4930-a318-1c805ad88db9,,4548-4,Hemoglobin A1c,90,units,numeric
+2026-05-01T15:14:23.019819Z,8b64aae6-449d-44fc-9b11-0f302d9d4ea0,8c1c6414-107b-4ef8-8dc4-226f5a534122,,8867-4,Heart rate,114,units,numeric
+2026-03-07T15:14:23.023587Z,f7664f83-75b0-4ba3-a8ab-138ceedf7858,24b3753f-10fc-4612-b512-4dd971bb4ba6,,4548-4,Hemoglobin A1c,125,units,numeric
+2026-04-06T15:14:23.026892Z,8efa48c0-aaec-486e-b377-aa2727e85325,47d9af00-1c06-4265-8d05-75a059d14815,,4548-4,Hemoglobin A1c,127,units,numeric
+2026-05-06T15:14:23.030019Z,da33635d-eede-4e21-95bc-b1b8124cab63,cb1bceed-2215-45bf-a62d-410c153ecde3,,85354-9,Blood pressure panel with all children optional,105,mmHg,numeric
+2026-05-06T15:14:23.030019Z,da33635d-eede-4e21-95bc-b1b8124cab63,cb1bceed-2215-45bf-a62d-410c153ecde3,,8867-4,Heart rate,127,units,numeric
+2026-04-26T15:14:23.033974Z,ca2d0495-567b-4e77-a01d-14e95f7cce23,1989dc74-5ec9-4492-9de8-f3f4ccd8d33a,,8867-4,Heart rate,107,units,numeric
+2026-05-02T15:14:23.037333Z,411f1d89-581a-46bf-9b87-695c58963992,4c2ce5ee-4e31-4d19-90f6-32dd6b394429,,85354-9,Blood pressure panel with all children optional,140,mmHg,numeric
+2026-04-18T15:14:23.041623Z,3deb4dd0-ebe7-4a9a-b681-ae3c7cec7dee,4543cb21-6e6c-4330-88d4-96817d675dfa,,85354-9,Blood pressure panel with all children optional,126,mmHg,numeric
+2026-04-29T15:14:23.045124Z,76caf881-11c2-43cd-95c1-d1acd02f7214,7f8473a0-32a7-4614-ae7f-8c3447f3353c,,85354-9,Blood pressure panel with all children optional,115,mmHg,numeric
+2026-05-02T15:14:23.048554Z,e3e4e233-97b2-4fbb-b443-73e8effde4d0,3025e57e-3c62-466e-9586-a0d5dc5c4416,,8867-4,Heart rate,109,units,numeric
+2026-05-07T15:14:22.827316Z,73a8883f-a455-4876-8f09-bbfa6161a245,37ed1360-0b1d-423b-8fee-0c6ebb935682,,85354-9,Blood pressure panel with all children optional,125,mmHg,numeric
+2026-05-07T15:14:22.827316Z,73a8883f-a455-4876-8f09-bbfa6161a245,37ed1360-0b1d-423b-8fee-0c6ebb935682,,8867-4,Heart rate,115,units,numeric
+2026-04-30T15:14:23.051617Z,a8691325-2270-449a-a0a2-006e6a03c224,f12514a6-2e0e-4890-b4ce-f96173cfb278,,85354-9,Blood pressure panel with all children optional,116,mmHg,numeric
+2026-04-30T15:14:23.051617Z,a8691325-2270-449a-a0a2-006e6a03c224,f12514a6-2e0e-4890-b4ce-f96173cfb278,,8867-4,Heart rate,123,units,numeric
+2026-04-30T15:14:23.055569Z,f1625f53-c5af-49ab-ae54-82b5903e3b50,44cf8606-bc0d-46e0-adc5-9069620844bc,,8867-4,Heart rate,140,units,numeric
+2026-05-07T15:14:23.059585Z,8b0d95e6-b1f3-43bc-97d4-578b738fadc8,288221cc-4fb1-4a8a-8b44-8af959842bae,,85354-9,Blood pressure panel with all children optional,121,mmHg,numeric
+2026-05-07T15:14:23.059585Z,8b0d95e6-b1f3-43bc-97d4-578b738fadc8,288221cc-4fb1-4a8a-8b44-8af959842bae,,8867-4,Heart rate,109,units,numeric
+2026-05-02T15:14:23.062906Z,23d0b483-2f44-4234-a1d4-177333c3072e,e31ad5e3-2159-4358-b9e7-40f7a75bd1ea,,8867-4,Heart rate,110,units,numeric
+2026-05-02T15:14:23.066049Z,58912a39-3e14-4935-849e-a893494c51f1,4e032b44-ab66-4861-8790-3121d4166aeb,,85354-9,Blood pressure panel with all children optional,80,mmHg,numeric
+2026-04-28T15:14:23.069905Z,9129c206-87d3-449b-9fb5-aba22a2625b1,5e1229fe-1abf-40bb-89df-dcf6340c8387,,85354-9,Blood pressure panel with all children optional,109,mmHg,numeric
+2026-04-28T15:14:23.069905Z,9129c206-87d3-449b-9fb5-aba22a2625b1,5e1229fe-1abf-40bb-89df-dcf6340c8387,,8867-4,Heart rate,124,units,numeric
+2026-05-01T15:14:23.086731Z,cb5fb015-8af6-488b-8c7f-832c4c0ed069,b231f83f-f5fe-48c8-adb0-2c49ccc0631f,,8867-4,Heart rate,105,units,numeric
+2026-04-23T15:14:23.089992Z,61e9e42a-94cc-4a0e-bd04-32ba53c7a986,bd7bc321-8bf4-4c80-afcb-c4ee6e908fc7,,8867-4,Heart rate,131,units,numeric
+2026-03-07T15:14:23.093755Z,d390cc9f-c809-4fc6-88af-71d3a1145dc4,cf28d50a-6655-405c-8285-3248739d66bb,,4548-4,Hemoglobin A1c,112,units,numeric
+2026-05-08T15:14:23.096596Z,0c826f1d-4823-4568-ad80-beb36a66bd6c,b495638e-aa1f-4683-97a7-c4e6f7ed9741,,85354-9,Blood pressure panel with all children optional,139,mmHg,numeric
+2026-05-08T15:14:23.096596Z,0c826f1d-4823-4568-ad80-beb36a66bd6c,b495638e-aa1f-4683-97a7-c4e6f7ed9741,,8867-4,Heart rate,115,units,numeric
+2026-04-14T15:14:22.831059Z,f7a257d3-ac06-410a-a7f1-62c14b129d54,ba411ffc-c05a-4ab6-b3b6-6bcfa6803451,,85354-9,Blood pressure panel with all children optional,85,mmHg,numeric
+2026-03-26T15:14:23.100841Z,c17419c6-1e80-4ae6-93fc-b8c45a88ad91,cd5ed46d-c5e0-485c-be37-6dd81ec45afe,,4548-4,Hemoglobin A1c,102,units,numeric
+2026-04-29T15:14:22.834134Z,eaaab7fc-18cb-4781-bb52-71e552518254,886b3f3c-4ca2-4990-874a-67e36879f0d6,,8867-4,Heart rate,125,units,numeric
+2026-05-01T15:14:22.837351Z,0d231a25-3f20-43d8-8d52-0163b08caa00,04ebfc86-de7b-4664-b003-c20aa4356567,,85354-9,Blood pressure panel with all children optional,119,mmHg,numeric
+2026-05-01T15:14:22.837351Z,0d231a25-3f20-43d8-8d52-0163b08caa00,04ebfc86-de7b-4664-b003-c20aa4356567,,8867-4,Heart rate,99,units,numeric
+2026-05-08T15:14:22.841695Z,9fde753b-c7b5-40d5-bfe6-9f560a93a811,78ac8630-f755-4239-82dc-39c9fc10fcd5,,85354-9,Blood pressure panel with all children optional,123,mmHg,numeric
+2026-05-08T15:14:22.841695Z,9fde753b-c7b5-40d5-bfe6-9f560a93a811,78ac8630-f755-4239-82dc-39c9fc10fcd5,,8867-4,Heart rate,95,units,numeric
+2026-04-23T15:14:22.845324Z,94db9e46-6fee-493a-9cc4-79097e4a8a39,3653dbda-5720-4e0e-af87-f3d11dd0169f,,85354-9,Blood pressure panel with all children optional,117,mmHg,numeric
+2026-05-08T15:14:22.848879Z,95699e64-653a-4d81-b388-a21925f14c43,3491517c-60a2-41a2-9dbe-1cbefb1e0648,,85354-9,Blood pressure panel with all children optional,90,mmHg,numeric
+2026-05-08T15:14:22.848879Z,95699e64-653a-4d81-b388-a21925f14c43,3491517c-60a2-41a2-9dbe-1cbefb1e0648,,8867-4,Heart rate,112,units,numeric

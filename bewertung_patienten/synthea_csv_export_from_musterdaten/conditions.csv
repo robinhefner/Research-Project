@@ -1,0 +1,7 @@
+START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION
+,,b3fdb3ea-7e2b-47aa-9bd7-afda71fa8e30,PV-492b751a956840b0d3a49fc2514e39d8a6591bd323710c843aa16280,http://fhir.de/CodeSystem/bfarm/icd-10-gm,C50.0,Malignant tumor: nipple and areola
+,,b3fdb3ea-7e2b-47aa-9bd7-afda71fa8e30,PV-492b751a956840b0d3a49fc2514e39d8a6591bd323710c843aa16280,http://fhir.de/CodeSystem/bfarm/icd-10-gm,C50.5,Malignant tumor: lower-outer quadrant of breast
+,,b3fdb3ea-7e2b-47aa-9bd7-afda71fa8e30,PV-492b751a956840b0d3a49fc2514e39d8a6591bd323710c843aa16280,http://fhir.de/CodeSystem/bfarm/icd-10-gm,H60.0,Abscess of the outer ear
+,,89b90a71-3449-48d4-b1d6-a58c14fbc552,PV-537ff58de4a72133c7c19137a97fe4395670dd59930dc0aeb0c43fd4,http://fhir.de/CodeSystem/bfarm/icd-10-gm,L89.36,"Stage 4 pressure ulcer, trochanter"
+,,89b90a71-3449-48d4-b1d6-a58c14fbc552,PV-537ff58de4a72133c7c19137a97fe4395670dd59930dc0aeb0c43fd4,http://fhir.de/CodeSystem/bfarm/icd-10-gm,I21.4,Acute subendocardial myocardial infarction
+,,542dd887-bf9f-47c4-99f3-4542f1822b0d,PV-bc083e916d4fe453777c45d74e3fe8615d497eca6f7ab090053e73fd,http://fhir.de/CodeSystem/bfarm/icd-10-gm,Z53,People who visited healthcare facilities for specific procedures that were not performed

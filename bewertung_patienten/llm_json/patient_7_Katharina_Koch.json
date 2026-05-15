@@ -1,0 +1,378 @@
+{
+    "resourceType": "Bundle",
+    "id": "78a06199-c09b-4acd-be89-3bd70b7af80d",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811",
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "9fde753b-c7b5-40d5-bfe6-9f560a93a811",
+                "identifier": [
+                    {
+                        "id": "99a385ce-9095-4935-a6d4-b0573c91f182",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "d3153eb0-5e07-11ef-8f7c-0242ac120002"
+                                }
+                            ],
+                            "text": "Patient Identifier"
+                        },
+                        "value": "ABC260610"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Koch",
+                        "given": [
+                            "Katharina"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1967-08-02",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Bahnhofstraße 98"
+                        ],
+                        "city": "Leipzig",
+                        "postalCode": "39140",
+                        "country": "DE"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:78ac8630-f755-4239-82dc-39c9fc10fcd5",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "78ac8630-f755-4239-82dc-39c9fc10fcd5",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "IMP"
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/6988b666-2b8d-4c34-9d4f-d74d7c220c6a"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-05-08T15:14:22.841695Z",
+                    "end": "2026-05-10T15:14:22.841695Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:10d66302-acfb-410e-afcd-fe2c43ada954",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "10d66302-acfb-410e-afcd-fe2c43ada954",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB"
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-05-17T15:14:22.841695Z",
+                    "end": "2026-05-17T16:14:22.841695Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:af33a232-b480-4a7b-b835-6c3090bd8c4c",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "af33a232-b480-4a7b-b835-6c3090bd8c4c",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "22298006",
+                            "display": "Myocardial infarction"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:78ac8630-f755-4239-82dc-39c9fc10fcd5"
+                },
+                "onsetDateTime": "2026-05-08T15:14:22.841695Z",
+                "abatementDateTime": "2026-05-10T15:14:22.841695Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:01b2cf88-2df0-475e-95fa-0063d53d801b",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "01b2cf88-2df0-475e-95fa-0063d53d801b",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "38341003",
+                            "display": "Essential hypertension"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:10d66302-acfb-410e-afcd-fe2c43ada954"
+                },
+                "onsetDateTime": "2025-05-08T15:14:22.841695Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5e67af22-c15f-4c5e-84dd-1c3374aeff73",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "5e67af22-c15f-4c5e-84dd-1c3374aeff73",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "83367",
+                            "display": "Atorvastatin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:78ac8630-f755-4239-82dc-39c9fc10fcd5"
+                },
+                "requester": {
+                    "reference": "Practitioner/6988b666-2b8d-4c34-9d4f-d74d7c220c6a"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-05-08T15:14:22.841695Z",
+                                    "end": "2027-05-17T15:14:22.841695Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:be9442ee-b3d0-427f-b552-e5b0a5b5883b",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "be9442ee-b3d0-427f-b552-e5b0a5b5883b",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "6918",
+                            "display": "Metoprolol"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:10d66302-acfb-410e-afcd-fe2c43ada954"
+                },
+                "requester": {
+                    "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-05-17T15:14:22.841695Z",
+                                    "end": "2027-05-17T15:14:22.841695Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dad16a82-deaa-4fbe-a522-36af74b18e44",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "dad16a82-deaa-4fbe-a522-36af74b18e44",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85354-9",
+                            "display": "Blood pressure panel with all children optional"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:78ac8630-f755-4239-82dc-39c9fc10fcd5"
+                },
+                "effectiveDateTime": "2026-05-08T15:14:22.841695Z",
+                "valueQuantity": {
+                    "value": 123,
+                    "unit": "mmHg"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5834098a-8801-4708-ab98-bf6bccffb4b1",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5834098a-8801-4708-ab98-bf6bccffb4b1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8867-4",
+                            "display": "Heart rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:78ac8630-f755-4239-82dc-39c9fc10fcd5"
+                },
+                "effectiveDateTime": "2026-05-08T15:14:22.841695Z",
+                "valueQuantity": {
+                    "value": 95,
+                    "unit": "units"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e328d162-bd2e-4cb3-abba-1ea6baab5d32",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "e328d162-bd2e-4cb3-abba-1ea6baab5d32",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "medication"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "91936005",
+                            "display": "Allergy to penicillin"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:9fde753b-c7b5-40d5-bfe6-9f560a93a811"
+                }
+            }
+        }
+    ]
+}

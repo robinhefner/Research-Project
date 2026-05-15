@@ -1,0 +1,913 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION,QUANTITY
+2023-10-01,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-0fc8-05e3875fc569,277183007,Dental equipment (physical object),1
+2023-10-01,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-0fc8-05e3875fc569,1230220004,Conventional release periodontal gel (dose form),1
+2023-10-01,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-0fc8-05e3875fc569,469020004,Dental floss (physical object),1
+2024-09-29,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-2098-f83f30585a27,277183007,Dental equipment (physical object),1
+2024-09-29,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-2098-f83f30585a27,1230220004,Conventional release periodontal gel (dose form),1
+2024-09-29,a4803901-0f6b-afe2-f2fa-b189e0ccefd4,a4803901-0f6b-afe2-2098-f83f30585a27,469020004,Dental floss (physical object),1
+2020-11-19,0be3b11c-92be-ce42-56f2-c2150710f88a,0be3b11c-92be-ce42-606e-f9c89df60227,277183007,Dental equipment (physical object),1
+2020-11-19,0be3b11c-92be-ce42-56f2-c2150710f88a,0be3b11c-92be-ce42-606e-f9c89df60227,1230220004,Conventional release periodontal gel (dose form),1
+2020-11-19,0be3b11c-92be-ce42-56f2-c2150710f88a,0be3b11c-92be-ce42-606e-f9c89df60227,469020004,Dental floss (physical object),1
+2017-08-16,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-0f83-e7364beb432b,277183007,Dental equipment (physical object),1
+2017-08-16,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-0f83-e7364beb432b,1230220004,Conventional release periodontal gel (dose form),1
+2017-08-16,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-0f83-e7364beb432b,469020004,Dental floss (physical object),1
+2018-08-22,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ab56-eb0b931209bb,277183007,Dental equipment (physical object),1
+2018-08-22,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ab56-eb0b931209bb,1230220004,Conventional release periodontal gel (dose form),1
+2018-08-22,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ab56-eb0b931209bb,469020004,Dental floss (physical object),1
+2021-09-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-37f8-a1661afc8f1b,277183007,Dental equipment (physical object),1
+2021-09-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-37f8-a1661afc8f1b,1230220004,Conventional release periodontal gel (dose form),1
+2021-09-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-37f8-a1661afc8f1b,469020004,Dental floss (physical object),1
+2024-10-02,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-a6ff-19ded8f0f6ed,277183007,Dental equipment (physical object),1
+2024-10-02,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-a6ff-19ded8f0f6ed,1230220004,Conventional release periodontal gel (dose form),1
+2024-10-02,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-a6ff-19ded8f0f6ed,469020004,Dental floss (physical object),1
+2025-10-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ad81-950f4558b68d,277183007,Dental equipment (physical object),1
+2025-10-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ad81-950f4558b68d,1230220004,Conventional release periodontal gel (dose form),1
+2025-10-08,d69c3cf9-40b0-0f47-6012-8251e8c1884d,d69c3cf9-40b0-0f47-ad81-950f4558b68d,469020004,Dental floss (physical object),1
+2017-11-19,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-53ea-ba59dc474cf5,277183007,Dental equipment (physical object),1
+2017-11-19,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-53ea-ba59dc474cf5,1230220004,Conventional release periodontal gel (dose form),1
+2017-11-19,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-53ea-ba59dc474cf5,469020004,Dental floss (physical object),1
+2017-07-20,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-7cfd-f8f2e43f8ef8,277183007,Dental equipment (physical object),1
+2017-07-20,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-7cfd-f8f2e43f8ef8,1230220004,Conventional release periodontal gel (dose form),1
+2017-07-20,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-7cfd-f8f2e43f8ef8,469020004,Dental floss (physical object),1
+2020-12-13,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9585-1e830c82e53d,277183007,Dental equipment (physical object),1
+2020-12-13,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9585-1e830c82e53d,1230220004,Conventional release periodontal gel (dose form),1
+2020-12-13,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9585-1e830c82e53d,469020004,Dental floss (physical object),1
+2018-10-11,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-6b3e-b548486bc0eb,277183007,Dental equipment (physical object),1
+2018-10-11,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-6b3e-b548486bc0eb,1230220004,Conventional release periodontal gel (dose form),1
+2018-10-11,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-6b3e-b548486bc0eb,469020004,Dental floss (physical object),1
+2023-02-09,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-ebb3-fade8b2f5606,277183007,Dental equipment (physical object),1
+2023-02-09,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-ebb3-fade8b2f5606,1230220004,Conventional release periodontal gel (dose form),1
+2023-02-09,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-ebb3-fade8b2f5606,469020004,Dental floss (physical object),1
+2025-01-05,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9c02-3c6365d96f90,277183007,Dental equipment (physical object),1
+2025-01-05,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9c02-3c6365d96f90,1230220004,Conventional release periodontal gel (dose form),1
+2025-01-05,01ea8723-c4a7-3a9e-fa09-10ae6079b315,01ea8723-c4a7-3a9e-9c02-3c6365d96f90,469020004,Dental floss (physical object),1
+2023-02-22,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-a2ab-8d253a6aa280,277183007,Dental equipment (physical object),1
+2023-02-22,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-a2ab-8d253a6aa280,1230220004,Conventional release periodontal gel (dose form),1
+2023-02-22,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-a2ab-8d253a6aa280,469020004,Dental floss (physical object),1
+2026-02-26,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-67e3-601ad93bf6cc,277183007,Dental equipment (physical object),1
+2026-02-26,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-67e3-601ad93bf6cc,1230220004,Conventional release periodontal gel (dose form),1
+2026-02-26,9e8a0806-b101-efca-1f1f-b524af2332a1,9e8a0806-b101-efca-67e3-601ad93bf6cc,469020004,Dental floss (physical object),1
+2023-12-20,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-d0d6-295685a0ad90,277183007,Dental equipment (physical object),1
+2023-12-20,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-d0d6-295685a0ad90,1230220004,Conventional release periodontal gel (dose form),1
+2023-12-20,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-d0d6-295685a0ad90,469020004,Dental floss (physical object),1
+2019-02-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-fc53-debe1c4c7338,277183007,Dental equipment (physical object),1
+2019-02-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-fc53-debe1c4c7338,1230220004,Conventional release periodontal gel (dose form),1
+2019-02-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-fc53-debe1c4c7338,469020004,Dental floss (physical object),1
+2026-02-25,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-3db4-547262565612,277183007,Dental equipment (physical object),1
+2026-02-25,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-3db4-547262565612,1230220004,Conventional release periodontal gel (dose form),1
+2026-02-25,33585b17-6289-09c3-c8f3-413b0b3aea33,33585b17-6289-09c3-3db4-547262565612,469020004,Dental floss (physical object),1
+2017-09-08,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-ddd4-e28f0bd59156,277183007,Dental equipment (physical object),1
+2017-09-08,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-ddd4-e28f0bd59156,1230220004,Conventional release periodontal gel (dose form),1
+2017-09-08,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-ddd4-e28f0bd59156,469020004,Dental floss (physical object),1
+2018-10-12,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-9257-8ba791c4760c,277183007,Dental equipment (physical object),1
+2018-10-12,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-9257-8ba791c4760c,1230220004,Conventional release periodontal gel (dose form),1
+2018-10-12,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-9257-8ba791c4760c,469020004,Dental floss (physical object),1
+2021-10-15,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-459d-82c13920622b,277183007,Dental equipment (physical object),1
+2021-10-15,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-459d-82c13920622b,1230220004,Conventional release periodontal gel (dose form),1
+2021-10-15,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-459d-82c13920622b,469020004,Dental floss (physical object),1
+2020-02-27,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-f49d-12ebb824e22d,277183007,Dental equipment (physical object),1
+2020-02-27,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-f49d-12ebb824e22d,1230220004,Conventional release periodontal gel (dose form),1
+2020-02-27,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-f49d-12ebb824e22d,469020004,Dental floss (physical object),1
+2024-10-18,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-a9ca-7f77ee656bef,277183007,Dental equipment (physical object),1
+2024-10-18,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-a9ca-7f77ee656bef,1230220004,Conventional release periodontal gel (dose form),1
+2024-10-18,94cf6cf6-1448-6598-679c-06b96b45742f,94cf6cf6-1448-6598-a9ca-7f77ee656bef,469020004,Dental floss (physical object),1
+2021-04-09,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-31d5-180556484e56,277183007,Dental equipment (physical object),1
+2021-04-09,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-31d5-180556484e56,1230220004,Conventional release periodontal gel (dose form),1
+2021-04-09,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-31d5-180556484e56,469020004,Dental floss (physical object),1
+2022-04-08,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-82cc-ed2669d49bfe,277183007,Dental equipment (physical object),1
+2022-04-08,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-82cc-ed2669d49bfe,1230220004,Conventional release periodontal gel (dose form),1
+2022-04-08,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-82cc-ed2669d49bfe,469020004,Dental floss (physical object),1
+2022-03-10,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-6a4a-57cf4390d9a0,277183007,Dental equipment (physical object),1
+2022-03-10,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-6a4a-57cf4390d9a0,1230220004,Conventional release periodontal gel (dose form),1
+2022-03-10,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-6a4a-57cf4390d9a0,469020004,Dental floss (physical object),1
+2024-04-19,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-436d-57f42df284e9,277183007,Dental equipment (physical object),1
+2024-04-19,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-436d-57f42df284e9,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-19,78c2b6d5-518d-0302-1cbe-f8aeb578fe51,78c2b6d5-518d-0302-436d-57f42df284e9,469020004,Dental floss (physical object),1
+2023-03-16,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-3675-a386d814e2bf,277183007,Dental equipment (physical object),1
+2023-03-16,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-3675-a386d814e2bf,1230220004,Conventional release periodontal gel (dose form),1
+2023-03-16,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-3675-a386d814e2bf,469020004,Dental floss (physical object),1
+2023-11-23,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-a39b-97f2ed16716a,277183007,Dental equipment (physical object),1
+2023-11-23,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-a39b-97f2ed16716a,1230220004,Conventional release periodontal gel (dose form),1
+2023-11-23,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-a39b-97f2ed16716a,469020004,Dental floss (physical object),1
+2024-03-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-1388-67c830cadd4b,277183007,Dental equipment (physical object),1
+2024-03-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-1388-67c830cadd4b,1230220004,Conventional release periodontal gel (dose form),1
+2024-03-21,f8a29f62-934f-3da5-f702-881590765c92,f8a29f62-934f-3da5-1388-67c830cadd4b,469020004,Dental floss (physical object),1
+2020-04-03,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-6b80-452c5a101569,277183007,Dental equipment (physical object),1
+2020-04-03,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-6b80-452c5a101569,1230220004,Conventional release periodontal gel (dose form),1
+2020-04-03,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-6b80-452c5a101569,469020004,Dental floss (physical object),1
+2018-11-09,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-03e9-ddd4f2edcfe4,277183007,Dental equipment (physical object),1
+2018-11-09,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-03e9-ddd4f2edcfe4,1230220004,Conventional release periodontal gel (dose form),1
+2018-11-09,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-03e9-ddd4f2edcfe4,469020004,Dental floss (physical object),1
+2021-05-14,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-4ab4-501fb7c1144a,277183007,Dental equipment (physical object),1
+2021-05-14,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-4ab4-501fb7c1144a,1230220004,Conventional release periodontal gel (dose form),1
+2021-05-14,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-4ab4-501fb7c1144a,469020004,Dental floss (physical object),1
+2025-06-06,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-b5ca-9abf11c9bf6c,277183007,Dental equipment (physical object),1
+2025-06-06,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-b5ca-9abf11c9bf6c,1230220004,Conventional release periodontal gel (dose form),1
+2025-06-06,601a84fa-2cab-96ea-5c16-f9baa0291a85,601a84fa-2cab-96ea-b5ca-9abf11c9bf6c,469020004,Dental floss (physical object),1
+2023-04-21,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-576e-53d3d184bd14,277183007,Dental equipment (physical object),1
+2023-04-21,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-576e-53d3d184bd14,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-21,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-576e-53d3d184bd14,469020004,Dental floss (physical object),1
+2024-04-26,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-4a28-f7a8fb8a598b,277183007,Dental equipment (physical object),1
+2024-04-26,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-4a28-f7a8fb8a598b,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-26,5d3fdf0d-56e2-deb9-f9f1-e5fea8b7f127,5d3fdf0d-56e2-deb9-4a28-f7a8fb8a598b,469020004,Dental floss (physical object),1
+2018-03-06,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-d130-0e815c626926,337388004,Blood glucose testing strips (physical object),50
+2021-03-09,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-912e-61033d823335,337388004,Blood glucose testing strips (physical object),50
+2021-03-30,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-9298-f250280ef305,277183007,Dental equipment (physical object),1
+2021-03-30,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-9298-f250280ef305,1230220004,Conventional release periodontal gel (dose form),1
+2021-03-30,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-9298-f250280ef305,469020004,Dental floss (physical object),1
+2024-03-12,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-5649-c353f0178316,337388004,Blood glucose testing strips (physical object),50
+2024-03-26,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-5ed2-989fa838c65c,277183007,Dental equipment (physical object),1
+2024-03-26,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-5ed2-989fa838c65c,1230220004,Conventional release periodontal gel (dose form),1
+2024-03-26,f89b04ae-238f-70d0-c52c-a070fe8a45c4,f89b04ae-238f-70d0-5ed2-989fa838c65c,469020004,Dental floss (physical object),1
+1998-08-09,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-a349-06b298195f0e,337388004,Blood glucose testing strips (physical object),50
+1998-08-09,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-a349-06b298195f0e,1137596000,Blood lancet (physical object),100
+2002-08-18,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-4ab3-c36c219483ca,337388004,Blood glucose testing strips (physical object),50
+2005-09-04,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-bfa4-d5ff642e8859,337388004,Blood glucose testing strips (physical object),50
+2005-09-04,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-bfa4-d5ff642e8859,1137596000,Blood lancet (physical object),100
+2008-09-21,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-ab3d-58010b923bce,1137596000,Blood lancet (physical object),100
+2014-10-26,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-891c-414c00c654b6,337388004,Blood glucose testing strips (physical object),50
+2015-11-01,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-aaaf-4c052f5a296d,337388004,Blood glucose testing strips (physical object),50
+2016-11-06,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-cade-f9bdec8aaec2,337388004,Blood glucose testing strips (physical object),50
+2016-11-20,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-195d-e7ce7cacccf5,277183007,Dental equipment (physical object),1
+2016-11-20,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-195d-e7ce7cacccf5,1230220004,Conventional release periodontal gel (dose form),1
+2016-11-20,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-195d-e7ce7cacccf5,469020004,Dental floss (physical object),1
+2017-11-12,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-fae4-77e0014a00da,337388004,Blood glucose testing strips (physical object),50
+2018-11-18,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-da89-318c79c6344a,337388004,Blood glucose testing strips (physical object),50
+2019-11-24,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-40dc-273338ede842,337388004,Blood glucose testing strips (physical object),50
+2019-12-08,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-dfe8-a6f6c1400fc0,277183007,Dental equipment (physical object),1
+2019-12-08,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-dfe8-a6f6c1400fc0,1230220004,Conventional release periodontal gel (dose form),1
+2019-12-08,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-dfe8-a6f6c1400fc0,469020004,Dental floss (physical object),1
+2022-12-25,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-d170-c90d16478741,277183007,Dental equipment (physical object),1
+2022-12-25,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-d170-c90d16478741,1230220004,Conventional release periodontal gel (dose form),1
+2022-12-25,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-d170-c90d16478741,469020004,Dental floss (physical object),1
+2024-11-24,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-fb4d-f4921cff5bbc,277183007,Dental equipment (physical object),1
+2024-11-24,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-fb4d-f4921cff5bbc,1230220004,Conventional release periodontal gel (dose form),1
+2024-11-24,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-fb4d-f4921cff5bbc,469020004,Dental floss (physical object),1
+2026-03-22,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-12d6-e70518f4dc06,277183007,Dental equipment (physical object),1
+2026-03-22,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-12d6-e70518f4dc06,1230220004,Conventional release periodontal gel (dose form),1
+2026-03-22,2b34a552-7243-7aa1-cfe2-85275fed3385,2b34a552-7243-7aa1-12d6-e70518f4dc06,469020004,Dental floss (physical object),1
+2018-10-23,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-79a7-ff605ffa9e2e,277183007,Dental equipment (physical object),1
+2018-10-23,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-79a7-ff605ffa9e2e,1230220004,Conventional release periodontal gel (dose form),1
+2018-10-23,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-79a7-ff605ffa9e2e,469020004,Dental floss (physical object),1
+2023-08-15,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-982d-76dfd9e612a9,277183007,Dental equipment (physical object),1
+2023-08-15,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-982d-76dfd9e612a9,1230220004,Conventional release periodontal gel (dose form),1
+2023-08-15,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-982d-76dfd9e612a9,469020004,Dental floss (physical object),1
+2025-08-05,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-6130-50a1014bd433,337388004,Blood glucose testing strips (physical object),50
+2025-08-05,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-6130-50a1014bd433,1137596000,Blood lancet (physical object),100
+2025-08-19,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-3eb0-51bef06a872d,277183007,Dental equipment (physical object),1
+2025-08-19,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-3eb0-51bef06a872d,1230220004,Conventional release periodontal gel (dose form),1
+2025-08-19,68874dac-ec6a-a4e2-9686-12c81d5122f1,68874dac-ec6a-a4e2-3eb0-51bef06a872d,469020004,Dental floss (physical object),1
+2016-07-30,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-978b-f1c2dd308c2e,277183007,Dental equipment (physical object),1
+2016-07-30,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-978b-f1c2dd308c2e,1230220004,Conventional release periodontal gel (dose form),1
+2016-07-30,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-978b-f1c2dd308c2e,469020004,Dental floss (physical object),1
+2022-05-28,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-6cc4-6b455dc46eb1,277183007,Dental equipment (physical object),1
+2022-05-28,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-6cc4-6b455dc46eb1,1230220004,Conventional release periodontal gel (dose form),1
+2022-05-28,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-6cc4-6b455dc46eb1,469020004,Dental floss (physical object),1
+2017-05-06,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-76ff-25e140fe4c47,277183007,Dental equipment (physical object),1
+2017-05-06,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-76ff-25e140fe4c47,1230220004,Conventional release periodontal gel (dose form),1
+2017-05-06,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-76ff-25e140fe4c47,469020004,Dental floss (physical object),1
+2022-08-06,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-fe4e-63593000c0e3,277183007,Dental equipment (physical object),1
+2022-08-06,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-fe4e-63593000c0e3,1230220004,Conventional release periodontal gel (dose form),1
+2022-08-06,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-fe4e-63593000c0e3,469020004,Dental floss (physical object),1
+2024-09-07,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-8d1d-bce32a4bf297,277183007,Dental equipment (physical object),1
+2024-09-07,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-8d1d-bce32a4bf297,1230220004,Conventional release periodontal gel (dose form),1
+2024-09-07,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-8d1d-bce32a4bf297,469020004,Dental floss (physical object),1
+2020-05-23,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-1b8e-b34b21d56572,277183007,Dental equipment (physical object),1
+2020-05-23,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-1b8e-b34b21d56572,1230220004,Conventional release periodontal gel (dose form),1
+2020-05-23,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-1b8e-b34b21d56572,469020004,Dental floss (physical object),1
+2025-08-09,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-5542-e5a6247d434c,277183007,Dental equipment (physical object),1
+2025-08-09,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-5542-e5a6247d434c,1230220004,Conventional release periodontal gel (dose form),1
+2025-08-09,c508d77e-2e7d-c1f2-2cc1-ad10d34df8a4,c508d77e-2e7d-c1f2-5542-e5a6247d434c,469020004,Dental floss (physical object),1
+2021-05-29,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-683f-1d4fc900b3cc,277183007,Dental equipment (physical object),1
+2021-05-29,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-683f-1d4fc900b3cc,1230220004,Conventional release periodontal gel (dose form),1
+2021-05-29,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-683f-1d4fc900b3cc,469020004,Dental floss (physical object),1
+2022-06-04,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-caa6-f7a621addd47,277183007,Dental equipment (physical object),1
+2022-06-04,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-caa6-f7a621addd47,1230220004,Conventional release periodontal gel (dose form),1
+2022-06-04,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-caa6-f7a621addd47,469020004,Dental floss (physical object),1
+1991-10-04,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-0054-69b4610b3bce,337388004,Blood glucose testing strips (physical object),50
+1991-10-04,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-0054-69b4610b3bce,1137596000,Blood lancet (physical object),100
+2005-12-09,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-ff4b-bffd65b1742d,337388004,Blood glucose testing strips (physical object),50
+2016-02-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-028b-e1f44cba9ee4,337388004,Blood glucose testing strips (physical object),50
+2016-02-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-028b-e1f44cba9ee4,1137596000,Blood lancet (physical object),100
+2017-03-10,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-89e9-448291663eea,277183007,Dental equipment (physical object),1
+2017-03-10,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-89e9-448291663eea,1230220004,Conventional release periodontal gel (dose form),1
+2017-03-10,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-89e9-448291663eea,469020004,Dental floss (physical object),1
+2018-02-09,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3e54-645277387a4d,337388004,Blood glucose testing strips (physical object),50
+2018-02-09,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3e54-645277387a4d,1137596000,Blood lancet (physical object),100
+2024-06-15,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-07df-a8a69b827747,277183007,Dental equipment (physical object),1
+2024-06-15,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-07df-a8a69b827747,1230220004,Conventional release periodontal gel (dose form),1
+2024-06-15,81244faa-61a1-f325-a57c-fbbf964630ae,81244faa-61a1-f325-07df-a8a69b827747,469020004,Dental floss (physical object),1
+2018-03-02,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-4994-761c5bf94f50,337388004,Blood glucose testing strips (physical object),50
+2018-03-16,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-9d0d-5ba199934b09,277183007,Dental equipment (physical object),1
+2018-03-16,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-9d0d-5ba199934b09,1230220004,Conventional release periodontal gel (dose form),1
+2018-03-16,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-9d0d-5ba199934b09,469020004,Dental floss (physical object),1
+2019-03-08,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-fd34-0efd7ca7b38f,337388004,Blood glucose testing strips (physical object),50
+2019-03-22,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-6fd1-f53416490d36,277183007,Dental equipment (physical object),1
+2019-03-22,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-6fd1-f53416490d36,1230220004,Conventional release periodontal gel (dose form),1
+2019-03-22,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-6fd1-f53416490d36,469020004,Dental floss (physical object),1
+2021-03-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-0738-fc373f3c91b6,1137596000,Blood lancet (physical object),100
+2022-03-25,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-9627-52efe4ba5fd7,337388004,Blood glucose testing strips (physical object),50
+2022-03-25,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-9627-52efe4ba5fd7,1137596000,Blood lancet (physical object),100
+2022-04-08,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3740-eeeb3135233e,277183007,Dental equipment (physical object),1
+2022-04-08,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3740-eeeb3135233e,1230220004,Conventional release periodontal gel (dose form),1
+2022-04-08,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3740-eeeb3135233e,469020004,Dental floss (physical object),1
+2023-03-31,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-fdf7-18f3919892d8,337388004,Blood glucose testing strips (physical object),50
+2024-04-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-4812-dabd4e9c2390,277183007,Dental equipment (physical object),1
+2024-04-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-4812-dabd4e9c2390,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-19,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-4812-dabd4e9c2390,469020004,Dental floss (physical object),1
+2025-04-25,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-55e4-7ed1fe01e2b8,277183007,Dental equipment (physical object),1
+2025-04-25,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-55e4-7ed1fe01e2b8,1230220004,Conventional release periodontal gel (dose form),1
+2025-04-25,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-55e4-7ed1fe01e2b8,469020004,Dental floss (physical object),1
+2025-11-14,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-3e66-414b8169b84c,1137596000,Blood lancet (physical object),100
+2025-11-21,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-4b0e-a67b57522acb,337388004,Blood glucose testing strips (physical object),50
+2026-04-17,26a10a56-2c7b-8757-c153-6e181bb5ec8b,26a10a56-2c7b-8757-f7ab-976d85dd54d3,337388004,Blood glucose testing strips (physical object),50
+2011-11-24,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-b8a1-b30817b74c1f,337388004,Blood glucose testing strips (physical object),50
+2018-08-16,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-fc66-d7f25f1d229c,337388004,Blood glucose testing strips (physical object),50
+2020-08-20,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-9485-6b17743caccc,337388004,Blood glucose testing strips (physical object),50
+2020-09-03,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-ee87-b7060e10ec08,277183007,Dental equipment (physical object),1
+2020-09-03,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-ee87-b7060e10ec08,1230220004,Conventional release periodontal gel (dose form),1
+2020-09-03,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-ee87-b7060e10ec08,469020004,Dental floss (physical object),1
+2022-08-25,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-1647-83a65480eaee,337388004,Blood glucose testing strips (physical object),50
+2022-09-08,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-35a8-da600552c082,277183007,Dental equipment (physical object),1
+2022-09-08,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-35a8-da600552c082,1230220004,Conventional release periodontal gel (dose form),1
+2022-09-08,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-35a8-da600552c082,469020004,Dental floss (physical object),1
+2024-08-29,33459f51-9be4-5087-fd39-dc801e8b085b,33459f51-9be4-5087-61aa-ee81c4e3dbb4,1137596000,Blood lancet (physical object),100
+2024-06-12,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-3eb5-90a99fd2d17b,277183007,Dental equipment (physical object),1
+2024-06-12,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-3eb5-90a99fd2d17b,1230220004,Conventional release periodontal gel (dose form),1
+2024-06-12,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-3eb5-90a99fd2d17b,469020004,Dental floss (physical object),1
+2025-10-29,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-28fd-ffca7d29af91,277183007,Dental equipment (physical object),1
+2025-10-29,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-28fd-ffca7d29af91,1230220004,Conventional release periodontal gel (dose form),1
+2025-10-29,1f20a07b-b227-46cc-6759-ed8338322a97,1f20a07b-b227-46cc-28fd-ffca7d29af91,469020004,Dental floss (physical object),1
+2002-08-26,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-ede9-fbdf07971c5b,337388004,Blood glucose testing strips (physical object),50
+2008-09-22,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c9f2-cb82c87d0765,706390002,Dental impression material (physical object),1
+2008-09-22,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c9f2-cb82c87d0765,468277001,Dental impression tray material (physical object),1
+2011-06-20,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-50e9-2c71323a934a,337388004,Blood glucose testing strips (physical object),50
+2013-06-24,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-b3eb-983d9e2f04ee,337388004,Blood glucose testing strips (physical object),50
+2014-06-30,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-d3a0-cb68a1e665f2,1137596000,Blood lancet (physical object),100
+2015-07-06,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c845-cccd06817387,337388004,Blood glucose testing strips (physical object),50
+2015-07-06,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c845-cccd06817387,337388004,Blood glucose testing strips (physical object),50
+2016-07-11,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-6942-db7c4ad24052,337388004,Blood glucose testing strips (physical object),50
+2016-07-11,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-6942-db7c4ad24052,1137596000,Blood lancet (physical object),100
+2016-07-25,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-59ab-f79e96c18c46,277183007,Dental equipment (physical object),1
+2016-07-25,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-59ab-f79e96c18c46,1230220004,Conventional release periodontal gel (dose form),1
+2016-07-25,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-59ab-f79e96c18c46,469020004,Dental floss (physical object),1
+2016-10-11,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c5d5-6695a3bca640,706390002,Dental impression material (physical object),1
+2016-10-11,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-c5d5-6695a3bca640,468277001,Dental impression tray material (physical object),1
+2017-07-17,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-ca0b-83ff968be3e8,337388004,Blood glucose testing strips (physical object),50
+2017-07-31,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-f66d-eb704283b9d6,277183007,Dental equipment (physical object),1
+2017-07-31,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-f66d-eb704283b9d6,1230220004,Conventional release periodontal gel (dose form),1
+2017-07-31,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-f66d-eb704283b9d6,469020004,Dental floss (physical object),1
+2018-07-23,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-f25a-b72872dbaa5d,337388004,Blood glucose testing strips (physical object),50
+2018-07-23,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-f25a-b72872dbaa5d,1137596000,Blood lancet (physical object),100
+2019-07-29,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-271b-634fb24e0e80,337388004,Blood glucose testing strips (physical object),50
+2019-08-12,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-67c4-05128c31b929,277183007,Dental equipment (physical object),1
+2019-08-12,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-67c4-05128c31b929,1230220004,Conventional release periodontal gel (dose form),1
+2019-08-12,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-67c4-05128c31b929,469020004,Dental floss (physical object),1
+2020-08-03,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-2762-8ed946a5594a,337388004,Blood glucose testing strips (physical object),50
+2020-08-17,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-1a95-e8e3ca374b8a,277183007,Dental equipment (physical object),1
+2020-08-17,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-1a95-e8e3ca374b8a,1230220004,Conventional release periodontal gel (dose form),1
+2020-08-17,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-1a95-e8e3ca374b8a,469020004,Dental floss (physical object),1
+2021-08-09,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7704-24a38aa9cb03,337388004,Blood glucose testing strips (physical object),50
+2021-08-09,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7704-24a38aa9cb03,1137596000,Blood lancet (physical object),100
+2021-08-23,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-4e1e-54a4be36e720,277183007,Dental equipment (physical object),1
+2021-08-23,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-4e1e-54a4be36e720,1230220004,Conventional release periodontal gel (dose form),1
+2021-08-23,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-4e1e-54a4be36e720,469020004,Dental floss (physical object),1
+2022-08-29,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-468f-7966529deef0,277183007,Dental equipment (physical object),1
+2022-08-29,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-468f-7966529deef0,1230220004,Conventional release periodontal gel (dose form),1
+2022-08-29,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-468f-7966529deef0,469020004,Dental floss (physical object),1
+2023-08-21,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-90cc-deaf4bd9c0c0,337388004,Blood glucose testing strips (physical object),50
+2023-08-21,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-90cc-deaf4bd9c0c0,1137596000,Blood lancet (physical object),100
+2023-10-24,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-b8a9-81032c993081,706390002,Dental impression material (physical object),1
+2023-10-24,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-b8a9-81032c993081,468277001,Dental impression tray material (physical object),1
+2024-08-26,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-a535-b20bce5f4640,337388004,Blood glucose testing strips (physical object),50
+2024-09-09,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7747-ec6e846fd2b1,277183007,Dental equipment (physical object),1
+2024-09-09,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7747-ec6e846fd2b1,1230220004,Conventional release periodontal gel (dose form),1
+2024-09-09,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7747-ec6e846fd2b1,469020004,Dental floss (physical object),1
+2025-09-01,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7dff-acef8382e1d4,337388004,Blood glucose testing strips (physical object),50
+2025-09-01,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7dff-acef8382e1d4,337388004,Blood glucose testing strips (physical object),50
+2025-09-01,568141ba-fd69-ecc4-18fb-6ed496acbbfb,568141ba-fd69-ecc4-7dff-acef8382e1d4,1137596000,Blood lancet (physical object),100
+2005-05-26,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-13cb-1cdd3ba2f374,337388004,Blood glucose testing strips (physical object),50
+2005-05-26,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-13cb-1cdd3ba2f374,1137596000,Blood lancet (physical object),100
+2015-02-19,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-948e-77b9e5342e96,337388004,Blood glucose testing strips (physical object),50
+2016-02-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-d1e8-de9c793db6a1,337388004,Blood glucose testing strips (physical object),50
+2016-02-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-d1e8-de9c793db6a1,1137596000,Blood lancet (physical object),100
+2018-03-08,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-cc69-479c4e7b0eb1,337388004,Blood glucose testing strips (physical object),50
+2019-03-14,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-5f36-37f0b50a6b6a,337388004,Blood glucose testing strips (physical object),50
+2019-03-14,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-5f36-37f0b50a6b6a,1137596000,Blood lancet (physical object),100
+2019-03-28,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-8b05-fd7647c2ff1c,277183007,Dental equipment (physical object),1
+2019-03-28,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-8b05-fd7647c2ff1c,1230220004,Conventional release periodontal gel (dose form),1
+2019-03-28,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-8b05-fd7647c2ff1c,469020004,Dental floss (physical object),1
+2020-03-19,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-1854-d81d061640e3,337388004,Blood glucose testing strips (physical object),50
+2020-04-02,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-9bc0-a12eb31bbc7a,277183007,Dental equipment (physical object),1
+2020-04-02,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-9bc0-a12eb31bbc7a,1230220004,Conventional release periodontal gel (dose form),1
+2020-04-02,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-9bc0-a12eb31bbc7a,469020004,Dental floss (physical object),1
+2021-03-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-1066-c88198ad2ce2,337388004,Blood glucose testing strips (physical object),50
+2021-04-08,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-d099-a6ed03244471,277183007,Dental equipment (physical object),1
+2021-04-08,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-d099-a6ed03244471,1230220004,Conventional release periodontal gel (dose form),1
+2021-04-08,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-d099-a6ed03244471,469020004,Dental floss (physical object),1
+2023-01-18,51e67d23-720e-77a1-9d78-17905b733c56,51e67d23-720e-77a1-37f4-2aab3493f7e9,277183007,Dental equipment (physical object),1
+2023-01-18,51e67d23-720e-77a1-9d78-17905b733c56,51e67d23-720e-77a1-37f4-2aab3493f7e9,1230220004,Conventional release periodontal gel (dose form),1
+2023-01-18,51e67d23-720e-77a1-9d78-17905b733c56,51e67d23-720e-77a1-37f4-2aab3493f7e9,469020004,Dental floss (physical object),1
+2022-03-31,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-5e04-e720a6e4c9dc,337388004,Blood glucose testing strips (physical object),50
+2022-04-14,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-f121-28bdd69d317c,277183007,Dental equipment (physical object),1
+2022-04-14,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-f121-28bdd69d317c,1230220004,Conventional release periodontal gel (dose form),1
+2022-04-14,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-f121-28bdd69d317c,469020004,Dental floss (physical object),1
+2023-04-06,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-95a6-b05b12738fb1,337388004,Blood glucose testing strips (physical object),50
+2023-04-20,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-6208-c72080d20763,277183007,Dental equipment (physical object),1
+2023-04-20,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-6208-c72080d20763,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-20,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-6208-c72080d20763,469020004,Dental floss (physical object),1
+2024-04-11,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-ccac-80d98d1a3cf5,337388004,Blood glucose testing strips (physical object),50
+2024-04-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-4dcb-e1ead7b7d6d1,277183007,Dental equipment (physical object),1
+2024-04-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-4dcb-e1ead7b7d6d1,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-25,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-4dcb-e1ead7b7d6d1,469020004,Dental floss (physical object),1
+2025-04-17,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-0b34-b076b562df0b,337388004,Blood glucose testing strips (physical object),50
+2026-04-23,f6601551-9526-cd53-4529-23139cfd5447,f6601551-9526-cd53-5cac-9ff11be3b9de,337388004,Blood glucose testing strips (physical object),50
+1992-07-07,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-d962-171056189b3b,1137596000,Blood lancet (physical object),100
+2002-05-07,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-fdc7-39b77f4d99b9,337388004,Blood glucose testing strips (physical object),50
+2014-05-27,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-caa4-5de8f8a228f9,1137596000,Blood lancet (physical object),100
+2015-06-02,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-f7d5-86fbecf8d3ec,337388004,Blood glucose testing strips (physical object),50
+2015-06-02,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-f7d5-86fbecf8d3ec,1137596000,Blood lancet (physical object),100
+2016-06-07,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-7007-68391b761f6f,337388004,Blood glucose testing strips (physical object),50
+2017-06-13,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-58f4-eece9f479810,337388004,Blood glucose testing strips (physical object),50
+2017-06-13,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-58f4-eece9f479810,1137596000,Blood lancet (physical object),100
+2017-06-27,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-6edd-4e7408dbf213,277183007,Dental equipment (physical object),1
+2017-06-27,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-6edd-4e7408dbf213,1230220004,Conventional release periodontal gel (dose form),1
+2017-06-27,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-6edd-4e7408dbf213,469020004,Dental floss (physical object),1
+2019-06-25,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-967f-7e1aa09afbaf,1137596000,Blood lancet (physical object),100
+2020-06-30,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-9884-ebd7bfe37e0c,337388004,Blood glucose testing strips (physical object),50
+2020-07-14,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-e8c7-d78585e67a00,277183007,Dental equipment (physical object),1
+2020-07-14,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-e8c7-d78585e67a00,1230220004,Conventional release periodontal gel (dose form),1
+2020-07-14,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-e8c7-d78585e67a00,469020004,Dental floss (physical object),1
+2021-07-06,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-79f6-10932e9efb76,337388004,Blood glucose testing strips (physical object),50
+2021-07-20,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-07f1-260f84cea6e8,277183007,Dental equipment (physical object),1
+2021-07-20,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-07f1-260f84cea6e8,1230220004,Conventional release periodontal gel (dose form),1
+2021-07-20,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-07f1-260f84cea6e8,469020004,Dental floss (physical object),1
+2000-04-14,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-34a6-c5e3ba7bfdd8,337388004,Blood glucose testing strips (physical object),50
+2005-05-13,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-0258-2238b3a6eb01,337388004,Blood glucose testing strips (physical object),50
+2012-06-22,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-1aa7-3d69bc657236,337388004,Blood glucose testing strips (physical object),50
+2016-07-22,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-9946-37f15c84ea21,337388004,Blood glucose testing strips (physical object),50
+2016-08-05,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-af5e-341a54e4ea53,277183007,Dental equipment (physical object),1
+2016-08-05,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-af5e-341a54e4ea53,1230220004,Conventional release periodontal gel (dose form),1
+2016-08-05,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-af5e-341a54e4ea53,469020004,Dental floss (physical object),1
+2017-07-28,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-5b6f-89a70b19fcca,337388004,Blood glucose testing strips (physical object),50
+2018-08-03,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-5b8c-785735d4cd9e,337388004,Blood glucose testing strips (physical object),50
+2018-10-05,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-8f99-ae4197a92cee,337388004,Blood glucose testing strips (physical object),50
+2018-10-05,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-8f99-ae4197a92cee,1137596000,Blood lancet (physical object),100
+2018-10-12,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-3ac8-7b3e26bd5fa2,337388004,Blood glucose testing strips (physical object),50
+2018-10-19,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-1180-5f687b223ef4,277183007,Dental equipment (physical object),1
+2018-10-19,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-1180-5f687b223ef4,1230220004,Conventional release periodontal gel (dose form),1
+2018-10-19,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-1180-5f687b223ef4,469020004,Dental floss (physical object),1
+2024-07-23,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-3e5f-87168aa415d0,337388004,Blood glucose testing strips (physical object),50
+2024-07-23,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-3e5f-87168aa415d0,1137596000,Blood lancet (physical object),100
+2024-08-29,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-0d83-592391b0c144,431069006,Packed red blood cells (product),2
+2025-07-29,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-457f-73db73caddb2,1137596000,Blood lancet (physical object),100
+2019-08-09,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-e49f-aa0bfbe5b67a,337388004,Blood glucose testing strips (physical object),50
+2019-08-09,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-e49f-aa0bfbe5b67a,1137596000,Blood lancet (physical object),100
+2020-08-14,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-d26a-82f64524e0f5,337388004,Blood glucose testing strips (physical object),50
+2025-08-12,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-acb3-848e2c66aa8d,277183007,Dental equipment (physical object),1
+2025-08-12,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-acb3-848e2c66aa8d,1230220004,Conventional release periodontal gel (dose form),1
+2025-08-12,226678b2-d9b2-d4ab-a717-0ace2432e77b,226678b2-d9b2-d4ab-acb3-848e2c66aa8d,469020004,Dental floss (physical object),1
+1987-02-28,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-51e3-0fd8ffb33aa3,337388004,Blood glucose testing strips (physical object),50
+1996-03-09,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-e9f6-234498eceeb2,337388004,Blood glucose testing strips (physical object),50
+1996-03-09,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-e9f6-234498eceeb2,1137596000,Blood lancet (physical object),100
+2011-01-15,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-c2bd-1996932eefbd,1137596000,Blood lancet (physical object),100
+2013-01-19,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-11e6-f278c038ebea,337388004,Blood glucose testing strips (physical object),50
+2014-07-26,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-ffca-505c6d9ea88b,337388004,Blood glucose testing strips (physical object),50
+2021-08-20,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-8f40-bc93567af1f0,337388004,Blood glucose testing strips (physical object),50
+2017-01-07,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-19fe-f3aba171797e,337388004,Blood glucose testing strips (physical object),50
+2017-01-21,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-ddb9-920e990519d5,277183007,Dental equipment (physical object),1
+2017-01-21,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-ddb9-920e990519d5,1230220004,Conventional release periodontal gel (dose form),1
+2017-01-21,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-ddb9-920e990519d5,469020004,Dental floss (physical object),1
+2022-08-26,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-4206-127ec1bf01b8,337388004,Blood glucose testing strips (physical object),50
+2022-09-09,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-54b5-81c0624f8b50,277183007,Dental equipment (physical object),1
+2022-09-09,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-54b5-81c0624f8b50,1230220004,Conventional release periodontal gel (dose form),1
+2022-09-09,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-54b5-81c0624f8b50,469020004,Dental floss (physical object),1
+2023-09-01,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-3f14-fd0687364b36,337388004,Blood glucose testing strips (physical object),50
+2024-09-06,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-d1c6-9f0c29a39255,337388004,Blood glucose testing strips (physical object),50
+2018-01-13,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-cfb0-678b592a2572,337388004,Blood glucose testing strips (physical object),50
+2018-01-13,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-cfb0-678b592a2572,8537005,Solution (substance),100
+2024-09-20,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-91d5-6ba36fca32fc,277183007,Dental equipment (physical object),1
+2024-09-20,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-91d5-6ba36fca32fc,1230220004,Conventional release periodontal gel (dose form),1
+2024-09-20,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-91d5-6ba36fca32fc,469020004,Dental floss (physical object),1
+2020-01-18,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-6b82-5e6fffdfb353,337388004,Blood glucose testing strips (physical object),50
+2020-01-25,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-ddeb-c036e9e2ab98,337388004,Blood glucose testing strips (physical object),50
+2021-01-30,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-8afc-cf58af423677,337388004,Blood glucose testing strips (physical object),50
+2022-02-05,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-24f4-c6cff844a817,337388004,Blood glucose testing strips (physical object),50
+2022-02-05,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-24f4-c6cff844a817,1137596000,Blood lancet (physical object),100
+2025-02-14,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-dcbf-309402b78419,337388004,Blood glucose testing strips (physical object),50
+2025-02-21,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-8de2-8fc4df3e612a,337388004,Blood glucose testing strips (physical object),50
+2025-02-21,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-8de2-8fc4df3e612a,1137596000,Blood lancet (physical object),100
+2025-09-12,cfaddf31-e470-ba3f-5746-533447cbeec3,cfaddf31-e470-ba3f-4203-c150093aa4b5,337388004,Blood glucose testing strips (physical object),50
+2023-02-11,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-c81b-038a58e684d4,1137596000,Blood lancet (physical object),100
+2024-02-17,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-0c69-5a79ba2287a2,337388004,Blood glucose testing strips (physical object),50
+2024-03-02,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-a9f3-434d87407b70,277183007,Dental equipment (physical object),1
+2024-03-02,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-a9f3-434d87407b70,1230220004,Conventional release periodontal gel (dose form),1
+2024-03-02,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-a9f3-434d87407b70,469020004,Dental floss (physical object),1
+2025-02-22,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-1546-0bb1436ad561,337388004,Blood glucose testing strips (physical object),50
+2025-03-08,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-185d-f458e421b04e,277183007,Dental equipment (physical object),1
+2025-03-08,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-185d-f458e421b04e,1230220004,Conventional release periodontal gel (dose form),1
+2025-03-08,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-185d-f458e421b04e,469020004,Dental floss (physical object),1
+2026-02-28,7760f0e6-65ab-645e-a27d-ac0ae6c41f84,7760f0e6-65ab-645e-6482-e5857cff5ef2,337388004,Blood glucose testing strips (physical object),50
+2017-08-12,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-cf6b-01e7189e3c55,277183007,Dental equipment (physical object),1
+2017-08-12,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-cf6b-01e7189e3c55,1230220004,Conventional release periodontal gel (dose form),1
+2017-08-12,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-cf6b-01e7189e3c55,469020004,Dental floss (physical object),1
+2020-08-01,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-2737-39bb0d7dc7e3,337388004,Blood glucose testing strips (physical object),50
+2020-08-01,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-2737-39bb0d7dc7e3,1137596000,Blood lancet (physical object),100
+2020-08-15,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-5260-37707c242fcf,277183007,Dental equipment (physical object),1
+2020-08-15,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-5260-37707c242fcf,1230220004,Conventional release periodontal gel (dose form),1
+2020-08-15,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-5260-37707c242fcf,469020004,Dental floss (physical object),1
+2023-08-05,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-3c9a-1aa52ba1f188,337388004,Blood glucose testing strips (physical object),50
+2023-08-05,b2d07356-02d5-b977-b602-e43c41fdcbd3,b2d07356-02d5-b977-3c9a-1aa52ba1f188,1137596000,Blood lancet (physical object),100
+2017-05-10,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-4c30-8e9c114db55e,277183007,Dental equipment (physical object),1
+2017-05-10,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-4c30-8e9c114db55e,1230220004,Conventional release periodontal gel (dose form),1
+2017-05-10,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-4c30-8e9c114db55e,469020004,Dental floss (physical object),1
+2018-08-15,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-42d5-d245fd8d3dbb,277183007,Dental equipment (physical object),1
+2018-08-15,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-42d5-d245fd8d3dbb,1230220004,Conventional release periodontal gel (dose form),1
+2018-08-15,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-42d5-d245fd8d3dbb,469020004,Dental floss (physical object),1
+2021-08-18,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-e8b2-984496a42d75,277183007,Dental equipment (physical object),1
+2021-08-18,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-e8b2-984496a42d75,1230220004,Conventional release periodontal gel (dose form),1
+2021-08-18,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-e8b2-984496a42d75,469020004,Dental floss (physical object),1
+2022-03-09,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-8dd9-23c29d3750d1,277183007,Dental equipment (physical object),1
+2022-03-09,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-8dd9-23c29d3750d1,1230220004,Conventional release periodontal gel (dose form),1
+2022-03-09,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-8dd9-23c29d3750d1,469020004,Dental floss (physical object),1
+2023-09-27,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-c085-feb7cb260606,277183007,Dental equipment (physical object),1
+2023-09-27,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-c085-feb7cb260606,1230220004,Conventional release periodontal gel (dose form),1
+2023-09-27,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-c085-feb7cb260606,469020004,Dental floss (physical object),1
+2024-08-21,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-97bd-dc46510e3e5b,277183007,Dental equipment (physical object),1
+2024-08-21,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-97bd-dc46510e3e5b,1230220004,Conventional release periodontal gel (dose form),1
+2024-08-21,b604558c-ca23-70a9-327d-45598ec90afd,b604558c-ca23-70a9-97bd-dc46510e3e5b,469020004,Dental floss (physical object),1
+2020-04-26,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-eeaa-12a563b5b96b,277183007,Dental equipment (physical object),1
+2020-04-26,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-eeaa-12a563b5b96b,1230220004,Conventional release periodontal gel (dose form),1
+2020-04-26,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-eeaa-12a563b5b96b,469020004,Dental floss (physical object),1
+2021-09-29,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-eaeb-7ff9088f1f1a,277183007,Dental equipment (physical object),1
+2021-09-29,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-eaeb-7ff9088f1f1a,1230220004,Conventional release periodontal gel (dose form),1
+2021-09-29,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-eaeb-7ff9088f1f1a,469020004,Dental floss (physical object),1
+2022-10-05,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-388f-8c6363f0d3de,277183007,Dental equipment (physical object),1
+2022-10-05,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-388f-8c6363f0d3de,1230220004,Conventional release periodontal gel (dose form),1
+2022-10-05,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-388f-8c6363f0d3de,469020004,Dental floss (physical object),1
+2024-03-13,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-d2be-4ba622ba7982,277183007,Dental equipment (physical object),1
+2024-03-13,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-d2be-4ba622ba7982,1230220004,Conventional release periodontal gel (dose form),1
+2024-03-13,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-d2be-4ba622ba7982,469020004,Dental floss (physical object),1
+2023-04-30,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-5503-4883e1eabd8a,277183007,Dental equipment (physical object),1
+2023-04-30,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-5503-4883e1eabd8a,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-30,b616db41-9229-8495-3d0c-a746cb368254,b616db41-9229-8495-5503-4883e1eabd8a,469020004,Dental floss (physical object),1
+2024-10-16,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-6bd7-ec2f10ea8700,277183007,Dental equipment (physical object),1
+2024-10-16,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-6bd7-ec2f10ea8700,1230220004,Conventional release periodontal gel (dose form),1
+2024-10-16,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-6bd7-ec2f10ea8700,469020004,Dental floss (physical object),1
+2025-10-22,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-4db1-1ad74a120307,277183007,Dental equipment (physical object),1
+2025-10-22,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-4db1-1ad74a120307,1230220004,Conventional release periodontal gel (dose form),1
+2025-10-22,f339d23b-6af2-9c64-0974-caeb550170d7,f339d23b-6af2-9c64-4db1-1ad74a120307,469020004,Dental floss (physical object),1
+2019-12-10,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-14dc-b998914e5656,277183007,Dental equipment (physical object),1
+2019-12-10,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-14dc-b998914e5656,1230220004,Conventional release periodontal gel (dose form),1
+2019-12-10,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-14dc-b998914e5656,469020004,Dental floss (physical object),1
+2025-12-16,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-f65e-d154dc6d321d,277183007,Dental equipment (physical object),1
+2025-12-16,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-f65e-d154dc6d321d,1230220004,Conventional release periodontal gel (dose form),1
+2025-12-16,3fb798b8-e9c3-7c37-71c9-dfd222e33b18,3fb798b8-e9c3-7c37-f65e-d154dc6d321d,469020004,Dental floss (physical object),1
+2024-06-18,fb09f5e5-4b33-6a92-3c59-af80e0b47c03,fb09f5e5-4b33-6a92-7c83-b6f3367d49c0,277183007,Dental equipment (physical object),1
+2024-06-18,fb09f5e5-4b33-6a92-3c59-af80e0b47c03,fb09f5e5-4b33-6a92-7c83-b6f3367d49c0,1230220004,Conventional release periodontal gel (dose form),1
+2024-06-18,fb09f5e5-4b33-6a92-3c59-af80e0b47c03,fb09f5e5-4b33-6a92-7c83-b6f3367d49c0,469020004,Dental floss (physical object),1
+2018-03-12,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-822e-6e973b72d72e,277183007,Dental equipment (physical object),1
+2018-03-12,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-822e-6e973b72d72e,1230220004,Conventional release periodontal gel (dose form),1
+2018-03-12,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-822e-6e973b72d72e,469020004,Dental floss (physical object),1
+2019-03-11,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-6821-7a7bdd5e0f79,277183007,Dental equipment (physical object),1
+2019-03-11,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-6821-7a7bdd5e0f79,1230220004,Conventional release periodontal gel (dose form),1
+2019-03-11,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-6821-7a7bdd5e0f79,469020004,Dental floss (physical object),1
+2019-06-24,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-9070-bc6712810ef7,277183007,Dental equipment (physical object),1
+2019-06-24,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-9070-bc6712810ef7,1230220004,Conventional release periodontal gel (dose form),1
+2019-06-24,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-9070-bc6712810ef7,469020004,Dental floss (physical object),1
+2022-03-28,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b545-18abfd9e5166,277183007,Dental equipment (physical object),1
+2022-03-28,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b545-18abfd9e5166,1230220004,Conventional release periodontal gel (dose form),1
+2022-03-28,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b545-18abfd9e5166,469020004,Dental floss (physical object),1
+2023-04-03,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b48d-9fde9781dffe,277183007,Dental equipment (physical object),1
+2023-04-03,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b48d-9fde9781dffe,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-03,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b48d-9fde9781dffe,469020004,Dental floss (physical object),1
+2024-04-15,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-c965-f09fe5bb4894,277183007,Dental equipment (physical object),1
+2024-04-15,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-c965-f09fe5bb4894,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-15,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-c965-f09fe5bb4894,469020004,Dental floss (physical object),1
+2026-04-27,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b924-e6837b0ae479,277183007,Dental equipment (physical object),1
+2026-04-27,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b924-e6837b0ae479,1230220004,Conventional release periodontal gel (dose form),1
+2026-04-27,ddf36ab0-4ace-788b-13ba-4aa60e6a17ee,ddf36ab0-4ace-788b-b924-e6837b0ae479,469020004,Dental floss (physical object),1
+1978-05-16,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-88ed-6e65f35eb9ab,337388004,Blood glucose testing strips (physical object),50
+2008-06-03,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-921e-1d84d4ae73e3,1137596000,Blood lancet (physical object),100
+2012-06-26,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-0732-a25d6cd116ca,337388004,Blood glucose testing strips (physical object),50
+2013-07-02,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-083e-59ae4e54cb54,337388004,Blood glucose testing strips (physical object),50
+2013-07-02,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-083e-59ae4e54cb54,337388004,Blood glucose testing strips (physical object),50
+2015-07-14,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-8df1-8dddcb0b761e,337388004,Blood glucose testing strips (physical object),50
+2015-07-14,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-8df1-8dddcb0b761e,1137596000,Blood lancet (physical object),100
+2016-07-19,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-f3b0-9a974c88360c,337388004,Blood glucose testing strips (physical object),50
+2016-07-19,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-f3b0-9a974c88360c,8537005,Solution (substance),100
+2017-07-25,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-ba22-bc65b3766d0b,337388004,Blood glucose testing strips (physical object),50
+2017-07-25,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-ba22-bc65b3766d0b,1137596000,Blood lancet (physical object),100
+2017-08-08,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-be27-f2abbadb8445,277183007,Dental equipment (physical object),1
+2017-08-08,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-be27-f2abbadb8445,1230220004,Conventional release periodontal gel (dose form),1
+2017-08-08,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-be27-f2abbadb8445,469020004,Dental floss (physical object),1
+2014-02-15,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-9534-574902a4c1ee,337388004,Blood glucose testing strips (physical object),50
+2014-02-15,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-9534-574902a4c1ee,1137596000,Blood lancet (physical object),100
+2017-03-04,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-38dd-f7ed9e3b85da,337388004,Blood glucose testing strips (physical object),50
+2017-03-04,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-38dd-f7ed9e3b85da,1137596000,Blood lancet (physical object),100
+2017-03-18,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-23a3-8e17a133e57e,277183007,Dental equipment (physical object),1
+2017-03-18,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-23a3-8e17a133e57e,1230220004,Conventional release periodontal gel (dose form),1
+2017-03-18,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-23a3-8e17a133e57e,469020004,Dental floss (physical object),1
+2017-09-30,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-bd0d-39f3bb736fb4,337388004,Blood glucose testing strips (physical object),50
+2017-09-30,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-bd0d-39f3bb736fb4,1137596000,Blood lancet (physical object),100
+2017-10-14,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c8e6-44e98cd0f708,277183007,Dental equipment (physical object),1
+2017-10-14,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c8e6-44e98cd0f708,1230220004,Conventional release periodontal gel (dose form),1
+2017-10-14,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c8e6-44e98cd0f708,469020004,Dental floss (physical object),1
+2018-03-10,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-563c-e4ef64c4d0a1,337388004,Blood glucose testing strips (physical object),50
+2019-03-16,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-b338-e0ba9f44e0cd,337388004,Blood glucose testing strips (physical object),50
+2019-03-30,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-233d-68c60a36006b,277183007,Dental equipment (physical object),1
+2019-03-30,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-233d-68c60a36006b,1230220004,Conventional release periodontal gel (dose form),1
+2019-03-30,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-233d-68c60a36006b,469020004,Dental floss (physical object),1
+2021-03-27,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-4a35-d0199114c7a2,337388004,Blood glucose testing strips (physical object),50
+2022-04-02,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-4d91-071cb9f88013,337388004,Blood glucose testing strips (physical object),50
+2022-04-02,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-4d91-071cb9f88013,1137596000,Blood lancet (physical object),100
+2023-04-08,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-e39f-5498951661cd,337388004,Blood glucose testing strips (physical object),50
+2018-08-14,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-9a5d-2671c69d7cb3,277183007,Dental equipment (physical object),1
+2018-08-14,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-9a5d-2671c69d7cb3,1230220004,Conventional release periodontal gel (dose form),1
+2018-08-14,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-9a5d-2671c69d7cb3,469020004,Dental floss (physical object),1
+2019-08-06,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-b105-11e9b97592df,337388004,Blood glucose testing strips (physical object),50
+2019-08-13,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-c851-0b05780f5f9f,337388004,Blood glucose testing strips (physical object),50
+2020-08-11,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-71a5-ca883ff49b86,1137596000,Blood lancet (physical object),100
+2021-08-17,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-45be-ab848912d3f9,337388004,Blood glucose testing strips (physical object),50
+2021-08-31,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-490d-650e770c6fbe,277183007,Dental equipment (physical object),1
+2021-08-31,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-490d-650e770c6fbe,1230220004,Conventional release periodontal gel (dose form),1
+2021-08-31,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-490d-650e770c6fbe,469020004,Dental floss (physical object),1
+2022-08-23,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-011f-815601918619,337388004,Blood glucose testing strips (physical object),50
+2023-08-29,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-7430-df1e22adbb6d,337388004,Blood glucose testing strips (physical object),50
+2024-09-03,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-2a8f-31af4c1fd2dc,1137596000,Blood lancet (physical object),100
+2024-10-29,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-e5e8-c1519dd2e9c8,337388004,Blood glucose testing strips (physical object),50
+2024-10-29,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-e5e8-c1519dd2e9c8,337388004,Blood glucose testing strips (physical object),50
+2024-11-12,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-8f53-faee452b3ad5,277183007,Dental equipment (physical object),1
+2024-11-12,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-8f53-faee452b3ad5,1230220004,Conventional release periodontal gel (dose form),1
+2024-11-12,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-8f53-faee452b3ad5,469020004,Dental floss (physical object),1
+2025-09-09,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-0904-708f2fbbf73e,337388004,Blood glucose testing strips (physical object),50
+2025-09-09,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-0904-708f2fbbf73e,1137596000,Blood lancet (physical object),100
+2025-09-23,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-5860-1c09bd1bb1f5,277183007,Dental equipment (physical object),1
+2025-09-23,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-5860-1c09bd1bb1f5,1230220004,Conventional release periodontal gel (dose form),1
+2025-09-23,38ce5887-6484-ef17-1a31-d6813676822f,38ce5887-6484-ef17-5860-1c09bd1bb1f5,469020004,Dental floss (physical object),1
+2023-04-22,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c2eb-60011f659ecd,277183007,Dental equipment (physical object),1
+2023-04-22,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c2eb-60011f659ecd,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-22,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-c2eb-60011f659ecd,469020004,Dental floss (physical object),1
+2024-04-13,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-beb3-93d39a3d779f,337388004,Blood glucose testing strips (physical object),50
+1996-05-01,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-66fd-83a65dec37e5,337388004,Blood glucose testing strips (physical object),50
+1999-05-05,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-fc28-137a82bc8386,337388004,Blood glucose testing strips (physical object),50
+1999-05-05,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-fc28-137a82bc8386,8537005,Solution (substance),100
+2002-05-08,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-4cef-e6263209a65b,337388004,Blood glucose testing strips (physical object),50
+2008-05-14,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-6d3a-d68ce605dd6c,337388004,Blood glucose testing strips (physical object),50
+2008-05-14,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-6d3a-d68ce605dd6c,1137596000,Blood lancet (physical object),100
+2011-03-02,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-0452-05684cef7b03,337388004,Blood glucose testing strips (physical object),50
+2012-03-07,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-b829-28ad28d7fe70,337388004,Blood glucose testing strips (physical object),50
+2017-04-19,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-60aa-5b3107dd42ac,277183007,Dental equipment (physical object),1
+2017-04-19,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-60aa-5b3107dd42ac,1230220004,Conventional release periodontal gel (dose form),1
+2017-04-19,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-60aa-5b3107dd42ac,469020004,Dental floss (physical object),1
+2018-04-11,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-02d2-28004aa257e2,337388004,Blood glucose testing strips (physical object),50
+2018-04-11,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-02d2-28004aa257e2,1137596000,Blood lancet (physical object),100
+2024-04-27,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-d10f-804ce766973f,277183007,Dental equipment (physical object),1
+2024-04-27,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-d10f-804ce766973f,1230220004,Conventional release periodontal gel (dose form),1
+2024-04-27,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-d10f-804ce766973f,469020004,Dental floss (physical object),1
+2025-04-19,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-02e9-a0dc514b38eb,337388004,Blood glucose testing strips (physical object),50
+2026-04-04,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-7909-9a129fb9abec,337388004,Blood glucose testing strips (physical object),50
+2026-04-04,673f734e-1d73-5d4a-ef79-c8c30be73c0d,673f734e-1d73-5d4a-7909-9a129fb9abec,1137596000,Blood lancet (physical object),100
+2017-04-26,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-3122-252d37520a25,277183007,Dental equipment (physical object),1
+2017-04-26,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-3122-252d37520a25,1230220004,Conventional release periodontal gel (dose form),1
+2017-04-26,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-3122-252d37520a25,469020004,Dental floss (physical object),1
+2018-05-02,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-50ab-ee1e6dd790fb,277183007,Dental equipment (physical object),1
+2018-05-02,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-50ab-ee1e6dd790fb,1230220004,Conventional release periodontal gel (dose form),1
+2018-05-02,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-50ab-ee1e6dd790fb,469020004,Dental floss (physical object),1
+2020-05-13,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-d9cc-278e0157a495,277183007,Dental equipment (physical object),1
+2020-05-13,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-d9cc-278e0157a495,1230220004,Conventional release periodontal gel (dose form),1
+2020-05-13,43d05f79-bf3b-c661-0104-50c9547eb0b9,43d05f79-bf3b-c661-d9cc-278e0157a495,469020004,Dental floss (physical object),1
+2018-04-25,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-de13-8cb56d295472,277183007,Dental equipment (physical object),1
+2018-04-25,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-de13-8cb56d295472,1230220004,Conventional release periodontal gel (dose form),1
+2018-04-25,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-de13-8cb56d295472,469020004,Dental floss (physical object),1
+2018-10-31,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-1e58-f422a46ebcaa,337388004,Blood glucose testing strips (physical object),50
+2018-11-14,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-158e-08391e203a6f,277183007,Dental equipment (physical object),1
+2018-11-14,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-158e-08391e203a6f,1230220004,Conventional release periodontal gel (dose form),1
+2018-11-14,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-158e-08391e203a6f,469020004,Dental floss (physical object),1
+2017-12-24,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-481f-0358500f9ece,277183007,Dental equipment (physical object),1
+2017-12-24,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-481f-0358500f9ece,1230220004,Conventional release periodontal gel (dose form),1
+2017-12-24,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-481f-0358500f9ece,469020004,Dental floss (physical object),1
+2020-05-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-afba-ae896e3c9c93,277183007,Dental equipment (physical object),1
+2020-05-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-afba-ae896e3c9c93,1230220004,Conventional release periodontal gel (dose form),1
+2020-05-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-afba-ae896e3c9c93,469020004,Dental floss (physical object),1
+2023-12-31,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-3d71-ba493beaf229,277183007,Dental equipment (physical object),1
+2023-12-31,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-3d71-ba493beaf229,1230220004,Conventional release periodontal gel (dose form),1
+2023-12-31,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-3d71-ba493beaf229,469020004,Dental floss (physical object),1
+2024-09-01,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-95b1-0d60c557f5fa,277183007,Dental equipment (physical object),1
+2024-09-01,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-95b1-0d60c557f5fa,1230220004,Conventional release periodontal gel (dose form),1
+2024-09-01,f7d8b339-52f0-3939-931f-bfa297990b3d,f7d8b339-52f0-3939-95b1-0d60c557f5fa,469020004,Dental floss (physical object),1
+2023-05-10,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-fcae-155005f91d23,337388004,Blood glucose testing strips (physical object),50
+2023-05-10,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-fcae-155005f91d23,1137596000,Blood lancet (physical object),100
+2023-05-24,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-66f3-3cd2c31c4e6f,277183007,Dental equipment (physical object),1
+2023-05-24,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-66f3-3cd2c31c4e6f,1230220004,Conventional release periodontal gel (dose form),1
+2023-05-24,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-66f3-3cd2c31c4e6f,469020004,Dental floss (physical object),1
+2009-12-14,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-f928-dd72e1d1aa9d,337388004,Blood glucose testing strips (physical object),50
+2016-10-24,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-57ed-1e9807c2dfd3,277183007,Dental equipment (physical object),1
+2016-10-24,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-57ed-1e9807c2dfd3,1230220004,Conventional release periodontal gel (dose form),1
+2016-10-24,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-57ed-1e9807c2dfd3,469020004,Dental floss (physical object),1
+2024-03-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-06a4-9c081caff10b,277183007,Dental equipment (physical object),1
+2024-03-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-06a4-9c081caff10b,1230220004,Conventional release periodontal gel (dose form),1
+2024-03-13,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-06a4-9c081caff10b,469020004,Dental floss (physical object),1
+2025-06-04,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-f25f-2e6478d7b361,277183007,Dental equipment (physical object),1
+2025-06-04,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-f25f-2e6478d7b361,1230220004,Conventional release periodontal gel (dose form),1
+2025-06-04,014e64f1-3a3e-3cdf-3598-7209f6096edf,014e64f1-3a3e-3cdf-f25f-2e6478d7b361,469020004,Dental floss (physical object),1
+2018-10-15,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-cf83-59c24ffeb21f,337388004,Blood glucose testing strips (physical object),50
+2018-10-15,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-cf83-59c24ffeb21f,337388004,Blood glucose testing strips (physical object),50
+2020-10-19,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-9e5c-8a0e334274eb,337388004,Blood glucose testing strips (physical object),50
+2020-10-19,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-9e5c-8a0e334274eb,1137596000,Blood lancet (physical object),100
+2022-09-26,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-29ea-a1d9bdcb527c,1137596000,Blood lancet (physical object),100
+2022-10-10,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-caec-243177129d5c,277183007,Dental equipment (physical object),1
+2022-10-10,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-caec-243177129d5c,1230220004,Conventional release periodontal gel (dose form),1
+2022-10-10,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-caec-243177129d5c,469020004,Dental floss (physical object),1
+2023-03-13,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-faf6-e6d85829c378,337388004,Blood glucose testing strips (physical object),50
+2023-03-13,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-faf6-e6d85829c378,1137596000,Blood lancet (physical object),100
+2023-10-02,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-47ee-6ee25cad4904,337388004,Blood glucose testing strips (physical object),50
+2023-10-02,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-47ee-6ee25cad4904,8537005,Solution (substance),100
+2024-04-08,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-5dec-bfb099569114,337388004,Blood glucose testing strips (physical object),50
+2024-10-21,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-dd10-6da449fc98c2,277183007,Dental equipment (physical object),1
+2024-10-21,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-dd10-6da449fc98c2,1230220004,Conventional release periodontal gel (dose form),1
+2024-10-21,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-dd10-6da449fc98c2,469020004,Dental floss (physical object),1
+2025-10-27,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-cc6b-48255dbe88e3,277183007,Dental equipment (physical object),1
+2025-10-27,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-cc6b-48255dbe88e3,1230220004,Conventional release periodontal gel (dose form),1
+2025-10-27,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-cc6b-48255dbe88e3,469020004,Dental floss (physical object),1
+2026-01-19,f892d50b-5f9e-5b52-2c21-2cb149a6b864,f892d50b-5f9e-5b52-0245-bea29fb012cb,337388004,Blood glucose testing strips (physical object),50
+2017-02-09,0d7e62a2-a5c3-b32b-17f3-8bece49e8a8b,0d7e62a2-a5c3-b32b-cc0d-95026b07acdd,277183007,Dental equipment (physical object),1
+2017-02-09,0d7e62a2-a5c3-b32b-17f3-8bece49e8a8b,0d7e62a2-a5c3-b32b-cc0d-95026b07acdd,1230220004,Conventional release periodontal gel (dose form),1
+2017-02-09,0d7e62a2-a5c3-b32b-17f3-8bece49e8a8b,0d7e62a2-a5c3-b32b-cc0d-95026b07acdd,469020004,Dental floss (physical object),1
+2017-03-18,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-4530-5e9c251f9383,277183007,Dental equipment (physical object),1
+2017-03-18,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-4530-5e9c251f9383,1230220004,Conventional release periodontal gel (dose form),1
+2017-03-18,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-4530-5e9c251f9383,469020004,Dental floss (physical object),1
+2018-03-24,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-103b-82a182819d91,277183007,Dental equipment (physical object),1
+2018-03-24,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-103b-82a182819d91,1230220004,Conventional release periodontal gel (dose form),1
+2018-03-24,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-103b-82a182819d91,469020004,Dental floss (physical object),1
+2020-04-04,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-5300-ff9eb37f8c11,277183007,Dental equipment (physical object),1
+2020-04-04,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-5300-ff9eb37f8c11,1230220004,Conventional release periodontal gel (dose form),1
+2020-04-04,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-5300-ff9eb37f8c11,469020004,Dental floss (physical object),1
+2023-04-22,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-74eb-f4b63a9c133b,277183007,Dental equipment (physical object),1
+2023-04-22,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-74eb-f4b63a9c133b,1230220004,Conventional release periodontal gel (dose form),1
+2023-04-22,50b87b44-cfd3-cf33-ba64-b679446cc526,50b87b44-cfd3-cf33-74eb-f4b63a9c133b,469020004,Dental floss (physical object),1
+2014-05-03,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-a1fa-282cedb50814,337388004,Blood glucose testing strips (physical object),50
+2014-05-03,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-a1fa-282cedb50814,1137596000,Blood lancet (physical object),100
+2016-04-09,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-7e01-c601328fe5ba,337388004,Blood glucose testing strips (physical object),50
+2016-04-09,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-7e01-c601328fe5ba,1137596000,Blood lancet (physical object),100
+2016-05-07,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-9498-b8a81c7c5f32,706390002,Dental impression material (physical object),1
+2016-05-07,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-9498-b8a81c7c5f32,468277001,Dental impression tray material (physical object),1
+2017-04-15,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-ad05-af78f71dc4f9,337388004,Blood glucose testing strips (physical object),50
+2017-04-15,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-ad05-af78f71dc4f9,1137596000,Blood lancet (physical object),100
+2018-04-21,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-2781-07d6d2b3d609,337388004,Blood glucose testing strips (physical object),50
+2018-05-05,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-328f-e1d4e13ae0fe,277183007,Dental equipment (physical object),1
+2018-05-05,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-328f-e1d4e13ae0fe,1230220004,Conventional release periodontal gel (dose form),1
+2018-05-05,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-328f-e1d4e13ae0fe,469020004,Dental floss (physical object),1
+2019-04-27,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-fb25-45933de41e2b,337388004,Blood glucose testing strips (physical object),50
+2019-05-11,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-de18-0db2c2eca3f0,277183007,Dental equipment (physical object),1
+2019-05-11,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-de18-0db2c2eca3f0,1230220004,Conventional release periodontal gel (dose form),1
+2019-05-11,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-de18-0db2c2eca3f0,469020004,Dental floss (physical object),1
+2020-05-02,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-695f-5209c95eafab,337388004,Blood glucose testing strips (physical object),50
+2020-05-16,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-ca3f-67ba268d27a8,277183007,Dental equipment (physical object),1
+2020-05-16,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-ca3f-67ba268d27a8,1230220004,Conventional release periodontal gel (dose form),1
+2020-05-16,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-ca3f-67ba268d27a8,469020004,Dental floss (physical object),1
+2021-05-08,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-5938-6074e137899f,337388004,Blood glucose testing strips (physical object),50
+2021-05-08,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-5938-6074e137899f,1137596000,Blood lancet (physical object),100
+2022-05-28,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-e15c-20feb82b115e,277183007,Dental equipment (physical object),1
+2022-05-28,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-e15c-20feb82b115e,1230220004,Conventional release periodontal gel (dose form),1
+2022-05-28,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-e15c-20feb82b115e,469020004,Dental floss (physical object),1
+2023-05-20,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-123a-9847b6634c90,337388004,Blood glucose testing strips (physical object),50
+2023-05-20,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-123a-9847b6634c90,1137596000,Blood lancet (physical object),100
+2023-06-03,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-91f4-8947947691da,277183007,Dental equipment (physical object),1
+2023-06-03,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-91f4-8947947691da,1230220004,Conventional release periodontal gel (dose form),1
+2023-06-03,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-91f4-8947947691da,469020004,Dental floss (physical object),1
+2024-05-25,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-1eb1-36e53ac4bb63,337388004,Blood glucose testing strips (physical object),50
+2025-05-31,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-7950-ec1f933a8a05,337388004,Blood glucose testing strips (physical object),50
+2025-06-07,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-8330-26c4c1608caa,706390002,Dental impression material (physical object),1
+2025-06-07,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-8330-26c4c1608caa,468277001,Dental impression tray material (physical object),1
+2025-06-21,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-5ba3-826273a10127,277183007,Dental equipment (physical object),1
+2025-06-21,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-5ba3-826273a10127,1230220004,Conventional release periodontal gel (dose form),1
+2025-06-21,013afc98-7c6b-8358-874c-d545481763a0,013afc98-7c6b-8358-5ba3-826273a10127,469020004,Dental floss (physical object),1
+1993-01-04,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-196b-c70eed625159,337388004,Blood glucose testing strips (physical object),50
+1993-01-04,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-196b-c70eed625159,1137596000,Blood lancet (physical object),100
+2002-08-19,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-857e-f66535d290a2,337388004,Blood glucose testing strips (physical object),50
+2014-06-23,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-a151-2766a91e1532,337388004,Blood glucose testing strips (physical object),50
+2014-06-23,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-a151-2766a91e1532,1137596000,Blood lancet (physical object),100
+2014-11-24,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-6a2d-faf351cb2d7b,337388004,Blood glucose testing strips (physical object),50
+2014-11-24,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-6a2d-faf351cb2d7b,337388004,Blood glucose testing strips (physical object),50
+2017-12-11,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c85a-0373ec391628,337388004,Blood glucose testing strips (physical object),50
+2017-12-11,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c85a-0373ec391628,1137596000,Blood lancet (physical object),100
+2017-12-25,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-9264-1affa7f2e902,277183007,Dental equipment (physical object),1
+2017-12-25,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-9264-1affa7f2e902,1230220004,Conventional release periodontal gel (dose form),1
+2017-12-25,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-9264-1affa7f2e902,469020004,Dental floss (physical object),1
+2018-12-17,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-49b7-acc10c9fcb39,337388004,Blood glucose testing strips (physical object),50
+2018-12-31,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b3af-6f50ead4d643,277183007,Dental equipment (physical object),1
+2018-12-31,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b3af-6f50ead4d643,1230220004,Conventional release periodontal gel (dose form),1
+2018-12-31,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b3af-6f50ead4d643,469020004,Dental floss (physical object),1
+2020-01-06,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-4395-bfa7a3b6d27c,277183007,Dental equipment (physical object),1
+2020-01-06,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-4395-bfa7a3b6d27c,1230220004,Conventional release periodontal gel (dose form),1
+2020-01-06,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-4395-bfa7a3b6d27c,469020004,Dental floss (physical object),1
+2020-12-28,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b473-aeaa91963fca,337388004,Blood glucose testing strips (physical object),50
+2020-12-28,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b473-aeaa91963fca,1137596000,Blood lancet (physical object),100
+2021-01-11,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c63c-b455645a8fd7,277183007,Dental equipment (physical object),1
+2021-01-11,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c63c-b455645a8fd7,1230220004,Conventional release periodontal gel (dose form),1
+2021-01-11,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c63c-b455645a8fd7,469020004,Dental floss (physical object),1
+2022-01-03,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-ffa8-921af1152fae,337388004,Blood glucose testing strips (physical object),50
+2022-01-17,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-ecda-eda80f72650e,277183007,Dental equipment (physical object),1
+2022-01-17,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-ecda-eda80f72650e,1230220004,Conventional release periodontal gel (dose form),1
+2022-01-17,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-ecda-eda80f72650e,469020004,Dental floss (physical object),1
+2023-01-09,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-c018-dc5b39bb8c51,337388004,Blood glucose testing strips (physical object),50
+2023-01-23,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-153e-e7c2363b0aa1,277183007,Dental equipment (physical object),1
+2023-01-23,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-153e-e7c2363b0aa1,1230220004,Conventional release periodontal gel (dose form),1
+2023-01-23,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-153e-e7c2363b0aa1,469020004,Dental floss (physical object),1
+2024-01-15,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-503e-1b254ee80336,337388004,Blood glucose testing strips (physical object),50
+2024-01-29,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-5d9f-f11974ce4237,277183007,Dental equipment (physical object),1
+2024-01-29,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-5d9f-f11974ce4237,1230220004,Conventional release periodontal gel (dose form),1
+2024-01-29,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-5d9f-f11974ce4237,469020004,Dental floss (physical object),1
+2025-01-20,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-7632-7af62c612583,337388004,Blood glucose testing strips (physical object),50
+2025-01-20,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-7632-7af62c612583,1137596000,Blood lancet (physical object),100
+2025-02-03,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b842-7982fe4ced2f,277183007,Dental equipment (physical object),1
+2025-02-03,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b842-7982fe4ced2f,1230220004,Conventional release periodontal gel (dose form),1
+2025-02-03,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-b842-7982fe4ced2f,469020004,Dental floss (physical object),1
+2026-01-26,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-d2fa-2eba8440126c,337388004,Blood glucose testing strips (physical object),50
+2026-01-26,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-d2fa-2eba8440126c,1137596000,Blood lancet (physical object),100
+2026-02-09,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-fbb8-d5fefec119c1,277183007,Dental equipment (physical object),1
+2026-02-09,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-fbb8-d5fefec119c1,1230220004,Conventional release periodontal gel (dose form),1
+2026-02-09,4dd1f92f-7bdf-dd21-19c4-417112b0617e,4dd1f92f-7bdf-dd21-fbb8-d5fefec119c1,469020004,Dental floss (physical object),1
+1990-06-30,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-cd11-88c2ee7ddab2,337388004,Blood glucose testing strips (physical object),50
+1993-07-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-b110-599b12618460,337388004,Blood glucose testing strips (physical object),50
+1993-07-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-b110-599b12618460,337388004,Blood glucose testing strips (physical object),50
+1994-07-09,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-457c-2c0614ff8feb,1137596000,Blood lancet (physical object),100
+2003-08-30,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-ff39-51ded9fa8a55,337388004,Blood glucose testing strips (physical object),50
+2014-11-22,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-4218-12a2def2a6f8,706390002,Dental impression material (physical object),1
+2014-11-22,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-4218-12a2def2a6f8,468277001,Dental impression tray material (physical object),1
+2015-11-07,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-6b74-562cd8a987bd,337388004,Blood glucose testing strips (physical object),50
+2016-11-12,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-639f-7affc47b9d58,1137596000,Blood lancet (physical object),100
+2017-11-18,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-abd8-4aba1cfdee1e,337388004,Blood glucose testing strips (physical object),50
+2017-12-02,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-550b-5b6fabe8e769,277183007,Dental equipment (physical object),1
+2017-12-02,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-550b-5b6fabe8e769,1230220004,Conventional release periodontal gel (dose form),1
+2017-12-02,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-550b-5b6fabe8e769,469020004,Dental floss (physical object),1
+2018-02-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-fdc7-d3ff4a28dbc5,1137596000,Blood lancet (physical object),100
+2018-02-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-fdc7-d3ff4a28dbc5,8537005,Solution (substance),100
+2018-03-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3c2f-90fefa4444b5,277183007,Dental equipment (physical object),1
+2018-03-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3c2f-90fefa4444b5,1230220004,Conventional release periodontal gel (dose form),1
+2018-03-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3c2f-90fefa4444b5,469020004,Dental floss (physical object),1
+2018-11-24,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-5a07-dc41bae4ebf4,337388004,Blood glucose testing strips (physical object),50
+2018-11-24,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-5a07-dc41bae4ebf4,1137596000,Blood lancet (physical object),100
+2018-12-08,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-b7ed-06e1503cfd78,277183007,Dental equipment (physical object),1
+2018-12-08,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-b7ed-06e1503cfd78,1230220004,Conventional release periodontal gel (dose form),1
+2018-12-08,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-b7ed-06e1503cfd78,469020004,Dental floss (physical object),1
+2019-11-30,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-f112-6cf82c7c7620,337388004,Blood glucose testing strips (physical object),50
+2019-12-14,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-403a-0ac4cc5f103f,277183007,Dental equipment (physical object),1
+2019-12-14,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-403a-0ac4cc5f103f,1230220004,Conventional release periodontal gel (dose form),1
+2019-12-14,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-403a-0ac4cc5f103f,469020004,Dental floss (physical object),1
+2020-12-05,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-6468-84d55c876f59,337388004,Blood glucose testing strips (physical object),50
+2021-12-11,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-1a62-18c3d65a6cb4,1137596000,Blood lancet (physical object),100
+2021-12-25,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-8169-74c25963c762,277183007,Dental equipment (physical object),1
+2021-12-25,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-8169-74c25963c762,1230220004,Conventional release periodontal gel (dose form),1
+2021-12-25,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-8169-74c25963c762,469020004,Dental floss (physical object),1
+2022-12-09,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-ce89-d7cfe16abcca,706390002,Dental impression material (physical object),1
+2022-12-09,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-ce89-d7cfe16abcca,468277001,Dental impression tray material (physical object),1
+2022-12-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-03cc-08b132c4fcfa,337388004,Blood glucose testing strips (physical object),50
+2023-12-23,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-0ee9-b5323dd076c6,337388004,Blood glucose testing strips (physical object),50
+2024-01-06,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-7d55-fd15fa948e34,277183007,Dental equipment (physical object),1
+2024-01-06,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-7d55-fd15fa948e34,1230220004,Conventional release periodontal gel (dose form),1
+2024-01-06,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-7d55-fd15fa948e34,469020004,Dental floss (physical object),1
+2024-12-28,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-6658-f8d8453df046,1137596000,Blood lancet (physical object),100
+2026-01-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-ebdb-e6ac6723f20f,337388004,Blood glucose testing strips (physical object),50
+2026-01-03,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-ebdb-e6ac6723f20f,8537005,Solution (substance),100
+2026-01-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3e54-2240e7d64039,277183007,Dental equipment (physical object),1
+2026-01-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3e54-2240e7d64039,1230220004,Conventional release periodontal gel (dose form),1
+2026-01-17,f9e34316-529c-9633-050b-c2bf861deb44,f9e34316-529c-9633-3e54-2240e7d64039,469020004,Dental floss (physical object),1
+1977-09-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-fed6-ee92cb776841,337388004,Blood glucose testing strips (physical object),50
+1981-09-14,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-3c0d-8f29732a70c7,337388004,Blood glucose testing strips (physical object),50
+2003-07-28,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-f237-e681ff7fc489,337388004,Blood glucose testing strips (physical object),50
+2014-08-11,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-c22e-e70b5bba4a52,337388004,Blood glucose testing strips (physical object),50
+2015-08-17,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-e73d-7c1315b846a2,337388004,Blood glucose testing strips (physical object),50
+2016-09-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-30cb-6d1c15fc45c6,277183007,Dental equipment (physical object),1
+2016-09-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-30cb-6d1c15fc45c6,1230220004,Conventional release periodontal gel (dose form),1
+2016-09-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-30cb-6d1c15fc45c6,469020004,Dental floss (physical object),1
+2017-08-28,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-4a11-e9df1a885748,1137596000,Blood lancet (physical object),100
+2018-02-19,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-1396-d3ef3bf29e8e,337388004,Blood glucose testing strips (physical object),50
+2018-03-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-cfe6-2def88a0e285,277183007,Dental equipment (physical object),1
+2018-03-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-cfe6-2def88a0e285,1230220004,Conventional release periodontal gel (dose form),1
+2018-03-05,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-cfe6-2def88a0e285,469020004,Dental floss (physical object),1
+2018-09-03,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-2122-62cc06652bb1,337388004,Blood glucose testing strips (physical object),50
+2018-09-17,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-f6d0-852c4b01594b,277183007,Dental equipment (physical object),1
+2018-09-17,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-f6d0-852c4b01594b,1230220004,Conventional release periodontal gel (dose form),1
+2018-09-17,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-f6d0-852c4b01594b,469020004,Dental floss (physical object),1
+2018-10-22,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-2b1a-dc662118c0ec,337388004,Blood glucose testing strips (physical object),50
+2019-09-09,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-d4e6-8adadf96daf4,1137596000,Blood lancet (physical object),100
+2019-09-23,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7ed7-5a06618dbfbd,277183007,Dental equipment (physical object),1
+2019-09-23,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7ed7-5a06618dbfbd,1230220004,Conventional release periodontal gel (dose form),1
+2019-09-23,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7ed7-5a06618dbfbd,469020004,Dental floss (physical object),1
+2020-09-14,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-c49d-63888cfa694b,337388004,Blood glucose testing strips (physical object),50
+2020-09-14,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-c49d-63888cfa694b,1137596000,Blood lancet (physical object),100
+2020-09-28,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-4d12-2247e1a4d740,277183007,Dental equipment (physical object),1
+2020-09-28,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-4d12-2247e1a4d740,1230220004,Conventional release periodontal gel (dose form),1
+2020-09-28,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-4d12-2247e1a4d740,469020004,Dental floss (physical object),1
+2021-10-04,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-e76e-4ff27f70810b,277183007,Dental equipment (physical object),1
+2021-10-04,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-e76e-4ff27f70810b,1230220004,Conventional release periodontal gel (dose form),1
+2021-10-04,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-e76e-4ff27f70810b,469020004,Dental floss (physical object),1
+2022-10-10,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-dc5b-09017a9460b3,277183007,Dental equipment (physical object),1
+2022-10-10,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-dc5b-09017a9460b3,1230220004,Conventional release periodontal gel (dose form),1
+2022-10-10,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-dc5b-09017a9460b3,469020004,Dental floss (physical object),1
+2023-10-02,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-338f-6fefca39370c,337388004,Blood glucose testing strips (physical object),50
+2023-10-16,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7513-2124150381ea,277183007,Dental equipment (physical object),1
+2023-10-16,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7513-2124150381ea,1230220004,Conventional release periodontal gel (dose form),1
+2023-10-16,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-7513-2124150381ea,469020004,Dental floss (physical object),1
+2024-10-07,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-fc46-d2e7f2f1d84d,337388004,Blood glucose testing strips (physical object),50
+2025-10-13,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-6d8e-1bf727b572bd,337388004,Blood glucose testing strips (physical object),50
+2025-10-13,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-6d8e-1bf727b572bd,1137596000,Blood lancet (physical object),100
+2025-10-27,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-3e33-312268965204,277183007,Dental equipment (physical object),1
+2025-10-27,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-3e33-312268965204,1230220004,Conventional release periodontal gel (dose form),1
+2025-10-27,51b0a09f-4e03-227e-c853-38dca613233e,51b0a09f-4e03-227e-3e33-312268965204,469020004,Dental floss (physical object),1
+1980-02-05,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1db0-311bc9085f12,337388004,Blood glucose testing strips (physical object),50
+1980-02-05,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1db0-311bc9085f12,1137596000,Blood lancet (physical object),100
+1985-03-26,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-6add-a73d475c3c48,706390002,Dental impression material (physical object),1
+1985-03-26,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-6add-a73d475c3c48,468277001,Dental impression tray material (physical object),1
+1988-03-22,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-3788-f520d0d05659,337388004,Blood glucose testing strips (physical object),50
+2009-04-14,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-2449-52122869bd7f,119219003,Kidney part (body structure),1
+2016-06-14,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-3498-aed96c53cd63,706390002,Dental impression material (physical object),1
+2016-06-14,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-3498-aed96c53cd63,468277001,Dental impression tray material (physical object),1
+2016-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e6a4-3e9af9d8dc66,277183007,Dental equipment (physical object),1
+2016-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e6a4-3e9af9d8dc66,1230220004,Conventional release periodontal gel (dose form),1
+2016-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e6a4-3e9af9d8dc66,469020004,Dental floss (physical object),1
+2017-02-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-6a1e-0f1be3fe57e5,277183007,Dental equipment (physical object),1
+2017-02-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-6a1e-0f1be3fe57e5,1230220004,Conventional release periodontal gel (dose form),1
+2017-02-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-6a1e-0f1be3fe57e5,469020004,Dental floss (physical object),1
+2017-05-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-4c75-5235b3ff7ed9,277183007,Dental equipment (physical object),1
+2017-05-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-4c75-5235b3ff7ed9,1230220004,Conventional release periodontal gel (dose form),1
+2017-05-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-4c75-5235b3ff7ed9,469020004,Dental floss (physical object),1
+2018-10-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-da99-384b0da1b64f,277183007,Dental equipment (physical object),1
+2018-10-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-da99-384b0da1b64f,1230220004,Conventional release periodontal gel (dose form),1
+2018-10-23,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-da99-384b0da1b64f,469020004,Dental floss (physical object),1
+2019-10-15,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e476-5af0894996a2,277183007,Dental equipment (physical object),1
+2019-10-15,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e476-5af0894996a2,1230220004,Conventional release periodontal gel (dose form),1
+2019-10-15,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-e476-5af0894996a2,469020004,Dental floss (physical object),1
+2016-11-05,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-7564-0a431273d805,277183007,Dental equipment (physical object),1
+2016-11-05,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-7564-0a431273d805,1230220004,Conventional release periodontal gel (dose form),1
+2016-11-05,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-7564-0a431273d805,469020004,Dental floss (physical object),1
+2017-11-11,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-659d-d08849578aad,277183007,Dental equipment (physical object),1
+2017-11-11,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-659d-d08849578aad,1230220004,Conventional release periodontal gel (dose form),1
+2017-11-11,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-659d-d08849578aad,469020004,Dental floss (physical object),1
+2018-11-17,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-4677-195c4f9156a1,277183007,Dental equipment (physical object),1
+2018-11-17,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-4677-195c4f9156a1,1230220004,Conventional release periodontal gel (dose form),1
+2018-11-17,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-4677-195c4f9156a1,469020004,Dental floss (physical object),1
+2021-10-26,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-08b4-adaa3ce6c6b7,277183007,Dental equipment (physical object),1
+2021-10-26,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-08b4-adaa3ce6c6b7,1230220004,Conventional release periodontal gel (dose form),1
+2021-10-26,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-08b4-adaa3ce6c6b7,469020004,Dental floss (physical object),1
+2021-12-04,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-240b-d1006262abb7,277183007,Dental equipment (physical object),1
+2021-12-04,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-240b-d1006262abb7,1230220004,Conventional release periodontal gel (dose form),1
+2021-12-04,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-240b-d1006262abb7,469020004,Dental floss (physical object),1
+2023-12-16,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-f2ee-3d7fd7727a61,277183007,Dental equipment (physical object),1
+2023-12-16,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-f2ee-3d7fd7727a61,1230220004,Conventional release periodontal gel (dose form),1
+2023-12-16,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-f2ee-3d7fd7727a61,469020004,Dental floss (physical object),1
+2022-02-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-76a2-74936316a99a,277183007,Dental equipment (physical object),1
+2022-02-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-76a2-74936316a99a,1230220004,Conventional release periodontal gel (dose form),1
+2022-02-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-76a2-74936316a99a,469020004,Dental floss (physical object),1
+2024-12-21,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-ad12-49d2d6b2b546,277183007,Dental equipment (physical object),1
+2024-12-21,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-ad12-49d2d6b2b546,1230220004,Conventional release periodontal gel (dose form),1
+2024-12-21,904be77f-ec9c-6b07-a29f-abe09a54c384,904be77f-ec9c-6b07-ad12-49d2d6b2b546,469020004,Dental floss (physical object),1
+2022-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-9909-fa720ff5bf93,277183007,Dental equipment (physical object),1
+2022-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-9909-fa720ff5bf93,1230220004,Conventional release periodontal gel (dose form),1
+2022-11-01,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-9909-fa720ff5bf93,469020004,Dental floss (physical object),1
+2023-11-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1f45-5eaa63e57c11,277183007,Dental equipment (physical object),1
+2023-11-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1f45-5eaa63e57c11,1230220004,Conventional release periodontal gel (dose form),1
+2023-11-28,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1f45-5eaa63e57c11,469020004,Dental floss (physical object),1
+2024-07-03,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-f85d-c3121c2cfaae,706390002,Dental impression material (physical object),1
+2024-07-03,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-f85d-c3121c2cfaae,468277001,Dental impression tray material (physical object),1
+2024-11-12,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-983f-c09b8e0ece68,277183007,Dental equipment (physical object),1
+2024-11-12,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-983f-c09b8e0ece68,1230220004,Conventional release periodontal gel (dose form),1
+2024-11-12,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-983f-c09b8e0ece68,469020004,Dental floss (physical object),1
+2025-11-18,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1c09-c0a6f465ea77,277183007,Dental equipment (physical object),1
+2025-11-18,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1c09-c0a6f465ea77,1230220004,Conventional release periodontal gel (dose form),1
+2025-11-18,f0fcaa8b-4d71-5f87-f52c-5c4c41cdcd51,f0fcaa8b-4d71-5f87-1c09-c0a6f465ea77,469020004,Dental floss (physical object),1
+1991-06-22,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-e8fc-fe72947eda7a,337388004,Blood glucose testing strips (physical object),50
+2013-10-26,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-8eb9-03e66e04d8f3,337388004,Blood glucose testing strips (physical object),50
+2016-11-26,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-c26b-037211624531,277183007,Dental equipment (physical object),1
+2016-11-26,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-c26b-037211624531,1230220004,Conventional release periodontal gel (dose form),1
+2016-11-26,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-c26b-037211624531,469020004,Dental floss (physical object),1
+2017-11-18,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-177b-1c820c65f394,337388004,Blood glucose testing strips (physical object),50
+2018-11-24,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-580b-c6bdb75e7f03,337388004,Blood glucose testing strips (physical object),50
+2019-11-30,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-e28b-bcef5a7e33bf,337388004,Blood glucose testing strips (physical object),50
+2019-12-14,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-54c7-996ec0cbc677,277183007,Dental equipment (physical object),1
+2019-12-14,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-54c7-996ec0cbc677,1230220004,Conventional release periodontal gel (dose form),1
+2019-12-14,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-54c7-996ec0cbc677,469020004,Dental floss (physical object),1
+2020-12-05,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-cf95-f2bbb60f7992,337388004,Blood glucose testing strips (physical object),50
+2020-12-05,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-cf95-f2bbb60f7992,1137596000,Blood lancet (physical object),100
+2020-12-19,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-72af-acc628246a9e,277183007,Dental equipment (physical object),1
+2020-12-19,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-72af-acc628246a9e,1230220004,Conventional release periodontal gel (dose form),1
+2020-12-19,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-72af-acc628246a9e,469020004,Dental floss (physical object),1
+2021-12-11,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-b166-dd4207b89231,337388004,Blood glucose testing strips (physical object),50
+2021-12-25,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-26b8-86ffbc549780,277183007,Dental equipment (physical object),1
+2021-12-25,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-26b8-86ffbc549780,1230220004,Conventional release periodontal gel (dose form),1
+2021-12-25,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-26b8-86ffbc549780,469020004,Dental floss (physical object),1
+2022-12-31,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-f2bd-6e94f6366784,277183007,Dental equipment (physical object),1
+2022-12-31,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-f2bd-6e94f6366784,1230220004,Conventional release periodontal gel (dose form),1
+2022-12-31,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-f2bd-6e94f6366784,469020004,Dental floss (physical object),1
+2023-01-07,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-713d-aef41de7f150,706390002,Dental impression material (physical object),1
+2023-01-07,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-713d-aef41de7f150,468277001,Dental impression tray material (physical object),1
+2024-01-06,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-ddd2-98f797d396c7,277183007,Dental equipment (physical object),1
+2024-01-06,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-ddd2-98f797d396c7,1230220004,Conventional release periodontal gel (dose form),1
+2024-01-06,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-ddd2-98f797d396c7,469020004,Dental floss (physical object),1
+2024-12-28,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-f11a-193446e6ac25,337388004,Blood glucose testing strips (physical object),50
+2026-01-03,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-41a6-9d536aa36cbd,337388004,Blood glucose testing strips (physical object),50
+2026-01-17,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-001f-8dd3607a2a06,277183007,Dental equipment (physical object),1
+2026-01-17,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-001f-8dd3607a2a06,1230220004,Conventional release periodontal gel (dose form),1
+2026-01-17,172249db-50ac-d11d-1b0a-63a4ae6991b8,172249db-50ac-d11d-001f-8dd3607a2a06,469020004,Dental floss (physical object),1

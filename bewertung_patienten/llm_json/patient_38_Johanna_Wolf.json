@@ -1,0 +1,267 @@
+{
+    "resourceType": "Bundle",
+    "id": "b5cbe4bb-27ee-4515-82f0-e1434f20581a",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214",
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "76caf881-11c2-43cd-95c1-d1acd02f7214",
+                "identifier": [
+                    {
+                        "id": "1afc2a44-56aa-4b6d-b956-ce31edee8f43",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "d3153eb0-5e07-11ef-8f7c-0242ac120002"
+                                }
+                            ],
+                            "text": "Patient Identifier"
+                        },
+                        "value": "ABC241317"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Wolf",
+                        "given": [
+                            "Johanna"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1958-02-01",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Bahnhofstraße 140"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "30845",
+                        "country": "DE"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7f8473a0-32a7-4614-ae7f-8c3447f3353c",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "7f8473a0-32a7-4614-ae7f-8c3447f3353c",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "IMP"
+                },
+                "subject": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/6448ba83-a180-4909-8667-0360be7bd304"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-04-29T15:14:23.045124Z",
+                    "end": "2026-05-05T15:14:23.045124Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:58bf5238-095b-4cc3-b6a4-2e9003074253",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "58bf5238-095b-4cc3-b6a4-2e9003074253",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "IMP"
+                },
+                "subject": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/319092ca-3689-4aab-98f3-b1792422c6bb"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-05-06T15:14:23.045124Z",
+                    "end": "2026-05-21T15:14:23.045124Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:49a3d297-5469-4e11-8a81-8246fd3ea29b",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "49a3d297-5469-4e11-8a81-8246fd3ea29b",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "230690007",
+                            "display": "Cerebrovascular accident"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:7f8473a0-32a7-4614-ae7f-8c3447f3353c"
+                },
+                "onsetDateTime": "2026-04-29T15:14:23.045124Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bac94b3b-fd10-4648-b6ab-fda7df881a3a",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "bac94b3b-fd10-4648-b6ab-fda7df881a3a",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1191",
+                            "display": "Aspirin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:7f8473a0-32a7-4614-ae7f-8c3447f3353c"
+                },
+                "requester": {
+                    "reference": "Practitioner/6448ba83-a180-4909-8667-0360be7bd304"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-04-29T15:14:23.045124Z",
+                                    "end": "2027-05-21T15:14:23.045124Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4ae5a7ca-612c-4c29-9eb0-5513e61c5857",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "4ae5a7ca-612c-4c29-9eb0-5513e61c5857",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85354-9",
+                            "display": "Blood pressure panel with all children optional"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:7f8473a0-32a7-4614-ae7f-8c3447f3353c"
+                },
+                "effectiveDateTime": "2026-04-29T15:14:23.045124Z",
+                "valueQuantity": {
+                    "value": 115,
+                    "unit": "mmHg"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d9fb8f38-f8b0-4201-a835-4d0552e46556",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "d9fb8f38-f8b0-4201-a835-4d0552e46556",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "environment"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "300916003",
+                            "display": "Latex allergy"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:76caf881-11c2-43cd-95c1-d1acd02f7214"
+                }
+            }
+        }
+    ]
+}

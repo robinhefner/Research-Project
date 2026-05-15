@@ -1,0 +1,156 @@
+{
+  "resourceType": "Bundle",
+  "id": "DGTUYBVAFNJZBSVY",
+  "type": "searchset",
+  "total": 3,
+  "entry": [
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Patient/PID-18ec9393f9b1507b4aa7c00da464c53a5c9459b725e090c147ed296f",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "PID-18ec9393f9b1507b4aa7c00da464c53a5c9459b725e090c147ed296f",
+        "meta": {
+          "versionId": "167698837",
+          "lastUpdated": "2025-03-17T04:20:33.289Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|2025.0.1"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+                  "code": "PSEUDED"
+                }
+              ]
+            },
+            "system": "https://www.medizininformatik-initiative.de/fhir/sid/pseudonym",
+            "value": "18ec9393f9b1507b4aa7c00da464c53a5c9459b725e090c147ed296f"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2011-07",
+        "deceasedBoolean": true
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Encounter/PV-26417a963a04387b8c1f6e7b3b9aecf65a4c6b9098ae249f5bd75958",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "PV-26417a963a04387b8c1f6e7b3b9aecf65a4c6b9098ae249f5bd75958",
+        "meta": {
+          "versionId": "167698822",
+          "lastUpdated": "2025-03-17T04:20:33.194Z",
+          "source": "http://medic.uksh.de/source/orbis/legacy",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung|2025.0.0"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://medic.uksh.de/fhir/Encounter",
+            "value": "26417a963a04387b8c1f6e7b3b9aecf65a4c6b9098ae249f5bd75958"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PID-18ec9393f9b1507b4aa7c00da464c53a5c9459b725e090c147ed296f"
+        },
+        "period": {
+          "start": "2017-10-06T11:45:00+02:00",
+          "end": "2017-12-31T23:59:59+01:00"
+        },
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
+                "code": "E"
+              }
+            ]
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Observation/VIT-5559aa6bbbfff900d8596c135e0c8cc6ed566c9ca7bc5e3c512260bb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "VIT-5559aa6bbbfff900d8596c135e0c8cc6ed566c9ca7bc5e3c512260bb",
+        "meta": {
+          "versionId": "167698826",
+          "lastUpdated": "2025-03-17T04:20:33.216Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus|2025.0.1"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-18ec9393f9b1507b4aa7c00da464c53a5c9459b725e090c147ed296f"
+        },
+        "effectiveDateTime": "2017-10-06T11:45:00+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+Id,NAME,ADDRESS,CITY,STATE,ZIP,LAT,LON,PHONE,REVENUE,UTILIZATION
+4fc25aa1-048f-370d-b0ae-4ac0309c4ae5,STERLING HOME HEALTH CARE & HOSPICE INC,1650 SIERRA AVE,YUBA CITY,CA,959938986,39.14030116968182,-121.65012714263797,5307773395,0.0,76
+660b2939-d8d9-3a9c-9534-3a55eb9049ac,Kinderkrankenhaus Sankt Marien,Grillparzerstraße 9,Landshut,Bayern,84028,48.5344648,12.164104,+49 871 8520,0.0,8
+bd920e76-5a0e-3428-a290-41b078f58c41,Praxisteam Pilgerzell,,Künzell,Hessen,36093,50.5274606,9.7318148,,0.0,21
+8b81f0f2-0b7f-39cc-b94f-7e07bf04fe49,Lukas-Krankenhaus,Hindenburgstraße 56,Bünde,Nordrhein-Westfalen,32257,52.1975705,8.5935559,,0.0,4
+1c77335c-6267-36f8-ad59-d16ec45856e2,VSL ST PAUL LLC,1405 HERITAGE DR,SAINT PAUL,NE,688733618,45.6769453,5.7847432,3087545486,0.0,3
+bd05b409-6fd4-3521-bdd0-3b3df035ac0d,Prof. Dr. Gral,Hangbaumstraße 5a,Bünde,Nordrhein-Westfalen,32257,52.1967538,8.5840144,,0.0,61
+7f4ea3e8-0f93-387e-bef3-85f21126ed91,Reha-Fachklinik Haus Renchtal,Renchtalstraße 14,Renchen,Baden-Württemberg,77871,48.5820166,8.0175517,+49 7843 949113,0.0,2
+5205de88-8ed2-35a1-a8a3-4e237617b03c,Dr.Ballarin,Gartenstraße 7,Ispringen,Baden-Württemberg,75228,48.915979,8.6708541,,0.0,55
+601b7fc9-3dd2-3284-a701-7ab3e0a5208b,Krankenhaus Maria Stern,Am Anger 1,Remagen,Rheinland-Pfalz,53424,50.5736112,7.2335732,,0.0,14
+9d5cd9b1-fb16-3eee-a8d7-24e31253ecd8,Hausarztpraxis Schulstraße,Schulstraße 10,Scheeßel,Niedersachsen,27383,53.1715173,9.4800655,,0.0,8
+142915f1-6ec3-3c06-af8a-a47c5ed89437,Geburtensaal und OP-Säle,,Chemnitz,Sachsen,09116,50.8438911,12.8830589,,0.0,21
+2aeaa99b-4bb0-3b9d-9b24-df0acad83628,Allgemeinarzt Petersenn,Gutenbergstraße 7,Asbach-Bäumenheim,Bayern,86663,48.6842603,10.8164043,,0.0,33
+c7fc9fe4-2d02-35db-ab1b-18f30a154d3a,KINDER RETIREMENT AND REHABILITATION CENTER  LLC,13938 HWY 165,KINDER,LA,706480001,51.1449692,5.7414008,3377385671,0.0,39
+a9db35b2-1b70-3069-8b82-f56ea205fe17,Rheinische Landesklinik,,Mönchengladbach,Nordrhein-Westfalen,41239,51.1700078,6.4365605,,0.0,37
+99da9dfb-9600-3554-ad6f-38381995675d,Oberhavel Kliniken,,Gransee,Brandenburg,16775,52.9989642,13.1438581,,0.0,23
+81fd7b28-bafb-3388-9d52-70f24b4804ab,Dr. Medic. Mirsada Pozder,Am Marktplatz 12,Schauenstein,Bayern,95197,50.2785609,11.7412636,,0.0,21
+0ce61de2-aa21-3cf7-a349-b8fc7fe563d5,Klinikum Bielefeld Rosenhöhe,An der Rosenhöhe 27,,Nordrhein-Westfalen,,51.9823113,8.530265,+49-521-943-50,0.0,144
+ec4b60e3-89e7-3ea9-bcaa-63fa8a48f058,Hämmerle Allgemeinarzt,Wasserfeldstraße 5,Ruhstorf an der Rott,Bayern,94099,48.4391403,13.3337927,,0.0,67
+43c407f3-5960-3a5d-9f0c-b92dc466b0da,Klinikum Westfalen (ehem. Kanppschaftskrankenhaus),Am Knappschaftskrankenhaus 1,Dortmund,Nordrhein-Westfalen,44309,51.5211617,7.5312629,,0.0,3
+9dc0d11f-6406-3a39-907d-c54baec93dc9,Lichthof 8,Pauwelsstraße 30,Aachen,Nordrhein-Westfalen,52074,50.7766697,6.0417862,,0.0,2
+580f507e-8334-37ac-a2a6-77ee6a91c8d7,DIAKOVERE Friederikenstift Humboldtstraße,Humboldtstraße 5,Hannover,Niedersachsen,30169,52.3721461,9.7236825,,0.0,7
+fad5c5e1-e31c-33fe-a63b-31615c893a9b,Marienhospital,,Borken,Nordrhein-Westfalen,46325,51.8417595,6.8606781,,0.0,2
+9117560a-645a-37d8-b37d-db20aed6e963,Dreifaltigkeits Hospital,,Lippstadt,Nordrhein-Westfalen,59557,51.6739698,8.33892,,0.0,45
+a7fcf2bb-78ff-39ff-a2d7-940ae10c9c09,Kinderklinik,,Bottrop,Nordrhein-Westfalen,46236,51.5334509,6.9178071,,0.0,3
+771da779-15be-3fd1-bd29-951b1aefe0f4,Hausarztzentrum,Barbarastraße 72,Duisburg,Nordrhein-Westfalen,47167,51.4938117,6.7944621,,0.0,42
+e35667b8-7f47-38fd-96a7-5762d9b0a4cb,Werksärztlicher Dienst,,Hanau,Hessen,63457,50.1197526,8.9683512,,0.0,55
+41fb2214-d7ee-35cb-88ac-1036aeb660e0,KRH Psychiatrie Langenhagen - Haus im Park,Rohdehof 3,Langenhagen,Niedersachsen,30853,52.4446862,9.7434395,,0.0,146
+070af527-a092-31d1-815a-fe46bb6fd643,Hausarztzentrum,Barbarastraße 72,Duisburg,Nordrhein-Westfalen,47167,51.4938117,6.7944621,,0.0,184
+58fdb302-7f9c-3827-a744-27de1e42d80e,St. Josefs-Krankenhaus,,Salzkotten,Nordrhein-Westfalen,33154,51.6773369,8.6169733,,0.0,59
+f12eeef6-dc6c-336f-919a-1fef07e36241,Niels-Stensen-Kliniken Bramsche,Hasestraße 16,Bramsche,Niedersachsen,49565,52.4084371,7.9850166,,0.0,8
+d59575a3-dc26-351d-b822-18fc1f8220ce,Bezirkskrankenhaus Landshut,Prof.-Buchner-Straße 22,Landshut,Bayern,84034,48.5369034,12.1340016,,0.0,2
+6655b4be-a490-392b-8308-d0d3231196f5,Kreiskrankenhaus Gunzenhausen,Albert-Schweitzer-Straße 90,Gunzenhausen,Bayern,91710,49.1085631,10.7737436,+49 9831 520,0.0,4
+c92bfacd-a031-3ba1-b2c6-396f3bc62615,Dres.Joachim Huber und Ulrike Huber,Moltkestraße 36a,Offenburg,Baden-Württemberg,77652,48.4710813,7.9529696,+49 781 38588,0.0,52
+a8f9f3d6-fc21-34bc-9b06-81609a82abc3,Dominikus-Krankenhaus,Kurhausstraße 30,Berlin,Berlin,13467,52.6257136,13.2915177,+4930 4092 0,0.0,3
+9065ba44-45ab-372b-b5ab-fb2a49a47761,Achertalklinik für Psychiatrie und Psychotherapie,Markgraf-Bernhard-Straße 2,Ottenhöfen im Schwarzwald,Baden-Württemberg,77883,48.565932,8.1551233,,0.0,64
+28a0d95c-d111-3dff-80e6-ac6d4e6bcf35,Dr. Franz Erhard,,Sasbach,Baden-Württemberg,77880,48.639194,8.1145238,,0.0,1
+cf6cbd8a-9d96-32f0-96d5-cb7db2dc7f56,St. Johannes Krankenhaus,Schülgenstraße 15,Bad Honnef,Nordrhein-Westfalen,53604,50.6471849,7.2265958,,0.0,133
+e2efa910-243a-3aa1-8d96-86178f27999b,Rheinische Landesklinik,,Mönchengladbach,Nordrhein-Westfalen,41239,51.1700078,6.4365605,,0.0,38
+4c93e5cc-b1f6-3ec8-b9e4-ba439b36ce91,Rheinische Landesklinik,,Mönchengladbach,Nordrhein-Westfalen,41239,51.1700078,6.4365605,,0.0,1
+09f1af1f-2536-31f5-b208-8f2cf39a2df1,Kinderklinik,,Bottrop,Nordrhein-Westfalen,46236,51.5334509,6.9178071,,0.0,46
+850d0d0e-af4e-3bd6-add3-f62c0d6535a3,Klinikum Winterberg,Winterberg 1,Saarbrücken,Saarland,66119,49.219604,6.9918886,,0.0,42
+371b4a90-132e-346c-8abf-18b5f68354b2,Ortenauklinikum Achern,Josef-Wurzler-Straße 7,Achern,Baden-Württemberg,77855,48.6251262,8.064732,+49 7841 7000,0.0,19
+d757d27c-1ead-3096-a9b7-00fb584ad290,Städtisches Klinikum,,Karlsruhe,Baden-Württemberg,76187,49.0200291,8.3720819,,0.0,4
+85cba751-06eb-32aa-a935-74f0b8c96fdd,Dr. med. Tilman Kirchhoff,Dr.-Urnau-Straße 1,Lauchringen,Baden-Württemberg,79787,47.6326818,8.3005499,+49 7741 45 71,0.0,18
+eb0a2a32-1707-3907-9de7-9510515723be,Hegau-Bodensee-Klinikum,Virchowstraße 10,Singen (Hohentwiel),Baden-Württemberg,78224,47.7594537,8.8201309,+49 07731 89 0,0.0,116
+4d0b27e5-5e7f-37fa-bcd9-8755025de257,Pirkl-Kettenbohrer,Vilstalstraße 98,Kümmersbruck,Bayern,92245,49.418043,11.8802272,,0.0,39
+2e56a1a6-e2f7-37f9-82a7-2b3a0a82737f,CaritasKlinikum Saarbrücken St. Theresia,Rheinstraße 2,Saarbrücken,Saarland,66113,49.2484563,6.9576049,,0.0,4
+96c8a7c7-07eb-3903-b670-d2dac59cf634,Klinikum Bielefeld Rosenhöhe,An der Rosenhöhe 27,,Nordrhein-Westfalen,,51.9823113,8.530265,+49-521-943-50,0.0,14
+51aa649a-1f1f-3d4f-b539-a97c1257abec,Prof. Dr. Gral,Hangbaumstraße 5a,Bünde,Nordrhein-Westfalen,32257,52.1967538,8.5840144,,0.0,53
+6361a144-f3d2-31ee-b6da-edb0db656534,Hausarztpraxis Ulrike Balzer,Ringstraße 4,Rheinmünster,Baden-Württemberg,77836,48.7460761,8.0010713,,0.0,352
+9a1ebd8c-d939-386f-a77b-78f5be37d1ab,Allgemeiner Arzt,Rotsteg 3b,Grimma,Sachsen,04668,51.1870904,12.7548232,,0.0,2
+8fc944f1-306b-3083-b4b0-d1761b54e23f,Agaplesion Diakonieklinikum Rotenburg,Elise-Averdieck-Straße 17,Rotenburg (Wümme),Niedersachsen,27356,53.1057597,9.4115161,,0.0,48
+b45a1a43-d971-3b4b-bcac-20e2c206a9d6,Dr. Franz Erhard,,Sasbach,Baden-Württemberg,77880,48.639194,8.1145238,,0.0,63
+08bd5908-f667-3d9f-b21c-81292b57ad19,Sanitätszentrum,,Hammelburg,Bayern,97762,50.0854233,9.8996536,,0.0,302
+25be4257-8adb-3fd9-b39f-7376b0953f64,CITADEL CARE CENTER WILMETTE LLC,432 POPLAR DR,WILMETTE,PA,600912731,49.7116456,5.0467715,8472565000,0.0,6
+d9416418-61ba-32de-b435-38ca6331ab9c,BG Klinikum Bergmannstrost Halle,Merseburger Straße 165,Halle (Saale),Sachsen-Anhalt,06130,51.4611451,11.9839408,,0.0,1
+b0490700-00ee-3c68-9ef0-3a3427c4067a,Allgemeiner Arzt,Rotsteg 3b,Grimma,Sachsen,04668,51.1870904,12.7548232,,0.0,49
+dad79112-10a9-3777-9a3d-7494370900a5,Ärztehaus,Christianenstraße 1,Merseburg,Sachsen-Anhalt,06217,51.3621693,11.9965272,,0.0,18
+f5090f7a-7fdf-34dd-800c-aa3b8e1d96b2,Werksärztlicher Dienst,,Hanau,Hessen,63457,50.1197526,8.9683512,,0.0,7
+0a57d9e7-244a-3156-85fe-7457470e7a2b,MediaPark,Im Mediapark 3,Köln,Nordrhein-Westfalen,50667,50.9484307,6.9479813,,0.0,24
+9b340f51-a146-3d9f-9ab0-54d767cfa8fb,Klinikum Weißer Hirsch,Heinrich-Cotta-Straße 12,,Sachsen,,51.065106,13.8338691,,0.0,81
+1380dc0b-9eb6-3b3e-93e1-a0fbb84bac04,Sana Kinder- und Jugendpsychiatrie,Weststraße 103,Wuppertal,Nordrhein-Westfalen,42103,51.2503167,7.143924,,0.0,17
+149a0087-fba2-355a-8ee0-db4d22ec9bd3,Hausarztpraxis Schulstraße,Schulstraße 10,Scheeßel,Niedersachsen,27383,53.1715173,9.4800655,,0.0,228
+402b0879-2208-3358-a7a0-bab1f3f50cdd,St. Johannes Krankenhaus,Schülgenstraße 15,Bad Honnef,Nordrhein-Westfalen,53604,50.6471849,7.2265958,,0.0,62
+555e90af-b4e1-3c97-9fec-8387b12ae06d,Dr.Ballarin,Gartenstraße 7,Ispringen,Baden-Württemberg,75228,48.915979,8.6708541,,0.0,142
+6e7bc26a-6557-3970-9252-21ab2a174601,Geburtensaal und OP-Säle,,Chemnitz,Sachsen,09116,50.8438911,12.8830589,,0.0,26
+6be50993-dde4-3c47-85fa-57bf05a0fe6a,Internistische Hausarztpraxis Dr. med. (Universität Kragujevac) Ljilja Todorovic,Alte Friedrichstraße 60,Karlsruhe,Baden-Württemberg,76149,49.0492013,8.3786159,+49 721 90998800,0.0,25
+da526971-1dc2-3361-82c6-f14ec6d40d1e,Paracelsus-Elena-Klinik,Klinikstraße 16,Kassel,Hessen,34125,51.3305925,9.4233668,,0.0,73
+dddc375e-b7e0-3e58-8700-a34d9b28d3f1,Landeskrankenhaus für Forensische Psychiatrie,Hohenziatzer Chausee nan,Möckern,Sachsen-Anhalt,39291,52.1554776,11.9908284,+49 39221 6470,0.0,53
+4acbbff5-ad6f-3fbf-9bea-08148665ae7f,Dres.Joachim Huber und Ulrike Huber,Moltkestraße 36a,Offenburg,Baden-Württemberg,77652,48.4710813,7.9529696,+49 781 38588,0.0,73
+7b065767-5085-36e7-95de-1ae7199d1503,Reha-Fachklinik Haus Renchtal,Renchtalstraße 14,Renchen,Baden-Württemberg,77871,48.5820166,8.0175517,+49 7843 949113,0.0,60
+93419460-e223-367c-9486-8302beba551f,Ameos Klinikum Anklam,Hospitalstraße 19,Anklam,Mecklenburg-Vorpommern,17389,53.8485829,13.6994424,+49 3971 834 0,0.0,13
+680e9759-535f-3326-9954-a7bb0a5c81ff,Paracelsus-Elena-Klinik,Klinikstraße 16,Kassel,Hessen,34125,51.3305925,9.4233668,,0.0,281
+6da5d7e0-67af-3b6b-8fe5-3522330f0036,HELIOS Marien Klinik,Grunewaldstraße 96,Duisburg,Nordrhein-Westfalen,47053,51.4127446,6.7560034,,0.0,145
+6fdb7f5f-5e27-3c50-8475-5af00c816ab9,Städtisches Krankenhaus Nettetal,,Nettetal,Nordrhein-Westfalen,41334,51.3092378,6.2716524,,0.0,10
+fb9d1289-99e2-3161-aae7-64b16bfe06bf,Klinikum Mittelbaden Bühl,Robert-Koch-Straße 70,Bühl,Baden-Württemberg,77815,48.6863308,8.1408113,+49 7223 81-0,0.0,1
+6e2709f1-de8d-3038-8b12-1b85ac2f0c7f,Klinikum Frankfurt-Höchst,Gotenstraße 6-8,Frankfurt am Main,Hessen,65929,50.1081957,8.548475,,0.0,88
+f8e5e776-8053-3304-98be-97826da6df6b,Asklepios Klinik Wandsbek,Alphonsstraße 14,Hamburg,Hamburg,22043,53.5709778,10.0901034,+49 40 181883-0,0.0,11
+09dbc12b-8da2-3851-a2c3-0d34eea77c75,Krankenhaus Grimma,Kleiststraße 5,Grimma,Sachsen,04668,51.2378644,12.7178942,,0.0,14
+67714bd1-660b-3b07-80f5-c0cbdc5aefee,Johanniter-Krankenhaus,Steinbrinkstraße 96a,Oberhausen,Nordrhein-Westfalen,46149,51.5100533,6.8541262,,0.0,12
+ad41c848-665d-3e52-aa2d-b1904c7cf1e3,Hegau-Bodensee-Klinikum Loreto,,Stühlingen,Baden-Württemberg,79780,47.7431983,8.4402732,,0.0,2
+5770aac8-ce4e-3b7c-b228-192f0c806e93,Herz-Jesu-Krankenhaus,Buttlarstraße 76,Fulda,Hessen,36037,50.5634521,9.6727819,,0.0,101
+334fe62b-54ac-331c-9334-94c1b23204ba,Städtisches Krankenhaus Nettetal,,Nettetal,Nordrhein-Westfalen,41334,51.3092378,6.2716524,,0.0,101
+5139d02e-5b26-3d88-91d4-ad687161e32a,Landeskrankenhaus für Forensische Psychiatrie,Hohenziatzer Chausee nan,Möckern,Sachsen-Anhalt,39291,52.1554776,11.9908284,+49 39221 6470,0.0,47
+624993ec-9b39-353f-8972-218e76181a8e,Hegau-Bodensee-Klinikum,Virchowstraße 10,Singen (Hohentwiel),Baden-Württemberg,78224,47.7594537,8.8201309,+49 07731 89 0,0.0,7
+651731d9-c9d3-3b15-977f-daaefadf15cf,Notaufnahme,,Kleve,Nordrhein-Westfalen,47533,51.7730387,6.1344979,,0.0,13
+52fd3e95-4c6e-3c41-99e7-180536471729,Werksärztlicher Dienst,,Hanau,Hessen,63457,50.1197526,8.9683512,,0.0,163
+b15b26ca-7f8b-31f4-a314-0d2bc2557b2d,Bezirkskrankenhaus Landshut,Prof.-Buchner-Straße 22,Landshut,Bayern,84034,48.5369034,12.1340016,,0.0,62
+fe7d158e-603c-336d-8668-7df1d6c7a187,Allgemeinarzt Petersenn,Gutenbergstraße 7,Asbach-Bäumenheim,Bayern,86663,48.6842603,10.8164043,,0.0,2
+3899d45b-92f2-34c9-a234-3284f4c91e92,Helios St. Elisabeth Klinik,,Oberhausen,Nordrhein-Westfalen,46045,51.4620229,6.8537293,,0.0,22
+2e67b7b0-3521-394c-8bc3-296ec33bd202,Klinikum Weißer Hirsch,Heinrich-Cotta-Straße 12,,Sachsen,,51.065106,13.8338691,,0.0,1
+0e4e693a-ab9e-3014-91b6-5f3a7a7ed012,St. Johannes Krankenhaus,Schülgenstraße 15,Bad Honnef,Nordrhein-Westfalen,53604,50.6471849,7.2265958,,0.0,413
+105af96d-1414-3292-8d0a-3bb8a9b8a7de,AMEDISYS HOSPICE,53 ROCK DRIVE,TOCCA,LA,305773972,41.388243,2.2017572,7068270020,0.0,1
+bbd6bb81-8cf5-3e1d-8126-72ad84f89dd2,Nierenzentrum Heidelberg,Im Neuenheimer Feld 162,Heidelberg,Baden-Württemberg,69120,49.4144757,8.6658484,,0.0,18
+11d87eb9-590f-399b-ab50-ed1a7d4cdb63,Klinikum Freital,Bürgerstraße 7,Freital,Sachsen,01705,50.9910434,13.6449854,,0.0,3
+b3e568c4-bf63-3b81-ab22-ff2f23ead853,Paracelsus-Elena-Klinik,Klinikstraße 16,Kassel,Hessen,34125,51.3305925,9.4233668,,0.0,15
+6edc25ea-f411-3668-88f2-3e0ffe4edd63,Lichthof 8,Pauwelsstraße 30,Aachen,Nordrhein-Westfalen,52074,50.7766697,6.0417862,,0.0,72
+06bd72d3-c8e1-3c45-ad15-bdea6cea6ba6,Achertalklinik für Psychiatrie und Psychotherapie,Markgraf-Bernhard-Straße 2,Ottenhöfen im Schwarzwald,Baden-Württemberg,77883,48.565932,8.1551233,,0.0,141
+7fa9833c-f0ff-3dcb-95ff-0ca9a42b972a,Oberhavel Kliniken,,Gransee,Brandenburg,16775,52.9989642,13.1438581,,0.0,14
+33051693-8fdb-35cb-a9fd-02879b6f5dd0,Dr. Medic. Mirsada Pozder,Am Marktplatz 12,Schauenstein,Bayern,95197,50.2785609,11.7412636,,0.0,7
+1c9653da-3662-3762-b3a9-e6d3e1842b2e,Sanitätszentrum,,Hammelburg,Bayern,97762,50.0854233,9.8996536,,0.0,8
+70618fa8-5523-3df1-917c-003471871339,Marienhospital,,Borken,Nordrhein-Westfalen,46325,51.8417595,6.8606781,,0.0,52
+6fc8b7af-b4fa-3681-8286-9845dbc69afc,Allgemeinarzt Petersenn,Gutenbergstraße 7,Asbach-Bäumenheim,Bayern,86663,48.6842603,10.8164043,,0.0,201
+e95a1ec6-d4bb-30c6-9636-758e86342c68,Ortenau Klinikum Lahr-Ettenheim,,Lahr/Schwarzwald,Baden-Württemberg,77933,48.344898,7.8869042,,0.0,4
+81979e89-c4b3-39a7-a286-9ae9c9de0af3,ALLEN PARISH HOSPITAL DISTRICT NO 3,108 SIXTH AVE,KINDER,LA,706483519,51.1449692,5.7414008,3377385627,0.0,21
+66622b3f-a901-3c2c-a7f0-d474287d0019,Evangelisches Krankenhaus Oberhausen,,Oberhausen,Nordrhein-Westfalen,46045,51.4756656,6.8659723,,0.0,1
+a78cdc25-a60c-3841-a63c-7eac389a6f0e,Bezirkskrankenhaus Landshut,Prof.-Buchner-Straße 22,Landshut,Bayern,84034,48.5369034,12.1340016,,0.0,187
+269adf4e-b826-3fb6-9e72-f233287e666c,DRK-Kliniken Nordhessen  Standort Wehlheiden,Hansteinstraße 29,Kassel,Hessen,34121,51.3120738,9.4533138,,0.0,65
+bca0c51c-0864-3085-94e1-1051de14a726,Hausarztpraxis Ulrike Balzer,Ringstraße 4,Rheinmünster,Baden-Württemberg,77836,48.7460761,8.0010713,,0.0,169
+53bc9d6d-4bf4-3028-9cdb-24bc2c9c8f24,Notaufnahme,,Kleve,Nordrhein-Westfalen,47533,51.7730387,6.1344979,,0.0,2
+41e9624f-38f1-3b50-8256-9ba22bdd7d22,Nierenzentrum Heidelberg,Im Neuenheimer Feld 162,Heidelberg,Baden-Württemberg,69120,49.4144757,8.6658484,,0.0,22
+159d33d0-f0cc-3dbd-9c3f-24e137f67916,St. Hildegardis Krankenhaus,,Köln,Nordrhein-Westfalen,50931,50.9309998,6.9229633,,0.0,1
+8b3d245f-bc9f-3cb1-8562-9922671180f1,Praxisteam Pilgerzell,,Künzell,Hessen,36093,50.5274606,9.7318148,,0.0,5
+c2bdd8a0-557f-33b8-96da-9f5c25a3d4e9,Dr. Fickler,Rupertistraße 11a,Garching an der Alz,Bayern,84518,48.1347599,12.5857042,,0.0,56
+b4b5a36d-47bf-3281-bf52-c3f71d6137ca,Krankenhaus Maria Stern,Am Anger 1,Remagen,Rheinland-Pfalz,53424,50.5736112,7.2335732,,0.0,5
+b3d740ca-5288-36fb-81e1-86a8428f8dcc,Hausarztpraxis Schulstraße,Schulstraße 10,Scheeßel,Niedersachsen,27383,53.1715173,9.4800655,,0.0,110
+76ae3c1b-6d20-3288-9b5a-5656f46a994c,Klinikum Bielefeld Rosenhöhe,An der Rosenhöhe 27,,Nordrhein-Westfalen,,51.9823113,8.530265,+49-521-943-50,0.0,104
+ee3e16e6-a6bc-3f0f-8198-2f5198350b7f,Hämmerle Allgemeinarzt,Wasserfeldstraße 5,Ruhstorf an der Rott,Bayern,94099,48.4391403,13.3337927,,0.0,41
+bd4a4b76-2a91-3b0c-958d-2869bd305bc9,Asklepios Klinik Wandsbek,Alphonsstraße 14,Hamburg,Hamburg,22043,53.5709778,10.0901034,+49 40 181883-0,0.0,51
+b94be4e6-9134-3cd0-9cc6-d8bf52c8711f,Evangelisches Krankenhaus Oberhausen,,Oberhausen,Nordrhein-Westfalen,46045,51.4756656,6.8659723,,0.0,42
+be9c3ce0-5890-37ef-ae6a-9cd029808766,Franziskushospital,Morillenhang 27,Aachen,Nordrhein-Westfalen,52062,50.7662917,6.0696083,+49 241 7501 0,0.0,2
+f3419cd2-71ed-3f3b-a8b2-2e162f0498ad,Herz-Jesu-Krankenhaus,Buttlarstraße 76,Fulda,Hessen,36037,50.5634521,9.6727819,,0.0,10
+b4a9162d-f528-3efb-a072-872462f56aa4,HELIOS Klinkum Wuppertal,Heusnerstraße 40,Wuppertal,Nordrhein-Westfalen,42283,51.2731924,7.1740326,,0.0,1
+680bd574-a100-3638-bd55-73bfcc18d71b,HOSPICE SPECIALISTS OF LOUISIANA,1761 PHYSICIAN'S PARK AVE.  STE A,LA PLACE,LA,700682952,48.9085718,-0.4149455,9852627590,0.0,8
+2ab91829-2639-3f7f-b36d-d970d37f7f6d,Klinikum Winterberg,Winterberg 1,Saarbrücken,Saarland,66119,49.219604,6.9918886,,0.0,42
+975fbcb7-c6ad-39d4-aeee-d2fb861beb4a,Regionales Gesundheitszentrum Tönning,Selckstraße 13,Tönning,Schleswig-Holstein,25832,54.3164382,8.9378356,+49 4861 6110,0.0,15
+c00ad266-4df3-335e-ae4a-d61a253f63de,Sanitätszentrum,,Hammelburg,Bayern,97762,50.0854233,9.8996536,,0.0,53
+ce1b8a1a-a8af-312b-9a74-4349e0e96e38,Asklepios Klinik Wandsbek,Alphonsstraße 14,Hamburg,Hamburg,22043,53.5709778,10.0901034,+49 40 181883-0,0.0,67
+d1e25f55-3b9d-36c1-b4a5-ea801098a7b5,Pirkl-Kettenbohrer,Vilstalstraße 98,Kümmersbruck,Bayern,92245,49.418043,11.8802272,,0.0,142
+a87f2122-6855-31ad-b82c-fcaaea3f54b0,St. Josefs-Krankenhaus,,Salzkotten,Nordrhein-Westfalen,33154,51.6773369,8.6169733,,0.0,31
+facf7b44-644d-353c-ac37-cd8992844aa1,Ärztehaus,Christianenstraße 1,Merseburg,Sachsen-Anhalt,06217,51.3621693,11.9965272,,0.0,6
+66322bea-fc13-3ed8-8df2-67b4df75e2b9,Allgemeiner Arzt,Rotsteg 3b,Grimma,Sachsen,04668,51.1870904,12.7548232,,0.0,153
+903d0865-8f65-3093-aa85-dc496041ada9,HELIOS Marien Klinik,Grunewaldstraße 96,Duisburg,Nordrhein-Westfalen,47053,51.4127446,6.7560034,,0.0,21
+8d1ae1e7-34a5-3b43-abd4-0edf9d87a648,Hausarztpraxis Ulrike Balzer,Ringstraße 4,Rheinmünster,Baden-Württemberg,77836,48.7460761,8.0010713,,0.0,69
+c51fa4da-9c08-3b4b-b9ca-bfecc40f8ea5,Ameos Klinikum Anklam,Hospitalstraße 19,Anklam,Mecklenburg-Vorpommern,17389,53.8485829,13.6994424,+49 3971 834 0,0.0,145
+4cd97603-9494-335e-83de-c50b903ee0e6,DRK Krankenhaus Chemnitz-Rabenstein,Unritzstraße 23,Chemnitz,Sachsen,09117,50.8226419,12.8239605,,0.0,1
+b4978d93-75d3-3d90-8ca1-6ea9acccfd97,Dipl.-Med. Kathrin Becker,Mittelstraße 14,Sülzetal,Sachsen-Anhalt,39171,52.0417571,11.5784743,+49 39205 21725,0.0,4
+b874923a-6e78-39af-bd46-9e3ed5a5ca44,Klinik Mühldorf,,Mühldorf a. Inn,Bayern,84453,48.2426617,12.5280679,,0.0,1
+f8d03bb8-5481-39c8-aa66-19167da1e304,Evangelisches Krankenhaus Oberhausen,,Oberhausen,Nordrhein-Westfalen,46045,51.4756656,6.8659723,,0.0,125
+709ef51e-82df-3300-b060-a9703f3bfb85,Hämmerle Allgemeinarzt,Wasserfeldstraße 5,Ruhstorf an der Rott,Bayern,94099,48.4391403,13.3337927,,0.0,217
+f1f0c3b0-a4d9-3d51-9bf3-01134794086d,Klinikum Weißer Hirsch,Heinrich-Cotta-Straße 12,,Sachsen,,51.065106,13.8338691,,0.0,56
+68249b8b-85cd-3e8f-bd28-10c66dd9bfc8,Dres.Joachim Huber und Ulrike Huber,Moltkestraße 36a,Offenburg,Baden-Württemberg,77652,48.4710813,7.9529696,+49 781 38588,0.0,2
+70d8ebb4-e672-3613-ace0-c6cb08061a93,Klinikum Freital,Bürgerstraße 7,Freital,Sachsen,01705,50.9910434,13.6449854,,0.0,61
+46787de2-fdc8-3293-9e29-e2151cb2a369,HELIOS Klinik Jerichower Land,,Burg,Sachsen-Anhalt,39288,52.2661578,11.8338643,+49 3921 96 0,0.0,6
+1fe6c8fd-f0e1-3390-baf2-d5e38d566719,Internistische Hausarztpraxis Dr. med. (Universität Kragujevac) Ljilja Todorovic,Alte Friedrichstraße 60,Karlsruhe,Baden-Württemberg,76149,49.0492013,8.3786159,+49 721 90998800,0.0,27
+73e20dbe-a2e3-3174-8a7f-8d9dc6e9530f,Klinikum Passau,Innstraße 76,Passau,Bayern,94032,48.5647281,13.4456075,,0.0,19
+517ac03f-b4e7-3cb9-9a96-f644350f1e78,KRH Psychiatrie Langenhagen - Haus im Park,Rohdehof 3,Langenhagen,Niedersachsen,30853,52.4446862,9.7434395,,0.0,41
+965f3c05-d937-3ea2-a11e-db4c56d12971,Pirkl-Kettenbohrer,Vilstalstraße 98,Kümmersbruck,Bayern,92245,49.418043,11.8802272,,0.0,1
+dd4d5c33-7692-3b57-8967-db2424bd73b8,Dr. med. Tilman Kirchhoff,Dr.-Urnau-Straße 1,Lauchringen,Baden-Württemberg,79787,47.6326818,8.3005499,+49 7741 45 71,0.0,6
+10b6144b-57aa-3424-89a8-0e2aa8f88995,Hegau-Bodensee-Klinikum,Virchowstraße 10,Singen (Hohentwiel),Baden-Württemberg,78224,47.7594537,8.8201309,+49 07731 89 0,0.0,574
+f8650167-2c02-376f-94d0-1c5475bce96b,Klinikum Main-Spessart,Grafen-von-Rieneck-Straße nan,Lohr a. Main,Bayern,97816,49.996574,9.5709657,+49 9352 505-0,0.0,44
+47008185-89e4-330d-850c-da80abecafb7,Regionales Gesundheitszentrum Tönning,Selckstraße 13,Tönning,Schleswig-Holstein,25832,54.3164382,8.9378356,+49 4861 6110,0.0,19
+a520bb0b-614e-3416-bf73-efc4fece8294,Städtisches Krankenhaus Nettetal,,Nettetal,Nordrhein-Westfalen,41334,51.3092378,6.2716524,,0.0,54
+93b5be2b-349b-3570-9a68-cb0a353ad29c,Dr. Franz Erhard,,Sasbach,Baden-Württemberg,77880,48.639194,8.1145238,,0.0,60
+d80d1f87-3a26-3e1e-8f99-ca60e1ae7462,HELIOS Marien Klinik,Grunewaldstraße 96,Duisburg,Nordrhein-Westfalen,47053,51.4127446,6.7560034,,0.0,49
+a378c45d-fe75-3c57-99da-60a1b2d80301,LWL Ambulante Jugendpsychiatrie,,Bergkamen,Nordrhein-Westfalen,59192,51.6174717,7.5894686,,0.0,35
+ab21f387-40dc-3eda-8cfc-5629e935047d,LWL Ambulante Jugendpsychiatrie,,Bergkamen,Nordrhein-Westfalen,59192,51.6174717,7.5894686,,0.0,1
+c87e2559-17ba-33d6-a249-d0f554bd94e2,Herz-Jesu-Krankenhaus,Buttlarstraße 76,Fulda,Hessen,36037,50.5634521,9.6727819,,0.0,62
+f4b908ac-8743-3c0f-b9d1-fbcd61bcd93a,Praxis Priv.-Doz. Dr. Dr. Dr. Christoph Raschka,Im Igelstück 31,Hünfeld,Hessen,36088,50.6631378,9.7738801,+49 6652 9117332,0.0,318
+69fbedee-0ab0-30ec-8949-4eb2878081f3,Ortenauklinikum Achern,Josef-Wurzler-Straße 7,Achern,Baden-Württemberg,77855,48.6251262,8.064732,+49 7841 7000,0.0,7
+e94b9180-6b62-380d-a8a7-79db0b8a06b4,Krankenhaus St. Barbara,Steinberger Straße 24,Schwandorf,Bayern,92421,49.3165271,12.1123655,+49 9431 52-0,0.0,8
+61906d61-6dba-32f0-8329-98b86240cbcd,Ameos Klinikum Anklam,Hospitalstraße 19,Anklam,Mecklenburg-Vorpommern,17389,53.8485829,13.6994424,+49 3971 834 0,0.0,61
+5a357bc0-d99b-3df3-8641-ce733feb7172,Praxis Priv.-Doz. Dr. Dr. Dr. Christoph Raschka,Im Igelstück 31,Hünfeld,Hessen,36088,50.6631378,9.7738801,+49 6652 9117332,0.0,7
+2b838f40-22cc-3ce1-9325-2e8c0161566e,St. Elisabeth-Krankenhaus,,Dorsten,Nordrhein-Westfalen,46282,51.6558159,6.9546128,,0.0,5
+0e5d64e0-99b8-35b2-9cd5-ba9f63687311,St. Josefskrankenhaus,Landhausstraße nan,Heidelberg,Baden-Württemberg,69115,49.4032099,8.6887166,+49 6221 5260,0.0,1
+6c3273ea-c1a3-3bc0-992e-3eeb632f1575,Kinderklinik,,Bottrop,Nordrhein-Westfalen,46236,51.5334509,6.9178071,,0.0,48
+e4a117d4-7285-35c0-9599-b1cf24417789,Klinikum Freital,Bürgerstraße 7,Freital,Sachsen,01705,50.9910434,13.6449854,,0.0,101
+392f5e93-e84a-33f6-931f-4c939161d42a,Marienhospital,,Borken,Nordrhein-Westfalen,46325,51.8417595,6.8606781,,0.0,37
+5536e62a-cdab-3f48-a3e2-72aef6a832c0,Siloah St. Trudpert Klinikum,Wilferdinger Straße 67,Pforzheim,Baden-Württemberg,75179,48.8979409,8.6725514,,0.0,6
+2cfe9e49-b7d3-33a9-a81f-6bae3b4422a5,St. Josefs-Krankenhaus,,Salzkotten,Nordrhein-Westfalen,33154,51.6773369,8.6169733,,0.0,1
+55d2c9af-895a-358f-883e-321aaadc115a,Achertalklinik für Psychiatrie und Psychotherapie,Markgraf-Bernhard-Straße 2,Ottenhöfen im Schwarzwald,Baden-Württemberg,77883,48.565932,8.1551233,,0.0,2
+40e0e6ea-3d9a-3ae7-8332-e6c651ea339e,Kreiskrankenhaus Schleiz,Berthold-Schmidt-Straße 7,Schleiz,Thüringen,07907,50.5757978,11.8169859,,0.0,1
+f3da3875-cfa9-39d7-937c-21629ddbe3ae,Dr. Fickler,Rupertistraße 11a,Garching an der Alz,Bayern,84518,48.1347599,12.5857042,,0.0,26
+13b5d0e1-6b27-34e4-bd9b-ab1e61d97113,LWL Ambulante Jugendpsychiatrie,,Bergkamen,Nordrhein-Westfalen,59192,51.6174717,7.5894686,,0.0,92
+d633e9f1-007b-3c5e-976f-e48411785c30,Praxis Priv.-Doz. Dr. Dr. Dr. Christoph Raschka,Im Igelstück 31,Hünfeld,Hessen,36088,50.6631378,9.7738801,+49 6652 9117332,0.0,58
+4871169c-895c-32f3-a566-6b3e6ded6e00,Klinikum Frankfurt-Höchst,Gotenstraße 6-8,Frankfurt am Main,Hessen,65929,50.1081957,8.548475,,0.0,52
+adf76552-e0ce-315f-9d3c-b42c6b92c7d0,MediaPark,Im Mediapark 3,Köln,Nordrhein-Westfalen,50667,50.9484307,6.9479813,,0.0,18
+87b62079-eadd-3a81-aad2-655816501c4e,Reha-Fachklinik Haus Renchtal,Renchtalstraße 14,Renchen,Baden-Württemberg,77871,48.5820166,8.0175517,+49 7843 949113,0.0,67
+9972a65b-99a5-321a-80a5-9c13bb84f975,Dipl.-Med. Kathrin Becker,Mittelstraße 14,Sülzetal,Sachsen-Anhalt,39171,52.0417571,11.5784743,+49 39205 21725,0.0,12
+0eaf3ef6-d829-3c87-977c-eb8a237abe4c,Sana Kinder- und Jugendpsychiatrie,Weststraße 103,Wuppertal,Nordrhein-Westfalen,42103,51.2503167,7.143924,,0.0,10
+bb34c05a-4904-3b42-a0cf-fe732ebd559d,Lichthof 8,Pauwelsstraße 30,Aachen,Nordrhein-Westfalen,52074,50.7766697,6.0417862,,0.0,61

@@ -1,0 +1,280 @@
+{
+    "resourceType": "Bundle",
+    "id": "bed5cced-2e36-48bd-b5ad-125aca2a6bf4",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0",
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "8b64aae6-449d-44fc-9b11-0f302d9d4ea0",
+                "identifier": [
+                    {
+                        "id": "64ae1803-2929-4602-94b6-a368d4c3d5b0",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "d3153eb0-5e07-11ef-8f7c-0242ac120002"
+                                }
+                            ],
+                            "text": "Patient Identifier"
+                        },
+                        "value": "ABC299651"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Bauer",
+                        "given": [
+                            "Sabine"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1955-05-27",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Bahnhofstraße 127"
+                        ],
+                        "city": "Hamburg",
+                        "postalCode": "27408",
+                        "country": "DE"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c1c6414-107b-4ef8-8dc4-226f5a534122",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "8c1c6414-107b-4ef8-8dc4-226f5a534122",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB"
+                },
+                "subject": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/92c3e2bc-229d-41af-98bf-5d1338a35e8d"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-05-01T15:14:23.019819Z",
+                    "end": "2026-05-08T15:14:23.019819Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8cf9eab8-7b50-47df-bbe1-6296afe7fdcb",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "8cf9eab8-7b50-47df-bbe1-6296afe7fdcb",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "233604007",
+                            "display": "Pneumonia"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c1c6414-107b-4ef8-8dc4-226f5a534122"
+                },
+                "onsetDateTime": "2026-05-01T15:14:23.019819Z",
+                "abatementDateTime": "2026-05-08T15:14:23.019819Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:69b759fa-5908-4b46-97d3-03780d0bd29e",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "69b759fa-5908-4b46-97d3-03780d0bd29e",
+                "status": "completed",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "723",
+                            "display": "Amoxicillin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c1c6414-107b-4ef8-8dc4-226f5a534122"
+                },
+                "requester": {
+                    "reference": "Practitioner/92c3e2bc-229d-41af-98bf-5d1338a35e8d"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-05-01T15:14:23.019819Z",
+                                    "end": "2026-05-08T15:14:23.019819Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9d415775-ff65-4915-bcc9-68915d2fcbd5",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "9d415775-ff65-4915-bcc9-68915d2fcbd5",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8867-4",
+                            "display": "Heart rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c1c6414-107b-4ef8-8dc4-226f5a534122"
+                },
+                "effectiveDateTime": "2026-05-01T15:14:23.019819Z",
+                "valueQuantity": {
+                    "value": 114,
+                    "unit": "units"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:51bb0e49-cf76-4eb6-b914-09bc8b8b1b86",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "51bb0e49-cf76-4eb6-b914-09bc8b8b1b86",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "food"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "91935004",
+                            "display": "Allergy to peanut"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f34174ea-d27a-4966-a1fd-33b064403211",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "f34174ea-d27a-4966-a1fd-33b064403211",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "environment"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "300916003",
+                            "display": "Latex allergy"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:8b64aae6-449d-44fc-9b11-0f302d9d4ea0"
+                }
+            }
+        }
+    ]
+}

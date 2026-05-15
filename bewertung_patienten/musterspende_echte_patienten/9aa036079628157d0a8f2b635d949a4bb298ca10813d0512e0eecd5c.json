@@ -1,0 +1,201 @@
+{
+  "resourceType": "Bundle",
+  "id": "DGTUX6ETBBXS3BMD",
+  "type": "searchset",
+  "total": 4,
+  "entry": [
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Patient/PID-9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "PID-9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c",
+        "meta": {
+          "versionId": "243035365",
+          "lastUpdated": "2025-03-21T14:13:47.264Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|2025.0.1"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+                  "code": "PSEUDED"
+                }
+              ]
+            },
+            "system": "https://www.medizininformatik-initiative.de/fhir/sid/pseudonym",
+            "value": "9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2000-01",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "both",
+            "postalCode": "235",
+            "country": "DE"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Encounter/PV-3c20e3cfae2c0744a921b6fc8ad1490addae28c7a36175d75ee0abff",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "PV-3c20e3cfae2c0744a921b6fc8ad1490addae28c7a36175d75ee0abff",
+        "meta": {
+          "versionId": "243035364",
+          "lastUpdated": "2025-03-21T14:13:47.246Z",
+          "source": "http://medic.uksh.de/source/orbis/adt",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung|2025.0.0"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "VN"
+                }
+              ]
+            },
+            "system": "http://medic.uksh.de/fhir/Encounter",
+            "value": "3c20e3cfae2c0744a921b6fc8ad1490addae28c7a36175d75ee0abff"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/Kontaktebene",
+                "code": "einrichtungskontakt"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PID-9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c"
+        },
+        "period": {
+          "start": "2024-03-27T11:11:00+01:00",
+          "end": "2024-03-31T23:59:59+02:00"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Observation/VIT-7c2663c3b0742f6d50916bfdf78b294b73bc817f1e26fcf0587bf778",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "VIT-7c2663c3b0742f6d50916bfdf78b294b73bc817f1e26fcf0587bf778",
+        "meta": {
+          "versionId": "243035366",
+          "lastUpdated": "2025-03-21T14:13:47.265Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus|2025.0.1"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c"
+        },
+        "effectiveDateTime": "2024-03-27T11:11:00+01:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://num-fhirserver.distan.medicsh.de:8080/fhir/Observation/VIT-893265f11cf9a85bfb0ecfcf41fb453cbc6de9e001467be50f369311",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "VIT-893265f11cf9a85bfb0ecfcf41fb453cbc6de9e001467be50f369311",
+        "meta": {
+          "versionId": "243035367",
+          "lastUpdated": "2025-03-21T14:13:47.284Z",
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus|2025.0.1"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PID-9aa036079628157d0a8f2b635d949a4bb298ca10813d0512e0eecd5c"
+        },
+        "effectiveDateTime": "2024-03-31T23:59:59+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

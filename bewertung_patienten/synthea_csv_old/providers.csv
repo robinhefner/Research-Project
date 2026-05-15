@@ -1,0 +1,48 @@
+Id,ORGANIZATION,NAME,GENDER,SPECIALITY,ADDRESS,CITY,STATE,ZIP,LAT,LON,ENCOUNTERS,PROCEDURES
+239ff291-7cbb-3f34-b24e-a4eddd437968,39f69417-1346-3bf0-a249-2e10700ea024,Brigitte Wolf,F,GENERAL PRACTICE,Breiteweg 17,Bad Wurzach,Baden-württemberg,88410,47.9071556,9.8933448,58,0
+27b7eeaa-bda5-3484-81a2-c69d0e45a317,132ed946-2fac-3e54-882b-b9042781ee49,Clara Schubert,F,GENERAL PRACTICE,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,9,0
+388d6a68-399b-32bf-88b9-dada64d294fa,3c99c810-7918-3c9e-a5b1-720ee10629cc,Marion Köhler,F,GENERAL PRACTICE,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,3,0
+071e6914-7dcb-3b54-bb3a-a8f1af997082,a66d894a-38f3-3123-a9a1-ef4207daf6fa,Susanne Herrmann,F,GENERAL PRACTICE,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,182,0
+94de2187-5ec1-324e-b5b8-8c640154f969,a3e1eb8b-4df5-3dd1-92db-abbcebebff6b,Walter Krämer,M,GENERAL PRACTICE,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,637,0
+bed21ae9-a52b-33b4-ad7f-fd91a5a49515,52b2d93a-7d4d-3438-8225-3ff1f06f6d1f,Jürgen Neumann,M,GENERAL PRACTICE,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,127,0
+d27dd7c1-cd6b-3260-b320-b5c2c998ac9e,b820e7a8-6216-3e8f-9f9a-749ec581aa32,Kerstin Hofmann,F,GENERAL PRACTICE,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,1,0
+ff80fa4d-f27f-3cf6-bfdb-40f267d76cce,e75b3ede-30dd-3321-81fb-204ec025bc9e,Linus Mayer,M,GENERAL PRACTICE,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,1,0
+0421b022-4205-3b7c-8394-4be32142c965,8541eb39-ec1f-3340-93a6-434b486cdf7b,Maria Scholz,F,GENERAL PRACTICE,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,6,0
+bcc33131-6b24-314e-b548-cfd72876b72e,af5b650f-a4cc-3717-be01-27b4b59d201a,Günter Seifer,M,GENERAL PRACTICE,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,759,0
+6b3a3fa6-c9eb-315c-a273-e40dd685b74d,2989b723-6608-3556-8582-1f5de63d7e36,Emilia Fischer,F,GENERAL PRACTICE,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,453,0
+5668c776-2d42-30d6-bae1-8fe30e1dfb02,9770938a-2e8f-374f-a566-379d1e91a95d,Wolfgang Berger,M,GENERAL PRACTICE,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,37,0
+57bcab66-79b1-3349-9646-bff1f2087b50,4295faa6-20d1-3d7b-a50f-81491d78ae0f,Thomas Jung,M,GENERAL PRACTICE,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,174,0
+2f92f482-9c9d-3316-8aad-3797da53c37b,e25c7127-b831-3237-bc37-3d7fd66601be,Karl Scholz,M,GENERAL PRACTICE,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,27,0
+8ec3b4e0-7cab-32b2-90aa-7322082a23d3,94ed4c92-f375-3ed6-8660-5ae1f4fc94d1,Mats Krämer,M,GENERAL PRACTICE,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,13,0
+c005a5fc-fda5-349e-af72-cf6a5c9126d8,63244e68-2c77-3de9-b0d4-985733886915,Thorsten Herrmann,M,GENERAL PRACTICE,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,6,0
+db55ef3f-eadf-3870-baa9-8d988de2baff,c49bea03-84da-33e4-9648-b2fbd5f5d443,Helmut Becker,M,GENERAL PRACTICE,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,89,0
+e1ab920d-83bb-3293-aae4-9cb2c8c61e67,d77a9cf8-fd4b-378f-889a-f9e4ae5417a3,Margarete Franke,F,GENERAL PRACTICE,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,317,0
+b07389ee-f3a9-3d16-a22a-40bc095a8044,8ffdcbbe-6b76-365b-88b4-7ce6f83ede01,Tim Huber,M,GENERAL PRACTICE,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,426,0
+cb6f3ee5-8897-3a67-bbfe-b6f6f3ecfc24,5fe21005-e613-31a7-8ab9-2624a3351d39,Heinrich Stein,M,GENERAL PRACTICE,Rohrbacher Straße 149,Heidelberg,Baden-württemberg,69126,49.3922528,8.6903374,1,0
+89488f1c-880f-37a3-8819-f8efed426d9c,973f6574-c010-32fd-8e56-213a66d1d17a,Uwe Franke,M,GENERAL PRACTICE,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,1,0
+fabd011c-84d3-32a3-851b-79a4c7feebee,e4be97f9-7cfd-3c7a-9697-cabe7c3fcf6f,Silvia Stein,F,GENERAL PRACTICE,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,285,0
+fe9a49b2-630f-348c-b569-3c3ec010c8c5,74c8aeb3-b7aa-398b-99e1-02d5106121de,Martina Gärtner,F,GENERAL PRACTICE,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,26,0
+ec863aec-0a79-3734-b66f-000629628466,b0ea8ecd-026e-39a9-a505-6278f43ec5c9,Claudia Lorenz,F,GENERAL PRACTICE,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,192,0
+89acf950-8c48-3d1b-9450-f2dd5b596ef7,41e9624f-38f1-3b50-8256-9ba22bdd7d22,Stefanie Schmid,F,GENERAL PRACTICE,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,180,0
+adc81e34-d778-39b0-bcf1-6016b10fc045,03ee7463-f145-3ab0-976e-f23bc6df2ba6,Oskar Meyer,M,GENERAL PRACTICE,,Wiesenbach,Baden-württemberg,69257,49.3614837,8.8004246,42,0
+7f4f25f8-99f5-357e-8287-7e13c064b11f,3ef6f971-c3b9-3b5f-8193-44d8ccf303ed,Martha Schmidt,F,GENERAL PRACTICE,,Wiesenbach,Baden-württemberg,69257,49.3614837,8.8004246,117,0
+b1d8cfd6-05aa-3a70-a8f3-8da059dead0d,91346688-4e8e-38ef-a3b0-d2c7add6f792,Paul Vogel,M,GENERAL PRACTICE,Speyererhofweg 1,Heidelberg,Baden-württemberg,69117,49.3955878,8.7080094,1521,0
+aca03c19-a0ef-306e-afda-d3e00bf73d8f,21cafd96-fa1a-3024-84fa-76a14c365c4b,Johann Werner,M,GENERAL PRACTICE,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,30,0
+7227b4b3-3874-31ad-9ec3-5d85c01221a7,bbd6bb81-8cf5-3e1d-8126-72ad84f89dd2,Werner Herrmann,M,GENERAL PRACTICE,Im Neuenheimer Feld 162,Heidelberg,Baden-württemberg,69120,49.4144757,8.6658484,585,0
+8ef02849-d794-322d-94c0-efddd13b1ad2,7ef5d917-45e2-33c2-bda7-f959d43233db,Christina König,F,GENERAL PRACTICE,Etzwiesenweg 16,Nußloch,Baden-württemberg,69226,49.3272257,8.6883812,65,0
+8b5377d8-e4e9-339c-b2d0-376c1c3229ef,80ab7fdb-1ea1-3a3a-9b66-9e897b93325d,Philipp Schuster,M,GENERAL PRACTICE,Voßstraße 6,Heidelberg,Baden-württemberg,69115,49.4094623,8.6840044,1,0
+57440c0d-ccb4-3ec2-aaf0-39d8faecca20,699c9abe-6170-3173-a11e-5f374a133bdd,Paul Fuchs,M,GENERAL PRACTICE,Bahnhofstraße 26,Dossenheim,Baden-württemberg,69221,49.4490434,8.6689128,1074,0
+fd378ac4-c6b2-33f9-a2a1-9293f54bd36c,bf02f707-6c7b-31ea-88ca-41aa6e5817e6,Peter Wolf,M,GENERAL PRACTICE,Furtwänglerstraße 5-7,Heidelberg,Baden-württemberg,69121,49.4218882,8.682024,48,0
+4899ae9a-af01-3206-ae3d-b8f090fc9f75,0e5d64e0-99b8-35b2-9cd5-ba9f63687311,Kerstin Seiler,F,GENERAL PRACTICE,Landhausstraße nan,Heidelberg,Baden-württemberg,69115,49.4032099,8.6887166,158,0
+3ce01d22-0e16-316e-bd3b-e239a309786b,6e4a17b8-760d-33c1-9914-5e87ba6a5b1b,Felix Jäger,M,GENERAL PRACTICE,Landhausstraße nan,Heidelberg,Baden-württemberg,69115,49.4032099,8.6887166,348,0
+8f898824-72ba-38a6-b00e-227e1d7d9976,86bcff57-5798-3318-bbb4-1197138363eb,Dieter Bauer,M,GENERAL PRACTICE,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,891,0
+aa5bd31a-5ea8-3bba-9259-1a787df902b1,2cf569a2-7fb3-320f-b19a-b9947c51e188,Frank Kaiser,M,GENERAL PRACTICE,Röntgenstraße 1,Heidelberg,Baden-württemberg,69126,49.378496,8.6888564,19,0
+a3393afb-8043-3eba-8b0f-b9027201a3b8,8cd6101d-01de-3149-a9c7-6dd7c85f0472,Tom Müller,M,GENERAL PRACTICE,Zeppelinstraße 33,Heidelberg,Baden-württemberg,69121,49.4238261,8.6843491,674,0
+c66481b2-0a6d-3510-8d04-cbc67096188f,0562e6e7-e01a-3499-9ea7-6d89899e91d1,Dieter Schmid,M,GENERAL PRACTICE,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,23,0
+54403a16-5222-3eee-b66a-2476baeaa1df,ea7b9166-8841-33df-b902-4e4fa3528e87,Clara Lang,F,GENERAL PRACTICE,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,1150,0
+67b6c19f-f7f4-3a95-a47f-2b6f690d0acd,e906b40f-ca2f-3ce9-9381-7becb4d51c9a,Frank Maier,M,GENERAL PRACTICE,Blumenstraße 8,Heidelberg,Baden-württemberg,69115,49.4045156,8.6909949,29,0
+8a385b4b-6399-3188-bdca-652a84491fc5,eb65a0fc-0313-3583-a5d0-17f17715ad9d,Finn Stein,M,GENERAL PRACTICE,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,60,0
+e46490a4-7d11-3fc0-9a15-838ec5446bb5,68d3a01b-255c-3185-bb68-d3a87a5cc44a,Christian Lang,M,GENERAL PRACTICE,Untere Neckarstraße 1-5,Heidelberg,Baden-württemberg,69117,49.4117933,8.6970515,290,0
+312cde77-3413-38bf-ac22-3942fb3b0784,a46a6e31-0c9f-3b78-8a04-ba1bbd858dbe,Oskar Weber,M,GENERAL PRACTICE,Im Neuenheimer Feld 460,Heidelberg,Baden-württemberg,69117,49.4182657,8.6633606,83,0
+47ee6435-f312-3566-9040-9713fbff3def,b6b8043e-0df6-3c6d-8457-661cc1db4f25,Tom Ludwig,M,GENERAL PRACTICE,Im Neuenheimer Feld 450,Heidelberg,Baden-württemberg,69117,49.4178461,8.6646134,64,0
+c442dce6-9c6b-3bb8-a2eb-d57b9293670b,ea6969e9-a858-3649-a2b2-1a0da15dd2d2,Bernd Weiß,M,GENERAL PRACTICE,Bahnhofstraße 14,Sandhausen,Baden-württemberg,69207,49.3423985,8.6603396,137,0

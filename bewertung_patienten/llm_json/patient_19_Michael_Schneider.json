@@ -1,0 +1,237 @@
+{
+    "resourceType": "Bundle",
+    "id": "08565379-583f-4d1b-8a91-a8fa258168e8",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e",
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e",
+                "identifier": [
+                    {
+                        "id": "22af8d5b-4d40-4037-b056-3ed7273526dc",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "d3153eb0-5e07-11ef-8f7c-0242ac120002"
+                                }
+                            ],
+                            "text": "Patient Identifier"
+                        },
+                        "value": "ABC299148"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Schneider",
+                        "given": [
+                            "Michael"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-05-04",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Schulstraße 6"
+                        ],
+                        "city": "Frankfurt",
+                        "postalCode": "58681",
+                        "country": "DE"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2e7dd6b2-2c65-451a-86f8-49c6bba351b8",
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            },
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "2e7dd6b2-2c65-451a-86f8-49c6bba351b8",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB"
+                },
+                "subject": {
+                    "reference": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2026-02-15T15:14:22.931584Z",
+                    "end": "2026-02-15T16:14:22.931584Z"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e2e736a0-5282-4442-ac5e-b5fde88b338c",
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            },
+            "resource": {
+                "resourceType": "Condition",
+                "id": "e2e736a0-5282-4442-ac5e-b5fde88b338c",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "44054006",
+                            "display": "Type 2 diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:2e7dd6b2-2c65-451a-86f8-49c6bba351b8"
+                },
+                "onsetDateTime": "2023-05-22T15:14:22.931584Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:6c64c8de-acb7-4d6b-b913-a05c077bc30d",
+            "request": {
+                "method": "POST",
+                "url": "MedicationRequest"
+            },
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "6c64c8de-acb7-4d6b-b913-a05c077bc30d",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "6809",
+                            "display": "Metformin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:2e7dd6b2-2c65-451a-86f8-49c6bba351b8"
+                },
+                "requester": {
+                    "reference": "Practitioner/d0dc0ff3-5d95-46a5-80b7-1d8d48215ba6"
+                },
+                "dosageInstruction": [
+                    {
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2026-02-15T15:14:22.931584Z",
+                                    "end": "2027-02-15T15:14:22.931584Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8f04385f-aa21-495d-9f20-3a658eec3d2c",
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "8f04385f-aa21-495d-9f20-3a658eec3d2c",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4548-4",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:2e7dd6b2-2c65-451a-86f8-49c6bba351b8"
+                },
+                "effectiveDateTime": "2026-02-15T15:14:22.931584Z",
+                "valueQuantity": {
+                    "value": 81,
+                    "unit": "units"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5c6d62e2-cbdd-41f1-8e3f-c8c51926b39e",
+            "request": {
+                "method": "POST",
+                "url": "AllergyIntolerance"
+            },
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "5c6d62e2-cbdd-41f1-8e3f-c8c51926b39e",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    "environment"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "300916003",
+                            "display": "Latex allergy"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:1a9a1f47-e6ac-4b42-b454-6a8e7ed6c36e"
+                }
+            }
+        }
+    ]
+}
