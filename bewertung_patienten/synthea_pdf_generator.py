@@ -1,6 +1,7 @@
 import pandas as pd
 from weasyprint import HTML
 import os
+import re  # NEU: Modul für reguläre Ausdrücke importieren
 
 def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett'):
     # Erstelle Ausgabeordner, falls nicht vorhanden
@@ -77,13 +78,12 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
                 width: 100%; border-collapse: collapse;
                 margin-top: 10px; font-size: 9pt;
                 background-color: white; 
-                /* page-break-inside: avoid; wurde hier entfernt! */
             }}
             thead {{
-                display: table-header-group; /* Wiederholt die Spaltentitel auf der nächsten Seite */
+                display: table-header-group;
             }}
             tr {{
-                page-break-inside: avoid; /* Verhindert, dass Text innerhalb einer Zelle auf zwei Seiten zerrissen wird */
+                page-break-inside: avoid;
                 page-break-after: auto;
             }}
             th, td {{ border: 1px solid #bdc3c7; padding: 6px; text-align: left; }}
@@ -115,7 +115,6 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
         if df.empty:
             return f"<h2>{title}</h2><p>Keine Einträge vorhanden.</p>"
         
-        # Prüfe, welche Spalten tatsächlich im DataFrame existieren
         valid_cols = {k: v for k, v in columns_map.items() if k in df.columns}
         if not valid_cols:
             return ""
@@ -125,13 +124,16 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             html += f"<th>{col_name}</th>"
         html += "</tr></thead><tbody>"
         
-        # Um endlose PDFs zu vermeiden (z.B. bei Observations), limitieren wir die Zeilen optional
         df_subset = df.head(max_rows) 
         
         for _, row in df_subset.iterrows():
             html += "<tr>"
             for col_key in valid_cols.keys():
                 val = str(row[col_key]) if pd.notna(row[col_key]) and str(row[col_key]).strip() != '' else '-'
+                
+                if col_key in ['DESCRIPTION', 'DESCRIPTION1', 'REASONDESCRIPTION'] and val != '-':
+                    val = re.sub(r'\s*\([^)]*\)', '', val).strip()
+
                 html += f"<td>{val}</td>"
             html += "</tr>"
         
@@ -143,8 +145,6 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
 
     print(f"Starte PDF-Generierung für {len(patients)} Patienten...")
     
-    # Optional: Limitiere hier für einen ersten Test auf die ersten 5 Patienten
-    # for index, patient in patients.head(5).iterrows():
     for index, patient in patients.iterrows():
         pat_id = patient.get('Id', '')
         if not pat_id: continue
@@ -163,51 +163,22 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
         pat_df = medications[medications['PATIENT'] == pat_id] if not medications.empty and 'PATIENT' in medications.columns else pd.DataFrame()
         content_html += build_html_table(pat_df, "Medikamente", {'START': 'Start', 'STOP': 'Stop', 'DESCRIPTION': 'Medikament', 'REASONDESCRIPTION': 'Grund'})
 
-        # # 4. Careplans
-        # pat_df = careplans[careplans['PATIENT'] == pat_id] if not careplans.empty and 'PATIENT' in careplans.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Pflegepläne", {'START': 'Start', 'STOP': 'Stop', 'DESCRIPTION': 'Plan', 'REASONDESCRIPTION': 'Grund'})
-
         # 5. Encounters
         pat_df = encounters[encounters['PATIENT'] == pat_id] if not encounters.empty and 'PATIENT' in encounters.columns else pd.DataFrame()
         pat_df = pat_df.sort_values(by='START', ascending=False) if not pat_df.empty and 'START' in pat_df.columns else pat_df
         content_html += build_html_table(pat_df, "Behandlungen (Encounters)", {'START': 'Datum', 'ENCOUNTERCLASS': 'Klasse', 'DESCRIPTION': 'Beschreibung', 'REASONDESCRIPTION': 'Grund'})
 
-        # # 6. Procedures (Eingriffe)
-        # pat_df = procedures[procedures['PATIENT'] == pat_id] if not procedures.empty and 'PATIENT' in procedures.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Eingriffe (Procedures)", {'START': 'Datum', 'DESCRIPTION': 'Eingriff', 'REASONDESCRIPTION': 'Grund'})
-
-        # # 7. Immunizations (Impfungen)
-        # pat_df = immunizations[immunizations['PATIENT'] == pat_id] if not immunizations.empty and 'PATIENT' in immunizations.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Impfungen", {'DATE': 'Datum', 'DESCRIPTION': 'Impfstoff'})
-
-        # # 8. Imaging Studies (Bildgebung)
-        # pat_df = imaging_studies[imaging_studies['PATIENT'] == pat_id] if not imaging_studies.empty and 'PATIENT' in imaging_studies.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Bildgebung", {'DATE': 'Datum', 'MODALITY_DESCRIPTION': 'Methode', 'BODYSITE_DESCRIPTION': 'Körperregion', 'SOP_DESCRIPTION': 'Details'})
-
-        # 9. Observations (Laborwerte/Vitalzeichen) - hier limitieren wir strenger, da extrem viele Daten!
+        # 9. Observations (Laborwerte/Vitalzeichen)
         pat_df = observations[observations['PATIENT'] == pat_id] if not observations.empty and 'PATIENT' in observations.columns else pd.DataFrame()
+        
+        # Logik zum Filtern demographischer Daten (Code 56799-0)
+        if not pat_df.empty and 'CODE' in pat_df.columns and 'DATE' in pat_df.columns:
+            exclusion_dates = pat_df[pat_df['CODE'] == '56799-0']['DATE'].unique()
+            pat_df = pat_df[~pat_df['DATE'].isin(exclusion_dates)]
+            
         pat_df = pat_df.sort_values(by='DATE', ascending=False) if not pat_df.empty and 'DATE' in pat_df.columns else pat_df
         content_html += build_html_table(pat_df, "Labor & Vitalwerte (Observations)", {'DATE': 'Datum', 'DESCRIPTION': 'Parameter', 'VALUE': 'Wert', 'UNITS': 'Einheit'})
 
-        # # 10. Devices (Geräte/Implantate)
-        # pat_df = devices[devices['PATIENT'] == pat_id] if not devices.empty and 'PATIENT' in devices.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Geräte & Implantate", {'START': 'Start', 'STOP': 'Stop', 'DESCRIPTION': 'Gerät', 'UDI': 'UDI'})
-
-        # # 11. Supplies (Verbrauchsmaterial)
-        # pat_df = supplies[supplies['PATIENT'] == pat_id] if not supplies.empty and 'PATIENT' in supplies.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Materialien (Supplies)", {'DATE': 'Datum', 'DESCRIPTION': 'Material', 'QUANTITY': 'Menge'})
-
-        # 12. Payer Transitions (Versicherungshistorie)
-        # pat_df = payer_transitions[payer_transitions['PATIENT'] == pat_id] if not payer_transitions.empty and 'PATIENT' in payer_transitions.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Versicherungshistorie", {'START_DATE': 'Von', 'END_DATE': 'Bis', 'OWNER_NAME': 'Versicherer'})
-
-        # # 13. Claims (Abrechnungen - ACHTUNG: Nutzt PATIENTID statt PATIENT)
-        # pat_df = claims[claims['PATIENTID'] == pat_id] if not claims.empty and 'PATIENTID' in claims.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Abrechnungen (Claims)", {'SERVICEDATE': 'Datum', 'STATUS1': 'Status', 'DIAGNOSIS1': 'Diagnose-Code'})
-
-        # # 14. Claims Transactions (Transaktionen - ACHTUNG: Nutzt PATIENTID statt PATIENT)
-        # pat_df = claims_transactions[claims_transactions['PATIENTID'] == pat_id] if not claims_transactions.empty and 'PATIENTID' in claims_transactions.columns else pd.DataFrame()
-        # content_html += build_html_table(pat_df, "Abrechnungspositionen", {'FROMDATE': 'Datum', 'TYPE': 'Typ', 'AMOUNT': 'Betrag', 'NOTES': 'Notiz'})
 
         # Sicheres Extrahieren für den Header
         def safe_get(val): return str(val) if pd.notna(val) else ""
@@ -238,4 +209,5 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
 
 if __name__ == '__main__':
     # generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
+    # generate_full_patient_pdfs("synthea_csv_export_from_musterdaten", "patienten_pdfs_komplett_from_musterdaten")
     generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")
