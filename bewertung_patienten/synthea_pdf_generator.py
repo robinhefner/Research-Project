@@ -134,14 +134,16 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             return ""
 
         html = f"<h2>{title}</h2><table><thead><tr>"
+        html += "<th>ID</th>"
         for col_name in valid_cols.values():
             html += f"<th>{col_name}</th>"
         html += "</tr></thead><tbody>"
         
         df_subset = df.head(max_rows) 
         
-        for _, row in df_subset.iterrows():
+        for idx, (_, row) in enumerate(df_subset.iterrows(), 1):
             html += "<tr>"
+            html += f"<td>{idx}</td>"
             for col_key in valid_cols.keys():
                 val = str(row[col_key]) if pd.notna(row[col_key]) and str(row[col_key]).strip() != '' else '-'
                 
@@ -226,6 +228,6 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             print(f"Fehler bei {filename}: {e}")
 
 if __name__ == '__main__':
-    # generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
-    generate_full_patient_pdfs("synthea_csv_export_from_mimic_III", "patienten_pdfs_komplett_from_mimic_III")
-    # generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")
+    generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
+    # generate_full_patient_pdfs("synthea_csv_export_from_mimic_III", "patienten_pdfs_komplett_from_mimic_III")
+    generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")
