@@ -226,6 +226,6 @@ def generate_full_patient_pdfs(data_dir='.', output_dir='patienten_pdfs_komplett
             print(f"Fehler bei {filename}: {e}")
 
 if __name__ == '__main__':
-    generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
-    # generate_full_patient_pdfs("synthea_csv_export_from_musterdaten", "patienten_pdfs_komplett_from_musterdaten")
+    # generate_full_patient_pdfs("synthea_csv_export_from_llm_json", "patienten_pdfs_komplett_from_llm_json")
+    generate_full_patient_pdfs("synthea_csv_export_from_mimic_III", "patienten_pdfs_komplett_from_mimic_III")
     # generate_full_patient_pdfs("synthea_csv", "patienten_pdfs_komplett")
