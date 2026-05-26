@@ -7,7 +7,6 @@
 \usepackage{lmodern}
 \usepackage{setspace}
 \usepackage{geometry}
-
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{booktabs}
@@ -17,6 +16,46 @@
 \usepackage[switch]{lineno}
 \usepackage{apacite}
 \usepackage{natbib}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+\lstdefinestyle{systempromptstyle}{
+    backgroundcolor=\color{gray!5},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    rulecolor=\color{gray!30},
+    captionpos=b,
+    numbers=none,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{purple},
+    showstringspaces=false,
+    inputencoding=utf8,
+    extendedchars=true
+    literate=%
+        {Ö}{{\"O}}1
+        {Ä}{{\"A}}1
+        {Ü}{{\"U}}1
+        {ß}{{\ss}}1
+        {ü}{{\"u}}1
+        {ä}{{\"a}}1
+        {ö}{{\"o}}1
+}
+
+
+\usepackage{pdflscape}
+\usepackage{pgfgantt}  
+\usepackage{xcolor}
+
+\definecolor{research}{RGB}{0,102,204}
+\definecolor{development}{RGB}{0,153,76}
+\definecolor{closure}{RGB}{204,0,0}
+\definecolor{article}{RGB}{255,128,0}
+
+
 
 \addto\captionsngerman{%
   \renewcommand{\bibname}{References}%
@@ -24,6 +63,8 @@
 
 \usepackage{hyperref}
 \hypersetup{
+  pdftitle={Research_Project_Hefner_Hauptmann_\today},
+  pdfauthor={Hefner, Robin;Hauptmann, Florian},
   colorlinks=true,
   linkcolor=black,
   citecolor=black,
@@ -39,7 +80,7 @@
 \makeatother
 
 \newcommand{\hhnsubject}{(172393) Research Project}
-\newcommand{\hhnlecturer}{Dr. Petra Knaup}
+\newcommand{\hhnlecturer}{Prof. Dr. Petra Knaup}
 \newcommand{\reprttopic}{Realistische Daten für ein lebendiges Lehre-KIS}
 
 \newcommand{\reprtstudentAname}{Robin Hefner}
@@ -82,7 +123,7 @@
 \newgeometry{left=30mm, top=25mm, right=15mm, bottom=25mm}
 \tableofcontents
 \newpage
-\include{Artikel/chapters/01_List_of_Abbreviation}
+\include{chapters/01_List_of_Abbreviation}
 \listoffigures
 \newpage
 
@@ -136,22 +177,25 @@ right=0.75in}
   \end{center}
 }]
 
-\input{Artikel/chapters/02_Abstract}
+\input{chapters/02_Abstract}
 
 \section{Introduction}
-\input{Artikel/chapters/03_Introduction}
+\input{chapters/03_Introduction}
+
+\section{Background}
+\input{chapters/04_Background}
 
 \section{Methods}
-\input{Artikel/chapters/04_Methods}
+\input{chapters/05_Methods}
 
 \section{Results}
-\input{Artikel/chapters/05_Results}
+\input{chapters/06_Results}
 
 \section{Discussion}
-\input{Artikel/chapters/06_Discussion}
+\input{chapters/07_Discussion}
 
 \section{Conclusion}
-\input{Artikel/chapters/07_Conclusion}
+\input{chapters/08_Conclusion}
 
 \bibliographystyle{apacite}
 \bibliography{references} 
@@ -169,18 +213,15 @@ right=0.75in}
 \chapter{Appendix}
 
 \section{Gegenstand und Motivation}
-\input{Artikel/chapters/08_Subject_matter_and_Motivation}
+\input{chapters/09_Subject_matter_and_Motivation}
 
 \section{Zielsetzung}
-\input{Artikel/chapters/09_Objective}
+\input{chapters/10_Objective}
 
-\section{Methodik}
-\input{Artikel/chapters/10_Methodology}
-
-\section{Ergebnisse}
-\input{Artikel/chapters/11_Results}
+\section{Methodik und Ergebnisse}
+\input{chapters/11_Methodology_and_Results}
 
 \section{Zeitplan}
-\input{Artikel/chapters/12_Schedule}
+\input{chapters/12_Schedule}
 
 \end{document}

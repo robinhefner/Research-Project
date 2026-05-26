@@ -1,0 +1,45 @@
+\begin{landscape}
+\begin{center}
+\resizebox{\linewidth}{!}{
+\begin{ganttchart}[
+    hgrid,
+    vgrid,
+    time slot format=isodate,
+    title/.style={fill=gray!10},
+    title label font=\footnotesize,
+    canvas/.style={draw=black, fill=white},
+    bar height=0.6,
+    group height=0.7,
+    milestone height=0.6,
+    bar/.append style={rounded corners=2pt},
+    group/.append style={rounded corners=2pt, draw=black, fill=gray!20},
+    milestone/.append style={fill=black},
+    x unit=0.25cm, % Kleinerer Wert, damit der lange Zeitraum auf die Seite passt
+    y unit chart=0.7cm
+]{2026-02-23}{2026-06-14}
+
+% Title - Die Zahlen am Ende müssen zur Gesamtzahl der Tage passen
+\gantttitle{Projektzeitplan Research-Project}{105} \\
+\gantttitlecalendar{month=name, week} \\ % 'week' statt 'day' spart extrem viel Platz!
+
+% Section: Recherche
+\ganttgroup{Recherche}{2026-02-23}{2026-05-11} \\
+\ganttbar[bar/.append style={fill=research}]{AP1 Literatur}{2026-02-23}{2026-03-20} \\
+\ganttbar[bar/.append style={fill=research!70}]{AP2 Kriterien}{2026-03-21}{2026-05-11} \\
+
+% Section: Entwicklung
+\ganttgroup{Entwicklung}{2026-03-21}{2026-05-17} \\
+\ganttbar[bar/.append style={fill=development}]{AP3 Implementierung}{2026-03-21}{2026-05-17} \\
+
+% Section: Abschluss
+\ganttgroup{Abschluss}{2026-05-18}{2026-05-31} \\
+\ganttbar[bar/.append style={fill=closure}]{AP4 Bewertung}{2026-05-18}{2026-05-31} \\
+
+% Section: Artikel
+\ganttgroup{Artikel}{2026-03-02}{2026-06-14} \\
+\ganttbar[bar/.append style={fill=article}]{Wissenschaftlicher Artikel}{2026-03-02}{2026-06-14}
+
+\end{ganttchart}
+}
+\end{center}
+\end{landscape}
