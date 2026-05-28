@@ -3,11 +3,15 @@
 \subsubsection{Frage 1.1: Technologien Synthetische Daten}
 \begin{description}[style=nextline, font=\bfseries\sffamily]
     \item[Methodik] 
-        Die methodische Grundlage bildet eine systematische Literaturrecherche in den Datenbanken PubMed und IEEE Xplore (Stand: März 2026). Aus der Recherche resultierten $n=27$ relevante Quellen, die einer quantitativen Analyse sowie einer manuellen Kategorisierung hinsichtlich der eingesetzten Synthese-Engines und Frameworks unterzogen wurden.
+        Die initiale Literaturrecherche lieferte insgesamt 125 Treffer, wovon 98 aus IEEE Xplore und 27 aus PubMed stammten. Dabei wurde der folgende Suchstring verwendet:
+            \begin{quote}
+            ((\enquote{synthetic data generation} OR \enquote{synthetic clinical data} OR \enquote{synthetic data} OR \enquote{synthetic patient} OR \enquote{synthetic patient data} OR \enquote{synthetic EHR} OR \enquote{Synthea}) \textbf{AND} (\enquote{large language models} OR \enquote{LLM} OR \enquote{generative AI} OR \enquote{autonomous agents} OR \enquote{agent-based} OR \enquote{machine learning}) \textbf{AND} (\enquote{clinical workflows} OR \enquote{patient history} OR \enquote{medical records} OR \enquote{case vignettes} OR \enquote{longitudinal} OR \enquote{simulated patients}))
+            \end{quote}
+        Nach einem Titel-, Abstract- und Volltext-Screening wurden letztendlich 27 Quellen einbezogen.
     \item[Ergebnisse]
         Die Analyse der identifizierten Quellen ($n = 27$) erfolgte in zwei Schritten: Zunächst eine Klassifizierung der Artikeltypen und anschließend eine technische Differenzierung der darin beschriebenen Methoden.
     \item[Verteilung der Artikeltypen]
-        Die Verteilung der Artikeltypen gliedert sich in zwei Kernbereiche: Reviews und methodische Benchmarks (n=10) dienten primär der Identifikation des aktuellen Stands der Technik sowie dem Vergleich bestehender Frameworks. Den komplementären Teil bildet die Primärliteratur zu spezifischen Methoden (n=17), welche konkrete Implementierungen oder neu entwickelte Algorithmen fokussiert.
+        Die Verteilung der Artikeltypen gliedert sich in zwei Kernbereiche: Reviews und methodische Benchmarks (n=10) dienten primär der Identifikation des aktuellen Stands der Technik sowie dem Vergleich bestehender Frameworks. Den komplementären Teil bildet die Primärliteratur zu spezifischen Methoden (n=17), welche konkrete Implementierungen oder neu entwickelte Algorithmen beschreibt.
     \item[Eingesetzte Technologien] 
         Zur Abbildung der technologischen Breite wurden die Ansätze wie folgt kategorisiert:
         
@@ -32,7 +36,50 @@
 \begin{description}[style=nextline, font=\bfseries]
 
     \item[Methodik] 
-    Die methodische Grundlage bildet eine systematische Literaturrecherche in PubMed und IEEE Xplore (Stand: März 2026). Die $n = 14$ identifizierten Quellen wurden quantitativ analysiert und manuell hinsichtlich der verwendeten Schnittstellenstandards kategorisiert.
+    Die methodische Grundlage dieser Arbeit bildet eine systematische Literaturrecherche in den Datenbanken PubMed und IEEE Xplore (Stand: März 2026). 
+    
+    Für die Recherche in PubMed wurde folgende Suchstrategie (Search String) verwendet:
+    \begin{verbatim}
+    (("Hospital Information Systems"[MeSH] OR 
+    "Electronic Health Records"[MeSH]) 
+    AND ("sensor*" OR "sensor data" OR "wearable*") 
+    AND ("storage" OR "archiving" OR "persistence" OR "NoSQL" OR "SQL" 
+    OR "Time-series database" OR "openEHR" OR "FHIR" OR "repository")) 
+    NOT ("Blockchain" OR "Security" OR "Cryptography" 
+    OR "Privacy Preservation" OR "Cybersecurity")
+    \end{verbatim}
+    
+    Für die Recherche in IEEE Xplore wurde folgender Search String angewendet:
+    \begin{verbatim}
+    (("Hospital Information System*" OR "Electronic Record*") 
+    AND ("sensor*" OR "sensor data" OR "wearable*") 
+    AND ("storage" OR "archiving" OR "persistence" OR "NoSQL" OR "SQL" 
+    OR "Time-series database" OR "openEHR" OR "FHIR" OR "repository")) 
+    NOT ("Blockchain" OR "Security" OR "Cryptography" OR 
+    "Privacy Preservation" OR "Cybersecurity")
+    \end{verbatim}
+    
+    Für die Auswahl der Primärliteratur wurden die folgenden Ein- und Ausschlusskriterien definiert:
+    \begin{itemize}
+        \item \textbf{Einschlusskriterien:}
+        \begin{itemize}
+            \item Nutzung von Sensordaten und deren explizite Integration in ein KIS oder eine elektronische Patientenakte (Electronic Health Record, EHR).
+        \end{itemize}
+        \item \textbf{Ausschlusskriterien:}
+        \begin{itemize}
+            \item Publikationen, die sich ausschließlich mit Datensicherheit, Datenschutz oder Kryptographie befassen.
+            \item Arbeiten, die lediglich die Erhebung von Sensordaten beschreiben, ohne eine Integration in ein KIS/EHR vorzusehen.
+            \item Beiträge mit einem reinen Fokus auf Machine-Learning-Algorithmen (ohne systemarchitektonischen Bezug).
+        \end{itemize}
+    \end{itemize}
+    
+    Die Literatursuche und das anschließende Screening führten zu folgenden Ergebnissen:
+    
+    In PubMed wurden initial 69 Ergebnisse identifiziert. Nach einem Titel- und Abstract-Screening wurden 10 Publikationen als relevant eingestuft. Das anschließende Volltext-Screening führte zum Ausschluss von zwei weiteren Arbeiten, sodass insgesamt 8 Publikationen aus PubMed in die Analyse einbezogen wurden.
+    
+    In IEEE Xplore wurden initial 200 Ergebnisse gefunden. Nach dem Titel- und Abstract-Screening verblieben 8 relevante Treffer. Im Zuge des Volltext-Screenings wurden ebenfalls zwei Arbeiten ausgeschlossen, woraus sich 6 finale Publikationen aus IEEE Xplore für die Synthese ergaben.
+    
+    Die insgesamt $n = 14$ identifizierten Quellen wurden quantitativ analysiert und manuell hinsichtlich der verwendeten Schnittstellenstandards kategorisiert.
 
     \item[Ergebnisse] 
     Die Analyse zeigt eine deutliche Dominanz des HL7 FHIR Standards, der in $n = 11$ Artikeln Anwendung findet. Lediglich $n = 3$ Quellen setzen auf klassische REST-Schnittstellen zur Datenübertragung.
@@ -111,12 +158,12 @@
     Im Implementierungsprozess wurden drei zentrale Herausforderungen adressiert: 
     \begin{itemize}[leftmargin=1.5em, labelsep=0.5em, itemsep=4pt, topsep=4pt]
         \item \textbf{Herkunft der Patienten:}
-        Synthea generiert standartmäßig Patienten die in den USA verortet sind. Das bedeutet im amerikanischen Gesundheitssystem behandelt werden und amerikanische Namen und Adressen besitzen. Die Lösung war es das Repository zu forken (Ein Fork ist eine Kopie eines Repositories, welches den selben Code und Sichtbarkeit besitzt wie das ursprüngliche Repository) und die EU/DE Properties, die von Synthea zur Verfügung gestellt werden zu nutzen und eigene Änderungen einzuführen um Patienten die in der EU / Deutschland verortet werden zu erhalten.
+        Synthea generiert standadtmäßig Patienten die in den USA verortet sind. Das bedeutet im amerikanischen Gesundheitssystem behandelt werden und amerikanische Namen und Adressen besitzen. Die Lösung war es das Repository zu forken (Ein Fork ist eine Kopie eines Repositories, welches den selben Code und Sichtbarkeit besitzt wie das ursprüngliche Repository) und die EU/DE Properties, die von Synthea zur Verfügung gestellt werden zu nutzen und eigene Änderungen einzuführen um Patienten die in der EU / Deutschland verortet werden zu erhalten.
         Durch die zur Verfügung gestellten Properties von Synthea wurden Krankenhäuser, sowie Städte und Krankenkassen aus deutschland importiert. Die Änderungen die nachträglich noch erstellt wurden waren die Einführung deutscher Vor und Nachnamen, sowie deutscher Straßennamen, welche in Synthea auch synthetisch generiert werden.
         \item \textbf{Vorgenerierung einer kompletten Patientenhistorie:}
         Synthea erstellt für einen Patienten immer eine komplette lückenlose Patientnehistorie. Das bedeutet, dass von Geburt bis ggf. Tod die Geschichte eines Patienten erstellt wird. Für eine möglichst realistisches KIS ist dies jedoch wenig repräsentativ. Als Lösung haben wir hierfür die FHIR Bundle, die von Synthea erstellt werden in einzelne Transaktionen aufgeteilt. Hierdurch kann die Patientenhistorie aufgeteilt werden und nur bis zu einem bestimmten Punkt ins KIS importiert werden. Wie dies gestaltet werden soll, also bis zu welchem Punkt die Daten importiert werden und wo der Cut-Off gesetzt wird steht noch offen.
         \item \textbf{Ärzte in Synthea und der Umgang im KIS:}
-        Synthea erstellt für einen Patienten immer eine Liste an Ärzten die diesen über den Verlauf behandelt haben. Dies würde für das KIS bedeuten, das sich die Menge der Ärzte exponentiell erhöhen würde, da jeder Patient eine vielzahl an Ärzten hat die Ihn über den Verlauf behandeln. Ein Lösungsansatz wird in Frage 3.c. dargestellt.
+        Synthea erstellt für einen Patienten immer eine Liste an Ärzten, die diesen über den Verlauf behandelt haben. Dies würde für das studiKIS bedeuten, das sich die Menge der Ärzte exponentiell erhöhen würde, da jeder Patient eine Vielzahl an Ärzten hat die ihn im Verlauf behandeln. Ein Lösungsansatz wird in den Ergebnissen zu Frage 3.c dargestellt.
     \end{itemize}
 
     \item[Ergebnisse] 
@@ -128,14 +175,14 @@
 \end{description}
 
 \subsubsection{Frage 3.2: Generierung mittels LLM} 
-\textbf{Methodik:} Entwicklung eines Prompts, der es ermöglicht strukturierte Klinische Daten als FHIR Bundle zu erzeugen. \\
+\textbf{Methodik:} Entwicklung eines Prompts, der es ermöglicht strukturierte klinische Daten als FHIR Bundle zu erzeugen. \\
 \textbf{Hürden:} 
 \begin{itemize}
     \item \textbf{Halluzination von Krankheiten:} Eine Hürde war es, dass bei der Generierung der Daten vom LLM Verläufe halluziniert wurden die nicht konsistent waren und wenig Plausibel. Hierfür wurde als Lösungsansatz eine Liste an Diagnosen und Medikamenten dem LLM zur Verfügung gestellt. Hierdurch wurden plausiblere und konsistentere Daten erzeugt.
     \item  \textbf{Inkonsistenz im Format:} Bei der Erzeugung von FHIR Bundlen im json Format traten inkonsistenzen in der Formatierung auf. Durch erweiterung des Prompt mit Punkt 6. OpenMRS-Kompatibilität  und 7. Formatvorgabe konnte dies überwunden werden. 
 \end{itemize}
 
-\textbf{Ergebnisse:} Mithilfe des erstellten Prompts können durch die nutzung von des Modells Gemini 3.1 Pro (High) \\
+\textbf{Ergebnisse:} Mithilfe des erstellten Prompts können durch die Nutzung von des Modells Gemini 3.1 Pro (High) \\
 
 Link zum Prompt:
 \href{https://github.com/robinhefner/Research-Project/blob/9ac45330eabbaa19dd4e6c5fe2f43b0358648f0d/Prompt_FHIR_Datengenerierung.md}{Prompt FHIR Datengenerierung}
@@ -180,7 +227,7 @@ Link zum Prompt:
 \end{description}
 \subsubsection{Frage 3.4: Dynamischer Datenimport}
 \textbf{Methodik:} Import der Daten über einen zeitlichen Verlauf um realitätsnahe zeitliche Verläufe abzublilden. \\
-\textbf{Ergebnisse:} Die syntethisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden. Die Transaktionen besitzen neben dem FHIR Daten eine "Scheduled-Time" zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde.\\
+\textbf{Ergebnisse:} Die synthetisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden. Die Transaktionen besitzen neben dem FHIR Daten eine "Scheduled-Time" zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde.\\
 \textbf{Beantwortung:}
 
 
@@ -216,7 +263,7 @@ Link zum Prompt:
 
 \end{description}
 
-\subsubsection{Frage 4.3: }
+\subsubsection{Frage 4.3: Effiziente Durchführung der Evaluierung}
 \begin{description}[style=nextline, font=\bfseries]
 \item[Methodik] Zur Durchführung der Evaluierung muss eine intuitive Infrastruktur geschaffen werden, die sowohl die Visualisierung der Patientendaten als auch die Datenerfassung effizient abbildet. Für die Kriterien wird eine 5-stufige Likert-Skala sowie ein optionales Freitextfeld für qualitatives Feedback festgelegt. Um die Validität der Ergebnisse zu gewährleisten, muss das System sicherstellen, dass jede bewertende Person jeden Datensatz exakt einmal evaluiert, um Mehrfachbewertungen auszuschließen. Zudem ist eine kontinuierliche Datenpersistenz notwendig, um Datenverlust zu jedem Zeitpunkt der Erhebung auszuschließen.
 
