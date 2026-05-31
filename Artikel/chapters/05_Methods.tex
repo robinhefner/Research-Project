@@ -3,15 +3,15 @@ This section describes the methodological framework employed to evaluate synthet
 \subsection*{Literature Review}
 A comprehensive literature review was conducted to identify and analyze current state-of-the-art approaches, focusing on studies that addressed at least one of the following two primary domains:
 \begin{enumerate}
-\item \textbf{Synthetic Clinical Data Generation:} Investigation of Large Language Models (LLMs) and autonomous agent systems, encompassing both classical rule-based architectures and modern LLM-based agents for the creation of longitudinal patient records.
-\item \textbf{Sensor Data Integration:} Identification of existing standards and protocols for exporting medically relevant data and integrating real-time sensor data from medical devices and wearables into Hospital Information Systems (HIS).
+\item \textbf{Synthetic Clinical Data Generation:} Investigation of LLMs and autonomous agent systems, encompassing both classical rule-based architectures and modern LLM-based agents for the creation of longitudinal patient records.
+\item \textbf{Sensor Data Integration:} Identification of existing standards and protocols for exporting medically relevant data and integrating real-time sensor data from medical devices and wearables into Hospital Information Systems.
 \end{enumerate}
 
 \subsubsection*{Eligibility criteria}
 Papers were included if they met the criteria for their specific domain:
 \begin{enumerate}
 \item \textbf{Synthetic Data:} Papers were included if they utilized LLMs, Generative AI, or model-based approaches employing state machines specifically for the purpose of generating synthetic clinical health data.
-\item \textbf{Sensor Data:} The papers had to include the collection of sensor data and their integration in a HIS or the Electronic Health Records (EHR).
+\item \textbf{Sensor Data:} The papers had to include the collection of sensor data and their integration in a HIS or the EHR.
 \end{enumerate}
 Papers were excluded when they only collected sensor data to train machine learning algorithms without the integration into the HIS or EHR.
 
@@ -46,11 +46,11 @@ Depending on the underlying domain, two different methodological approaches were
 \subsection*{Definition of Quality Criteria}
 To guarantee the pedagogical and technical utility of the synthesized datasets for medical and medical informatics education, a formal set of quality requirements had to be defined. Methodologically, a structured interview guideline was designed to target medical, information technology, and didactic quality metrics. This instrument was utilized to conduct qualitative, target-group-adapted interviews with a cohort of medical experts and specialized IT professionals, with extensive practical experience in academic teaching serving as a unifying selection criterion.
 
-\subsection*{Prototypical Implementation and Synthetic Patient Data Generation}
-The practical phase was designed around two parallel implementation workflows, both distinctively engineered to generate synthetic patient data: a rule-based approach utilizing a modified simulation framework and an agentic approach leveraging Large Language Models. This was followed by the design and deployment of an ingestion pipeline targeting the Hospital Information System (HIS).
+\subsection*{Prototypical Implementation and Heterogeneous Data Ingestion}
+The practical phase was designed around two distinct core data tracks: the generation of multi-modal synthetic patient histories and the preparation of empirical, real-world physiological sensor data. The synthetic data track utilized a parallel workflow: A rule-based approach via a modified simulation framework and an agentic approach leveraging Large Language Models. Concurrently, a dedicated ingestion infrastructure was developed to integrate both the generated synthetic records and the live sensor streams into the Hospital Information System.
 
 \subsubsection*{Rule-Based Generation of Synthetic Patient Data via Synthea}
-For the rule-based synthesis of patient data, the open-source Synthea repository was utilized. To adapt Synthea’s native North American healthcare and demographic profiles to a European context, the repository was forked to generate localized German synthetic patient datasets, introducing German names, street addresses, cities, hospitals, and health insurance entities.
+For the rule-based synthesis of patient data, the open-source Synthea \cite{synthea} repository was utilized. To adapt Synthea’s native North American healthcare and demographic profiles to a European context, the repository was forked to generate localized German synthetic patient datasets, introducing German names, street addresses, cities, hospitals, and health insurance entities.
 
 To prevent an exponential proliferation of virtual clinicians within the synthetic dataset, a provider-pooling strategy was conceptualized to scan the FHIR bundles and systematically substitute Synthea-generated clinicians with a fixed pool of pre-existing HIS users assigned to five specialized departments (Cardiology, Neurology, Chest Pain Unit, Stroke Unit, and Neurological Rehabilitation).
 
@@ -59,10 +59,11 @@ In parallel, an agentic data synthesis pipeline was engineered to generate synth
 
 To resolve formatting inconsistencies within the generated JSON-based FHIR bundles, the prompt architecture was extended with explicit OpenMRS-compatibility criteria and strict structural formatting rules. Additionally, the comprehensive CIEL concept dictionary was integrated into the pipeline layout to handle potential semantic gaps caused by missing concepts in the HIS database.
 
-\subsubsection*{System Integration and HIS Ingestion}
-The generated synthetic records were targeted for ingestion into the HIS via its native FHIR API module. To automate laboratory value ingestion, which natively requires a complex two-stage process in Bahmni (order placement and laboratory information system callback), an initial Python script was developed to simulate HTTP network requests captured from UI interactions, utilizing direct SQL database queries as a fallback mechanism for dynamic URL connections.
+\subsubsection*{Ingestion Pipeline for Synthetic Patient Records}
+The generated synthetic records were targeted for ingestion into the HIS via its native FHIR API module. Due to a critical lack of official documentation regarding Bahmni's FHIR endpoints, the compliant schema required for successful data import had to be reverse-engineered. This was achieved by exporting and analyzing the structural payload of a manually created reference patient record.
 
-In parallel, real-world physiological sensor data was prepared for the ingestion pipeline. This empirical dataset was gathered from three human participants who tracked their continuous glucose levels over a duration of two weeks utilizing the FreeStyle Libre 3 sensor. To resolve temporal limitations regarding historical timestamps, a low-level FHIR Observation schema accepted by the HIS was identified to allow seamless imports via the regular FHIR interface.
+\subsubsection*{Real-World Sensor Data Pipeline and Preparation}
+In parallel to the synthetic text-based records, empirical physiological sensor data was integrated into the platform to simulate remote patient monitoring. This dataset was gathered from four human participants who tracked their continuous glucose levels over a duration of two weeks utilizing the FreeStyle Libre 3 sensor. To resolve temporal limitations regarding historical timestamps and bypass the complex order-callback workflow of traditional laboratory modules, a low-level HL7 FHIR Observation schema accepted by the HIS was identified. This allowed the direct and seamless import of high-frequency time-series streams via the standard FHIR interface.
 
 \subsubsection*{Dynamic Temporal Data Ingestion}
 To transform the static database into a \enquote{living} clinical environment, a temporal ingestion pipeline was deployed. A custom Python script was designed to parse the synthesized clinical data into individual, chronological FHIR transactions, persist them within a local SQLite database, and append a target \enquote{Scheduled-Time} attribute to each entry. A secondary script was configured to execute continuously as a cronjob on the central HIS server to query the SQLite database at regular intervals and execute the FHIR import once the scheduled execution time was reached.

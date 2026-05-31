@@ -16,7 +16,7 @@ Six qualitative interviews were successfully completed with a balanced cohort co
 \end{enumerate}
 
 \subsection*{Prototypical Implementation and Pipeline Performance}
-The practical implementation phase yielded functioning technical pipelines with distinct outcomes across the rule-based and generative workflows:
+The practical implementation phase yielded functioning technical pipelines with distinct outcomes across the rule-based simulation, the generative AI workflows, and the empirical sensor data integration.
 
 \subsubsection*{Synthea Customization and Limitations}
 A functioning workflow was established to generate patient collectives in the localized FHIR format. However, implementation was impeded by significant technical and temporal constraints:
@@ -25,10 +25,11 @@ A functioning workflow was established to generate patient collectives in the lo
 \item The structural complexity of Synthea's full FHIR bundles led to repeated architectural rejections by the HIS. An iterative troubleshooting approach (analyzing error logs and programmatically stripping non-compliant fields) proved unscalable for subsequent simulation runs due to unpredictable fields. Combined with semantic gaps and insufficient documentation of the Bahmni FHIR module, the ingestion pipeline for rule-based data encountered deep scalability limitations and was ultimately deprioritized.
 \end{itemize}
 
-\subsubsection*{LLM Pipeline and System Ingestion}
-Advanced prompting of the Gemini 3.1 Pro (High) model successfully minimized clinical hallucinations and formatting inconsistencies, resulting in highly compliant JSON-based FHIR bundles. Because of the issues encountered with Synthea, the ingestion pipeline shifted its primary focus to these LLM-generated records. Integrating the comprehensive CIEL concept dictionary successfully resolved semantic gaps caused by missing concepts in the HIS database.
+\subsubsection*{LLM Pipeline and Synthetic Record Ingestion Results}
+Advanced prompting of the Gemini 3.1 Pro (High) model successfully minimized clinical hallucinations and formatting inconsistencies, resulting in highly compliant JSON-based FHIR bundles. Because of the scalability issues encountered with Synthea's complex bundles, the automated ingestion pipeline shifted its primary focus to these LLM-generated records. Integrating the comprehensive CIEL concept dictionary successfully resolved semantic gaps caused by missing concepts in the HIS database. 
 
-For laboratory data, the initial UI-simulating Python script succeeded in appending automated values, but was structurally limited as it required direct SQL database queries as a workaround to link laboratory orders to patient IDs, and it could not backdate historical timestamps. This limitation was resolved in the final architecture by utilizing the exact, low-level FHIR Observation schema accepted by the HIS. This allowed both laboratory measurements and continuous glucose sensor streams to be imported seamlessly via the regular FHIR interface as general observations, which are successfully visualized within the system's native trends dashboard.
+\subsubsection*{Integration and Visualization of Empirical Sensor Data}
+The continuous glucose sensor streams gathered from the four human participants were successfully parsed and integrated into the HIS database via the standard FHIR interface. By modeling the high-frequency time-series data as low-level FHIR Observation resources, the pipeline completely bypassed the system's standard clinical ordering workflows. Consequently, the granular temporal datasets were successfully processed by the backend and visualized dynamically within the system's native frontend trends dashboard, fulfilling the core requirements for real-time data representation in the educational environment.
 
 \subsection*{Evaluation Dataset and Platform Generation}
 The implemented rendering and presentation pipeline successfully generated a structurally uniform evaluation dataset:
