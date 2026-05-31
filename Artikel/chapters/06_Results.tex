@@ -1,0 +1,39 @@
+\subsection*{Literature Review and Synthesis Findings}
+The systematic literature review identified a total landscape of relevant literature across both primary domains:
+\begin{itemize}
+\item \textbf{Synthetic Data Generation:} The analyzed landscape is primarily shaped by Large Language Models (LLMs) and Transformers (n=9), followed by Generative Adversarial Networks (GANs) used for tabular and image data (n=4), agent-based simulation via Synthea (n=2), and emerging probabilistic approaches such as diffusion and interactive frameworks (n=2).
+\item \textbf{Sensor Data Integration:} The analysis revealed a clear dominance of the HL7 FHIR standard (n=11), while classical REST interfaces for data transmission were utilized in only a minority of studies (n=3). Notably, none of the investigated papers described continuous data streaming into the HIS; instead, integration was exclusively achieved via batch-processing methodologies using targeted server pull mechanisms.
+\item \textbf{Extracted Literature Requirements:} Core requirements extracted from literature encompass seven distinct domains: statistical fidelity (e.g., high-dimensional disease codes reaching correlation probabilities of R2>0.9) \citep{chen_generating_2025} \citep{theodorou_synthesize_2023}, structural integrity (hierarchical consistency and modeling informative missingness)\citep{josling_novel_2026}, temporal dynamics (realistic inter-visit gaps) \citep{josling_novel_2026} \citep{theodorou_synthesize_2023}, clinical utility (validated via the \enquote{Train-Synthetic-Test-Real} framework)\citep{theodorou_synthesize_2023} \citep{jung_clinical_2025}, data privacy (differential privacy to mitigate re-identification risks)\citep{tsao_health_2023} \citep{hahn_contribution_2022} \citep{chen_generating_2025}, governance/ethics (adherence to FAIR and CARE principles)\citep{tsao_health_2023}, and active bias mitigation\citep{theodorou_synthesize_2023}.
+\end{itemize}
+
+\subsection*{Defined Quality Criteria from Expert Interviews}
+Six qualitative interviews were successfully completed with a balanced cohort consisting of three medical experts and three specialized IT professionals. Qualitative analysis of the interview transcripts successfully yielded four established core dimensions of data quality for academic teaching:
+\begin{enumerate}
+\item \textbf{Clinical Plausibility:} The medically logical interplay of symptoms, diagnoses, and treatments, ranging from error-free standard therapies to plausible medical errors.
+\item \textbf{Longitudinal Consistency:} Uninterrupted, coherent progression of chronic conditions and follow-up examinations over extended periods without illogical jumps.
+\item \textbf{Chronological-Logical Sequence:} Realistic time intervals between clinical events (e.g., from initial diagnosis through intervention to follow-up care).
+\item \textbf{Overall Impression:} The global synthesis of the patient record dictating student acceptance and final didactic value.
+\end{enumerate}
+
+\subsection*{Prototypical Implementation and Pipeline Performance}
+The practical implementation phase yielded functioning technical pipelines with distinct outcomes across the rule-based and generative workflows:
+
+\subsubsection*{Synthea Customization and Limitations}
+A functioning workflow was established to generate patient collectives in the localized FHIR format. However, implementation was impeded by significant technical and temporal constraints:
+\begin{itemize}
+\item Due to time restrictions, the provider-pooling strategy could not be fully developed into an automated script. It was instead verified via a manually curated pilot patient dataset where clinical observations were mapped to a predefined provider pool across five specialized departments.
+\item The structural complexity of Synthea's full FHIR bundles led to repeated architectural rejections by the HIS. An iterative troubleshooting approach (analyzing error logs and programmatically stripping non-compliant fields) proved unscalable for subsequent simulation runs due to unpredictable fields. Combined with semantic gaps and insufficient documentation of the Bahmni FHIR module, the ingestion pipeline for rule-based data encountered deep scalability limitations and was ultimately deprioritized.
+\end{itemize}
+
+\subsubsection*{LLM Pipeline and System Ingestion}
+Advanced prompting of the Gemini 3.1 Pro (High) model successfully minimized clinical hallucinations and formatting inconsistencies, resulting in highly compliant JSON-based FHIR bundles. Because of the issues encountered with Synthea, the ingestion pipeline shifted its primary focus to these LLM-generated records. Integrating the comprehensive CIEL concept dictionary successfully resolved semantic gaps caused by missing concepts in the HIS database.
+
+For laboratory data, the initial UI-simulating Python script succeeded in appending automated values, but was structurally limited as it required direct SQL database queries as a workaround to link laboratory orders to patient IDs, and it could not backdate historical timestamps. This limitation was resolved in the final architecture by utilizing the exact, low-level FHIR Observation schema accepted by the HIS. This allowed both laboratory measurements and continuous glucose sensor streams to be imported seamlessly via the regular FHIR interface as general observations, which are successfully visualized within the system's native trends dashboard.
+
+\subsection*{Evaluation Dataset and Platform Generation}
+The implemented rendering and presentation pipeline successfully generated a structurally uniform evaluation dataset:
+\begin{itemize}
+\item A total sample size of 120 unique, visually indistinguishable patient records was successfully compiled based on a precise 40/40/40 split (40 Synthea-simulated, 40 LLM-generated, and 40 real clinical records from the MIMIC-III baseline).
+\item The final PDF documents successfully harmonized the varying information depths by restrictively rendering exactly five clinical dimensions: allergies, diagnoses, medications, procedures, and laboratory/vital signs.
+\item The password-protected web application was successfully deployed, featuring the complete dual-pane evaluation interface. The system successfully enforces data integrity by persistently caching session progress in a cloud database, preventing duplicate evaluations, and dynamically managing the 120-case matrix for the blinded evaluators.
+\end{itemize}

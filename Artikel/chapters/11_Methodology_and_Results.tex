@@ -3,12 +3,36 @@
 \subsubsection{Frage 1.1: Technologien Synthetische Daten}
 \begin{description}[style=nextline, font=\bfseries\sffamily]
     \item[Methodik] 
-        Die initiale Literaturrecherche lieferte insgesamt 125 Treffer, wovon 98 aus IEEE Xplore und 27 aus PubMed stammten. Dabei wurde der folgende Suchstring verwendet:
+        Für die initiale Literaturrecherche wurde der folgende Suchstring für die Datenbanken IEEEXplore und PubMed verwendet:
             \begin{quote}
             ((\enquote{synthetic data generation} OR \enquote{synthetic clinical data} OR \enquote{synthetic data} OR \enquote{synthetic patient} OR \enquote{synthetic patient data} OR \enquote{synthetic EHR} OR \enquote{Synthea}) \textbf{AND} (\enquote{large language models} OR \enquote{LLM} OR \enquote{generative AI} OR \enquote{autonomous agents} OR \enquote{agent-based} OR \enquote{machine learning}) \textbf{AND} (\enquote{clinical workflows} OR \enquote{patient history} OR \enquote{medical records} OR \enquote{case vignettes} OR \enquote{longitudinal} OR \enquote{simulated patients}))
             \end{quote}
-        Nach einem Titel-, Abstract- und Volltext-Screening wurden letztendlich 27 Quellen einbezogen.
+
+        Für die Auswahl der Publikationen wurden die folgenden Ein- und Ausschlusskriterien definiert:
+    \begin{itemize}
+        \item \textbf{Einschlusskriterien:}
+        \begin{itemize}
+            \item Generierung von synthethischen Patientenaten durch Sprachmodelle oder nicht-Sprachmodell-basierte Agenten
+        \end{itemize}
+        \item \textbf{Ausschlusskriterien:}
+        \begin{itemize}
+            \item Generierung von Daten die nicht im Kontext der Medizin stehen
+            \item Die Methode zur Generierung der Daten wird nicht genannt.
+        \end{itemize}
+    \end{itemize}
+        Mit den resultierenden Publikationen wurden ein Titel-, Abstract- und Volltext-Screening durchgeführt
+    \nopagebreak 
+    \begin{center}
+        \begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=0.5\textwidth]{Artikel/pictures/SynDatenFlowchart.png}
+            \captionof{figure}{Flussdiagramm des Auswahlprozesses der Paper für die Literaturrecherche zur Generierung von synthetischen Patientendaten.} 
+            \label{fig:syn_flow_chart}
+        \end{minipage}
+    \end{center}
+
     \item[Ergebnisse]
+
         Die Analyse der identifizierten Quellen ($n = 27$) erfolgte in zwei Schritten: Zunächst eine Klassifizierung der Artikeltypen und anschließend eine technische Differenzierung der darin beschriebenen Methoden.
     \item[Verteilung der Artikeltypen]
         Die Verteilung der Artikeltypen gliedert sich in zwei Kernbereiche: Reviews und methodische Benchmarks (n=10) dienten primär der Identifikation des aktuellen Stands der Technik sowie dem Vergleich bestehender Frameworks. Den komplementären Teil bildet die Primärliteratur zu spezifischen Methoden (n=17), welche konkrete Implementierungen oder neu entwickelte Algorithmen beschreibt.
@@ -29,7 +53,7 @@
             Neuere Ansätze zur probabilistischen Datenerzeugung.
         \end{itemize}
     \item[Beantwortung]
-        Die technologische Landschaft wird primär durch den Einsatz von Large Language Models (LLMs) und Generative Adversarial Networks (GANs) geprägt, ergänzt durch regelbasierte, agentenbasierte Systeme wie das Synthea-Framework.
+        Die technologische Landschaft wird primär durch den Einsatz von Large Language Models (LLMs) und Generative Adversarial Networks (GANs) geprägt, ergänzt durch regelbasierte Systeme wie das Synthea-Framework.
 \end{description}
 
 \subsubsection{Frage 1.2: Technologien Einbindung Sensor Daten}
@@ -39,25 +63,22 @@
     Die methodische Grundlage dieser Arbeit bildet eine systematische Literaturrecherche in den Datenbanken PubMed und IEEE Xplore (Stand: März 2026). 
     
     Für die Recherche in PubMed wurde folgende Suchstrategie (Search String) verwendet:
-    \begin{verbatim}
-    (("Hospital Information Systems"[MeSH] OR 
-    "Electronic Health Records"[MeSH]) 
-    AND ("sensor*" OR "sensor data" OR "wearable*") 
-    AND ("storage" OR "archiving" OR "persistence" OR "NoSQL" OR "SQL" 
-    OR "Time-series database" OR "openEHR" OR "FHIR" OR "repository")) 
-    NOT ("Blockchain" OR "Security" OR "Cryptography" 
-    OR "Privacy Preservation" OR "Cybersecurity")
-    \end{verbatim}
+    
+    \begin{quote}
+    ((\enquote{Hospital Information Systems}[MeSH] OR \enquote{Electronic Health Records}[MeSH]) 
+    AND (\enquote{sensor\textasteriskcentered} OR \enquote{sensor data} OR \enquote{wearable\textasteriskcentered}) 
+    AND (\enquote{storage} OR \enquote{archiving} OR \enquote{persistence} OR \enquote{NoSQL} OR \enquote{SQL} OR \enquote{Time-series database} OR \enquote{openEHR} OR \enquote{FHIR} OR \enquote{repository})) 
+    NOT (\enquote{Blockchain} OR \enquote{Security} OR \enquote{Cryptography} OR \enquote{Privacy Preservation} OR \enquote{Cybersecurity}))
+    \end{quote}
     
     Für die Recherche in IEEE Xplore wurde folgender Search String angewendet:
-    \begin{verbatim}
-    (("Hospital Information System*" OR "Electronic Record*") 
-    AND ("sensor*" OR "sensor data" OR "wearable*") 
-    AND ("storage" OR "archiving" OR "persistence" OR "NoSQL" OR "SQL" 
-    OR "Time-series database" OR "openEHR" OR "FHIR" OR "repository")) 
-    NOT ("Blockchain" OR "Security" OR "Cryptography" OR 
-    "Privacy Preservation" OR "Cybersecurity")
-    \end{verbatim}
+    
+    \begin{quote}
+    ((\enquote{Hospital Information System\textasteriskcentered} OR \enquote{Electronic Record\textasteriskcentered}) 
+    AND (\enquote{sensor\textasteriskcentered} OR \enquote{sensor data} OR \enquote{wearable\textasteriskcentered}) 
+    AND (\enquote{storage} OR \enquote{archiving} OR \enquote{persistence} OR \enquote{NoSQL} OR \enquote{SQL} OR \enquote{Time-series database} OR \enquote{openEHR} OR \enquote{FHIR} OR \enquote{repository})) 
+    NOT (\enquote{Blockchain} OR \enquote{Security} OR \enquote{Cryptography} OR \enquote{Privacy Preservation} OR \enquote{Cybersecurity}))
+    \end{quote}
     
     Für die Auswahl der Primärliteratur wurden die folgenden Ein- und Ausschlusskriterien definiert:
     \begin{itemize}
@@ -73,13 +94,24 @@
         \end{itemize}
     \end{itemize}
     
+    \nopagebreak 
+    \begin{center}
+        \begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=0.5\textwidth]{pictures/SensorDatenFlowchart.png}
+            \captionof{figure}{Flussdiagramm des Auswahlprozesses der Paper für die Literaturrecherche zur Integration der Sensordaten.} 
+            \label{fig:sensor_flow_chart}
+        \end{minipage}
+    \end{center}
+    \vspace{1ex}
+
     Die Literatursuche und das anschließende Screening führten zu folgenden Ergebnissen:
     
     In PubMed wurden initial 69 Ergebnisse identifiziert. Nach einem Titel- und Abstract-Screening wurden 10 Publikationen als relevant eingestuft. Das anschließende Volltext-Screening führte zum Ausschluss von zwei weiteren Arbeiten, sodass insgesamt 8 Publikationen aus PubMed in die Analyse einbezogen wurden.
     
     In IEEE Xplore wurden initial 200 Ergebnisse gefunden. Nach dem Titel- und Abstract-Screening verblieben 8 relevante Treffer. Im Zuge des Volltext-Screenings wurden ebenfalls zwei Arbeiten ausgeschlossen, woraus sich 6 finale Publikationen aus IEEE Xplore für die Synthese ergaben.
     
-    Die insgesamt $n = 14$ identifizierten Quellen wurden quantitativ analysiert und manuell hinsichtlich der verwendeten Schnittstellenstandards kategorisiert.
+    Die insgesamt $n = 14$ identifizierten Quellen wurden quantitativ analysiert und manuell hinsichtlich der verwendeten Schnittstellenstandards kategorisiert. Der kombinierte Ablauf der Literaturrecherche in PubMed und IEEE Xplore ist im Flussdiagramm in Abbildung \ref{fig:sensor_flow_chart} dargestellt.
 
     \item[Ergebnisse] 
     Die Analyse zeigt eine deutliche Dominanz des HL7 FHIR Standards, der in $n = 11$ Artikeln Anwendung findet. Lediglich $n = 3$ Quellen setzen auf klassische REST-Schnittstellen zur Datenübertragung.
@@ -120,30 +152,48 @@
 
 % --- ZIEL 2 ---
 \subsection*{Ziel 2: Definition der Qualitätskriterien}
-\subsubsection{Frage 2.1: Anforderungen von Experten}
+
+\subsubsection{Frage 2.1: Befragung von Expert*innen}
 
 \begin{description}[style=nextline, font=\bfseries]
 
     \item[Methodik] 
     Zur Erhebung der Expertenanforderungen wurde im ersten Schritt ein strukturierter Gesprächsleitfaden konzipiert. Dieser diente als methodische Grundlage für die anschließenden Experteninterviews und fokussierte sich gezielt auf die medizinische, informationstechnische sowie didaktische Qualität der synthetisch generierten Patientendaten und der in das Lehre-KIS importierten Sensordaten. 
 
-
-
     Dies sind alle Fragen des Leitfadens: 
-\href{https://github.com/robinhefner/Research-Project/blob/5359f58b92f2480c59e9677c2e41ec0f7c742b21/Gespr%C3%A4chsleitfaden_Qualit%C3%A4tskriterien.pdf}{Leitfaden Qualitätskriterien}
-\\
+    \href{https://github.com/robinhefner/Research-Project/blob/5359f58b92f2480c59e9677c2e41ec0f7c742b21/Gespr%C3%A4chsleitfaden_Qualit%C3%A4tskriterien.pdf}{Leitfaden Qualitätskriterien}
+    \\
 
     \vspace{1em}
-    Im Anschluss an die Ausarbeitung des Leitfadens erfolgte die Durchführung der eigentlichen Experteninterviews. Hierbei wurde ein zielgruppenadaptierter Ansatz gewählt, um die Befragung optimal an die jeweilige Fachexpertise der Interviewpartner anzupassen. Dies bedeutet konkret, dass nicht jedem Experten der vollständige Fragenkatalog vorgelegt wurde: Personen mit primär medizinischem Hintergrund wurden nicht zu informationstechnischen Details befragt, ebenso wie technische Experten von den spezifisch medizinischen Qualitätskriterien ausgenommen waren. Auf diese Weise konnten insgesamt fünf qualitative Interviews realisiert werden. Die Kohorte der Befragten setzte sich aus vier Personen mit medizinischem Hintergrund sowie einer Person mit informationstechnischer Spezialisierung zusammen. Ein essenzielles Auswahlkriterium, das alle fünf Experten gleichermaßen erfüllten, war ihre ausgewiesene praktische Erfahrung im Bereich der akademischen Lehre.
-\item[Ergebnisse] Die qualitative Analyse der Interviewprotokolle führte zur Identifikation von vier primären Hauptkriterien für die Datenqualität:
-\begin{enumerate}
-    \item \textbf{Klinische Plausibilität:} Beschreibt das medizinisch logische Zusammenspiel von Symptomen, Diagnosen und Behandlungen. Das Spektrum reicht dabei von fehlerfreien Standardtherapien bis zu plausiblen Fehlbehandlungen.
-    \item \textbf{Longitudinale Konsistenz:} Bezieht sich auf den langfristigen, korrekten Krankheitsverlauf über größere Zeiträume hinweg. Chronische Erkrankungen und Folgeuntersuchungen müssen lückenlos aufeinander aufbauen und dürfen keine unlogischen Sprünge aufweisen.
-    \item \textbf{Zeitlich logische Abfolge:} Umfasst die korrekte Reihenfolge sowie die Realitätsnähe der zeitlichen Abstände einzelner klinischer Ereignisse (z.\,B. die Zeitspanne von der Erstdiagnose über die Intervention bis zur Nachsorge).
-    \item \textbf{Gesamteindruck:} Aggregiert die vorgenannten Aspekte zu einem globalen Qualitätseindruck der Patientenakte, welcher maßgeblich die Akzeptanz und den didaktischen Nutzwert für die Studierenden bestimmt.
-\end{enumerate}
+    Im Anschluss an die Ausarbeitung des Leitfadens erfolgte die Durchführung der eigentlichen Experteninterviews. Hierbei wurde ein zielgruppenadaptierter Ansatz gewählt, um die Befragung optimal an die jeweilige Fachexpertise der Interviewpartner anzupassen. Dies bedeutet konkret, dass nicht jedem Experten der vollständige Fragenkatalog vorgelegt wurde: Personen mit primär medizinischem Hintergrund wurden nicht zu informationstechnischen Details befragt, ebenso wie technische Experten von den spezifisch medizinischen Qualitätskriterien ausgenommen waren.
 
-\item[Beantwortung] Die Ermittlung der Expertenanforderungen erfolgte über fünf qualitative, zielgruppenadaptierte Interviews auf Basis eines dreigeteilten Leitfadens (Medizin, IT, Didaktik). Als zentrales Ergebnis konnten vier  Kernkriterien, klinische Plausibilität, longitudinale Konsistenz, Zeitlich logische Abfolge und der Gesamteindruck extrahiert werden, welche die qualitativen Mindestanforderungen an die synthetischen Patientendaten definieren.
+    \item[Ergebnisse] 
+    Durch den gewählten Ansatz konnten insgesamt sechs qualitative Interviews erfolgreich realisiert werden. Die Kohorte der Befragten setzte sich aus drei Personen mit medizinischem Hintergrund sowie drei Person mit informationstechnischer Spezialisierung zusammen. Ein essenzielles Auswahlkriterium, das fünf Experten erfüllten, war ihre ausgewiesene praktische Erfahrung im Bereich der akademischen Lehre. Die Befragung lieferte umfassende, protokollierte Datenbasen für die anschließende Auswertung.
+
+    \item[Beantwortung] 
+    Die Befragung der Expert*innen wurde erfolgreich über sechs qualitative, zielgruppenadaptierte Interviews auf Basis eines dreigeteilten Leitfadens (Medizin, IT, Didaktik) durchgeführt. Dadurch konnte ein breites, interdisziplinäres Spektrum an praktischer Lehrerfahrung für die nachfolgende Kriterienauswertung erfasst werden.
+
+\end{description}
+
+\subsubsection{Frage 2.2: Analyse der Ergebnisse: Welche Anforderungen haben Spezialisten an die Daten?}
+
+\begin{description}[style=nextline, font=\bfseries]
+
+    \item[Methodik] 
+    Die methodische Auswertung der erhobenen Daten erfolgte über eine qualitative Analyse der zuvor angefertigten Interviewprotokolle. Ziel dieser Analyse war es, die Aussagen der Experten systematisch zu strukturieren, Gemeinsamkeiten zu identifizieren und daraus die übergeordneten Kernanforderungen an die Datenqualität abzuleiten.
+
+    \item[Ergebnisse] 
+    Die qualitative Analyse der Interviewprotokolle führte zur Identifikation von vier primären Hauptkriterien für die Datenqualität:
+    \begin{enumerate}
+        \item \textbf{Klinische Plausibilität:} Beschreibt das medizinisch logische Zusammenspiel von Symptomen, Diagnosen und Behandlungen. Das Spektrum reicht dabei von fehlerfreien Standardtherapien bis zu plausiblen Fehlbehandlungen.
+        \item \textbf{Longitudinale Konsistenz:} Bezieht sich auf den langfristigen, korrekten Krankheitsverlauf über größere Zeiträume hinweg. Chronische Erkrankungen und Folgeuntersuchungen müssen lückenlos aufeinander aufbauen und dürfen keine unlogischen Sprünge aufweisen.
+        \item \textbf{Zeitlich logische Abfolge:} Umfasst die korrekte Reihenfolge sowie die Realitätsnähe der zeitlichen Abstände einzelner klinischer Ereignisse (z.\,B. die Zeitspanne von der Erstdiagnose über die Intervention bis zur Nachsorge).
+        \item \textbf{Gesamteindruck:} Aggregiert die vorgenannten Aspekte zu einem globalen Qualitätseindruck der Patientenakte, welcher maßgeblich die Akzeptanz und den didaktischen Nutzwert für die Studierenden bestimmt.
+    \end{enumerate}
+
+    \item[Beantwortung] 
+    Die Spezialisten stellen insgesamt vier zentrale Anforderungen an die synthetischen Patientendaten: klinische Plausibilität, longitudinale Konsistenz, eine zeitlich logische Abfolge sowie einen stimmigen Gesamteindruck. Diese extrahierten Kernkriterien definieren die qualitativen Mindestanforderungen, die für eine erfolgreiche und akzeptierte Nutzung in der akademischen Lehre erfüllt sein müssen.
+
 \end{description}
 
 % --- ZIEL 3 ---
@@ -227,7 +277,7 @@ Link zum Prompt:
 \end{description}
 \subsubsection{Frage 3.4: Dynamischer Datenimport}
 \textbf{Methodik:} Import der Daten über einen zeitlichen Verlauf um realitätsnahe zeitliche Verläufe abzublilden. \\
-\textbf{Ergebnisse:} Die synthetisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden. Die Transaktionen besitzen neben dem FHIR Daten eine "Scheduled-Time" zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde.\\
+\textbf{Ergebnisse:} Die synthetisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden. Die Transaktionen besitzen neben den FHIR Daten eine Scheduled-Time zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde.\\
 \textbf{Beantwortung:}
 
 
