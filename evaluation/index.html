@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patientendaten Evaluation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Password Screen -->
+        <section id="password-screen" class="screen active">
+            <div class="card password-card">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-lock">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+                <h1>Zugriffsschutz</h1>
+                <p>Bitte geben Sie das Passwort ein, um auf die Evaluations-Plattform zuzugreifen.</p>
+                <form id="password-form">
+                    <div class="input-group">
+                        <label for="app-password">Passwort</label>
+                        <input type="password" id="app-password" placeholder="Passwort eingeben" required>
+                    </div>
+                    <div id="password-error" class="error-message"
+                        style="display: none; color: #ef4444; font-size: 0.875rem; margin-top: -1rem; margin-bottom: 1rem; font-weight: 500;">
+                        Falsches Passwort. Bitte versuchen Sie es erneut.
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Freischalten</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Start Screen -->
+        <section id="start-screen" class="screen">
+            <div class="card start-card">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-activity">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                </div>
+                <h1>Patientendaten Evaluation</h1>
+                <p>Bitte wählen Sie Ihren Namen aus, um mit der Bewertung zu beginnen. Ihr Fortschritt wird automatisch
+                    gespeichert.</p>
+                <form id="start-form">
+                    <div class="input-group">
+                        <label for="doctor-name">Arzt auswählen</label>
+                        <select id="doctor-name" required
+                            style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; background-color: white;">
+                            <option value="" disabled selected>Bitte wählen Sie Ihren Namen</option>
+                            <option value="Ärztin 1">Ärztin 1</option>
+                            <option value="Ärztin 2">Ärztin 2</option>
+                            <option value="Ärztin 3">Ärztin 3</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Evaluation starten</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Evaluation Screen -->
+        <section id="eval-screen" class="screen">
+            <header class="app-header">
+                <div class="header-info">
+                    <span id="progress-indicator" class="progress-text">Patient 1 von X</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </header>
+
+            <div class="split-view">
+                <!-- PDF Viewer -->
+                <div class="pdf-panel">
+                    <div class="pdf-container">
+                        <iframe id="pdf-viewer" src="" width="100%" height="100%" border="0"></iframe>
+                    </div>
+                </div>
+
+                <!-- Evaluation Form -->
+                <div class="form-panel">
+                    <div class="panel-header">
+                        <h2>Bewertung</h2>
+                    </div>
+                    <form id="evaluation-form" class="eval-form">
+                        <div id="criteria-container">
+                            <!-- Criteria will be injected here via JS -->
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="btn-prev" class="btn btn-secondary"
+                                style="display:none;">Zurück</button>
+                            <button type="submit" id="btn-next" class="btn btn-primary">Speichern & Weiter</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Screen -->
+        <section id="end-screen" class="screen">
+            <div class="card start-card text-center">
+                <div class="icon-container success-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-check-circle">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h1>Evaluation Abgeschlossen</h1>
+                <p>Vielen Dank für Ihre Zeit. Sie haben alle Patientenakten erfolgreich bewertet.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
