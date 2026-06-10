@@ -1,0 +1,369 @@
+id,created_at,doctor_name,pdf_filename,c1,c2,c3,c4,c1_comment,c2_comment,c3_comment,c4_comment
+24,2026-05-19 17:24:53.814+00,Ärztin 3,Barbara_Lang_d8cb2b5c.pdf,5,5,5,5,,,,
+25,2026-05-19 17:29:51.668+00,Ärztin 3,Michael_Schulz_d390cc9f.pdf,5,5,3,4,,,Der Laborwert müsste eher zeitgleich oder vor der Diagnose des DM Typ 2 eingetragen worden sein.,"Für die Diagnose eines Diabetes Mellitus Typ 2 hätte man mehr Laborwerte abgenommen, als nur den HbA1c."
+26,2026-05-19 17:30:35.181+00,Ärztin 3,Thorsten_Huber_4e7aab62.pdf,5,5,5,5,,,,
+27,2026-05-19 17:32:42.462+00,Ärztin 3,Beate_Bruder_82341893.pdf,4,5,5,4,,,,
+28,2026-05-19 17:45:14.29+00,Ärztin 3,Karin_Krämer_d0ba9874.pdf,3,4,5,4,"1 ML medroxyprogesterone acetate 150 MG/ML Injection am 06.07.2017 wäre nicht angezeigt bzw. kontraindiziert, wenn bereits seit 08.06.2017 eine Schwangerschaft besteht
+
+Generell auf kontrainidzierte Medikamente in der Schwangerschaft achten","Einmalig ""Normal Pregnancy"" ohne Follow-Up etwas ungewöhnlich (zB am 08.06.2017)",,
+29,2026-05-19 17:48:26.9+00,Ärztin 3,Stefan_Müller_8e4e1ca0.pdf,3,5,5,4,"""Cerebrovascular accident"" sehr unspezifisch, würde man in Realität präziser erwarten",,,
+30,2026-05-19 17:49:55.92+00,Ärztin 3,Lena_Meyer_587cc6bb.pdf,4,5,5,4,,,,"Einheit ""units"" bei Hemoglobin A1c nicht korrekt (Labor & Vitalwerte: ID1)"
+31,2026-05-19 17:50:58.169+00,Ärztin 3,Sandra_Meier_736b3c5c.pdf,5,5,5,5,,,,
+32,2026-05-19 17:53:26.165+00,Ärztin 3,Johanna_Klein_f0728ff8.pdf,3,5,5,4,Einheit bei Hemoglobin A1c inkorrekt / ungenau. Bei einem sehr hohen HbA1c-Wert von 140 mmol/mol währe Metformin wahrscheinlich alleine nicht ausreichend.,,,
+33,2026-05-19 17:54:44.016+00,Ärztin 3,Lisa_Schneider_cb5fb015.pdf,5,5,5,5,,,,
+34,2026-05-19 17:56:02.664+00,Ärztin 3,Tim_Jäger_23569092.pdf,5,5,5,5,,,,
+35,2026-05-19 17:58:51.671+00,Ärztin 3,Reinhart_Siering_2eda6bfb.pdf,4,5,5,4,"Etwas auffällig, dass alle sekundären malignen Neoplasien am gleichen Tag dokumentiert wurden.",,,
+36,2026-05-19 18:02:48.796+00,Ärztin 3,Ignatz_Albers_5318cf9c.pdf,3,5,4,4,"alle Diagnosen in einem sehr kurzen Zeitraum codiert
+viele unspezifische NOS-Diagnosen",,,
+37,2026-05-19 18:05:54.933+00,Ärztin 3,Maria_Becker_c277f224.pdf,4,3,4,4,,Medikation mit Metformin erst 3 Jahre nach Diagnose des Diabetes Mellitus Typ 2 ist untypisch,Keine Laborwerte vor Diagnosestellung des Diabetes mellitus vorhanden,Einheit bei Hemoglobin A1c unpassend
+38,2026-05-20 09:10:19.585+00,Ärztin 1,Renate_Seidel_4c6961af.pdf,2,1,2,1,"Manche Medikamente hauen hin, aber anemie wird nicht behandelt (was für eine ist es?) Migräne behandlung? Meikamente zur Unterstützund Entzug? Was für Überdosen sind es?","Patientin bekommt zB Diagnose past history of miscarriage (161744009) mit 19, eine Diagnose miscariage wäre aber plausibel, so unpräszise würde man es eher 20 Jahre später codieren, wenn nicht nachvollziehbar ist, wann das war. Auch hat die patientin nur 2 Jahre eine Angststörung, ist unplausibel","Die erste obverdose in den Encounters gibt es 2007, in den diagnosen erst 2020","direkt fällt auf am Anfang: Die ID ist viel länger als üblich, die Hausnummer wirkt unnatürlich hoch.
+EInige Soziale Diagnosen sind immer wieder eingestreut wie sie in der Praxis in deutschland nicht einfach so eingestreut werden. Nieman kodiert 2 Jahre Stress - auch ""medication review due"" komtm öfters vor-- die patientin hat mit 74 einen teilzeitjob und 77 einen vollzeitjob, währenddessen sozial isoliert... und die drogenabhängige ist nach 3 überdosen 84 Jahre alt geworden...
+die laborwerrte sind gemischt mit gewicht, blutdruck, atemfrequenz auzfgeführt.."
+39,2026-05-20 09:15:28.252+00,Ärztin 1,Peer_Mülichen_6dee6508.pdf,1,1,1,1,,,,"ID, Hausnummer 4487? Patient vor 2026 im Alter 86 erst Diagnosen, alles selbes datum, außerdem Code 41400 was ist das?  NS DSW? Ginbt es eine Anamnese? muss die intracranielle Blutung operiert werdden?"
+40,2026-05-20 09:33:47.695+00,Ärztin 1,Ariane_Klemt_f38f0483.pdf,2,1,1,1,,,,"Was ist D5W und warum gibt es das um 23:34 10 x ? Alle Maßnahmen haben die gleiche Uhrzeit, alle Diagnosen, hat keinen Verlauf, was ist Cide 20280?"
+41,2026-05-20 09:42:52.962+00,Ärztin 1,Sonja_Herrmann_6186127a.pdf,2,2,2,2,,,,"ID ungewöhnlich, Adresse scheint unplausibel, refugeee mit higher education möglich, aber wirkt komisch in der kombination  it criminal record, es gab schojn eien patientin mit fehlgeburt Anamnese und Flüchtling und Gingivitis, scheint ein komisches sich wiederholendes muster zu sein, über 62 das erste mak erwähnt vollzeitjob... ein komischer Fokus scheont auf der Zahnmeldizin zu liegen, in der Humanmedizin werden solche Diagnosen oft nciht so ausaführlich erhoben.., medication review due in der diagnoseliste ist unsinning, es erden chekups erwähnt aber nur zur gingivitis, aber nciht zu der kaputten füllung, (gab es karies?) anemie wird nciht behandelt.. prediabetes wird nicht behandelt..keine Schwangerschaftsbetreung bis zur Fehlgeburt..bronchitis wird nciht genauer diagnostiziert, nur paracetamol (schmerzmittel)"
+42,2026-05-20 09:47:39.292+00,Ärztin 1,Doris_Gute_038c2232.pdf,1,1,1,1,"Diagnosen ID 1-5 sind mir nicht geläufig, warum insulin? was sind die medikamente LR; NS, SW, Vial D5?",wiederholende items mit dem gleichen timestamp,alles gleicher Zeitpunkt,"ID, Wieder hausnummer 7303, siehe weitere grobe Fehler"
+43,2026-05-20 09:49:08.717+00,Ärztin 1,Lisa_Schmidt_411f1d89.pdf,1,1,1,1,"Diagnosen 1-5 sind mir unbekannt, warum kriegt patient insulin? Medikamwente doppeln sich, was sind NS LR SW für medikamente?",alles gleicher Zeitpunkt,alles gleicher Zeitpunkt,viele grobe fehler
+44,2026-05-20 09:50:10.882+00,Ärztin 1,Lisa_Richter_72336208.pdf,1,1,1,1,"was sind diagnosen 1-5, abkürzungen medikamente wie SW oder NS?",,,"viele grobe Fehler, alles zur gleichen Zeit, wörter die keinen Sinn ergeben"
+45,2026-05-20 09:51:31.802+00,Ärztin 1,Valentina_Spieß_9480c9e4.pdf,1,1,1,1,,,,"kann es sein dass die patientin mehrfach auftritt? oder die seite hat ein Priblem... also es gibt mehrere Grobe fehler, alles ist zur gleichen Zeit, Es gibt wörter die mir fremd sind (Diagnose 1-5, medikemne (52-65)"
+46,2026-05-20 09:52:19.21+00,Ärztin 1,Marie_Müller_ca2d0495.pdf,1,1,1,1,,,,"ja, die patientin gibt es mehrfach:.. also es gibt mehrere Grobe fehler, alles ist zur gleichen Zeit, Es gibt wörter die mir fremd sind (Diagnose 1-5, medikemne (52-65)"
+47,2026-05-20 09:59:32.145+00,Ärztin 1,Eleni_Mülichen_ed6b0701.pdf,1,1,1,1,"alte patientin erste events 2026, direkt eine kompexe diagnose, dann eine kathwrter assoziierte infekrtion,...","viel NS, daten alle 2026","viel NS, daten alle 2026",zu viele grobe fehler
+48,2026-05-20 10:02:46.611+00,Ärztin 1,Marie_Richter_3deb4dd0.pdf,2,2,2,3,behanldung nur aspirin des schlaganfalls mit 47 unwahrscheinlich aber zu wenig details,vorerkrankungen zum schlaganfall?,,"mal eine plausible Adresse :-) was heißt IMP als Behandlung? übersichtlicher falkl, nicht ganz abwegig"
+49,2026-05-20 10:05:19.98+00,Ärztin 1,Curt_Grein Groth_dd5a3352.pdf,1,1,1,1,"NS als Meidkanent zu oft, verknüfungen der medikente mit der diagnose nicht vorhanden,",alles selbes datum,alles selbes datum,"die diagnosen werden zu extrem abgekürzt und sind nciht plausibel lesbar, es fehlen vocale, NS kommt zu oft vor in medikamenten, komplett unplausibel"
+50,2026-05-20 10:11:42.423+00,Ärztin 1,Martha_Schulz_e3c366a8.pdf,3,4,4,3,"gingivitis mit 8 könnte sein aber bisschen unwahrscheinlich, ansonsten möglich, medication review teile störend/unplausibel aber einfach zu entfernen, behandlung, kontrazeption bisschen frph aber nciht unmöglich, Quality of life scoremacht keinen sinn","verschieen daten, plauible abstände, kindgerechte diagnosen",,"petientin ist 14, einiges plausibel, einiges müsste raus genommen angepast werden, abwr könnte man mit arbeiten"
+51,2026-05-20 10:14:39.978+00,Ärztin 1,Elli_Kramer_48dff458.pdf,3,1,2,2,"parox ventr Tachykardie (ID 2) unwahrscheinlich mit 20 und im zusammenhang mit unfall, viele medikamente not specified, macht wieder keinen sinn","nur ein datum, verlauf bis ins coma/Medikamente/labiorwerte wäre plausibel","nur ein datum, verlauf bis ins coma/Medikamente/labiorwerte wäre plausibel",könnte noch als grundlage für überarbeitung dienen
+52,2026-05-20 10:16:09.276+00,Ärztin 1,Lea_Koch_e3e4e233.pdf,3,3,3,3,,,,"was ist die behandlung? es fehlen laborwerte,.. prinzipiell auf Grund der kürze keine großen inplausibilitäten"
+53,2026-05-20 11:59:31.097+00,Ärztin 2,Felix_Müller_23d0b483.pdf,5,5,5,5,,,,
+54,2026-05-20 17:20:17.075+00,Ärztin 3,Hansjürgen_Neureuther_996c4500.pdf,5,5,5,5,,,,
+55,2026-05-20 17:22:51.43+00,Ärztin 3,Kristine_Gumprich_3897e451.pdf,5,5,5,5,,,,
+56,2026-05-20 17:30:06.722+00,Ärztin 3,Elke_Hartmann_e09461fc.pdf,3,3,4,3,"überproportional häufig Gingivitiden, Loose dental filling und i.A. zahnärtzliche Diagnosen",Wechsel von Full-time employment zu Unemployed innerhalb von wenigen Tagen (ID 40 + 41 unter Diagnosen),,"Criminal Record, Gingivitis und Gingival disease kommen sowohl innerhalb einzelner Patinetenakten (wie dieser) als auch über die Patientenakten hinweg überproportional häufig vor"
+57,2026-05-20 17:37:14.535+00,Ärztin 3,Marie_Weber_95699e64.pdf,2,4,5,2,"-im Rahmen eines Myokardinfarktes werden primär andere Medikamente als nur Atorvastatin verabreicht (Thrombozytenaggregationshemmung und Antikoagulation, ggf. Betablocker, Nitrate, Morphin)
+-keine Angaben zu erfolgter Diagnostik und Interventionen im Rahmen des Herzinfarktes
+-es ist unplausibel, dass der Myokardinfarkt in den Diagnosen nicht weiter aufgeschlüsselt wurde (STEMI, NSTEMI)",,,
+58,2026-05-20 17:51:39.598+00,Ärztin 3,Anne-Katrin_Hahn_0bbb7cec.pdf,4,3,3,4,,"alle Diagnosen an einem Tag, dadurch ist kein wirklicher Zeitverlauf der Erkrankungen nachvollziehbar",,
+59,2026-05-20 17:53:19.125+00,Ärztin 3,Clara_Haas_82758bb9.pdf,4,4,4,4,,,,"Gingivitis, Limited social contact und Social isolation kommt über Patientenakten hinweg überproportional häufig vor"
+60,2026-05-20 17:54:52.189+00,Ärztin 3,Lena_Fischer_dfcc698a.pdf,2,4,4,3,"-Myokardinfarkt nicht weiter spezifiziert
+-keine passenden Medikamentenangaben zum Myokardinfarkt (alleinige Administration von Atorvastatin unsinnig)
+-keine Angaben zu Diagnostik & Interventionen im Rahmen des Herzinfarkt",,,Ergibt insgesamt kein sinnvolles klinisches Gesamtbild
+61,2026-05-20 17:55:52.727+00,Ärztin 3,Lea_Koch_e3e4e233.pdf,4,5,5,4,Bei einer Pneumonie wären auch Laborwerte zu erwarten,,,
+62,2026-05-20 17:57:05.798+00,Ärztin 3,Paul_Weber_61e9e42a.pdf,3,5,5,3,Bei einer Pneumonie wären auch Laborwerte und mehr Vitalparameter zu erwarten,,,
+63,2026-05-20 18:01:15.049+00,Ärztin 3,Anna-Lena_Hendriks_b7417d93.pdf,3,3,4,3,zu viele (z.T. unzusammenhängende) Einzeldiagnosen am selben Tag erlauben kaum das Nachvollziehen des Krankheitsverlaufes,"""Late effects of cerebrovascular disease, aphasia"" als Diagnose, aber keine Angaben bezüglich Schlaganfall etc. in der Vorgeschichte",,
+64,2026-05-20 18:04:49.027+00,Ärztin 3,Marzena_Wirth_65dbaa63.pdf,4,4,4,4,"-in den Diagnosen zu oft NOS (not Otherwise Specified) und NEC (Not Elsewhere Classified)
+-alle Diagnosen am selben Tag des Krankenhausaufenthalts (es wäre zu erwarten, dass in den folgenden Tage noch weitere hinzukommen)",,,
+65,2026-05-20 18:14:31.806+00,Ärztin 3,Cordula_Dehmel_2bbb5f6c.pdf,4,3,3,3,,"alle Diagnosen beginnen am selben Tag, was für den klinischen Verlauf von einer implantatassoziierten Gelenkinfektion bis hin zur Multiorganbeteiligung extrem unwahrscheinlich ist",,"-Diagnosen ergeben zT zwar ein gemeinsames Bild (implantatassoziierten Gelenkinfektion -> Streptokokken-Septikämie -> akutes Nierenversagen, Thrombozytopenie, Alkalose, Herzinsuffizienz, abnormale Gerinnung)
+-überlappen sich aber teilweise auch /Mehrfachcodierung
+1. Sepsis, Streptococcal septicemia, Streptococcus group b 
+2. React-oth int ortho dev, Pyogen arthritis-pelvis"
+66,2026-05-21 05:41:49.646+00,Ärztin 1,Karin_Krämer_d0ba9874.pdf,4,3,4,3,"Blutdruckmedikation ist first line, allerdings 9 Jahre unbehandelt? metformin passt zu DM typ 2.. laborwerte passen nicht ganz zum verlauf/sidn zu wenige","""normal pregnency"" für einen Monat? beim ersten mal ohne Fehlgeburt.. medikamente könnten etwas länger verordnet sein auch zur Übersichtlichkeit, dauernd kurze abstände aber keine änderung der dosis.. hat initial krampfanfälle, keine medikation aber hat diese nie wieder.. laborwerte zeitlich nicht abgestimmt","metaboisches syndrom erst nach diabetes diagnose
+5 jahre nach DM typ 2 erstdiagnose bereits nierenprobleme unwahrscheinlich aber möglich, . laborwerte zeitlich nicht abgestimmt","mit 8 Diagnose ""nur Grundschule"" ist komisch, refugeee tritt gehäuft auf, medication review als diagnose komisch, gingivits tritt gehäuft auf, s ist nicht klar in welchen behandlungen die medikaente zum Bluthochdruck oder diabetes gemonitored werden, laborwerte sind ausschließlich von september-oktober 2025,"
+67,2026-05-21 06:04:52.121+00,Ärztin 1,Clara_Haas_82758bb9.pdf,4,3,3,3,"mit welchem Ereignis hat man die medikamenten-allergie festgestellt, wenn dieses nicht verabreicht wurde? bekommt meidkament gegen kontaktdermatitis die nicht codiert ist",Laborwerte decken nur 3 Jahre ab,medikation pulmonales emphysem startet 10 jahre nach erstdiagnose... 2018 erster dokumentierter encounter zum Emphysem nachdem 2 Jahre medikamente schon gegeben werden,2016 erste vollzeit arbeitsstelle? fast jeder patient hat eine gingivitis.. ein fall den man mit einigen Überarnbeitungen nutzen könnte
+68,2026-05-21 06:08:36.514+00,Ärztin 1,Anna_Müller_eb9ad221.pdf,4,3,3,3,auf grund der kürze soweit plausibel..  erstmal konservative maßnahmen vor medikamentenstart möglich aber 3 jahre vielleicht etwas lang,es fehlt fast jeglicher verlauf,"laborwerte bei Erstdiagnose und verlauf wären plausibel, erstmal konservative maßnahmen vor medikamentenstart möglich aber 3 jahre vielleicht etwas lang",auf grund der kürze soweit plausibel
+69,2026-05-21 06:18:27.24+00,Ärztin 1,Katharina_Fuchs_29225702.pdf,4,4,3,4,"oft beim augenarzt wegen diabetes ist plausibel, zeitliche abfolge teilweise fragwürdig",Laborwerte 2023-2025 bisschen wenig,"2007 ED Hypertonie, medikamente ab 2015... ist etwas lange, genause diabetes therapoe",schon wieder ein refugee und gingivitis.. insgesamt recht schlüssig aber verbesserungen notwendig
+70,2026-05-21 06:27:22.027+00,Ärztin 1,Daniela_Koch_6ee0ce72.pdf,4,4,4,4,diagnosen altersentsprechend,laborwerte wahrscheinlich nicht so oft abgenommen worden,diagnosen altersentsprechend,"ziemlich plausibel, es fehlen dinge wie impfungenen oder berichte was gemacht wurden für knochenbrüche"
+71,2026-05-21 06:28:05.282+00,Ärztin 1,Lea_Weber_23b87261.pdf,4,3,3,3,,,,sehr kurz aber soweit plausibel
+72,2026-05-21 09:13:26.961+00,Ärztin 1,Lisa_Richter_0d231a25.pdf,2,2,2,2,metropolol bei essentieller Hypertonie 10 Tage nach Myokardinfarkt angefangen.. naja,"kaum Verlauf, Encounter nicht näher beschrieben",essentielle Hypertonie und Myokardinfarkt gleichzeitig diagnostiziert?,
+73,2026-05-21 09:22:04.468+00,Ärztin 1,Cordula_Reising_f8c400d7.pdf,3,3,3,3,,stirbt der patient? Verlauf wird nciht ganz klar,"(fast) alles passiert gleichzeitig, ist unlogisch, auch bei einer Notfallaufnahme ohne vorherige anamnese sollte es einen Verlauf geben","insgesamt fällt mir auch dass bisher überweigend frauen vorkamen, vielleicht Zufall. Es fällt auf, dass einige abkürzungen wohl eher dem Abrechnugnsdaten entsprechen als den klinisch verwendeten abkürzungen"
+74,2026-05-21 09:23:27.955+00,Ärztin 1,Johanna_Wolf_76caf881.pdf,2,2,2,2,"bei schlaganfall würde ich mehr erwarten als aspirin als maßnahme. untersuchungen, rhea, bildgebungen",kein verlauf,eingeschränkt da kaum daten,
+75,2026-05-21 11:42:07.606+00,Ärztin 3,Sandy_Christoph_aa81bbf0.pdf,5,3,4,4,,"zeitliche Staffelung der Diagnosen wäre plausibler, an sich passen die Diagnosen aber gut zum Gesamtbild einer akuten kardio-pulmonalen Dekompensation",,
+76,2026-05-21 11:48:01.086+00,Ärztin 3,Yvonne_Martin_2a675760.pdf,4,4,4,4,,,,"-Limited social contact, Social isolation, Gingivitis, Gingival disease innerhalb der Patientenakte selbst und auch über Patientenakten hinweg überrepräsentiert
+-Etonogestrel 68 MG Drug Implant kommt im Vergleich zu gängigeren Verhütungsmethoden über die Patientenakten hinweg übermäßig häufig vor"
+77,2026-05-21 11:49:35.639+00,Ärztin 1,Sami_Niemeier_a2801c2b.pdf,3,3,3,3,Der Verlauf ist für eine schwere Virusenzephalitis untypisch,"Patient ist 60+ ohne vorherige anamnese, durch Notfallaufnahme plausibel, verlauf allerdings nur 3 Tage, bei virusenzephalitis unwahrscheinlich, wie wäre es außerdem mit einem Virusnachweis bei der diagnose, entzündungswerten etc? imponiert inkomplett",laborwerte sind zeitlich durcheinander,
+78,2026-05-21 11:58:46.837+00,Ärztin 3,Peter_Krämer_7f0cd5db.pdf,3,4,4,3,"Aus der Medikamentenadministration am 31.01.2026 gehr hervor, dass an dem Tag ein operativer Eingriff erfolgte (Sedativum, Analgetikum, Muskelrelaxans). 
+Als Diagnose steht am selben Tag aber nur ""History of coronary artery bypass grafting"", was durch das ""History of"" suggeriert, dass der Eingriff in der Vergangenheit liegt.",,,"zu viele Patienten mit criminal record, Reports of violence in the environment und Victim of intimate partner abuse"
+79,2026-05-21 12:03:33.003+00,Ärztin 3,Ida_Roth_ab613a8e.pdf,4,5,5,4,"QOLS, QALY, DALY werden vom Pädiater ohne spezifischen Anlass nicht standardmäßig erhoben (sowohl am 21.12.2021 als auch am 21.12.2020)",,,
+80,2026-05-21 12:11:44.114+00,Ärztin 3,Mandy_Dowerg_2780e7bf.pdf,4,3,4,4,,"-Langzeitdiagnosen, Akute Diagnosen, Komplikationen der Intensivaufenthalts, Risikofaktoren alle am selben Tag dokumentiert
+-von der Medikamentenadministration kann man jedoch auf ein Krankheitsverlauf von circa einer Woche schließen 
+-innerhalb dieser Woche kommt es in Realität zu weiteren Komplikationen / Diagnosen
+-nach einem solchen Krankenhausaufenthalt sind weitere Nachbehandlungen / Anschlussmedikation zu erwarten",,
+81,2026-05-21 12:11:49.108+00,Ärztin 1,Mila_Seiler_679c662b.pdf,4,4,4,4,"""normale Schwangerschaft"" (ID 13) für 31 Wochen? Zumindest frühgeburt des Kindes...
+Für wleche Kontaktdermatitis (DIagnose?) gibt es das Hydrocortison (ID 3 ) Indikation... (passt aber zum encounter)
+Chlorpheniramine (ID1) ist erst ab dem alter von einem Jahr zugelassen, Während einer Schwangerschaft einnahme einer Antibabypille,","sehr wechselhafte kontrazeption, möglich aber unwahrscheinlich, nur eine minute implantat ? (ID 21)",lücke zwischen diagnose hypertonie und medikamentenstart 8 1 monat),"habe hier noch keine einzige behandelte anemie gesehen... ansosnten einer der schlüssigeren Fälle, wie immer wenig laborwerte"
+82,2026-05-21 12:12:58.766+00,Ärztin 3,Josef_Hermann_c434b7d7.pdf,4,4,4,4,"-zu viele Einzeldiagnosen am selben Tag (19.05.2025) -Teilweise zwar passend zueinander (Choledocholithiasis, Cholangitis, Streptokokken-Sepsis, septischer Schock, pulmonale Insuffizienz, Pleuraerguss, Nierenversage), teilweise aber auch willkürlich (Personal history of fall, Unc behav neo bone) 
+-hätte sich in Realität wahrscheinlich über mindestens 2-3 Tage erstreckt",,,
+83,2026-05-21 12:13:05.471+00,Ärztin 1,Lena_Hoffmann_0f112a3d.pdf,3,3,3,3,,,,"sehr plausibel, sehr kurz, unpassende vitalwete - sauerstoffsättigung? Atemfreuqeuenz? vorgeschichte?"
+84,2026-05-21 12:14:44.508+00,Ärztin 3,Zlatko_Scholl_d25ad9ef.pdf,5,5,5,5,,,,
+85,2026-05-21 12:18:03.006+00,Ärztin 3,Lea_Weber_23b87261.pdf,2,3,4,3,"-Diagnose Diabetes mellitus type 2 ohne dokumentierte vorherige Laboruntersuchungen
+-Laborwert am 24.03.2026 (HbA1c) wirkt willkürlich (weitere Laborwerte? Anlass? Bei Diabetes mellitus viel häufiger Laborkontrollen als alle 3 Jahre)",-Metformin erst 3 Jahre nach Erstdiagnose DM Typ 2 extrem unwahrscheinlich,,-Einheit bei Hemoglobin A1c unpassend
+86,2026-05-21 12:23:12.146+00,Ärztin 3,Hermann_Hartmann_0b96a232.pdf,3,4,4,3,"-kein Grund, warum am 13.08.2021, 13.08.2022, 13.08.2023, 13.08.2024, 13.08.2025 QOLS, QALY, DALY erhoben
+-auffällig, dass diese Erhebung immer am exakt selben Jahrestag",,,"Victim of intimate partner abuse, Refugee, Housing unsatisfactory, Gingival disease, Social isolation über Patientenakten hinweg zu häufig"
+87,2026-05-21 12:24:33.757+00,Ärztin 1,Melissa_Bohnbach_aecac158.pdf,3,3,3,3,kann intensivmedizin wenig beurteilen scheint aber grob zu passen,diabetes hört nicht nach 8 Tagen einfach auf,"auch bei einem notfall sollte eines nach dem anderen kommen.. so wie es hier aussieht gab es einen sturz einer alten frau, die pneumonie war wahrscheinlich davor oder danach erst da, medikamente starten 1 tag vor diagnose, alles ist immer 14:47 Blutwerte passen zeitlich nicht zum Unfall (mehrere Monate)",könnte mit grober überarbeitung nutzbar werden
+88,2026-05-21 12:25:57.563+00,Ärztin 3,Mathilda_Wolf_c197f39f.pdf,2,4,4,3,"-zu häufig Gingivitis und Gingival disease
+-QOLS, DALY, QALY vom Pädiater im Rahmen der U-Untersuchungen nicht standardmäßig erhoben",,,Orientierung an den Inhalten der U-Untersuchungen bei Kindern & Jugendlichen wäre sinnvoll
+89,2026-05-21 12:27:53.996+00,Ärztin 3,Lukas_Wagner_c04da995.pdf,3,3,4,3,"-Diagnose Diabetes mellitus type 2 ohne vorherige  Laborwerte
+-keine regelmäßigen Laborwertkontrollen für den Diabetes Mellitus vorhanden",-kaum Diabetes mellitus Typ 2 Nachkontrollen,,Orientierung am Disease-Management-Programm für den Diabetes Mellitus Typ 2 wäre sinnvoll
+90,2026-05-22 08:54:31.159+00,Ärztin 1,Christian_Flantz_7c21aabe.pdf,2,1,1,2,"Benzodiazipin, Opiate und amphetamin Abusus, passt zu diagnosen, scheint geblutet zu haben, bekommt fentanyl vielleicht als subsitution, vielleicht im Koma? Ohne Dosis/ Kurven schwer nachvollziehbar",,"Medikamente vor Diagnose  und Aufnahme, Laborwere einen Monat vorher oder mehr","Was ist blue Top Hold? insgesamt ohne Verlauf, Prozeduren etc schwer nachvollziehbarer Fall, daher schwer so zu bearbeiten dass brauchbar"
+91,2026-05-22 09:20:02.127+00,Ärztin 1,Alexander_Müller_eaaab7fc.pdf,3,3,3,3,,,,"zu knapp, entscheidene parameter fehlen"
+92,2026-05-22 09:40:58.513+00,Ärztin 1,Daniela_Braun_da478352.pdf,4,4,4,4,,2 Monate normal schwanger? nochmal 8 Monate? ein etwas längerer Laborwertverlauf ist positiv anzumerken,,"wieder dokumentierte gingivits(häufung!), eine Klinik Dokumentation würde typischer weise nich tso detailiert wahrscheinliche ambulante versorgung abdecken (pille verschrieben), sehr früh chronischer schmerz, aonsten recht plausibler verlauf"
+93,2026-05-22 09:41:12.954+00,Ärztin 1,Lukas_Wagner_c04da995.pdf,3,3,3,3,,,,
+94,2026-05-22 12:55:56.143+00,Ärztin 1,Tobias_Fischer_8b0d95e6.pdf,2,2,2,2,"RR trotz Bluthochdruck am Tag der Diagnsoe normwertig (systolisch?) diastolisch nciht vorhanden, kein ASS, nur statin, ACE Hemmer?",,,kurz
+95,2026-05-22 12:56:33.771+00,Ärztin 1,Michael_Schulz_d390cc9f.pdf,2,2,2,2,Blutzzuckermessungen?,,,kurz
+96,2026-05-22 13:16:33.507+00,Ärztin 1,Cordula_Dehmel_2bbb5f6c.pdf,3,2,2,2,"Diagnosenkombinatiomn möglich, ohne Anamnese auch etwas schwer einzuordnen welches szenario abgebildet werden soill","kaum verlauf, bzw vorhandenen Laborwerte schwer einzurodnen da Daten unsinning","Laborwerte vs Notfallaufnahme und datum der Diagnosen inkongruent, notfallsiagnosen auf 12 Tage begrenzt..",
+97,2026-05-22 13:25:32.48+00,Ärztin 1,Sandra_Meier_736b3c5c.pdf,4,4,4,4,"bekommt antibiotikum bei viraler sinusitis...
+Schwangerschaftstypische Virusserolgien/Untersuchugen wären schön, da Patientin neben Bluthochdruck hauptsächlich schwanger ist",wie bisher kurze schwangerschaftsdauern als normal bezeichnet... Blutdruckmedikamente langfristig verorndet ein plus,,"Laborwerte nur wenige vorhanden, sonst relativ gesunde patientin und relativ plausibel,"
+98,2026-05-22 13:26:09.078+00,Ärztin 1,Felix_Hoffmann_91bb8f53.pdf,3,2,2,2,,,,blasser /schlanker fall
+99,2026-05-23 11:26:52.845+00,Ärztin 3,Michael_Hoffmann_f7664f83.pdf,3,3,3,3,"-fehlende Laborwerte, die die Erstdiagnose des Diabetes mellitus Typ 2 unterstützen (erster Laborwert erst 3 Jahre später)",-fehlende Nachkontrollen der Laborwerte (zB im Rahmen eines Disease Management Programms),,
+100,2026-05-23 11:28:15.718+00,Ärztin 3,Anna_Müller_eb9ad221.pdf,3,3,3,3,-Diagnose DM Typ 2 ohne dokumentierte Diagnostik,fehlende Nachkontrollen des DM Typ 2,,
+101,2026-05-23 11:33:41.351+00,Ärztin 3,Patrick_Becker_335fdc18.pdf,4,5,5,4,Dokumentation einer Lisinopril-Allergie (Antihypertensivum) im Alter von 18 Jahren sehr unwahrscheinlich,,,"über die Patientenakten hinweg zu häufig “has a criminal record”, “refugee” und “risk activity involvement”, insb. in dieser Kombination"
+102,2026-05-23 11:35:36.963+00,Ärztin 3,Peer_Mülichen_6dee6508.pdf,5,5,5,5,,,,
+103,2026-05-23 11:40:02.001+00,Ärztin 3,Paul_Becker_63cb13e6.pdf,4,3,3,3,Verhältnismäßig frühe Erstdiagnose eines Diabetes mellitus Typ 2,-erster Laborwert erst 3 Jahre nach Erstdiagnose des DM Typ 2,-erster Laborwert erst 3 Jahre nach Erstdiagnose des DM Typ 2,
+104,2026-05-23 11:42:58.55+00,Ärztin 3,Holger_Margraf_1c5431a0.pdf,4,4,4,4,"Diagnosen & Laborwerte passen gut zu klinischem Verlauf eines stationären Aufenthalts. Allerdings passt nicht, dass alle diese Diagnosen am Aufnahmetag eingetragen wurden.",,,
+105,2026-05-23 11:47:28.816+00,Ärztin 3,Paul_Koch_50eed607.pdf,2,4,4,3,"-Fehlende Dokumentation der medikamentösen und ggf. interventionellen Behandlung des Myokardinfarktes
+-Einzige Verordnung von Atorvastatin am Tag des Myokardinfarktes ist nicht leitliniengerecht, da die Administration von Medikamenten zur Sekundärprophylaxe der Akutbehandlung nachgeschaltet ist
+-am Tag des Myokardinfarktes (29.04.2026) sind deutlich mehr Labor & Vitalwerte als nur Herzfrequenz und Blutdruck zu dokumentieren",,,"-beim Blutdruck fehlt die Angabe, ob es sich um den systolischen oder diastolischen Wert handelt
+-die Einheit der Herzfrequenz ist unpassend"
+106,2026-05-23 11:48:22.946+00,Ärztin 3,Leon_Wagner_8e22dd18.pdf,4,5,5,4,-fehlende Dokumentation von Labor- & Vitalwerten im Rahmen der Pneumonie,,,-Herzfrequenz: falsche Einheit
+107,2026-05-23 11:59:40.435+00,Ärztin 3,Hans_Winter_87899c90.pdf,3,4,5,4,"-kein ersichtlicher Grund für Erhebung von QOLS, DALY, QALY am 19.05.2025, 29.05.2024, 29.05.2023, 29.05.2022. Immer der exakt gleiche Tag im Jahr ist zudem auffällig.
+-Generalized anxiety disorder 7 item total score [Reported.PHQ] wird insgesamt über die Patientenakten hinweg sehr häufig erhoben (hier am 22.06.2022). Das wirkt teilweise etwas willkürlich.",,,
+108,2026-05-23 12:02:27.061+00,Ärztin 3,Thomas_Schneider_b4069712.pdf,4,5,5,3,"-er wird unglaubhaft häufig QOLS, QALY und DALY erhoben, und auch immer am gleichen Jahrestag",,,"-Refugee, Has a criminal record, Gingivitis, Gingival disease jeweils einzeln und auch in Kombination zu häufig über die Patientenakten hinweg"
+109,2026-05-23 12:03:32.679+00,Ärztin 3,Johanna_Meyer_58912a39.pdf,3,5,5,5,"-genauere Spezifizierung des ""Cerebrovascular accident"" und mehr dokumentierte Labor- & Vitalwerte am Tag des Ereignis wären zu erwarten",,,
+110,2026-05-23 12:14:20.165+00,Ärztin 3,Eleni_Mülichen_ed6b0701.pdf,3,5,5,4,"-zu häufig Gingivitis / Gingival disease in den Diagnosen
+-aus heutiger Sicht würde man nach ""Ischemic heart disease"" am 27.06.2013 eher Rosuvastatin / Atorvastatin anstatt Simvastatin ansetzen
+-nach ""ischaemic heart disease"" wäre auch ASS neben Clopidogrel und ggf. zusätzlich ein ACE-Hemmer/ARB in der Medikation zu erwarten. Clopidogrel allein ist ungewöhnlich.",,,
+111,2026-05-23 13:39:30.8+00,Ärztin 3,Jonas_Weiß_f7e8239a.pdf,3,5,5,3,"-Die Diagnose ""Refugee"" am 0.5.05.2018 wirkt willkürlich
+-Zu oft Gingitivis / Gingival Disease
+-Die Diagnose ""Severe anxiety"" wird übermäßig häufig vergeben, während zB Depression fast nie vorkommt
+-zu häufige Erhebung QOLS, QALY, DALY -> wird im klinischen Alltag so nicht gemacht",,,
+112,2026-05-23 13:41:50.854+00,Ärztin 3,Sarah_Wagner_8efa48c0.pdf,3,3,4,3,"-Diagnose DM Typ 2 ohne vorherige Laborwerte
+-Metformin erst 3 Jahre nach Diagnose des DM Typ 2 untypisch",-Fehlende regelmäßige Laborkontrollen,,
+113,2026-05-23 16:36:12.747+00,Ärztin 3,Mila_Seiler_679c662b.pdf,5,5,5,5,,,,
+114,2026-05-23 16:37:17.072+00,Ärztin 3,Lena_Hoffmann_0f112a3d.pdf,4,5,5,4,Es wären mehr Labor- & Vitalparameter bei Diagnostellung der Pneumonie zu erwarten,,,-Einheit bei Herzfrequenz unklar
+115,2026-05-23 16:38:22.1+00,Ärztin 3,Valentina_Spieß_9480c9e4.pdf,4,4,4,4,Dokumentation der Diagnosen alle am selben Tag bildet Krankenhausaufenthalt nicht gut ab,,,
+116,2026-05-23 16:48:47.531+00,Ärztin 3,Lisa_Schmidt_411f1d89.pdf,2,5,4,3,"-nur ASS nach Cerebrovascular accident unwahrscheinlich
+-zur Sekundärprophylaxe nach Schlaganfall gehört idR nicht nur Aspirin, sonder auch die Behandlung mit Statinen und Blutdruckeinstellung
+-keine Angaben zur Akuttherapie des Schlaganfalls (Rekanalisation? Thrombolyse?)",,"ASS als Rezidivprophylaxe nach Schlaganfall normalerweise lebenslang, nicht nur für ein Jahr","Blutdruckeintrag (""Blood pressure panel with all children optional "") ist seltsam formuliert, keine Angabe oder systolisch oder diastolisch"
+117,2026-05-23 16:51:12.177+00,Ärztin 3,Alexander_Müller_eaaab7fc.pdf,3,4,5,3,-fehlende Labor- & Vitalparameter im Rahmen der Pneumonie (Herzfrequenz nicht ausreichend),-fehlende Nachsorgekontrolle nach Pneumonie,,
+118,2026-05-23 16:58:37.867+00,Ärztin 3,Doris_Gute_038c2232.pdf,3,5,4,3,"-Vasc comp med care NEC --> vaskuläre Komplikation medizinischer Behandlung --> sehr unspezifisch, wovon Komplikation und was genau?
+-aus den Daten kann man nicht eindeutig schließen, welche Behandlung bezüglich der Tumorerkrankung gewählt wurde / was das konkrete Ziel der elektiven Aufnahme war",,keine neu hinzugekommen Diagnosen / Conditions während des Aufenthals unwahrscheinlich,
+119,2026-05-23 17:03:12.809+00,Ärztin 3,Susanne_Fischer_8692f143.pdf,4,3,4,4,,"Diagnose: Disorder of kidney due to diabetes mellitus am 02.11.2023, aber keine Vordiagnose / Erstdiagnose eines Diabetes mellitus",,
+120,2026-05-23 17:10:38.114+00,Ärztin 3,Julia_Schulz_da33635d.pdf,2,3,4,2,"-fehlende medikamentöse Akuttherapie des Myokardinfarktes (u.a. Thrombozytenaggregationshemmung und Antikoagulation)
+-unvollständige medikamentöse weiterführende Therapie nach Myokardinfarkt: Duale Plättchenaggregationshemmung nach Stent, RAAS-Inhibitor (Betablocker (Metorpolol) und Statin (Atorvastatin) nicht ausreichend)
+-fehlende Laborwerte",-Fehlende Nachkontrollen,,"Labor & Vitalparameter: seltsame Darstellung des Blutdrucks, fehlende Angabe ob systolisch / diastolisch"
+121,2026-05-23 17:17:11.402+00,Ärztin 3,Sami_Niemeier_a2801c2b.pdf,2,4,4,3,"-Aciclovir i.v. bei Herpes-Enzephalitis über 14 Tage, nicht 4! (ID 38 unter Medikamente)
+-fehlende Laborergebnisse einer Liquordiagnostik",,,
+122,2026-05-24 09:27:00.436+00,Ärztin 1,Anna-Lena_Hendriks_b7417d93.pdf,3,2,2,2,ohne verknüpfung der Medikamente mit Ursachen oder Sympomten oder prozeduren und zeitlichem Verlauf schwer zu sagen,"notfallaufnahme, trotzdem keinerlei zeitliche ausbreitung der wahrscheinlich intensivmedizinischen Betreuung",,
+123,2026-05-24 09:27:58.18+00,Ärztin 1,Lisa_Schneider_cb5fb015.pdf,3,3,3,3,,,,"ähnliche Fall bereits mehrfach gesichtet, relevante parameter fehlen, sehr knapp, pneumonie und Antibiotikum prinzpiell richtig verknüpft"
+124,2026-05-24 09:52:17.25+00,Ärztin 1,Barbara_Lang_d8cb2b5c.pdf,4,3,3,3,"fehlende kodierte adipositas, diagnostik Bluthochdruck nach erhöhten Blutdrücken nciht verfolgt, (2022) ID 82, anonsten plausibler, fall bis auf die wiederholte mediactiomn review im Säuglinsalter",,,
+125,2026-05-24 09:53:26.374+00,Ärztin 1,Julia_Schulz_da33635d.pdf,3,3,3,3,,,,"wiederholter fall so oder sehr ähnlich bereits gehabt, sehr kurz, wichtige informationen für  so einen fall fehlen, v.a. an Parametern"
+126,2026-05-24 09:54:05.168+00,Ärztin 1,Felix_Müller_23d0b483.pdf,3,3,3,3,,,,"so oder so ähnlich schon gehabt, sehr kurz, grundzusammenhang schlüssig, sinvolle parametwer fehlen"
+127,2026-05-24 11:43:36.46+00,Ärztin 1,Hermann_Hartmann_0b96a232.pdf,2,2,3,2,"als mann wiederholte Harnwegsinfektionen ist selten, dann eiegntlich driuekt kompliziert und antibiotika notwendig, hier keine historie, wiederholte gingivitis diagnosen, schlechte soziale bedingugnen passen zum vermehrtem Alkoholkonsum und kriminalität",endounters passen nicht gut zu allen diagnosen,,"mit 8 schulabbruch? warum nicht  mit 10 nur Grundschulbesuch? Als mann partner abuse? ok.. in der medizin wird eher mit klischees gearbeitet bei vignetten, bzw wahrscheinlichkeit, medizinische details stimmen nicht"
+128,2026-05-24 12:42:34.327+00,Ärztin 1,Brit_Pechel_d12c0b37.pdf,2,1,1,2,"patietn ohne verlauf, elektiv aufgenommen, welche diagnose/prozedur soll da führend sein?",,,
+129,2026-05-24 12:43:40.644+00,Ärztin 1,Maria_Becker_c277f224.pdf,3,2,2,3,,,"fast 3 jahre zwischen erstdiagnose und medikament, , keine laborwerte zur diganose...",kurz aber halbwegs plausibel
+130,2026-05-24 12:48:08.934+00,Ärztin 1,Daniela_Staude_178179e8.pdf,2,2,2,2,"bei den ganzen diagnosen wäre ein zeitlicher verlauf zu erwarten, sehr viel flüssigkeit die Patient bekommt, siagnose zugehörig zur Intubation nicht klar",siagnosen wie diabetes verschwinden nicht nach 7 Tagen,"diagnostisch kein zeitllicher verlauf, laborwerte mehrere Tage nach den diagnosen",
+131,2026-05-24 17:37:14.76+00,Ärztin 3,Lisa_Richter_0d231a25.pdf,2,3,4,3,"-fehlende Akutmedikation des Myokardinfarktes (ASS etc.)
+-unvollständige medikamentöse Anschlusstherapie 
+-fehlende Laborwerte im Rahmen des Myokardinfarktes",Fehlende Nachkontrollen,,-nicht ideale Bezeichnung für Blutdruckparameter
+132,2026-05-24 17:41:05.953+00,Ärztin 3,Walter_Baum_97cc27a9.pdf,3,5,5,3,"""Other acquired limb deformity"" sehr unspezifisch, es wären bei einem schweren Trauma wie hier mehr typische Zusatzdiagnosen (zB Rippenfraktur etc) zu erwarten.","alles am selben Tag, daher im Prinzip nicht bewertbar","alles am selben Tag, daher im Prinzip nicht bewertbar",
+133,2026-05-24 17:42:15.521+00,Ärztin 3,Laszlo_auch Schlauchin_65edbd62.pdf,5,5,5,5,,,,
+134,2026-05-24 17:43:51.522+00,Ärztin 3,Maria_Möller_fbb9f4a6.pdf,4,5,5,4,"QOLS, DALY, QALY werden nicht standardmäßig vom Pädiater erhoben",,,
+135,2026-05-24 17:44:51.622+00,Ärztin 3,Emil_Werner_5f5d0f40.pdf,4,5,5,4,-zu oft Gingivitis / Gingival disease,,,
+136,2026-05-24 17:46:23.684+00,Ärztin 3,Leon_Becker_a8691325.pdf,2,3,4,2,"-fehlende medikamentöse Akuttherapie des Myokardinfarktes
+-fehlende Laborparameter",-fehlende Nachkontrollen / Anschlussmedikation,,-unpassende Parameterbezeichnung beim Blutdruck
+137,2026-05-24 17:47:34.407+00,Ärztin 3,Julian_Jung_6e7e0898.pdf,4,3,4,4,,"""Disorder of kidney due to diabetes mellitus"" ohne Vordiagnose einer Diabetes mellitus",,
+138,2026-05-24 17:58:41.922+00,Ärztin 3,Jürgen_Baumann_33a1f41a.pdf,3,3,4,3,"Keine medikamentöse Therapie (Gegenmittel / Aktivkohle) der dokumentierten 3-maligen ""Overdose"" in 2022? Keine im Anschluss erhobenen Laborwerte? 
+Die Angabe, welche Substanz überdosiert wurde, wäre zudem sehr relevant.","""Drug rehabilitation and detoxification"" erstmalig in 2025 scheint unplausibel (nach den zahlreichen Emergency room admissions aufgrund von ""Overdose"" bereits in 2022)",,
+139,2026-05-24 18:39:38.502+00,Ärztin 3,Adriana_Boucsein_e364c18a.pdf,4,4,2,3,,,"Dauer des gesamten klinischen Aufenthalts von nur 2 Tagen unplausibel, wenn nicht verstorben (Dauer von mind. 1 Woche zu erwarten)",
+140,2026-05-24 18:41:37.492+00,Ärztin 3,Max_Wolf_f1625f53.pdf,2,2,5,2,keine Labor- & Vitalwerte im Rahmen der Pneumonie dokumentiert,keine Nachkontrollen / Wiedervorstellung nach Pneumonie,"alles am selben Tag dokumentiert, daher im Prinzip nicht beurteilbar",
+141,2026-05-25 13:07:57.295+00,Ärztin 2,Melissa_Bohnbach_aecac158.pdf,2,2,3,2,ist insgesamt sehr komplex. Was ist Medikament NS?,Warum ist die Uhrzeit des Medikementenstarts immer 14:47?,,
+142,2026-05-25 13:08:38.577+00,Ärztin 2,Alexander_Müller_eaaab7fc.pdf,4,4,4,4,,,,
+143,2026-05-25 13:14:53.868+00,Ärztin 2,Paul_Jäger_27bc3e57.pdf,3,3,3,3,ich verstehe die Klasse wellness nicht was bedeutet das? Warum ist general examination of patient wellness?,insgesamt sehr kompliziert zu folgen,,
+144,2026-05-25 13:16:31.556+00,Ärztin 2,Patrick_Becker_335fdc18.pdf,3,3,3,3,,,,
+145,2026-05-25 13:18:10.753+00,Ärztin 2,Sandra_Meier_736b3c5c.pdf,2,3,3,3,,,,
+146,2026-05-25 13:20:11.585+00,Ärztin 2,Julian_Jung_6e7e0898.pdf,4,4,4,4,,,,
+147,2026-05-25 13:20:45.004+00,Ärztin 2,Susanne_Fischer_8692f143.pdf,4,4,4,4,,,,
+148,2026-05-25 13:22:17.451+00,Ärztin 2,Holger_Margraf_1c5431a0.pdf,2,3,4,3,"Bei manchen Daten fehlen die Einheiten, bspw Temperature in Grad, Tidal Volume, Ventilation Rate",,,
+149,2026-05-25 13:25:39.414+00,Ärztin 2,Johanna_Meyer_58912a39.pdf,4,3,3,3,,Warum steht da bei Parameter blood pressure panel with all children optional - soll das die Akte eines Kindes sein?,,
+150,2026-05-25 13:26:39.806+00,Ärztin 2,Clara_Haas_82758bb9.pdf,4,4,4,4,,,,
+151,2026-05-25 13:29:14.019+00,Ärztin 2,Christian_Flantz_7c21aabe.pdf,4,4,4,4,was ist poison-psychotropic agt?,,,
+152,2026-05-25 13:31:02.553+00,Ärztin 2,Lisa_Richter_0d231a25.pdf,4,4,4,4,,,,
+153,2026-05-25 13:31:51.518+00,Ärztin 2,Hans_Winter_87899c90.pdf,4,4,4,4,,,,
+154,2026-05-25 13:32:31.937+00,Ärztin 2,Thorsten_Huber_4e7aab62.pdf,4,4,4,4,,,,
+155,2026-05-25 13:34:03.015+00,Ärztin 2,Doris_Gute_038c2232.pdf,2,4,4,4,ich verstehe die Abkürzungen z.T. nicht bei den Diagnosen (zB Mal neo stomach cardia = malignant neoplasie stomach cardia?),,,
+156,2026-05-25 13:35:52.002+00,Ärztin 2,Paul_Becker_63cb13e6.pdf,4,5,4,3,Was ist Behandlung AMB? ist das ambulant? in einigen der anderen fälle wurde das anders abgekürzt,,,
+157,2026-05-25 13:39:03.962+00,Ärztin 2,Daniela_Braun_da478352.pdf,3,3,3,3,"es scheint nicht ganz sinnvoll, dass am 15.04. der postnatal visit ist und dann bereits am 22.4. ein consultation for treatment for contraception care",,,
+158,2026-05-25 13:39:54.287+00,Ärztin 2,Marzena_Wirth_65dbaa63.pdf,3,4,4,4,NOS and NEC?,,,
+159,2026-05-25 13:40:09.048+00,Ärztin 2,Lena_Meyer_587cc6bb.pdf,4,4,4,4,,,,
+160,2026-05-25 13:40:27.815+00,Ärztin 2,Sarah_Wagner_8efa48c0.pdf,4,4,4,4,,,,
+161,2026-05-25 13:43:29.828+00,Ärztin 2,Mila_Seiler_679c662b.pdf,3,4,4,3,"warum ist received higher education eine diagnose, hier ist es auch ein sehr kurzer abstand zwischen postnatal visit und nächster consultation for treatment/contraception care",,,
+162,2026-05-25 13:44:36.824+00,Ärztin 2,Lisa_Schmidt_411f1d89.pdf,1,1,1,1,"die patientin ist laut Akte schon alt, dazu passen die Diagnosen nicht ganz. auch die laborwerte mit dem verweis auf children passt nicht",,,
+163,2026-05-25 13:46:27.496+00,Ärztin 2,Sami_Niemeier_a2801c2b.pdf,2,3,3,2,"diagnose 25000 sieht komisch aus, wofür bekommt der patient Butalbital-Acet-Caffeine, kenne das nur von sannungskopfschmerz",,,
+164,2026-05-25 13:49:08.93+00,Ärztin 2,Martha_Schulz_e3c366a8.pdf,4,4,4,4,,,,
+165,2026-05-25 13:50:46.43+00,Ärztin 2,Peer_Mülichen_6dee6508.pdf,3,4,4,4,was ist diagnose 41400 ?,,,
+166,2026-05-25 13:53:40.061+00,Ärztin 2,Leon_Becker_a8691325.pdf,4,4,4,4,blood pressure panel steht wieder mit children drin,,,
+167,2026-05-25 13:56:20.569+00,Ärztin 2,Curt_Grein Groth_dd5a3352.pdf,2,3,3,3,"was ist diagnose CHF NOS, Medikament D5W, vial?",,,
+168,2026-05-25 13:57:03.649+00,Ärztin 2,Lea_Koch_e3e4e233.pdf,4,4,4,4,,,,
+169,2026-05-25 13:57:49.532+00,Ärztin 2,Kristine_Gumprich_3897e451.pdf,2,3,3,3,Laborwert: bands?,,,
+170,2026-05-25 13:58:27.532+00,Ärztin 2,Lena_Fischer_dfcc698a.pdf,4,3,3,4,,,,
+171,2026-05-25 17:47:41.911+00,Ärztin 1,Maria_Möller_fbb9f4a6.pdf,3,3,3,3,"500mg Amoxicillin tablette bei einem 14 monate alten Kind wohl kaum, auch nicht für 14 Tage, kautablette auch eher nicht, sondern Säfte, amoxicillin ist aber okay",,,
+172,2026-05-25 17:49:37.947+00,Ärztin 1,Elisabeth_Beyer_9203a958.pdf,2,2,2,2,,,Vtialwerte viel später als Aufnahme und diagnosen,die notflleinträge insgesamt ihne verlaufsnotizen/anamnese insgesamt schwer nachzuvollziehen
+173,2026-05-25 17:49:57.001+00,Ärztin 1,Paul_Weber_61e9e42a.pdf,3,3,3,3,,,,wiederholter fall
+174,2026-05-25 17:54:00.696+00,Ärztin 1,Elke_Haas_fe15482d.pdf,3,3,3,3,antibiotikum bei viraler sinusitis..,kurze schwangerschaft,,
+175,2026-05-25 17:54:26.81+00,Ärztin 1,Marie_Weber_95699e64.pdf,3,2,2,2,,,,
+176,2026-05-25 17:55:37.506+00,Ärztin 1,Beate_Bruder_82341893.pdf,3,3,3,2,,,,
+177,2026-05-25 17:57:52.024+00,Ärztin 1,Hans_Winter_87899c90.pdf,3,3,3,3,,,,
+178,2026-05-25 17:58:08.69+00,Ärztin 1,Jonas_Wolf_c17419c6.pdf,3,3,3,3,,,,
+179,2026-05-25 17:58:19.6+00,Ärztin 1,Lena_Meyer_587cc6bb.pdf,3,3,3,3,,,,
+180,2026-05-25 17:58:58.903+00,Ärztin 1,Marzena_Wirth_65dbaa63.pdf,3,2,2,2,,,,
+181,2026-05-25 18:00:33.722+00,Ärztin 1,Susanne_Möller_3beb9c4b.pdf,3,3,3,3,,,,
+182,2026-05-25 18:05:04.082+00,Ärztin 1,Julian_Jung_6e7e0898.pdf,1,3,2,2,"medikamentenliste absolut unübersichtlich da lisinopril nie lnger als 1 Monat verordnet aber über 7 Jahre, blutdrucktherapie außerdem nicht leitliniengerecht",,Schäden eines Diabetes mellitus ohne die Diabetes mellitus diagnose?,
+183,2026-05-25 18:06:29.226+00,Ärztin 1,Sönke_Schomber_280cd2b1.pdf,2,2,2,2,,,,
+184,2026-05-25 18:09:40.225+00,Ärztin 1,Andrei_Roht_cd8ea021.pdf,1,1,1,1,"in kurzem abstand 3 Notfallaufenthalte mit nierenversagen und septischem schock, aber anscheinen jeweils nur eine woche in behandlung im stolzen alter von 78...",,,
+185,2026-05-25 18:11:40.537+00,Ärztin 1,Adriana_Boucsein_e364c18a.pdf,2,2,2,2,,,,
+186,2026-05-26 06:04:39.081+00,Ärztin 1,Peter_Herrmann_2aac3d4b.pdf,2,3,3,3,"schon wieder antibiotikum bei viraler sinusitis,alles tabletten, cefuroxim ist nicht die first line behandlung einer otitis media, gerine sauerstoffsättigung bei corona unwahrscheinlich, hat kein sauerstoff ekommen? Fiebermeddung im infekt aber mal passend, (fehlt in den meisten fällen",,,
+187,2026-05-26 06:06:18.754+00,Ärztin 1,Tim_Jäger_23569092.pdf,3,3,3,2,,,,
+188,2026-05-26 07:10:40.437+00,Ärztin 1,Ida_Roth_ab613a8e.pdf,3,3,3,3,"bei kinder in dem alter keine tabletten, auch nciht so lange Antibiotikum, ansonsten plausible medikamente und verläufe",,,
+189,2026-05-26 07:10:56.559+00,Ärztin 1,Maria_Weber_94db9e46.pdf,2,2,2,2,,,,
+190,2026-05-26 07:15:09.044+00,Ärztin 1,Susanne_Fischer_8692f143.pdf,2,3,3,2,"folgen von diabetes mellitus dokumentiert aber keine DM Diagnose, RR Medikation nicht leitlinie,",,,
+191,2026-05-26 07:15:46.15+00,Ärztin 1,Niko_Stoll_a01d15a3.pdf,2,1,2,2,,,,
+192,2026-05-26 07:18:54.993+00,Ärztin 1,Zlatko_Scholl_d25ad9ef.pdf,2,1,2,2,,,,
+193,2026-05-26 07:20:28.59+00,Ärztin 1,Jonas_Wagner_0c826f1d.pdf,2,1,2,2,,,,
+194,2026-05-26 07:25:31.145+00,Ärztin 1,Kathy_Hamann_d690ca47.pdf,3,2,1,2,notfallaufnahme wegen des krampfes?,krebsdiagnsoe für 10 Tage nicht sinnig,,
+195,2026-05-26 07:35:53.249+00,Ärztin 1,Emil_Werner_5f5d0f40.pdf,3,3,2,3,"weirder fokus auf Zahnörztliche Diagnosen, nie etwas komplexeres als karies obwohl Zahnverlust, Wurzelbehandlungen etc? (bin keine Zahnäztin), RR Behandlugn nach leitlinie, wenn zeit außer aucht gelassen",,langer abschnitt zwischen Bluthochdruckdiagnose und Behanldung,
+196,2026-05-26 09:05:24.3+00,Ärztin 1,Anne-Katrin_Hahn_0bbb7cec.pdf,1,1,1,1,impfung während notfallbehandlung? scheint alles sehr durcheinander,,"geburtsdatum 1725, events 2025, da wunder ich mich auch nicht mehr über einen schlaganfall :)",
+197,2026-05-26 09:05:36.491+00,Ärztin 1,Lena_Wagner_b0528e59.pdf,3,2,3,3,,,,
+198,2026-05-26 09:11:41.987+00,Ärztin 1,Peter_Krämer_7f0cd5db.pdf,2,3,3,2,nicht leitliniengerecht,,,"mit 73 vollzeitbeschäftigt, gehäuft männer opfer von partnerschaftlicher gewalt.."
+199,2026-05-26 09:11:55.499+00,Ärztin 1,Johanna_Meyer_58912a39.pdf,3,2,2,2,,,,
+200,2026-05-26 09:17:00.486+00,Ärztin 1,Thorsten_Huber_4e7aab62.pdf,3,3,2,3,"adipositas diaqgnose fehlt, dosesn nicht altersgerecht (paracetamol etc)",,um eine füllung zu  verlieren braucht man erstmal eine (ID5),
+201,2026-05-26 09:17:11.015+00,Ärztin 1,Stefan_Müller_8e4e1ca0.pdf,3,2,2,3,,,,
+202,2026-05-26 09:20:28.225+00,Ärztin 1,Walter_Baum_97cc27a9.pdf,3,2,2,2,,,,
+203,2026-05-26 09:20:57.456+00,Ärztin 1,Nicolai_Hübel_824fcd1c.pdf,2,2,2,2,,,,
+204,2026-05-26 09:21:15.891+00,Ärztin 1,Sigrun_Gotthard_b1cfcd58.pdf,2,2,2,2,,,,
+205,2026-05-26 09:25:47.274+00,Ärztin 1,Gerhard_Fischer_02b9e1bc.pdf,2,3,3,2,keine antiepileptika,,,"mit 69 vollzeitbeschäftigt, (später ""unemployed statt rente) wieder amnn als victim von intimate partner abuse"
+206,2026-05-26 09:26:15.522+00,Ärztin 1,Sandy_Christoph_aa81bbf0.pdf,2,2,2,2,,,,
+207,2026-05-26 09:28:10.967+00,Ärztin 1,Maximilian_Neumann_f301a572.pdf,2,3,3,2,"keine leitliniengerechte antihypertensive therapie, keine antieplieptika",,,
+208,2026-05-26 09:45:08.999+00,Ärztin 1,Mathilda_Wolf_c197f39f.pdf,3,3,3,3,"kein antibiotikum bei otitis media initial leitlinie, aber schmerzmittel und nasenspray fehlen",,,
+209,2026-05-26 09:45:29.793+00,Ärztin 1,Hansjürgen_Neureuther_996c4500.pdf,2,2,2,2,,,,
+210,2026-05-26 11:28:01.58+00,Ärztin 1,Petra_Koch_46caba0e.pdf,2,3,3,2,,,,
+211,2026-05-26 11:28:30.672+00,Ärztin 1,Mandy_Dowerg_2780e7bf.pdf,2,2,2,2,,,,
+212,2026-05-26 11:28:58.38+00,Ärztin 1,Wolfram_Hahn_674b8f82.pdf,2,3,3,2,,,,
+213,2026-05-26 11:29:13.623+00,Ärztin 1,Leon_Becker_a8691325.pdf,3,2,2,2,,,,
+214,2026-05-26 11:41:43.559+00,Ärztin 1,Patrick_Becker_335fdc18.pdf,2,2,2,2,kriegt ganz schöne starke opiate.. ist zwar chronischer schmerzpatient aber kommt mir komisch vor,,warum mit 19 lisinopril allergie entdeckt?,
+215,2026-05-26 11:52:58.519+00,Ärztin 1,Yvonne_Martin_2a675760.pdf,3,2,2,2,"Bis auf kurzweilige infektionen, übergewicht, Gingivitis und soziale Themen gesunde patientin für 50",,"Füllung verloren, wann wurde sie eingesetzt?",schätzungsweise die hälfte aller Patienten sind Refugees...
+216,2026-05-26 11:53:11.933+00,Ärztin 1,Johanna_Bauer_73a8883f.pdf,2,2,2,2,,,,
+217,2026-05-26 11:53:23.277+00,Ärztin 1,Paul_Koch_50eed607.pdf,3,2,2,2,,,,
+218,2026-05-26 12:13:51.973+00,Ärztin 1,Paul_Jäger_27bc3e57.pdf,3,2,2,2,,,"metabolisches syndrom typischer weise vor DM Typ 2, auch adipositas sollte wahrscheinlich vor matabolischem syndrom diagnostiziert werden",
+219,2026-05-26 12:25:28.67+00,Ärztin 1,Anke_Peters_630dc962.pdf,2,3,2,2,Sepsis unbehandelt?,,zeitlich unbeendete sepsis diagnose?,
+220,2026-05-26 12:25:49.029+00,Ärztin 1,Fedor_Birnbaum_7ff793c1.pdf,2,2,2,2,,,,
+221,2026-05-26 12:26:14.152+00,Ärztin 1,Max_Schneider_f7a257d3.pdf,2,2,2,2,,,,
+222,2026-05-26 12:26:45.01+00,Ärztin 1,Laszlo_auch Schlauchin_65edbd62.pdf,2,2,2,2,,,,
+223,2026-05-26 12:36:12.547+00,Ärztin 1,Dirk_Schmitt_0d410091.pdf,3,3,3,3,therapie chrinischer sinusitis?,,,
+224,2026-05-26 12:36:58.91+00,Ärztin 1,Michael_Hoffmann_f7664f83.pdf,2,2,2,2,"3 jahre zwischen diagnose und behandliung, laborwerte?",,,
+225,2026-05-26 12:37:08.367+00,Ärztin 1,Lena_Fischer_dfcc698a.pdf,2,2,2,2,,,,
+226,2026-05-26 12:37:20.503+00,Ärztin 1,Johanna_Klein_f0728ff8.pdf,2,2,2,2,,,,
+227,2026-05-26 12:37:34.776+00,Ärztin 1,Lukas_Fischer_a299776f.pdf,2,2,2,2,,,,
+228,2026-05-26 12:56:20.441+00,Ärztin 1,Elke_Hartmann_e09461fc.pdf,1,3,2,2,wegen chronischen Schmerzen notfallaufnahme?,pluspunkt bis in 90er reichende dokumentierte Behandlungskontakte,hat viele kontakte wegen drogenabhängigkeit aber keien medikamente,nur die gingivitis wird behandelt
+229,2026-05-26 12:56:29.562+00,Ärztin 1,Sarah_Wagner_8efa48c0.pdf,2,2,2,2,,,,
+230,2026-05-26 12:56:39.451+00,Ärztin 1,Max_Wolf_f1625f53.pdf,3,2,2,3,,,,
+231,2026-05-26 12:59:19.939+00,Ärztin 1,Dieter_Wagner_b034fd9f.pdf,2,2,2,1,,,,allergie + gingivitis + soziale diagnosen hauptsächlich
+232,2026-05-26 13:00:03.177+00,Ärztin 1,Ignatz_Albers_5318cf9c.pdf,2,2,1,2,,,,
+233,2026-05-26 14:16:25.147+00,Ärztin 3,Curt_Grein Groth_dd5a3352.pdf,4,5,4,4,"First Line Therapie bei intestinaler C. difficile Infektion (ID 4 unter Diagnosen) ist mittlerweile Fidaxomicin p.o. und nicht mehr Vancomycin (u.a. ID 15, 17 unter Medikamente) oder Metronidazol (ID 75)",,,
+234,2026-05-26 14:35:44.124+00,Ärztin 3,Elke_Haas_fe15482d.pdf,4,3,4,3,"-QALY, DALY, QOLS werden nicht standardmäßig erhoben
+-Erhebung von QALY, DALY, QOLS immer am exakt gleichen Tag im Jahr ist unglaubwürdig","Ab einem BMI über 30 (ID 9 unter Diagnosen) handelt es sich um eine Risikoschwangerschaft, daher wäre Normal pregnancy (ID 16 und 20 unter Diagnosen) vermutlich nicht ganz zutreffend, sofern keine Gewichtsabnahme erfolgt ist. Hinzu kommt, dass die Patienten bei ihrer 4. Schwangerschaft 35 bzw. 36 Jahre alt war (zusätzlicher Risikofaktor).",,"Victim of intimate partner abuse, Gingivitis, Gingival disease kommt über die Akten hinweg zu häufig vor"
+235,2026-05-26 14:42:47.005+00,Ärztin 3,Maximilian_Neumann_f301a572.pdf,3,4,4,2,"QOLS, QALY, DALY werden nicht standardmäßig ohne konkreten Anlass erhoben. Im Allgemeinen werden diese Maße hauptsächlich in der Gesundheitsökonomie und weniger im Klinikalltag angewandt",,,"Limited social contact, Social isolation, Gingivitis und Reports of violence in the environment in den Patientenakten allgemein deutlich overreported"
+236,2026-05-26 14:47:12.435+00,Ärztin 3,Anke_Peters_630dc962.pdf,4,5,5,4,"-QOLS, DALY, QALY werden eher in der Gesundheitsökonomie als im Klinikalltag angewandt
+-nicht den exakt gleichen Jahrestag für jährliche Kontrollen verwenden (in dem Fall zB QOLS, DALY, QALY  zweimal am exakt gleichen Tag im Jahr (20.10.202x) erhoben)",,,
+237,2026-05-26 16:36:47.971+00,Ärztin 3,Helmut_Maier_2bcf177b.pdf,2,2,4,2,"Keine zielgerichtete medikamentöse Therapie eines Diabetes mellitus bei ""Microalbuminuria due to type 2 diabetes mellitus"" und ""Proteinuria due to type 2 diabetes mellitus""","Disorder of kidney due to diabetes mellitus (ID 7), Microalbuminuria due to type 2 diabetes mellitus (ID 25) und Proteinuria due to type 2 diabetes mellitus (ID 26) ohne Vordiagnose eines Diabetes mellitus und auch keine medikamentöse Therapie des Diabetes mellitus!",,
+238,2026-05-26 17:49:25.996+00,Ärztin 1,Jonas_Weiß_f7e8239a.pdf,2,3,2,2,"schmerztherapie fraglich sinnig, sonst gingivitis behandlung, was ist mit der ansgststörung?",,,"Kurze allgemeine anmerkung: Die Snomed Codes werden in deutschland so in den akten natürlich nciht verwendet, daher sind so items  wie ""transport problem"" nicht geläufig, ansosnten hier einige wie schon in ähnlcihen fällen bemerkte probleme"
+239,2026-05-26 17:50:00.937+00,Ärztin 1,Holger_Margraf_1c5431a0.pdf,2,2,2,2,,,,
+240,2026-05-26 17:50:13.962+00,Ärztin 1,Paul_Becker_63cb13e6.pdf,3,2,2,2,,,,
+241,2026-05-26 17:57:07.449+00,Ärztin 1,Jürgen_Baumann_33a1f41a.pdf,3,3,2,3,"schmerzpatient dann drogenabhängig prinzipiell sinniger verlauf, macht sogar eine reha, migräne scheint unbehandelt zu sein, medikation für schmerzpatient ab 21 ohne vorherige diagnsoen ungewöhnlich",,,insgesamt häufung drogenabhängiger in den fällen
+242,2026-05-26 18:13:14.716+00,Ärztin 1,Helmut_Maier_2bcf177b.pdf,1,1,1,1,"männer werden statistsich einfach nicht so oft von ihren partnern miisbraucht wie es hier vorkommt, orales gel ist transplantation-erwartend zugeordnet? da nicht angegeben ist welche form von leujkämie schwer zu sagen welche therapie richtig wäre aber scheint neben transplantation gar keine medikemente dazu zu geben, auch keine therapie für den laut behandlungen end-terminalen nierenpatienten? Dialyse?",,"wieder diabates folgen ohne diabetes? termine viel zu eng getaktet ambulant, zu zeitpunkten wo es keine diagnsoen mehr gibt, Herzinfarkte ncith in diagnoseliste",
+243,2026-05-26 18:14:42.643+00,Ärztin 1,Kristine_Gumprich_3897e451.pdf,2,2,1,2,,,,
+244,2026-05-26 18:15:08.139+00,Ärztin 1,Reinhart_Siering_2eda6bfb.pdf,2,2,1,1,,,,
+245,2026-05-26 18:15:36.603+00,Ärztin 1,Meinrad_Stiebitz_11eaea15.pdf,2,2,2,2,,,,
+246,2026-05-26 18:17:03.817+00,Ärztin 1,Klaus_Klein_81ba987f.pdf,2,2,2,2,,einen monat drogenabusus? ungewöhnlich,,
+247,2026-05-26 18:17:20.488+00,Ärztin 1,Josef_Hermann_c434b7d7.pdf,2,2,2,2,,,,
+248,2026-05-26 18:18:07.927+00,Ärztin 1,Thomas_Schneider_b4069712.pdf,2,2,2,2,,,,
+249,2026-05-26 18:18:30.176+00,Ärztin 1,Leon_Wagner_8e22dd18.pdf,3,2,3,3,,,,
+250,2026-05-26 19:00:30.929+00,Ärztin 3,Wolfram_Hahn_674b8f82.pdf,5,5,5,5,,,,
+251,2026-05-26 19:03:23.28+00,Ärztin 3,Andrei_Roht_cd8ea021.pdf,4,5,5,4,Viele NOS/NEC-Diagnosen (sehr unspezifische Codes),,,
+252,2026-05-26 19:12:41.629+00,Ärztin 3,Daniela_Braun_da478352.pdf,3,3,4,2,"-QOLS, DALY, QALY spielen eher eine Relevanz in der Gesundheitsökonomie als im klinischen Alltag
+-QOLS, DALY, QALY wurden immer am exakt gleichen Tag im Jahr erhoben, das wirkt unecht","""Fatigue"" am 01.12.2020 ist typischerweise eine langanhaltendes Syndrom, bei dem man ein Wiederauftauchen in den Diagnosen / weitere Abklärung / Verlaufsuntersuchungen und ggf. auch weitere Therapien erwarten würde",,"zu oft Gingivitis, Gingival disease, Limited social contact, Social isolation, Risk activity involvement und Reports of violence in the environment als Diagnosen über die Patientenakten hinweg"
+253,2026-05-26 19:13:35.971+00,Ärztin 3,Gerhard_Fischer_02b9e1bc.pdf,5,5,5,5,,,,
+254,2026-05-26 19:25:39.951+00,Ärztin 3,Lukas_Fischer_a299776f.pdf,2,4,4,3,"-keine ausführliche sekundärprophylaktische Therapie nach Schlaganfall: zB Cholesterinsenkung mit Statin
+-ASS nach einen Schlaganfall idR lebenslang und nicht nur für ein Jahr
+-""Cerebrovascular accident"" sehr unspezifisch: Hirnblutung oder ischämischer Schlaganfall?
+-bei einem Schlaganfall werden mehr Vitalparameter als nur der Blutdruck erhoben. Dokumentation von allein dem Blutdruck wirkt sehr willkürlich",,,"Parameterbezeichnung bei Blutdruck seltsam, es ist zudem nicht erkenntlich, ob es sich um den systolischen oder diastolischen Blutdruck handelt"
+255,2026-05-27 09:09:58.442+00,Ärztin 3,Ariane_Klemt_f38f0483.pdf,3,3,5,3,"-""Oth lymp unsp xtrndl org"" passt klinisch nicht so gut ins restliche Bild, ggf. Nebenbefund?
+-der Administrationsstart fast aller Medikamente (außer Ipratropiumbrombid) ist der 15.05.2026. Da es sich vermutlich um einen längeren Krankenhausaufenthalt handeln könnte (Sepsis, kardiogener Schock, Pneumonie) wäre es plausibler, wenn hier ein im Laufe des Aufenthalts auch noch neue Medikamenten hinzukommen würden","-Labor- & Vitalwerte wurden nur am 15. und 16.06.2026 dokumentiert
+-der Krankheitsverlauf geht aber sicherlich länger, daher wären zusätzliche Laborkontrollen im weiteren Verlauf zu erwarten gewesen",,
+256,2026-05-27 09:14:49.075+00,Ärztin 3,Meinrad_Stiebitz_11eaea15.pdf,4,5,5,4,"-Diagnose ""Mental disor NEC oth dis"" extrem unspezifisch
+-Diagnose ""Int inf clstrdium dfcile"" -> Vancomycin HCl (ID 77-79 unter Medikamente) ist mittlerweile nicht mehr Therapie der 1. Wahl, sondern Fidaxomicin",,,
+257,2026-05-27 09:17:53.29+00,Ärztin 3,Lisa_Richter_72336208.pdf,2,2,3,3,"-Erstmalige Verordnung von Metformin 3 Jahre nach Erstidiagnose des Diabetes mellitus Typ 2 ist unplausibel
+-fehlende Laborwerte im Rahmen der Erstidiagnose des Diabetes mellitus Typ 1","-Fehlende Nachkontrollen des DM Typ 2, zB im Rahmen des Disease Management (HbA1c als einziger Laborwert innerhalb von 3 Jahren nicht ausreichend)",Erhebung von Laborwerten sollte vor Erstidiagnose des DM Typ 2 erfolgen,"Einheit bei Hemoglobin A1c unpassend
+Datensatz sehr unvollständig"
+258,2026-05-27 09:22:41.602+00,Ärztin 3,Niko_Stoll_a01d15a3.pdf,4,2,4,3,,"es wurden nur an einem einzigen Tag Laborwerte dokumentiert, es handelt sich aber sehr wahrscheinlich um einen längeren Krankenhausaufenthalt (Septikämie etc.)",,"eher Momentaufnahme, bildet kaum einen zeitlichen Verlauf ab"
+259,2026-05-27 09:25:43.187+00,Ärztin 3,Marie_Richter_3deb4dd0.pdf,3,2,4,3,"-keine Angaben zur Akuttherapie des Cerebrovascular accident
+-Cerebrovascular accident idR genauer spezifiziert: hämorrhagisch oder ischämisch?","-ASS nach ischämischem Schlaganfall idR lebenslang
+-keine ausführliche Sekundärprophylaxe erkennbar (zB Statin etc.)",,"Parameterbezeichnung des Blutdrucks ungeläufig, keine Angabe ob diastolisch oder systolisch"
+260,2026-05-27 09:31:23.495+00,Ärztin 3,Dieter_Wagner_b034fd9f.pdf,3,5,4,3,"-QALY, DALY, QOLS werden nicht standardmäßig erhoben
+-Erhebung von QALY, DALY, QOLS über Jahre hinweg immer am exakt gleichen Tag im Jahr wirkt sehr artifiziell",,,"Risk activity involvement, Social isolation, Gingivitis, Victim of intimate partner abuse kommt über die Patientenakten hinweg unplausibel häufig vor"
+261,2026-05-27 09:35:15.938+00,Ärztin 3,Klaus_Klein_81ba987f.pdf,3,5,4,3,"-QALY, DALY, QOLY werden im klinischen Alltag nicht standardmäßig erhoben
+-keine Laborwertkontrollen im jährlichen Abstand immer am exakt selben Jahrestag",,,"Victim of intimate partner abuse, Has a criminal record, Limited social contact, Gingivitis und Gingival disease kommt über Patientenakten hinweg zu häufig vor"
+262,2026-05-27 09:39:02.505+00,Ärztin 3,Elli_Kramer_48dff458.pdf,5,2,5,2,,"-im Prinzip nicht vorhanden, da alles innerhalb von 2 Tagen",,eher Momentaufnahme als klinischer Verlauf
+263,2026-05-27 09:52:13.813+00,Ärztin 3,Renate_Seidel_4c6961af.pdf,3,1,4,2,"QOLS, QALY, DALY werden nicht standardmäßig im klinischen Alltag erhoben","""Full-time employment"" am 20.05.2024 (57 unter Diagnosen) mit 82 Jahren und ""Alzheimer's disease"" (46 unter Diagnosen) extrem unwahrscheinlich",,"Risk activity involvement, Has a criminal record, Social isolation, Gingivitis und Gingival disease über die Patientenakten hinweg übermäßig häufig"
+264,2026-05-27 09:53:15.209+00,Ärztin 3,Nicolai_Hübel_824fcd1c.pdf,5,5,5,5,,,,
+265,2026-05-27 09:55:34.709+00,Ärztin 3,Jonas_Wolf_c17419c6.pdf,2,2,2,2,fehlende dokumentierte Laborwerte im Rahmen der Erstdiagnose des Diabetes mellitus Typ 2,"-Erstmalig Metformin 3 Jahre nach Erstdiagnose des Diabetes mellitus Typ 2 extrem unwahrscheinlich
+-fehlende regelmäßige Kontrollen des Diabetes mellitus Typ 2",-Laborwerte (u.a. HbA1c) sollten bereits vor Erstidiagnose erhoben worden sein,wirkt insgesamt sehr unvollständig
+266,2026-05-27 09:57:23.676+00,Ärztin 3,Maria_Weber_94db9e46.pdf,3,2,4,2,"-fehlende dokumentierte Akuttherapie des ""Cerebrovascular accident""
+-hämorrhagisch oder ischämisch sollte idR angegeben werden","-Aspirin nach ischämischem Schlaganfall idR lebenslang, nicht nur für 1 Jahr
+-unvollständige Sekundärprophylaxe nach ""Cerebrovascular accident"" (zB Statin)",,wirkt insgesamt sehr lückenhaft / unvollständig / unspezifisch
+267,2026-05-27 16:29:30.187+00,Ärztin 3,Brit_Pechel_d12c0b37.pdf,4,5,5,4,"-""Mental disor NEC oth dis"" sehr unspezifisch",,,
+268,2026-05-27 16:31:54.163+00,Ärztin 3,Felix_Hoffmann_91bb8f53.pdf,3,2,4,2,"-Blutdruck als einziger erhobener Vitalparameter bei Schlaganfall unwahrscheinlich
+-fehlende Laborwerte","-ASS nach ischämischem Schlaganfall idR lebenslang, nicht nur für 1 Jahr
+-Sekundärprophylaxe erforderlich: zB Statine",,wirkt insgesamt unvollständig: Akuttherapie Schlaganfall? Ischämisch oder Hämorrhagisch? Anschlusstherapie?
+269,2026-05-27 16:36:23.228+00,Ärztin 3,Daniela_Staude_178179e8.pdf,3,3,4,3,"-ID 2 ""Int inf clstrdium dfcile"" -> mittlerweile Fidaxomicin Therpaie der 1. Wahl (nicht Vancomycin oder Metronidazol)
+-alle Diagnosen haben gleiches Start- & Stoppdatum -> Unplausibel (es wäre zB zu  erwarten, dass während des Intensivaufenthaltes neue Diagnosen hinzukommen)","Diagnosen wurden bereits am 11.05.2026 gestellt, aber erstmalige Dokumentation von Laborparametern erst am 17.05.2026
+--> Blutentnahme würde bei dieser Patientin noch am Aufnahmetag erfolgen",,
+270,2026-05-27 16:45:08.194+00,Ärztin 3,Martha_Schulz_e3c366a8.pdf,3,5,4,4,"-""Etonogestrel 68 MG Drug Implant"" (ID 9 unter Diagnosen) idR nicht bei Patientinnen unter 18 Jahre
+-auch unter Nichtbeachtung des Alters wäre ein IUD (Kupferspirale oder hormonelle IUD) die deutliche häufigere Variante eines reversiblen Langzeitverhütungsmittels",,,
+271,2026-05-27 16:46:03.171+00,Ärztin 3,Cordula_Reising_f8c400d7.pdf,5,5,5,5,,,,
+272,2026-05-28 14:28:48.582+00,Ärztin 3,Fedor_Birnbaum_7ff793c1.pdf,4,4,4,4,,,,
+273,2026-05-28 14:31:37.824+00,Ärztin 3,Lena_Wagner_b0528e59.pdf,3,2,3,2,keine dokumentierten Laborwerte im Rahmen der Erstdiagnose des DM Typ 2,"-Erstmalige Verordnung von Metformin erst 3 Jahre nach Erstdiagnose des Diabetes mellitus Typ 2 ist sehr unwahrscheinlich
+-keine regelmäßigen Kontrollen des DM Typ 2
+-einmalige HbA1c Kontrolle ist nicht ausreichend",Laborwerte müssen vor Erstdiagnose des DM Typ 2 erhoben worden sein,wirkt insgesamt sehr unvollständig
+274,2026-05-28 14:37:55.688+00,Ärztin 3,Johanna_Bauer_73a8883f.pdf,1,2,4,1,"-fehlende Akuttherapie des Myokardinfarktes (Thrombozytenfunktionshemmung, Antikoagulation etc.)
+-Atorvastatin ist nicht das wichtigste Medikament in der Akutsituation eines Myokardinfarktes
+-fehlende Labor- & Vitalparameter am Tag des Myokardinfarktes","fehlende / unvollständige weiterführende Therapie /Anschlusstherapie nach Myokardinfarkt: 
+Duale Thrombozytenfunktionhemmung, RAAS-Inhibitoren (neben Atorvastatin & Metoprolol)",,"Parameterbezeichnung für Blutdruck uneindeutig
+Fehlerhafte Einheit der Herzfrequenz
+Es ist aus der Patientenakte keine sinnvolle und vollständige Akuttherapie & Sekundärprophylaxe des Myokardinfarktes ableitbar"
+275,2026-05-28 14:41:22.062+00,Ärztin 3,Katharina_Fuchs_29225702.pdf,3,4,4,3,"-QOLS, QALY, DALY werden im klinischen Alltag nicht standardmäßig erhoben 
+-Erhebung von QOLS, QALY, DALY immer am exakt gleichen Datum im Jahr ist auffällig",,,"Has a criminal record, Gingivitis, Gingival disease über Patientenakten hinweg übermäßig häufig"
+276,2026-05-28 14:44:49.268+00,Ärztin 3,Christian_Flantz_7c21aabe.pdf,5,5,5,5,,,,
+277,2026-05-28 14:47:46.145+00,Ärztin 3,Elisabeth_Beyer_9203a958.pdf,5,4,5,5,,,,
+278,2026-05-28 14:51:36.743+00,Ärztin 3,Kathy_Hamann_d690ca47.pdf,2,4,4,3,"Es fehlen die Medikamentenangaben. Es wären zB Antikonvulsiva, ggf. Dexamethason (wegen Hirnmetastasen), eine onkologische Therapie sowie Schmerztherapie zu erwarten gewesen",,,Aufgrund der fehlenden Medikamentenangaben unvollständig
+279,2026-05-28 14:54:24.064+00,Ärztin 3,Susanne_Möller_3beb9c4b.pdf,4,3,4,3,,Auffällig häufiger Wechsel zwischen Full-Time und Part-Time Employment (innerhalb von 3 Jahren 3x Wechsel),,Gingivitis kommt übermäßig häufig vor
+280,2026-05-28 14:57:09.678+00,Ärztin 3,Peter_Herrmann_2aac3d4b.pdf,3,4,4,4,"-QALY, DALY, QOLS werden im klinischen Alltag nicht standardmäßig erhoben, v.a. nicht jährlich
+-jährliche Kontrollen fallen in den seltesten Fällen immer auch exakt das gleiche Datum im Jahr (wie hier QALY, DALY, QOLS)",,,
+281,2026-05-28 17:44:34.157+00,Ärztin 3,Felix_Müller_23d0b483.pdf,3,3,4,3,es wären weitere Labor- & Vitalparameter im Rahmen der Pneumoniediagnostik zu erwarten gewesen,Fehlende Nachkontrollen (Ansprechen Antibiose etc.),,insgesamt unvollständig
+282,2026-05-28 17:45:47.628+00,Ärztin 3,Sigrun_Gotthard_b1cfcd58.pdf,5,5,5,5,,,,
+283,2026-05-28 17:48:12.855+00,Ärztin 3,Sonja_Herrmann_6186127a.pdf,3,4,4,3,"-QOLS, QALY, DALY werden im klinischen Alltag nicht routinemäßig erhoben
+-Erhebung der QOLS, QALY, DALY immer am exakt gleichen Datum im Jahr ist auffällig",,,"Has a criminal record, Limited social contact, Gingivitis, Gingival disease kommt über die Patientenakten deutlich überproportional häufig vor (Gingivitis auch innerhalb dieser Akte zu häufig!)"
+284,2026-05-28 17:50:12.601+00,Ärztin 3,Dirk_Schmitt_0d410091.pdf,3,4,4,3,"-QOLS, QALY, DALY werden im Klinikalltag nicht in der Routine erhoben
+-Erhebung immer am exakt gleichen Tag im Jahr über mehrere Jahre hinweg wirkt sehr auffällig",,,"Reports of violence in the environment, Social isolation, Gingivitis und Gingival disease kommt unverhältnismäßig häufig vor"
+285,2026-05-28 17:53:41.482+00,Ärztin 3,Jonas_Wagner_0c826f1d.pdf,1,2,4,2,"-keine adäquate Akuttherapie des Myokardinfarktes dokumentiert (Antikoagulation, Thrombozytenfunktionshemmung etc.)
+-Atorvastatin ist in der Akuttherapie nicht die Priorität
+-unvollständige Labor- & Vitalparameter in der Akutdiagnostik","-keine vollständige Sekundärprophylaxe (zB duale Thrombozytenfunktionshemmung, RAAS-Hemmer)",,"keine angemessene Akut- & Anschlusstherapie dokumentiert, unvollständige Laborparameter"
+286,2026-05-28 18:04:00.829+00,Ärztin 3,Marie_Müller_ca2d0495.pdf,3,3,4,4,-fehlende dokumentierte Laborparameter im Rahmen der Pneumonie,-fehlende Nachkontrollen (Ansprechen der Antibiose etc.),,"-Einheit der Herfrequenz unpassend
+-insgesamt sehr lückenhaft"
+287,2026-05-28 18:07:24.547+00,Ärztin 3,Johanna_Wolf_76caf881.pdf,2,3,4,3,"-sehr unspezifische Diagnose: hämorrhagischer oder ischämischer Schlaganfall?
+-keine dokumentierte Akuttherapie des Schlaganfalls
+-keine dokumentierten Laborparameter & unvollständige Vitalparameter","-ASS nach Schlaganfall idR lebenslang, nicht nur für ein Jahr
+-unvollständige Sekundärprophylaxe: zB Cholesterineinstellung nach Schlaganfall",,insgesamt sehr unvollständig und ungenau
+288,2026-05-28 18:09:16.634+00,Ärztin 3,Daniela_Koch_6ee0ce72.pdf,3,4,5,4,"-QOLS, QALY, DALY werden vom Pädiater in der klinischen Routine nicht erhoben
+-QOLS, QALY, DALY wurden über Jahre hinweg immer am exakt gleichen Datum im Jahr erhoben, was sehr unwahrscheinlich ist",,,
+289,2026-05-28 18:11:13.112+00,Ärztin 3,Paul_Jäger_27bc3e57.pdf,3,4,4,3,"-QOLY, QOLY, DALY werden im klinischen Alltag nur ganz selten erhoben
+-Dokumentation immer am exakt gleichen Datum im Jahr ist sehr auffällig",,,Gingivitis & Gingival disease kommt zu häufig vor
+290,2026-05-28 18:12:06.123+00,Ärztin 3,Sönke_Schomber_280cd2b1.pdf,5,5,5,5,,,,
+291,2026-05-28 18:18:21.794+00,Ärztin 3,Petra_Koch_46caba0e.pdf,3,4,4,3,"-QALS, QALY, DALY werden in der klinischen Routine nur ganz  selten erhoben
+-Erhebung immer am exakt gleichen Datum im Jahr wirkt unglaubwürdig",,,"Limited social contact, Social isolation, Has a criminal record, Gingivitis und Gingival Disease kommt überproportional häufig vor"
+292,2026-05-28 19:00:20.779+00,Ärztin 3,Max_Schneider_f7a257d3.pdf,3,3,5,3,"-""Cerebrovascular accident"" ist sehr unspezifisch: hämorrhagisch oder ischämisch?
+-keine dokumentierte Akutbehandlung (ggf. Lyse?)
+-keine dokumentierten Laborwerte","-Aspirin wird nach Schlaganfall idR lebenslang und nicht nur für ein Jahr gegeben
+-fehlende medikamentöse Sekundärprophylaxe, wie zB Cholesterinsenker",,"-Parameterbezeichnung für den Blutdruck ist etwas seltsam und macht auch nicht deutlich, ob es sich um den systolischen oder diastolischen Blutdruck handelt
+-insgesamt etwas unvollständig und unkonkret"
+293,2026-05-28 19:03:57.629+00,Ärztin 3,Tobias_Fischer_8b0d95e6.pdf,1,3,5,3,"-fehlende medikamentöse Akutbehandlung des Myokardinfarktes (Antikoagulation, Thrombozytenfunktionshemmung) -> ein Statin (Atorvastatin) ist nicht die Priorität in der Akutsituation
+-unvollständige Labor- & Vitalparameter",-unvollständige medikamentöse Anschlusstherapie: zB duale Thrombozytenfunktionshemmung oder RAAS-Hemmer fehlen,,"-Parameterbezeichnung für Blutdruck ist missverständlich und macht nicht deutlich, ob es sich um den systolischen oder diastolischen Blutdruck handelt
+-Einheit bei Herzfrequenz unpassend
+-insgesamt keine sinnvolle und vollständige Akut- & Anschlusstherapie eines Myokardinfarktes"
+294,2026-05-28 19:06:41.55+00,Ärztin 3,Melissa_Bohnbach_aecac158.pdf,5,5,5,5,,,,
