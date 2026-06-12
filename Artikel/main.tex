@@ -21,7 +21,11 @@
 \usepackage{xcolor}
 \usepackage{tabularx}
 \usepackage{enumitem}
-
+\usepackage{multirow}
+\usepackage{microtype}
+\usepackage{cuted}
+\usepackage{float}
+\usepackage{stfloats}
 \lstdefinestyle{systempromptstyle}{
     backgroundcolor=\color{gray!5},
     basicstyle=\ttfamily\small,
@@ -154,6 +158,7 @@ right=0.75in}
 \setkomafont{section}{\normalfont\normalsize\bfseries}
 \setkomafont{subsection}{\normalfont\fontsize{12pt}{12pt}\selectfont\bfseries}
 \setkomafont{subsubsection}{\normalfont\fontsize{10pt}{10pt}\selectfont\bfseries}
+\setkomafont{paragraph}{\normalfont\fontsize{10pt}{10pt}\selectfont\bfseries}
 
 \renewcommand{\sectionlinesformat}[4]{%
   \ifstr{#1}{section}
@@ -169,7 +174,7 @@ right=0.75in}
 \twocolumn[{
   \begin{center}
     \setstretch{1.0}
-    {\huge\bfseries Realistic data for a dynamic teaching HIS \par}
+    {\huge\bfseries Realistic data for a dynamic teaching hospital information system  \par}
     \vspace{1.5em}
     {\large Robin Hefner$^{1}$, Florian Hauptmann$^{1}$ \par}
     \vspace{1em}

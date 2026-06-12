@@ -1,4 +1,4 @@
-\subsection*{Ziel 1: Literaturrecherche}
+\subsection{Ziel 1: Literaturrecherche}
 
 \subsubsection{Frage 1.1: Technologien Synthetische Daten}
 \begin{description}[style=nextline, font=\bfseries\sffamily]
@@ -25,8 +25,8 @@
     \begin{center}
         \begin{minipage}{\linewidth}
             \centering
-            \includegraphics[width=0.5\textwidth]{Artikel/pictures/SynDatenFlowchart.png}
-            \captionof{figure}{Flussdiagramm des Auswahlprozesses der Paper für die Literaturrecherche zur Generierung von synthetischen Patientendaten.} 
+            \includegraphics[width=0.8\textwidth]{Artikel/pictures/Flowchart_synData_en.PNG}
+            \captionof{figure}{PRISMA Flussdiagramm \citep{Pagen160} des Auswahlprozesses der Artikel für die Literaturrecherche zur Generierung von synthetischen Patientendaten.} 
             \label{fig:syn_flow_chart}
         \end{minipage}
     \end{center}
@@ -98,8 +98,8 @@
     \begin{center}
         \begin{minipage}{\linewidth}
             \centering
-            \includegraphics[width=0.5\textwidth]{pictures/SensorDatenFlowchart.png}
-            \captionof{figure}{Flussdiagramm des Auswahlprozesses der Paper für die Literaturrecherche zur Integration der Sensordaten.} 
+            \includegraphics[width=0.8\textwidth]{Artikel/pictures/Flowchart_sensorData_en.png}
+            \captionof{figure}{PRISMA Flussdiagramm \citep{Pagen160} des Auswahlprozesses der Artikel für die Literaturrecherche zur Integration der Sensordaten.} 
             \label{fig:sensor_flow_chart}
         \end{minipage}
     \end{center}
@@ -151,7 +151,7 @@
 \end{description}
 
 % --- ZIEL 2 ---
-\subsection*{Ziel 2: Definition der Qualitätskriterien}
+\subsection{Ziel 2: Definition der Qualitätskriterien}
 
 \subsubsection{Frage 2.1: Befragung von Expert*innen}
 
@@ -197,7 +197,7 @@
 \end{description}
 
 % --- ZIEL 3 ---
-\subsection*{Ziel 3: Prototypische Implementierung}
+\subsection{Ziel 3: Prototypische Implementierung}
 \subsubsection{Frage 3.1: Generierung mittels Synthea}
 \begin{description}[style=nextline, font=\bfseries]
 
@@ -217,7 +217,7 @@
     \end{itemize}
 
     \item[Ergebnisse] 
-    Es wurde ein funktionsfähiger Workflow etabliert, der die bedarfsgerechte Erzeugung beliebig großer Patientenkollektive im standardisierten FHIR-Format ermöglicht.
+    Es wurde ein funktionsfähiger Workflow etabliert, der die bedarfsgerechte Erzeugung beliebig großer Patientenkollektive im standardisierten FHIR-Format ermöglicht.(\href{https://github.com/robinhefner/synthea-ger}{Link: Synthea Repository zur Erstellung deutscher Populationen})
 
     \item[Beantwortung] 
     Durch die gezielte Anpassung des Synthea-Frameworks und die Implementierung regionaler Spezifika konnte eine Pipeline geschaffen werden, die lokalisierte und prozessual steuerbare synthetische Patientendaten für die Systemintegration bereitstellt.
@@ -235,7 +235,7 @@
 \textbf{Ergebnisse:} Mithilfe des erstellten Prompts können durch die Nutzung von des Modells Gemini 3.1 Pro (High) \\
 
 Link zum Prompt:
-\href{https://github.com/robinhefner/Research-Project/blob/9ac45330eabbaa19dd4e6c5fe2f43b0358648f0d/Prompt_FHIR_Datengenerierung.md}{Prompt FHIR Datengenerierung}
+\href{https://github.com/robinhefner/Research-Project/blob/e212d9b0d35173136eb8706f443504a473cea27e/Prompt_FHIR_Datengenerierung.md}{Prompt FHIR Datengenerierung}
 \\
 
 
@@ -277,12 +277,14 @@ Link zum Prompt:
 \end{description}
 \subsubsection{Frage 3.4: Dynamischer Datenimport}
 \textbf{Methodik:} Import der Daten über einen zeitlichen Verlauf um realitätsnahe zeitliche Verläufe abzublilden. \\
-\textbf{Ergebnisse:} Die synthetisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden. Die Transaktionen besitzen neben den FHIR Daten eine Scheduled-Time zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde.\\
+\textbf{Ergebnisse:} Die synthetisch generierten Daten werden mithilfe eines Python-Scripts in einzelne FHIR Transaktionen aufgeteilt, die in einer SQLite Datenbank abgespeichert werden (
+\href{https://github.com/robinhefner/Research-Project/blob/e212d9b0d35173136eb8706f443504a473cea27e/lebendigePatientendaten/prepare_patients.py}{Link zum Python Script}). Die Transaktionen besitzen neben den FHIR Daten eine Scheduled-Time zu der sie im KIS vorhanden sein sollen. Ein zweites Script, welches auf dem KIS-Server als Cronjob (Ein Cronjob wird zu einem definierten Zeitpunkt regelmäßig ausgeführt) läuft importiert die Einträge aus der Datenbank in das KIS bei denen die planmäßige Zeit erreicht wurde (
+\href{https://github.com/robinhefner/Research-Project/blob/e212d9b0d35173136eb8706f443504a473cea27e/lebendigePatientendaten/cron_injector.py}{Link zum Cronjob Script}).\\
 \textbf{Beantwortung:}
 
 
 % --- ZIEL 4 ---
-\subsection*{Ziel 4: Bewertung der Ansätze}
+\subsection{Ziel 4: Bewertung der Ansätze}
 \subsubsection{Frage 4.1: Auswahl der Datenquellen}
 \begin{description}[style=nextline, font=\bfseries]
     \item[Methodik] Für die Evaluierung werden Daten aus agentenbasierten und nicht-agentenbasierten Systemen, sowie reale Patientendaten herangezogen. Diese Datensätze werden anschließend durch medizinisches Fachpersonal anhand der in Ziel 2 definierten Kriterien bewertet.
@@ -297,7 +299,7 @@ Link zum Prompt:
     Um eine objektive und unverzerrte Evaluation aller Datensätze durch die Gutachter zu gewährleisten, mussten die Patientendaten in einem einheitlichen und standardisierten Format präsentiert werden. Ursprünglich war vorgesehen, die Visualisierung direkt über das Lehre-KIS zu realisieren. Da sich das Einlesen der Synthea-Patientendaten in das Lehre-KIS jedoch als nicht durchführbar erwies, musste eine alternative Darstellungsmethode evaluiert werden. Die direkte Verwendung der rohen FHIR-Daten wurde umgehend verworfen, da eine manuelle Sichtung und Plausibilitätsprüfung von teils über 60.000 Zeilen FHIR-Code für die medizinischen Experten im Rahmen einer Evaluation nicht praktikabel ist. Schließlich wurde entschieden, die Patientendaten im PDF-Format aufzubereiten, da dies die zugänglichste und universellste Option für alle Beteiligten darstellte.
 
     \item[Hürden] 
-    Der Prozess der Formatvereinheitlichung war mit mehreren technischen Herausforderungen verbunden. Das Framework Synthea verfügt über keinen nativen PDF-Export. Die integrierte Option eines HTML-Exports führte im lokalen Systemkontext zu Fehlern. Ebenso scheiterten Versuche, die von Synthea generierten FHIR-Dateien über webbasierte Plattformen wie \textit{clinFHIR} oder den \textit{HAPI-FHIR-Server} adäquat zu visualisieren. Als verbleibende Alternative wurde der CSV-Export von Synthea genutzt. Es wurde ein proprietäres Skript entwickelt, das die exportierten CSV-Strukturen einliest und daraus ein übersichtliches PDF-Dokument generiert, welches alle demografischen und klinischen Parameter abbildet.
+    Der Prozess der Formatvereinheitlichung war mit mehreren technischen Herausforderungen verbunden. Das Framework Synthea verfügt über keinen nativen PDF-Export. Die integrierte Option eines HTML-Exports führte im lokalen Systemkontext zu Fehlern. Ebenso scheiterten Versuche, die von Synthea generierten FHIR-Dateien über webbasierte Plattformen wie clinFHIR oder den HAPI-FHIR-Server adäquat zu visualisieren. Als verbleibende Alternative wurde der CSV-Export von Synthea genutzt. Es wurde ein proprietäres Skript entwickelt, das die exportierten CSV-Strukturen einliest und daraus ein übersichtliches PDF-Dokument generiert, welches alle demografischen und klinischen Parameter abbildet.
 
     Im nächsten Schritt mussten die übrigen Datensätze, bestehend aus den anonymisierten Musterelementen der Datenspende sowie den vom LLM generierten FHIR-Dateien, in exakt dieselbe CSV-Struktur überführt werden. Hierzu wurde ein zweites Skript implementiert, welches auf Basis der heterogenen FHIR-Eingangsdaten strukturell identische CSV-Tabellen erzeugt. Durch diese Standardisierung konnten im anschließenden Schritt mithilfe des primären Generierungsskripts für alle drei Datenquellen optisch und strukturell ununterscheidbare PDFs erzeugt werden.
 
@@ -317,20 +319,85 @@ Link zum Prompt:
 \begin{description}[style=nextline, font=\bfseries]
 \item[Methodik] Zur Durchführung der Evaluierung muss eine intuitive Infrastruktur geschaffen werden, die sowohl die Visualisierung der Patientendaten als auch die Datenerfassung effizient abbildet. Für die Kriterien wird eine 5-stufige Likert-Skala sowie ein optionales Freitextfeld für qualitatives Feedback festgelegt. Um die Validität der Ergebnisse zu gewährleisten, muss das System sicherstellen, dass jede bewertende Person jeden Datensatz exakt einmal evaluiert, um Mehrfachbewertungen auszuschließen. Zudem ist eine kontinuierliche Datenpersistenz notwendig, um Datenverlust zu jedem Zeitpunkt der Erhebung auszuschließen.
 
-\item[Ergebnisse] Als Lösung für die definierten Anforderungen wurde eine passwortgeschützte, webbasierte Anwendung implementiert (\href{https://eval.rhefner.de/}{Link: Evaluierungsplattform}). Um Verzerrungen (Bias) zu minimieren, wurden drei anonymisierte Bewertungsprofile angelegt, deren Zuweisung an die Mediziner durch eine externe Person randomisiert und verblindet erfolgte. Zur Unterstützung der Evaluierenden und zur Gewährleistung eines standardisierten Ablaufs wurde eine schriftliche Anleitung erstellt und den Medizinern bereitgestellt (\href{https://github.com/robinhefner/Research-Project/blob/5359f58b92f2480c59e9677c2e41ec0f7c742b21/Anleitung_Evaluation.pdf}{Link: Anleitung Evaluation}). Die Benutzeroberfläche wurde zweigeteilt gestaltet: Auf der linken Seite wird ein zufällig ausgewählter, noch unbewerteter Patientendatensatz als PDF dargestellt, während auf der rechten Seite die zugehörigen Likert-Skalen und Textfelder platziert sind. Nach dem Absenden einer Bewertung werden die Daten direkt in einer Cloud-Datenbank persistent gespeichert. Das System filtert nach jedem Durchgang die bereits bewerteten Fälle und lädt dynamisch den nächsten unbewerteten Datensatz, bis alle 120 Datensätze vollständig abgearbeitet sind. Der Prozess schließt mit einer Bestätigungsmeldung über den erfolgreichen Abschluss ab.
+\item[Ergebnisse] Als Lösung für die definierten Anforderungen wurde eine passwortgeschützte, webbasierte Anwendung implementiert (\href{https://researchproject.rhefner.de/evaluation/index.html}{Link: Evaluierungsplattform}). Um Verzerrungen (Bias) zu minimieren, wurden drei anonymisierte Bewertungsprofile angelegt, deren Zuweisung an die Mediziner durch eine externe Person randomisiert und verblindet erfolgte. Zur Unterstützung der Evaluierenden und zur Gewährleistung eines standardisierten Ablaufs wurde eine schriftliche Anleitung erstellt und den Medizinern bereitgestellt (\href{https://github.com/robinhefner/Research-Project/blob/5359f58b92f2480c59e9677c2e41ec0f7c742b21/Anleitung_Evaluation.pdf}{Link: Anleitung Evaluation}). Die Benutzeroberfläche wurde zweigeteilt gestaltet: Auf der linken Seite wird ein zufällig ausgewählter, noch unbewerteter Patientendatensatz als PDF dargestellt, während auf der rechten Seite die zugehörigen Likert-Skalen und Textfelder platziert sind. Nach dem Absenden einer Bewertung werden die Daten direkt in einer Cloud-Datenbank persistent gespeichert. Das System filtert nach jedem Durchgang die bereits bewerteten Fälle und lädt dynamisch den nächsten unbewerteten Datensatz, bis alle 120 Datensätze vollständig abgearbeitet sind. Der Prozess schließt mit einer Bestätigungsmeldung über den erfolgreichen Abschluss ab.
 
 \item[Beantwortung] Die Anforderungen an eine strukturierte, persistente und fehlerfreie Datenerhebung wurden durch die Entwicklung einer passwortgeschützten Webanwendung realisiert. Diese ermöglicht über ein zweigeteiltes Interface die Evaluierung mittels Likert-Skalen, schließt Mehrfachbewertungen systemseitig aus und sichert den Fortschritt der Bewertenden kontinuierlich in einer Cloud-Datenbank. Eine begleitende Anleitung stellte zudem die Standardisierung des Bewertungsprozesses sicher.
 \end{description}
 
-\subsubsection{Frage 4.4: }
+\subsubsection{Frage 4.4: Statistische Unterschiede zwischen den Patientengruppen}
+
 \begin{description}[style=nextline, font=\bfseries]
+\item[Methodik] Zur Überprüfung auf statistisch signifikante Unterschiede zwischen den Patientengruppen (Echte Daten, Synthea, LLM) hinsichtlich der vier Evaluierungskriterien (c1 bis c4) wurde der Kruskal-Wallis-Test angewandt. Da die Bewertungen auf einer ordinalen 5-stufigen Likert-Skala basieren und eine Normalverteilung nicht vorausgesetzt werden kann, ist dieses nicht-parametrische Verfahren gut geeignet. Für Kriterien, die im Gesamtvergleich ein signifikantes Ergebnis aufzeigten, wurde anschließend post-hoc der Mann-Whitney-U-Test für paarweise Vergleiche durchgeführt, um die genauen Gruppenunterschiede zu identifizieren. Das anfängliche Signifikanzniveau wurde auf $\alpha = 0{,}05$ festgelegt. Zur visuellen Analyse der relativen Verteilung wurde zudem ein Diverging Stacked Bar Chart (Abbildung \ref{fig:diverging_bars}) erstellt.
 
-    \item[Methodik] 
+\item[Ergebnisse] Wie in Tabelle \ref{tab:descriptive_stats} zu sehen, zeigten die Kruskal-Wallis-Tests für die Kriterien c1 ($p = 0{,}070$), c3 ($p = 0{,}112$) und c4 ($p = 0{,}165$) keine statistisch signifikanten Unterschiede zwischen den drei Datenquellen. Für das Kriterium c2 ergab sich jedoch ein signifikantes Ergebnis ($p = 0{,}002$). 
 
-    \item[Hürden] 
+\begin{table}[htbp]
+\centering
+\caption{Deskriptive Statistiken und Kruskal-Wallis-Testergebnisse zur Überprüfung auf Gruppenunterschiede zwischen den Datenquellen.}
+\label{tab:descriptive_stats}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Kriterium} & \textbf{Datenquelle} & \textbf{M} & \textbf{SD} & \textbf{Mdn} & \textbf{p-Wert} \\
+\midrule
+\multirow{3}{*}{c1} & Echte Daten & 3,02 & 1,24 & 3,0 & \multirow{3}{*}{0,070} \\
+                    & Synthea & 3,15 & 0,93 & 3,0 & \\
+                    & LLM & 2,80 & 0,95 & 3,0 & \\
+\midrule
+\multirow{3}{*}{c2} & Echte Daten & 3,07 & 1,42 & 3,0 & \multirow{3}{*}{\textbf{0,002**}} \\
+                    & Synthea & 3,49 & 1,00 & 3,0 & \\
+                    & LLM & 2,93 & 1,13 & 3,0 & \\
+\midrule
+\multirow{3}{*}{c3} & Echte Daten & 3,16 & 1,45 & 3,0 & \multirow{3}{*}{0,112} \\
+                    & Synthea & 3,57 & 1,00 & 4,0 & \\
+                    & LLM & 3,26 & 1,15 & 3,0 & \\
+\midrule
+\multirow{3}{*}{c4} & Echte Daten & 2,97 & 1,26 & 3,0 & \multirow{3}{*}{0,165} \\
+                    & Synthea & 3,11 & 0,95 & 3,0 & \\
+                    & LLM & 2,82 & 0,90 & 3,0 & \\
+\bottomrule
+\multicolumn{6}{l}{\small \textit{Anmerkung:} M = Mittelwert, SD = Standardabweichung, Mdn = Median.} \\
+\multicolumn{6}{l}{\small ** $p < 0{,}01$. Signifikante Unterschiede bei c2 (Kruskal-Wallis-Test).}
+\end{tabular}
+\end{table}
 
-    \item[Ergebnisse] 
+Diese statistischen Befunde spiegeln sich deutlich in der Verteilung der Bewertungen wider (siehe Abbildung \ref{fig:diverging_bars}). Das Balkendiagramm verdeutlicht, dass bei Kriterium c2 (und partiell c3) die Synthea-Daten den mit Abstand größten Anteil an positiven Bewertungen (Scores 4 und 5) aufweisen, während extrem negative Bewertungen (Scores 1 und 2) nahezu ausbleiben. Bei den LLM-generierten Daten zeigt sich hingegen eine klare Verschiebung in den negativen Bereich. 
 
+    \begin{center}
+        \begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Artikel/pictures/diverging_bars.png}
+            \captionof{figure}{Prozentuale Verteilung der Bewertungen (1 = dunkelrot, 5 = dunkelgrün) aufgeschlüsselt nach Kriterien und Datenquellen. Die neutrale Bewertung 3 (gelb) ist um die Nulllinie zentriert. Anteile auf der rechten Seite spiegeln eine tendenziell positive, Anteile auf der linken Seite eine negative Bewertung wider.} 
+            \label{fig:diverging_bars}
+        \end{minipage}
+    \end{center}
+    
+Die anschließenden paarweisen Mann-Whitney-U-Tests für c2 bestätigten dies rechnerisch: Die durch Synthea generierten Fälle (Mittelwert 3,49) wurden signifikant besser bewertet als die durch das LLM generierten Fälle (Mittelwert 2,93; $p < 0{,}001$). Im Vergleich zu den echten Fällen (Mittelwert 3,07) zeigten die Synthea-Fälle ebenfalls höhere Bewertungen ($p = 0{,}027$), was jedoch unter Berücksichtigung einer konservativen Bonferroni-Korrektur für multiples Testen (angepasstes Signifikanzniveau $\alpha = 0{,}0167$) knapp das Signifikanzniveau verfehlt. Zwischen den echten Fällen und den LLM-generierten Fällen konnte bei c2 kein signifikanter Unterschied festgestellt werden ($p = 0{,}634$).
 
-    \item[Beantwortung] 
+Allerdings muss einschränkend festgehalten werden, dass ein dritter Prüfer die Daten von 90 Patienten aus Zeitgründen nicht mehr auswerten konnte. Insgesamt wurden somit 120 Datensätze jeweils zweimal vollständig evaluiert, während eine Teilmenge von 30 Datensätzen zusätzlich durch den dritten Prüfer beurteilt wurde. Die verbleibenden 90 Datensätze liegen demnach nur in zweifacher Ausfertigung vor. Obwohl diese fehlende dritte Evaluation das Risiko einer Verzerrung birgt, wurde die statistische Analyse wie geplant durchgeführt. Ausschlaggebend hierfür war, dass bereits zwei vollständig evaluierte Datensätze vorlagen und eine Fertigstellung der ausstehenden Bewertungen aus zeitlichen Gründen nicht mehr abgewartet werden konnte.
+    \begin{center}
+        \begin{minipage}{\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Artikel/pictures/boxplots_points_de.png}
+            \captionof{figure}{Verteilung der quantitativen Bewertungen (Scores 1 bis 5) für die vier Kriterien (c1--c4), aufgeschlüsselt nach den Datenquellen (real, synthea, llm).} 
+            \label{fig:boxplots}
+        \end{minipage}
+    \end{center}
+\item[Beantwortung] Es gibt statistisch signifikante Unterschiede zwischen den Patientengruppen, allerdings beschränken sich diese primär auf das Kriterium c2. Wie sowohl der statistische Test als auch die grafische Darstellung (\ref{fig:diverging_bars}) aufzeigen, schneiden hierbei die regelbasiert generierten Patientendaten signifikant besser ab als die LLM-generierten Daten (sowie tendenziell besser als die echten Patientendaten). Bei den restlichen Kriterien (c1, c3, c4) ließen sich keine statistisch signifikanten Abweichungen zwischen den Datenquellen nachweisen. Dies deutet darauf hin, dass die generierten Daten in diesen Aspekten statistisch vergleichbar zu den echten Daten bewertet wurden, wenngleich die in der Grafik ersichtliche, breite Verteilung von positiven und negativen Scores innerhalb der jeweiligen Gruppen auf eine generelle Uneinigkeit der Bewerter hindeutet (niedrige Inter-Rater-Reliabilität).
+
 \end{description}
+
+\subsubsection{Frage 4.5: Qualitativen Auffälligkeiten zwischen den Patientengruppen}
+\begin{description}[style=nextline, font=\bfseries]
+\item[Methodik] Ergänzend zur rein quantitativen Auswertung wurden die optionalen qualitativen Freitext-Kommentare der drei medizinischen Evaluatorinnen systematisch analysiert. Ziel war es, wiederkehrende inhaltliche Muster, klinische Inkonsistenzen sowie spezifische Schwächen der jeweiligen Datenquellen zu identifizieren. Hierfür wurden die Rückmeldungen manuell gesichtet, thematisch geclustert und den drei Patientengruppen zugeordnet, um die Ursachen für die quantitativen Bewertungen und die stark variierende Punktevergabe fachlich fundiert zu begründen.
+
+\item[Ergebnisse] Die Auswertung der Kommentare hat gezeigt, dass alle drei Datenquellen mit sehr spezifischen, systemischen Problemen behaftet sind, die von den Expertinnen stark kritisiert wurden:
+\begin{itemize}
+    \item \textbf{Echte Daten (Real):} Trotz ihrer Authentizität haben die echten Akten massive Defizite in der Lesbarkeit. Ein Hauptkritikpunkt war die zeitliche Kompression (z.\,B. Datierungen sämtlicher Befunde, Labore und Diagnosen auf denselben Tag), wodurch klinische Verläufe kaum nachvollziehbar waren. Zudem erschwerten unspezifische Diagnoseschlüssel (z.\,B. ,,NOS``) und klinikinterne Abkürzungen ohne Kontext die Bewertung erheblich.
+    \item \textbf{Synthetische Daten (Synthea):} Obwohl diese Akten strukturell sehr sauber und konsistent wirkten, fielen sie durch algorithmische Stereotypen auf (z.\,B. eine unnatürliche Überrepräsentation zahnärztlicher Diagnosen wie Gingivitiden). Ein noch größeres Problem stellte das Fehlen klinischer Logik dar: Beispielsweise wurden in Schwangerschaften streng kontraindizierte Medikamente verordnet, oder chronische Diagnosen wie eine Anämie blieben völlig unbehandelt im Raum stehen.
+    \item \textbf{LLM-generierte Daten (LLM):} Diese Datensätze schnitten qualitativ am schlechtesten ab. Kritisiert wurde primär die klinische Unplausibilität der Behandlungsverläufe (z.\,B. Einleitung einer Metformin-Therapie erst drei Jahre nach einer Diabetes-Diagnose oder die unglaubwürdige Monotherapie eines Schlaganfalls mit Aspirin). Zudem neigten die Sprachmodelle zu Halluzinationen bei Laborwerten (falsche Einheiten) und bauten, ähnlich wie bei den echten Daten, oft keinen plausiblen zeitlichen Behandlungsstrahl auf.
+\end{itemize}
+
+\item[Beantwortung] Die qualitative Analyse beantwortet die Frage, warum die Datensätze unterschiedlich bewertet wurden und erklärt zeitgleich die sehr niedrige Inter-Rater-Reliabilität. Jede Datenquelle weist spezifische Schwächen auf: Echte Patientendaten leiden an einer chaotischen, oft abrechnungsgetriebenen Rohstruktur; Synthea-Daten zeigen trotz struktureller Brillanz gravierende Defizite im medizinischen Kontextwissen; und LLM-generierte Akten versagen bei harten klinischen Fakten (wie Maßeinheiten und Leitlinien). Die Bewerterinnen legten beim Evaluieren subjektiv unterschiedliche Schwerpunkte, was dazu führte, dass je nach ärztlichem Fokus strukturelles Chaos (Real), fehlender klinischer Sachverstand (Synthea) oder fachliche Halluzinationen (LLM) unterschiedlich hart abgestraft wurden.
+\end{description}
+
+
