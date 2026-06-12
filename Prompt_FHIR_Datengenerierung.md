@@ -1,7 +1,5 @@
 # Prompt für die Generierung synthetischer FHIR Patientendaten
 
-Kopiere den folgenden Text und nutze ihn als Prompt für ein Large Language Model (z.B. GPT-4, Claude 3, etc.), um synthetische Patientendaten im FHIR-Format zu generieren.
-
 ---
 
 **System-Prompt / Anweisung:**
@@ -90,10 +88,106 @@ Die generierten FHIR-Daten müssen für den problemlosen Import in ein **OpenMRS
     ]
     ```
     Alle FHIR-Ressourcen müssen generell gültige `id`s aufweisen.
-*   **Bundle-Referenzen:** Alle internen Verknüpfungen im Bundle (z.B. `Encounter -> Patient/xyz` oder `Condition -> Patient/xyz`) müssen absolut konsistent und idealerweise über `urn:uuid:` oder verlässliche `reference`-Strings auflösbar sein.
-*   **Terminologie-Mapping:** Da OpenMRS mit klinischen Konzept-Wörterbüchern (Concept Dictionary) arbeitet, verwende durchgängig etablierte internationale Standards: **LOINC** für Observations, **SNOMED CT** oder **ICD-10** für Conditions und Allergien (AllergyIntolerance) sowie **RxNorm** für Medications (oder Medikamenten-Allergien). Verwende stets `system`, `code` und `display`.
+*   **Bundle-Referenzen:** Alle internen Verknüpfungen im Bundle (z.B. `Encounter` zu `Patient` oder `Observation` zu `Encounter`) müssen absolut konsistent über `urn:uuid:<uuid>` aufgelöst werden. Die `fullUrl` jedes Entries muss `urn:uuid:<uuid>` sein, und die Referenzen (wie `subject.reference`, `encounter.reference` oder `partOf.reference`) müssen exakt diesen `urn:uuid:` Wert verwenden, idealerweise zusammen mit der Angabe des Typs (z.B. `"type": "Patient"` bzw. `"type": "Encounter"`).
+*   **Terminologie-Mapping:** Da OpenMRS mit klinischen Konzept-Wörterbüchern (Concept Dictionary) arbeitet, verwende durchgängig etablierte internationale Standards: **LOINC** für Observations (oder spezifische OpenMRS Concept UUIDs für Vitalparameter, siehe unten), **SNOMED CT** oder **ICD-10** für Conditions und Allergien (AllergyIntolerance) sowie **RxNorm** für Medications (oder Medikamenten-Allergien). Verwende stets `system`, `code` und `display` (außer bei den OpenMRS UUIDs für Vitalparameter).
 * **Encounter:** Verknüpfung zum Patienten UND zum jeweiligen Practitioner (`participant.individual`).
+    **WICHTIG:** Die Struktur für `type` und `location` im Encounter muss zwingend exakt wie folgt aufgebaut sein, damit der Import erfolgreich ist:
+    ```json
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://fhir.openmrs.org/code-system/visit-type",
+            "code": "b7494a80-fdf9-49bb-bb40-396c47b40343",
+            "display": "IPD"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "location": {
+          "reference": "Location/72636eba-29bf-4d6c-97c4-4b04d87a95b5",
+          "type": "Location",
+          "display": "Bahmni Hospital"
+        }
+      }
+    ]
+    ```
 * **MedicationRequest:** Verknüpfung zum Patienten UND zum `requester` (Practitioner).
+* **Observation:** Jede Observation muss zwingend mit einem spezifischen Encounter vom Typ `Consultation` verknüpft sein (`encounter.reference`). Dieser Consultation Encounter muss wiederum über `partOf` auf den Haupt-Encounter (Visit) verweisen. **WICHTIG:** Zusätzlich muss der Consultation Encounter ein `period`-Objekt (`start` und `end`) aufweisen, dessen Zeitfenster zwingend **komplett innerhalb** der `period` des übergeordneten Haupt-Encounters liegt. Generiere dafür im Bundle für Observations einen zusätzlichen Encounter mit exakt folgender Struktur (und achte darauf, dass auch hier das request-Objekt für POST im Bundle ergänzt wird):
+    ```json
+    {
+        "resourceType": "Encounter",
+        "id": "<neu_generierte_uuid_fuer_consultation>",
+        "status": "finished",
+        "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+        },
+        "type": [
+            {
+                "coding": [
+                    {
+                        "system": "http://fhir.openmrs.org/code-system/encounter-type",
+                        "code": "d34fe3ab-5e07-11ef-8f7c-0242ac120002",
+                        "display": "Consultation"
+                    }
+                ]
+            }
+        ],
+        "subject": {
+            "reference": "urn:uuid:<patient_uuid>",
+            "type": "Patient"
+        },
+        "period": {
+            "start": "<start_date_time_innerhalb_haupt_visit>",
+            "end": "<end_date_time_innerhalb_haupt_visit>"
+        },
+        "location": [
+            {
+                "location": {
+                    "reference": "Location/b5da9afd-b29a-4cbf-91c9-ccf2aa5f799e",
+                    "type": "Location",
+                    "display": "Emergency"
+                }
+            }
+        ],
+        "partOf": {
+            "reference": "urn:uuid:<haupt_visit_uuid>",
+            "type": "Encounter"
+        }
+    }
+    ```
+    Die entsprechende Observation referenziert dann diesen Consultation-Encounter in `encounter.reference` via `urn:uuid:`.
+* **Spezifische Codes für Observations (Vitalparameter):** Verwende für Standard-Vitalparameter (Blutdruck, Puls) zwingend die spezifischen OpenMRS Concept UUIDs als Code (ohne `system` Angabe) kombiniert mit dem SNOMED CT Code, und setze die `category` auf `exam`. Beispiel für Diastolischen Blutdruck:
+    ```json
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "exam",
+            "display": "Exam"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "display": "Diastolic blood pressure"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "271650006"
+        }
+      ],
+      "text": "Diastolic blood pressure"
+    }
+    ```
+    Nutze für Systolischen Blutdruck den Code `"5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"` (SNOMED 271649006) und für Puls den Code `"5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"` (SNOMED 78564009).
 *   **Strikte Validierung:** Vermeide widersprüchliche oder unvollständige Datenstrukturen, die beim OpenMRS-Import häufig zu Schema- oder Validierungs-Fehlern führen (z.B. fehlende Statusangaben, fehlerhafte Datumsformate).
 
 ### 7. Formatvorgabe
