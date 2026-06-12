@@ -1,16 +1,15 @@
 \textbf{Abstract --}
+\textbf{Background:} Operational Hospital Information Systems (HIS) are essential for modern medical and medical informatics training. However, traditional educational HIS environments face legal and structural limitations, often relying on unpopulated databases or static datasets that fail to reflect dynamic, longitudinal clinical workflows.
 
-\noindent\textbf{Background:} 
+\noindent\textbf{Objective:} Within the Heidelberg "studiKIS" project, this study aims to develop and systematically evaluate a methodology for providing realistic, privacy-compliant, dynamic data, including synthetic patient records and continuous wearable sensor streams, for a dedicated educational HIS.
 
-\noindent\textbf{Objective:} 
+\noindent\textbf{Methods:} A literature review on PubMed and IEEE Xplore (March 2026) identified state-of-the-art frameworks and integration standards. Core quality criteria were defined through six qualitative interviews with medical and IT experts. Prototypically, rule-based (Synthea) and LLM-based (Gemini 3.1 Pro) pipelines were engineered alongside a temporal ingestion script to simulate continuous hospital workflows in the open-source HIS Bahmni. Continuous glucose monitoring sensor streams were integrated via HL7 FHIR. Finally, 120 blinded patient records across three modalities (Real clinical data from MIMIC-III, Synthea, and LLM) were evaluated by clinical experts using a 5-point Likert scale and thematic qualitative analysis.
 
-\noindent\textbf{Methods:} 
+\noindent\textbf{Results:} Synthea-generated records achieved significantly higher ratings in longitudinal consistency (c2) compared to LLM profiles (p<0.001) and real data (p=0.027). No statistically significant differences were found for clinical plausibility (c1), chronological sequence (c3), and overall impression (c4). Qualitative analysis revealed distinct source-specific deficits: real data suffered from poor readability and chronological compression, Synthea datasets exhibited repetitive clinical patterns, and LLM data suffered from factual hallucinations and guideline violations. Empirical sensor streams were successfully visualized as trend graphs, though dynamic zooming and event annotation are natively lacking.
 
-\noindent\textbf{Results:}
-
-\noindent\textbf{Conclusion:} 
+\noindent\textbf{Conclusion:} Providing dynamic, "living" clinical data via HL7 FHIR pipelines offers meaningful benefits over static teaching methods. Rule-based frameworks excel in life-span consistency but introduce rigid stereotypes, whereas LLMs generate flexible but often hallucinated records. Future work should focus on scalable translation scripts for rule-based systems and knowledge-grounded AI architectures (such as RAG and multi-agent critic frameworks) to eliminate clinical inaccuracies.
     
     \smallskip
     \smallskip
     
-\noindent\textbf{Keywords} -  
+\noindent\textbf{Keywords} -  Hospital Information System; HIS; Synthetic Clinical Data; Electronic Health Record; HL7 FHIR; Synthea; Large Language Models; Medical Sensors; Medical Education

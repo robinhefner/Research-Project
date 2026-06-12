@@ -1,0 +1,68 @@
+\subsection*{Interpretation of Findings}
+\subsubsection{Interpretation of Quality Criteria}
+Comparing the literature and interview findings reveals shared core requirements for synthetic data evaluation but divergent priorities regarding its application. Both sources align on the need for temporal and clinical coherence, as the literature focuses on temporal dynamics and clinical utility \citep{josling_novel_2026, theodorou_synthesize_2023, jung_clinical_2025} that match the experts demands for chronological sequencing, longitudinal consistency, and clinical plausibility. Furthermore, the experts requirement for interoperability standards like HL7 FHIR mirrors the literature's emphasis on governance, ethics, and FAIR principles \citep{tsao_health_2023}. 
+
+However, their primary evaluation metrics differ. While the literature prioritizes quantitative metrics such as statistical fidelity \citep{chen_generating_2025, theodorou_synthesize_2023}, structural integrity\citep{josling_novel_2026}, and mathematical privacy guarantees \citep{tsao_health_2023, hahn_contribution_2022, chen_generating_2025}, the interview results focus on qualitative and pedagogical utility for academic teaching. For educational purposes, experts prioritize narrative coherence, realistic clinical elements like medical errors, and adaptable case complexity. Consequently, while statistical parameters ensure technical validity and privacy, educational utility depends strictly on narrative realism and didactic flexibility.
+
+\subsubsection{Interpretation of Quantitative and Qualitative Group Differences in Patient Data}
+Statistically significant differences were limited to criterion $c2$ (Longitudinal Consistency), where Synthea-generated patient data outperformed LLM-generated records and demonstrated a positive trend against real-world data. These results may be attributed to Synthea's underlying generative framework, which is designed to simulate a patient's entire lifespan, beginning at birth, tracking all clinical encounters, and concluding at death \citep{synthea}. Consequently, longitudinal consistency is inherent to these records. In contrast, LLM-based patient profiles contained fewer encounters, observations, and diagnoses. Furthermore, while real-world data captured higher encounter volumes, they spanned a shorter historical duration. These factors likely explain Synthea’s significant improvement over LLM profiles and its positive, although non-significant, trend against real-world benchmarks.
+
+However, this comprehensive data generation model also introduced a major point of criticism in the qualitative findings. Evaluators noted that Synthea-generated records exhibited repetitive patterns, such as an overrepresentation of dental cases. This artifact reflects the lifespan-simulation methodology, where frequent, routine dental checkups naturally outnumber visits to hospitals.
+
+For criteria $c1$, $c3$, and $c4$, the generated data were statistically comparable to each other and to authentic records. However, a wide score distribution across all modalities indicated high variance and low inter-rater reliability. Qualitative observations explain this variance: real-world records suffered from poor readability and unspecific coding, likely stemming from localized hospital abbreviations. Synthea records exhibited repetitive patterns and occasional lapses in clinical plausibility, and LLM data contained factual errors and hallucinations. Evaluators most likely prioritized these distinct deficits differently based on their clinical focus, penalizing structural disorganization, logical inconsistencies, or hallucinations with varying severity, resulting in low inter-rater reliability.
+
+\subsubsection{Interpretation of Sensor Data Visualization Quality}
+The Bahmni patient dashboard natively renders assigned laboratory values as continuous graphs. By mapping the sensor data to an appropriate concept and importing them via the FHIR interface, the streams were successfully visualized, satisfying core expert requirements for real-time data representation. Furthermore, Bahmni automatically highlights out-of-range values, provided the range is defined in the concept. However, this flagging mechanism appears to be persisted at the database level during data ingestion rather than evaluated dynamically at runtime during visualization. Consequently, values imported via the FHIR interface lacked out-of-range indicators despite breaching the defined ranges, whereas manually entered values were flagged appropriately. Incorporating range parameters within the FHIR payload might circumvent this barrier, but due to time constraints, this hypothesis could not be verified.
+
+Consequently, the platform inherently satisfies the \textit{Graphical Trend Visualization} criterion and could potentially satisfy \textit{Anomaly Highlighting}, provided programmatic triggering can be achieved via the ingestion pipeline. However, the remaining two criteria, \textit{Adaptive Contextual Granularity} and \textit{Temporal Event Annotation}, are not supported out of the box. Prospective enhancements are detailed in Section Advanced UI Component Engineering for Sensor Stream Dashboarding.
+
+\subsection*{Limitations}
+\subsubsection{Literature Review}
+To ensure comprehensive coverage of both the clinical and technical dimensions of the research, the literature review focused on two primary databases: PubMed and IEEE Xplore. While a structured methodology was applied, the search did not strictly adhere to systematic review standards or full PRISMA guidelines. Because the primary objective was the technical integration of data into a virtual HIS, the literature search served only to establish a functional baseline. Consequently, expanding the database selection and executing a full systematic review fell outside the project's scope.
+
+\subsubsection{Limitations regarding Data Completeness}
+Due to time constraints, 90 patient records were not evaluated by the third reviewer, introducing a risk of verification bias. However, given the fixed project timeline and the availability of two complete evaluation rounds for the entire sample, the analysis was proceeded. 
+
+\subsubsection{Technical Limitations}
+Because Synthea-generated patient records were too structurally complex for direct HIS import, an initial troubleshooting strategy was designed to analyze error logs and programmatically strip non-compliant fields. However, this approach was quickly deemed too time-intensive and raised scalability concerns, as manually auditing individual profiles cannot guaranty compatibility across subsequent patient records. Nonetheless, given the significant performance advantage observed for Synthea data regarding criterion $c2$ over LLM alternatives, developing a translation script to map Synthea's output to an HIS-compliant FHIR schema may present a key area for future work. Such an integration pipeline requires careful calibration. A naive truncation technique that blindly removes non-compliant fields risks degrading the clinical realism that drove Synthea’s performance metrics. Hence, it may be necessary to develop alternative import strategies rather than simple data truncation to preserve dataset integrity.
+
+Tied to the complexity of the Synthea files was the current inability of creating a script, which replaced all newly generated Synthea providers to a predefined set of existing HIS clinicians. However, manual validation confirmed that provider replacement was successful within simplified Synthea profiles, and the Bahmni user interface correctly displayed the assigned personnel alongside their corresponding diagnoses. Consequently, while an automated provider-mapping script is theoretically possible, its utility is dependent on the script adapting the Synthea generated FHIR file to a FHIR structure accepted by Bahmni.
+
+In contrast, generating compliant FHIR structures for LLM-generated patient profiles is significantly more straightforward, as the output schema can be strictly enforced through targeted prompting. A limitation remains the reproducibility of LLM outputs across different model versions. Nevertheless, the detailed prompt architecture is expected to minimize variance when deploying alternative models, preserving the framework's generalizability.
+
+\subsection*{Future Work}
+\label{sec:further_research}
+Based on the technical challenges, qualitative findings, and architectural trade-offs, these four areas for future research have been defined:
+
+\subsubsection{Automated Ingestion and Interoperability Pipelines for Rule-Based Simulation}
+Future work should develop a scalable translation script to map native Synthea FHIR bundles to HIS-accepted profiles. This pipeline must address two architectural gaps:
+\begin{itemize}
+    \item \textbf{Dynamic Concept Harvesting:} Active database synchronization using the CIEL concept dictionary to programmatically inject missing clinical concepts into the HIS backend prior to ingestion.
+    \item \textbf{Automated Provider Pooling:} A script to map dynamically generated virtual clinician identities to a fixed pool of pre-existing HIS users across specialized departments.
+\end{itemize}
+Future studies must evaluate the trade-off between structural simplification and medical realism to ensure that system compatibility does not compromise clinical complexity.
+
+\subsubsection{Knowledge-Grounded Architectures for Generative AI}
+To mitigate clinical hallucinations and guideline violations in LLM-generated records, future architectures should transition to knowledge-grounded generation:
+\begin{itemize}
+    \item \textbf{Retrieval-Augmented Generation (RAG):} Coupling the generative engine with a vector database of localized clinical guidelines to ground probabilistic patient transitions in authentic pathways.
+    \item \textbf{Multi-Agent Critic Frameworks:} A dual-agent system where a generative model synthesizes the history, while a specialized ``Clinical Critic'' agent verifies medical facts, units, and chronologies prior to database export.
+\end{itemize}
+
+\subsubsection{Advanced UI Component Engineering for Sensor Stream Dashboarding}
+To address limitations in interactive granularity and contextual layout within the sensor dashboard, the following frontend extensions are proposed:
+\begin{itemize}
+    \item \textbf{Interactive Frontend Scaling:} Zoom and pan components to adjust temporal resolutions directly within the browser, avoiding database downsampling or manual reloads.
+    \item \textbf{Temporal Event Annotation:} A mechanism to anchor discrete lifestyle metrics (e.g., dietary intake) onto tracking graphs, allowing students to correlate behaviors with physiological responses.
+\end{itemize}
+Implementing these features in Bahmni might require core codebase alterations, posing maintainability risks during framework updates. This could lead to either repetitive manual code synchronization upon every release or upstream adoption by the core Bahmni development team, so that the changes persist in upcoming versions. Due to the lack of long-term sustainability for local customizations, evaluating alternative virtual HIS platforms that natively support these requirements may be necessary.
+
+\subsubsection{Improving the Continuous Clinical Workflow}
+By using a two-step approach, which partitions patient records into individual transactions and executes imports via a cron job at scheduled times, successfully simulates a real-world clinical workflow. However, determining appropriate temporal intervals between distinct encounters and diagnoses remains an open question, as does identifying the optimal baseline for the initiation of a patient record. 
+
+Because Synthea-generated profiles track an individual’s history from birth, subsequent clinical events are distributed across decades. Simulating continuous ingestion from birth is practically unfeasible, as real-time execution would mirror an actual lifespan. A more viable alternative could involve a hybrid ingestion strategy: statically importing a historical baseline of encounters and diagnoses, followed by dynamic, continuous workflows. Nevertheless, the temporal fidelity of synthetic encounters requires further evaluation. While criterion $c3$ (Chronological-Logical Sequence) evaluates this progression in this article, neither Synthea nor LLM-generated datasets currently excel in this domain. Consequently, further research is required to optimize chronological logic before deploying these synthetic profiles in medical education.
+
+Alternatively, to maximize control over educational datasets, course instructors could predefine patient records aligned directly with specific lesson plans. Instructors would configure the \textit{Scheduled-Time} attribute to dictate exactly when a virtual patient is imported with the HIS. This workflow could be driven by a dedicated web application integrated with the ingestion database, allowing the cron job to extract these targeted encounters. Developing and evaluating such a pedagogical management platform could be the focus of a subsequent study.
+
+\subsubsection{Methodological Scaling and Multi-Reviewer Validation}
+Finally, to address the risk of verification bias stemming from the incomplete third evaluation round of 90 datasets, future evaluation cycles must enforce full multi-reviewer coverage across the entire case matrix. Additionally, research should systematically evaluate inter-rater disagreement to understand how subjective expert priorities influence the validation of synthetic clinical data.
