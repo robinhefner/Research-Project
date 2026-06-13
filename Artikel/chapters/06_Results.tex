@@ -3,13 +3,14 @@ The literature review identified relevant articles across both primary domains:
 
 \begin{itemize}
 \item \textbf{Synthetic Data Generation:} 
-The study selection process is systematically documented in the PRISMA flow chart \citep{Pagen160} presented in Figure~\ref{fig:syn_flow_chart}. The initial database search retrieved 125 articles. Title and abstract screening excluded 72 papers. Full-text screening of the remaining 53 articles excluded 26, leaving 27 for the final analysis. These papers address Large Language Models and Transformers (n = 9), Generative Adversarial Networks for tabular and image data (n = 4), agent-based simulation via \\Synthea (n = 2), and probabilistic or interactive frameworks (n = 2).
+The study selection process is systematically documented in the PRISMA flow chart \citep{Pagen160} presented in Figure~\ref{fig:syn_flow_chart}. The initial database search retrieved 125 articles. Title and abstract screening excluded 72 papers. Full-text screening of the remaining 53 articles excluded 26, leaving 27 for the final analysis. These papers address Large Language Models and Transformers (n=9), Generative Adversarial Networks for tabular and image data (n=4), agent-based simulation via Synthea (n=2), and probabilistic or interactive frameworks (n=2).
 
-Based on the literature, core requirements for generated patient data are categorized into seven domains: statistical fidelity (e.g., high-dimensional disease codes reaching correlation probabilities of $R^2 > 0.9$) \citep{chen_generating_2025, theodorou_synthesize_2023}, structural integrity (hierarchical consistency and modeling informative missingness) \citep{josling_novel_2026}, temporal dynamics (realistic inter-visit gaps) \citep{josling_novel_2026, theodorou_synthesize_2023}, clinical utility (validated via the \enquote{Train-Synthetic-Test-Real} framework) \citep{theodorou_synthesize_2023, jung_clinical_2025}, data privacy (differential privacy to mitigate re-identification risks) \citep{tsao_health_2023, hahn_contribution_2022} \citep{chen_generating_2025}, governance/ethics (adherence to FAIR and CARE principles) \citep{tsao_health_2023}, and active bias mitigation \citep{theodorou_synthesize_2023}.
+Based on the literature, core requirements for generated patient data are categorized into seven domains: \textit{statistical fidelity} (e.g., high-dimensional disease codes reaching correlation probabilities of $R^2 > 0.9$) \citep{chen_generating_2025, theodorou_synthesize_2023}, \textit{structural integrity} (hierarchical consistency and modeling informative missingness) \citep{josling_novel_2026}, \textit{temporal dynamics} (realistic inter-visit gaps) \citep{josling_novel_2026, theodorou_synthesize_2023}, \textit{clinical utility} (validated via the \enquote{Train-Synthetic-Test-Real} framework) \citep{theodorou_synthesize_2023, jung_clinical_2025}, \textit{data privacy} (differential privacy to mitigate re-identification risks) \citep{tsao_health_2023, hahn_contribution_2022} \citep{chen_generating_2025}, \textit{governance/ethics} (adherence to FAIR and CARE principles) \citep{tsao_health_2023}, and \textit{active bias mitigation} \citep{theodorou_synthesize_2023}.
 
 \item \textbf{Sensor Data Integration:} 
-The search string yielded 269 articles (\ref{fig:sensor_flow_chart}). Title and abstract screening excluded 251 papers. Full-text screening of the remaining 18 articles excluded 4, leaving 14 for the final analysis. These papers utilize the HL7 FHIR standard (n = 11) and classical REST interfaces for data transmission (n = 3). Continuous data streaming into the HIS was not described in any study, integration relied exclusively on batch-processing via server pull mechanisms.
+The search string yielded 269 articles (\ref{fig:sensor_flow_chart}). Title and abstract screening excluded 251 papers. Full-text screening of the remaining 18 articles excluded 4, leaving 14 for the final analysis. These papers utilize the HL7 FHIR standard (n=11) and classical REST interfaces for data transmission (n=3). Continuous data streaming into the HIS was not described in any study, integration relied exclusively on batch-processing via server pull mechanisms.
 \end{itemize}
+
  
 \subsection*{Defined Quality Criteria from Expert Interviews}
 Six qualitative interviews were conducted with three medical experts and three IT professionals. The qualitative analysis of the interviews identified four core dimensions of synthetic data quality for academic teaching:
@@ -34,23 +35,27 @@ Regarding empirical physiological sensor streams, the experts noted that evaluat
 The implementation phase established technical pipelines for rule-based simulation, generative AI workflows, and empirical sensor data integration.
 
 \subsubsection*{Generation of Synthetic Patient Data}
-\paragraph*{Rule-Based Approach:} By adjusting the configuration properties of the Synthea framework, the established workflow generated localized German patient \\datasets in FHIR format. However, technical evaluation of the pipeline components revealed functional limitations:
+\begin{sloppypar}
+\paragraph*{Rule-Based Approach:} By adjusting the configuration properties of the Synthea framework, the established workflow generated localized German patient datasets in FHIR format. However, technical evaluation of the pipeline components revealed functional limitations:
 
 \begin{itemize}
 \item The automated provider-pooling strategy failed to function as intended. Instead, the concept was tested by manually replacing the providers in a simplified Synthea generated patient. 
-\item The structural complexity of Synthea's full FHIR bundles led to repeated rejections by the HIS. Technical analysis identified semantic gaps and documentation constraints within the Bahmni \\FHIR module, revealing the operational scalability limits of the rule-based ingestion pipeline. Consequently, importing complete, Synthea-generated patient profiles as monolithic bundles proved unfeasible.
+\item The structural complexity of Synthea's full FHIR bundles led to repeated rejections by the HIS. Technical analysis identified semantic gaps and documentation constraints within the Bahmni FHIR module, revealing the operational scalability limits of the rule-based ingestion pipeline. Consequently, importing complete, Synthea-generated patient profiles as monolithic bundles proved unfeasible.
 \end{itemize}
+\end{sloppypar}
 
 \paragraph*{LLM-Based Approach:} The LLM-based pipeline was implemented, resulting in an optimized, final prompt that reliably generates patient records in FHIR format. By structuring the generation process around a predefined set of medications and medical conditions, the prompt ensured full OpenMRS compatibility. Furthermore, this constraint-based approach mitigated LLM hallucinations, yielding consistent synthetic data.
 
 \subsubsection*{Real-World Sensor Data}
-Continuous glucose sensor streams from four participants were parsed and integrated into the HIS via the FHIR interface. Within the OpenMRS concept dictionary, \enquote{\textit{Fasting blood glucose measurement (mg/dL)}} was selected as the most appropriate representation for the sensor stream data. Modeling this high-frequency time-series data as low-level FHIR Observation resources bypassed standard clinical ordering workflows, enabling the direct ingestion of historical records. This data was subsequently visualized dynamically within the native frontend dashboard.
+Continuous glucose sensor streams from four participants were parsed and integrated into the HIS via the FHIR interface. Within the OpenMRS concept dictionary, \enquote{\textit{Fasting blood glucose measurement (mg/dL)}} was selected as the most appropriate representation for the sensor stream data. Modeling this high-frequency time-series data as low-level FHIR Observation resources bypassed standard clinical ordering workflows, enabling the direct ingestion of historical records. This data was subsequently visualized dynamically within the native frontend dashboard (Figure \ref{fig:sensor_dashboard}).
 
 \subsubsection*{Ingestion Pipeline for Patient Records}
-Using the correct JSON structure for the FHIR interface enabled the import of both synthetic patient data and real-world sensor data into the HIS. However, an initial limitation arose regarding several Synthea-generated concepts that were not natively supported by Bahmni. This discrepancy was resolved by importing the CIEL dictionary, which contained the majority of the required concepts.
+Using the correct JSON structure for the FHIR interface enabled the import of both synthetic patient data and real-world sensor data into the HIS. However, an initial limitation arose regarding several Synthea-generated concepts that were not natively supported by Bahmni. This discrepancy was resolved by importing the CIEL dictionary, which contained the majority of the required concepts. 
 
 \subsubsection*{Simulating a Continuous Clinical Workflow}
-The temporal ingestion pipeline uses a decoupled, database - driven architecture. A partitioning script parses multi-object FHIR bundles into individual clinical transactions, assigns each a scheduled time, and stores them in a local SQLite database. An execution script, running as a cron job on the HIS server, then polls the database to execute these transactions exactly at their scheduled times. 
+\begin{sloppypar}
+The temporal ingestion pipeline used a decoupled, database-driven architecture. A partitioning script parsed multi-object FHIR bundles into individual clinical transactions, assigned each a scheduled time, and stored them in a local SQLite database. An execution script, running as a cron job on the HIS server, then polled the database to execute these transactions exactly at their scheduled times. 
+\end{sloppypar}
 
 \subsection*{Evaluation Framework}
 \begin{sloppypar}
@@ -58,7 +63,7 @@ To circumvent limitations when importing complete Synthea-generated profiles int
 \end{sloppypar}
 \subsection*{Evaluation Results}
 \subsubsection*{Synthetical Data: Quantitative Analysis}
-A Kruskal-Wallis test evaluated differences across the three data sources (Real-world, Synthea, LLM) across four criteria (Table~\ref{tab:descriptive_stats1}). 
+A Kruskal-Wallis test ($\alpha = 0.05$) evaluated differences across the three data sources (Real-world, Synthea, LLM) across four criteria (Table~\ref{tab:descriptive_stats1}). 
 \begin{table*}[h!]
 \centering
 \caption{Descriptive statistics and Kruskal-Wallis test results for group differences.}
@@ -93,7 +98,7 @@ Mann-Whitney U tests for $c2$ with $\alpha = 0.05$ revealed that Synthea scored 
 \subsubsection*{Synthetical Data: Qualitative Analysis}
 Thematic analysis of the evaluators' free-text comments revealed distinct, source-specific characteristics:
 \begin{itemize}
-    \item \textbf{Real-World Data (Real):} Had poor readability, local abbreviations, and unspecific codes (like ``NOS''). It also showed unrealistic timing, where completely different clinical events happened on the exact same day.
+    \item \textbf{Real-World Data (Real):} Had poor readability, local abbreviations, and unspecific codes (like \enquote{NOS}). It also showed unrealistic timing, where completely different clinical events happened on the exact same day.
     \item \textbf{Synthetic Data (Synthea):} Was well-structured but showed repetitive patterns (e.g., too many dental cases) and logical errors, such as contraindicated prescriptions during pregnancy.
     \item \textbf{LLM-Generated Data (LLM):} Had the lowest quality. It showed broken timelines, made-up laboratory units, and unrealistic treatment steps (e.g., delayed diabetes medication or wrong stroke protocols).
 \end{itemize}
@@ -105,18 +110,18 @@ Thematic analysis of the evaluators' free-text comments revealed distinct, sourc
     \label{fig:diverging_bars1}
 \end{figure*}
 
-\subsubsection*{Sensor Data: Dashboard Visualization}
-The integration of empirical sensor data within the Bahmni-based patient dashboard yielded the following results:
-
-For Graphical Trend Visualization, the platform renders high-frequency time-series data as continuous physiological curves within the native frontend. For Anomaly Highlighting, the system flags and color-codes values deviating from normal clinical ranges, provided these thresholds are predefined in the laboratory concept configuration.
-
-Adaptive Contextual Granularity (dynamic scaling or zooming) is not supported natively within the UI. Adjusting the temporal scope requires modifying the system's backend configuration to change the number of displayed patient visits, followed by a page reload. Data granularity is fixed prior to ingestion. The infrastructure lacks mechanisms for post-ingestion aggregation or dynamic downsampling. 
-
-Regarding Temporal Event Annotation, the dashboard lacks a native mechanism to mark timestamps or annotate external clinical events. Consequently, correlating physiological fluctuations with patient activities directly within the interface is not supported.
-
-\begin{figure*}[h!]
+\begin{figure*}[t]
     \centering
-    \includegraphics[width=\textwidth]{Artikel/pictures/diverging_bars_en.png}
-    \caption{Percentage distribution of ratings (1 = dark red, 5 = dark green) centered around the neutral rating of 3 (yellow). Positive ratings shift right; negative ratings shift left.} 
-    \label{fig:diverging_bars1}
+    \includegraphics[width=.9\textwidth]{Artikel/pictures/sensor_dashboard.png}
+    \caption{The visualization of the continuous sensor data in the Bahmni patient dashboard.} 
+    \label{fig:sensor_dashboard}
 \end{figure*}
+
+\subsubsection*{Sensor Data: Dashboard Visualization}
+The integration of empirical sensor data within the Bahmni-based patient dashboard yielded the following results for the four defined quality criteria:
+
+For \textbf{Graphical Trend Visualization}, the platform renders high-frequency time-series data as continuous physiological curves within the native frontend. For \textbf{Anomaly Highlighting}, the system flags and color-codes values deviating from normal clinical ranges, provided these thresholds are predefined in the laboratory concept configuration.
+
+\textbf{Adaptive Contextual Granularity} (dynamic scaling or zooming) is not supported natively within the UI. Adjusting the temporal scope requires modifying the system's backend configuration to change the number of displayed patient visits, followed by a page reload. Data granularity is fixed prior to ingestion. The infrastructure lacks mechanisms for post-ingestion aggregation or dynamic downsampling. 
+
+Regarding \textbf{Temporal Event Annotation}, the dashboard lacks a native mechanism to mark timestamps or annotate external clinical events. Consequently, correlating physiological fluctuations with patient activities directly within the interface is not supported.

@@ -1,7 +1,7 @@
-This section describes the methodology for evaluating synthetic clinical data generation and sensor data integration into the Heidelberg studiKIS, following a four-phase approach.
+This section describes the methodology for evaluating synthetic clinical data generation and sensor data integration into the Heidelberg \enquote{studiKIS}, following a four-phase approach.
 
 \subsection*{Phase 1: Literature Review}
-The first phase consisted of a literature review that focused on identifying papers for two primary domains:
+The first phase consisted of a literature review that focused on identifying papers in two primary domains:
 \begin{enumerate}
 \item \textbf{Synthetic Clinical Data Generation:} Rule-based architectures and LLM-based agents for creating longitudinal patient records.
 \item \textbf{Sensor Data Integration:} Standards and protocols for integrating real-time sensor data from medical devices into Hospital Information Systems.
@@ -34,14 +34,16 @@ Literature was retrieved from PubMed and the IEEE Xplore Digital Library in Marc
 
 
 \subsubsection*{Synthesis methods}
+\begin{sloppypar}
 Depending on the underlying domain, two different methodological approaches were planned to synthesize the findings.
+\end{sloppypar}
 \begin{enumerate}
 \item \textbf{Synthetic Data:} Included papers were categorized by their primary synthesis engine or framework. Additionally, the medical quality requirements reported by the authors were synthesized.
 \item \textbf{Sensor Data:} Included papers were categorized by the used transmission protocols and interfaces.
 \end{enumerate}
 
 \subsection*{Phase 2: Definition of Quality Criteria}
-The second phase focused on defining quality criteria for the synthetic patient data and integrating the sensor data into the HIS. To establish these criteria, qualitative interviews were conducted with medical experts and IT professionals who had practical experience in academic teaching. These interviews followed a structured guideline targeting medical, information technology, and didactic metrics. Questions were tailored to each participant's specific domain, for instance, medical experts were not questioned on IT requirements. After the interviews, the answers were analyzed and any requirement for synthetic patient data cited by two or more experts was formally established as a quality criterion.
+The second phase focused on defining quality criteria for the synthetic patient data and integrating the sensor data into the HIS. To establish these criteria, qualitative interviews were conducted with medical experts and IT professionals who had practical experience in academic teaching. These interviews followed a structured guideline targeting medical, information technology, and didactic metrics. Questions were tailored to each participant's specific domain, for instance, medical experts were not questioned on IT requirements. After the interviews, the answers were analyzed and any requirement for synthetic patient data and integration of sensor data into the HIS cited by two or more experts was formally established as a quality criterion.
 
 \subsection*{Phase 3: Prototypical Implementation}
 The third phase consisted of two tracks: generating synthetic patient histories (via rule-based and LLM-based approaches) and preparing real sensor data. For both data types a prototypical ingestion pipeline into the HIS was developed.
@@ -54,7 +56,9 @@ To limit the number of virtual clinicians, a mapping strategy was designed to su
 \paragraph*{LLM-Based Approach:} An LLM-based pipeline utilizing Gemini 3.1 Pro (High) was developed to generate structured clinical records directly as FHIR bundles. The prompts were refined using an iterative approach to enforce OpenMRS-compatibility and strict formatting rules. 
 
 \subsubsection*{Real-World Sensor Data}
-Empirical continuous glucose monitoring (CGM) data was collected from four participants over two weeks using FreeStyle Libre 3 \citep{FreeStyle_Libre_3} sensors. To enable direct import into the HIS and preserve historical timestamps, the data was mapped to a low-level HL7 FHIR Observation schema supported by the HIS. This process used a corresponding continuous glucose concept identified within the OpenMRS concept dictionary. Finally, the data was visualized on the patients dashboard.
+\begin{sloppypar}
+Empirical continuous glucose monitoring data was collected from four participants over two weeks using FreeStyle Libre 3 \citep{FreeStyle_Libre_3} sensors. To enable direct import into the HIS and preserve historical timestamps, the data was mapped to a low-level HL7 FHIR Observation schema supported by Bahmni. This process used a corresponding continuous glucose concept identified within the OpenMRS concept dictionary. Finally, the data was visualized on the patients dashboard.
+\end{sloppypar}
 
 \subsubsection*{Ingestion Pipeline for Patient Records}
 Both the synthetic records and the real world sensor data were ingested into the HIS via Bahmni's native FHIR API. The correct JSON schema for a successful import was reverse-engineered by exporting and analyzing the payload of a manually created reference patient.
@@ -63,13 +67,13 @@ Both the synthetic records and the real world sensor data were ingested into the
 To simulate continuous clinical workflows, a temporal ingestion pipeline was developed. FHIR-formatted patient data typically comprises multiple objects, ranging from demographic records to clinical encounters and observations. While a static approach imports these objects simultaneously, this pipeline partitions and ingests them at scheduled intervals to mirror the chronological intervals of real-world hospital visits.
 
 \subsection*{Phase 4: Evaluation Framework}
-The fourth phase focused on establishing an evaluation framework to assess the efficacy and structural quality of the synthesized datasets against real-world clinical baselines. The three medical experts who participated in the initial quality criteria interviews served as evaluators for this process.
+The fourth phase focused on establishing an evaluation framework to assess the efficacy and structural quality of the synthesized datasets against real-world clinical baselines. The medical experts who participated in the initial quality criteria interviews served as evaluators for this process.
 
 In contrast to the synthetic data evaluation, the real-world sensor streams were evaluated qualitatively, focusing on the frontend visualization performance within the HIS environment.
 
 \subsubsection*{Data Cohort Selection and Homogenization}
 \label{subsubsec:data_cohort_selection}
-Patient data from three distinct sources were used in the evaluation: rule-based generated (Synthea), generated through agentic generative models (LLMs), and real clinical records derived from anonymized patient records extracted from the public MIMIC-III dataset. A uniform 40/40/40 split was created to ensure statistical balance.
+Patient data from three distinct sources were used in the evaluation: rule-based generated (Synthea), generated through agentic generative models (LLMs), and real clinical records derived from anonymized patient records extracted from the public MIMIC-III dataset \citep{mimiciii-1.4}. A uniform 40/40/40 split was created to ensure statistical balance.
 
 MIMIC-III records were pseudo-anonymized with German identities matching the recorded biological sex. To account for variations in information depth, the records were homogenized to feature five clinical dimensions: allergies, diagnoses, medications, procedures, and laboratory/vital signs.
 
@@ -78,7 +82,7 @@ All records were presented uniformly, effectively blinding the evaluators to the
 \subsubsection*{Data Collection Instruments}
 \label{subsubsec:data_collection_instruments}
 
-To evaluate the synthetic patient data, a structured questionnaire based on the quality criteria established in Phase 2 was developed. Each criterion was quantitatively assessed using a five-point Likert scale (ranging from 1 to 5). Additionally, an text field was provided for each criterion, enabling evaluators to add qualitative comments regarding the evaluation of the respective quality criteria.
+To evaluate the synthetic patient data, a structured questionnaire based on the quality criteria established in Phase 2 was developed. Each criterion was quantitatively assessed using a five-point Likert scale (ranging from 1 to 5). Additionally, a text field was provided for each criterion, enabling evaluators to add qualitative comments regarding the evaluation of the respective quality criteria.
 
 \subsubsection{Data Analysis}
 \label{subsubsec:data_analysis}
